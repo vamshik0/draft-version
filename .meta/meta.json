@@ -22,5 +22,13 @@
     "lastpushDate": "2025-11-27T10:30:59.148Z",
     "gitVersionName": "v2.1",
     "lastCommitUser": "dev "
+  },
+  "725ec421-62aa-4958-a0b7-6a288ee6ebbd": {
+    "gitAppName": "proper-app_Copy",
+    "lastCommitMessage": " v2_1 Version of app proper-app_Copy promoted from development to staging",
+    "gitVersionId": "1b644ee7-4d3c-4f50-9856-d84cbeb8b1b6",
+    "lastpushDate": "2025-11-27T10:39:17.413Z",
+    "gitVersionName": "v2_1",
+    "lastCommitUser": "dev "
   }
 }
