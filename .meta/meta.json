@@ -46,5 +46,13 @@
     "lastpushDate": "2025-11-27T11:27:27.631Z",
     "gitVersionName": "v1",
     "lastCommitUser": "dev "
+  },
+  "f89da252-1603-4545-96b3-c4918a904149": {
+    "gitAppName": "pop-upi",
+    "lastCommitMessage": "App pop-upi created",
+    "gitVersionId": "02e2ff40-96f8-46e0-aa01-09241c259b4c",
+    "lastpushDate": "2025-11-27T11:31:16.665Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "dev "
   }
 }
