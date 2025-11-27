@@ -17,10 +17,10 @@
   },
   "c0e20d74-cb43-4d6e-80ed-cfecbba16b20": {
     "gitAppName": "proper-app",
-    "lastCommitMessage": " v1.1 Version of app proper-app promoted from development to staging",
-    "gitVersionId": "8ce92c30-af78-4601-9d22-cbbbdb94d660",
-    "lastpushDate": "2025-11-27T10:29:43.115Z",
-    "gitVersionName": "v1.1",
+    "lastCommitMessage": " v2.1 Version of app proper-app promoted from development to staging",
+    "gitVersionId": "c8e9e924-e401-4a7e-953b-4907094caa99",
+    "lastpushDate": "2025-11-27T10:30:59.148Z",
+    "gitVersionName": "v2.1",
     "lastCommitUser": "dev "
   }
 }
