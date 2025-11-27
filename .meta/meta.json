@@ -17,10 +17,10 @@
   },
   "c0e20d74-cb43-4d6e-80ed-cfecbba16b20": {
     "gitAppName": "proper-app",
-    "lastCommitMessage": "Version v1_1 is renamed to v1.1",
-    "gitVersionId": "64bb3394-af3c-4860-8948-e07490f1b5a3",
-    "lastpushDate": "2025-11-27T10:29:17.069Z",
-    "gitVersionName": "v2",
+    "lastCommitMessage": " v1.1 Version of app proper-app promoted from development to staging",
+    "gitVersionId": "8ce92c30-af78-4601-9d22-cbbbdb94d660",
+    "lastpushDate": "2025-11-27T10:29:43.115Z",
+    "gitVersionName": "v1.1",
     "lastCommitUser": "dev "
   }
 }
