@@ -43,12 +43,12 @@
             "currentEnvironmentId": "2fbecda6-7674-455a-9123-54a4f99a522e",
             "promotedFrom": null,
             "parentVersionId": null,
-            "status": "DRAFT",
-            "description": null,
+            "status": "PUBLISHED",
+            "description": "first version",
             "publishedAt": null,
             "releasedAt": null,
             "createdAt": "2025-11-27T09:51:54.729Z",
-            "updatedAt": "2025-11-27T09:51:54.556Z"
+            "updatedAt": "2025-11-27T09:55:55.695Z"
           },
           "components": [
             {
@@ -416,12 +416,12 @@
               "currentEnvironmentId": "2fbecda6-7674-455a-9123-54a4f99a522e",
               "promotedFrom": null,
               "parentVersionId": null,
-              "status": "DRAFT",
-              "description": null,
+              "status": "PUBLISHED",
+              "description": "first version",
               "publishedAt": null,
               "releasedAt": null,
               "createdAt": "2025-11-27T09:51:54.729Z",
-              "updatedAt": "2025-11-27T09:51:54.556Z"
+              "updatedAt": "2025-11-27T09:55:55.695Z"
             }
           ],
           "appEnvironments": [
