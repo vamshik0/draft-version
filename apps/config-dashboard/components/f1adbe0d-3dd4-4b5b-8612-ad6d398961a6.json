@@ -1,0 +1,62 @@
+{
+  "id": "f1adbe0d-3dd4-4b5b-8612-ad6d398961a6",
+  "name": "deleteConditionCancelBtn",
+  "type": "Button",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "88cc4868-2bd1-4515-98ee-451cd632e3f1",
+  "properties": {
+    "text": {
+      "value": "Cancel"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "tooltip": {
+      "value": ""
+    }
+  },
+  "general": {},
+  "styles": {},
+  "generalStyles": {
+    "box_shadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "show_on_desktop": {
+      "value": "{{true}}"
+    },
+    "show_on_mobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "209321ee-82c2-4239-949c-9ab13ce62b7c",
+      "type": "desktop",
+      "top": 350,
+      "left": 24,
+      "width": 10,
+      "height": 40,
+      "componentId": "f1adbe0d-3dd4-4b5b-8612-ad6d398961a6",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "a39d397b-f066-4f25-9958-0fc748cbbbd2",
+      "type": "mobile",
+      "top": 0,
+      "left": 0,
+      "width": 0,
+      "height": 0,
+      "componentId": "f1adbe0d-3dd4-4b5b-8612-ad6d398961a6",
+      "dimensionUnit": "count"
+    }
+  ]
+}

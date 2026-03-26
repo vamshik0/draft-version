@@ -1,0 +1,16 @@
+{
+  "id": "1552fa4e-7e0e-4f3e-989a-c991078585c9",
+  "name": "onDataQuerySuccess",
+  "index": 0,
+  "event": {
+    "key": "reviewDiffResult",
+    "value": "{{queries.f9ae566b-2e8c-430d-89a0-c59ea8a139e3.data?.config_diffs}}",
+    "eventId": "onDataQuerySuccess",
+    "message": "Hello world!",
+    "actionId": "set-page-variable",
+    "alertType": "info"
+  },
+  "sourceId": "f9ae566b-2e8c-430d-89a0-c59ea8a139e3",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "242b72d0-2f1f-4719-b85c-9f698cefeefb",
+  "name": "completeDeployment",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "raw_message": "{\n  \"service_name\": {{JSON.stringify( page.variables.selectedService}},\n  \"config_param_name\": {{JSON.stringify( page.variables.selectedConfig)}}\n}",
+    "metadata": [
+      [
+        "user",
+        "{{({\"name\": `${globals.currentUser.firstName} ${globals.currentUser.lastName}`, \"email_id\": `${globals.currentUser.email}` })}}"
+      ],
+      [
+        "access_token",
+        "{{variables.access_token}}"
+      ],
+      [
+        "authz_disabled_services",
+        "{{page.variables.AuthzDisabledList}}"
+      ],
+      [
+        "mumbai_deployed_services",
+        "{{page.variables.mumbai_deployed_services}}"
+      ]
+    ]
+  },
+  "dataSourceId": "5ade0925-560a-4371-ba6d-d8989db43769",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

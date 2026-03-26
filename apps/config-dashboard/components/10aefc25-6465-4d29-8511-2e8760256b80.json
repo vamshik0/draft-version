@@ -1,0 +1,265 @@
+{
+  "id": "10aefc25-6465-4d29-8511-2e8760256b80",
+  "name": "addConfigFormSelectValue",
+  "type": "DropdownV2",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "a105bf4f-7f2d-473d-a89d-f2036b6f360b",
+  "properties": {
+    "advanced": {
+      "value": "{{false}}"
+    },
+    "schema": {
+      "value": "{{[\t{label: 'option1',value: 1,disable: false,visible: true,default: true},{label: 'option2',value: 2,disable: false,visible: true},{label: 'option3',value: 3,disable: false,visible: true}\t]}}"
+    },
+    "options": {
+      "value": [
+        {
+          "label": "VALUE_TYPE_STRING",
+          "value": "1",
+          "disable": {
+            "value": "{{false}}"
+          },
+          "visible": {
+            "value": "{{true}}"
+          },
+          "default": {
+            "value": "{{false}}"
+          }
+        },
+        {
+          "value": "2",
+          "label": "VALUE_TYPE_INTEGER",
+          "visible": {
+            "value": "{{true}}"
+          },
+          "disable": {
+            "value": "{{false}}"
+          },
+          "default": {
+            "value": "{{false}}"
+          }
+        },
+        {
+          "value": "3",
+          "label": "VALUE_TYPE_BOOLEAN",
+          "visible": {
+            "value": "{{true}}"
+          },
+          "disable": {
+            "value": "{{false}}"
+          },
+          "default": {
+            "value": "{{false}}"
+          }
+        },
+        {
+          "value": "4",
+          "label": "VALUE_TYPE_FLOAT",
+          "visible": {
+            "value": "{{true}}"
+          },
+          "disable": {
+            "value": "{{false}}"
+          },
+          "default": {
+            "value": "{{false}}"
+          }
+        },
+        {
+          "value": "5",
+          "label": "VALUE_TYPE_STRING_ARRAY",
+          "visible": {
+            "value": "{{true}}"
+          },
+          "disable": {
+            "value": "{{false}}"
+          },
+          "default": {
+            "value": "{{false}}"
+          }
+        },
+        {
+          "value": "6",
+          "label": "VALUE_TYPE_INTEGER_ARRAY",
+          "visible": {
+            "value": "{{true}}"
+          },
+          "disable": {
+            "value": "{{false}}"
+          },
+          "default": {
+            "value": "{{false}}"
+          }
+        },
+        {
+          "value": "7",
+          "label": "VALUE_TYPE_BOOLEAN_ARRAY",
+          "visible": {
+            "value": "{{true}}"
+          },
+          "disable": {
+            "value": "{{false}}"
+          },
+          "default": {
+            "value": "{{false}}"
+          }
+        },
+        {
+          "value": "8",
+          "label": "VALUE_TYPE_FLOAT_ARRAY",
+          "visible": {
+            "value": "{{true}}"
+          },
+          "disable": {
+            "value": "{{false}}"
+          },
+          "default": {
+            "value": "{{false}}"
+          }
+        }
+      ]
+    },
+    "label": {
+      "value": "Value type"
+    },
+    "optionsLoadingState": {
+      "value": "{{false}}"
+    },
+    "sort": {
+      "value": "none"
+    },
+    "placeholder": {
+      "value": "Select an option"
+    },
+    "showClearBtn": {
+      "value": "{{true}}"
+    },
+    "showSearchInput": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "tooltipText": {
+      "value": ""
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "tooltip": {
+      "value": ""
+    }
+  },
+  "general": {},
+  "styles": {
+    "widthType": {
+      "value": "ofField"
+    },
+    "labelColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "labelWidth": {
+      "value": "33"
+    },
+    "auto": {
+      "value": "{{true}}"
+    },
+    "fieldBorderRadius": {
+      "value": "6"
+    },
+    "selectedTextColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "fieldBorderColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "errTextColor": {
+      "value": "var(--cc-error-systemStatus)"
+    },
+    "fieldBackgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "direction": {
+      "value": "left"
+    },
+    "alignment": {
+      "value": "top"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    },
+    "icon": {
+      "value": "IconHome2"
+    },
+    "iconVisibility": {
+      "value": false
+    },
+    "iconColor": {
+      "value": "var(--cc-default-icon)"
+    },
+    "accentColor": {
+      "value": "var(--cc-primary-brand)"
+    },
+    "menuWidthMode": {
+      "value": "matchField"
+    },
+    "menuCustomWidth": {
+      "value": "256"
+    }
+  },
+  "generalStyles": {
+    "box_shadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "show_on_desktop": {
+      "value": "{{true}}"
+    },
+    "show_on_mobile": {
+      "value": "{{false}}"
+    },
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {
+    "mandatory": {
+      "value": "{{true}}"
+    },
+    "customRule": {
+      "value": null
+    }
+  },
+  "layouts": [
+    {
+      "id": "171d20e6-0c58-447e-8584-64936d2ade3d",
+      "type": "desktop",
+      "top": 140,
+      "left": 22,
+      "width": 20,
+      "height": 40,
+      "componentId": "10aefc25-6465-4d29-8511-2e8760256b80",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "592e7a57-58cf-44f5-878b-58da9009e3ac",
+      "type": "mobile",
+      "top": 0,
+      "left": 0,
+      "width": 0,
+      "height": 0,
+      "componentId": "10aefc25-6465-4d29-8511-2e8760256b80",
+      "dimensionUnit": "count"
+    }
+  ]
+}

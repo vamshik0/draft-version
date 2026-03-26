@@ -1,0 +1,114 @@
+{
+  "id": "2ed54798-45ac-468b-9683-dd26f4527054",
+  "name": "fileInputCSV",
+  "type": "FilePicker",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "2615da2d-e032-4e8e-aadf-a45ea54e50a1",
+  "properties": {
+    "label": {
+      "value": "CSV File"
+    },
+    "instructionText": {
+      "value": "Drag and drop files here or click to select files"
+    },
+    "enableDropzone": {
+      "value": "{{true}}",
+      "fxActive": false
+    },
+    "enablePicker": {
+      "value": "{{true}}",
+      "fxActive": false
+    },
+    "enableMultiple": {
+      "value": "{{false}}",
+      "fxActive": false
+    },
+    "parseContent": {
+      "value": "{{false}}"
+    },
+    "parseFileType": {
+      "value": "auto-detect"
+    },
+    "delimiter": {
+      "value": ","
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "tooltip": {
+      "value": ""
+    }
+  },
+  "general": {},
+  "styles": {
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "dropzoneTitleColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "boxShadow": {
+      "value": "0px 1px 3px #0000001A"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {
+    "enableValidation": {
+      "value": "{{true}}"
+    },
+    "fileType": {
+      "value": ".xls,.xlsx,.csv,.ods"
+    },
+    "minSize": {
+      "value": ""
+    },
+    "maxSize": {
+      "value": ""
+    },
+    "minFileCount": {
+      "value": "{{0}}"
+    },
+    "maxFileCount": {
+      "value": "{{2}}"
+    }
+  },
+  "layouts": [
+    {
+      "id": "5d8c68d0-fc30-4c49-bb93-e63798bc03ed",
+      "type": "desktop",
+      "top": 10,
+      "left": 1,
+      "width": 41,
+      "height": 140,
+      "componentId": "2ed54798-45ac-468b-9683-dd26f4527054",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "f9994ff0-a52b-409a-83e7-3623e050e58e",
+      "type": "mobile",
+      "top": 30,
+      "left": 0,
+      "width": 43,
+      "height": 140,
+      "componentId": "2ed54798-45ac-468b-9683-dd26f4527054",
+      "dimensionUnit": "count"
+    }
+  ]
+}

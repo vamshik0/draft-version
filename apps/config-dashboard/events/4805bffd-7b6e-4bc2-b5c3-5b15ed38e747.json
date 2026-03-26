@@ -1,0 +1,16 @@
+{
+  "id": "4805bffd-7b6e-4bc2-b5c3-5b15ed38e747",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "modal": "8349a4f3-d6c0-40d9-87d4-bc54a74eb12a",
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "actionId": "show-modal",
+    "alertType": "info",
+    "component": "copyConfigsButton"
+  },
+  "sourceId": "1859a0cc-ef86-4d4f-8adb-0f42abc8ec76",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "cbd6ecba-6014-474f-be42-90d2cf2a88c2",
+  "name": "downloadFromS3",
+  "options": {
+    "method": "get",
+    "url": "{{queries.63b92c4f-0b44-4b4c-aa49-b153e02dfbc9.data[ components.d276e5af-a284-483c-861b-28da1353b01b.selectedRowId].file_location}}",
+    "headers": [
+      [
+        "Content-Disposition",
+        "attachment"
+      ]
+    ],
+    "url_params": [],
+    "body": [],
+    "cookies": [],
+    "json_body": null,
+    "body_toggle": false,
+    "retry_network_errors": true,
+    "transformationLanguage": "javascript",
+    "enableTransformation": true,
+    "arrayValuesChanged": true,
+    "runOnPageLoad": false,
+    "transformations": {
+      "javascript": "// write your code here\n// return value will be set as data and the original data will be available as rawData\nreturn data;\n  ",
+      "python": "# write your code here\n# return value will be set as data and the original data will be available as rawData\n[row for row in data if row['amount'] > 1000]\n  "
+    }
+  },
+  "dataSourceId": "d6e2ef4d-d17d-4387-931a-112b5e76ec5e",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

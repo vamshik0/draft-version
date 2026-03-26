@@ -1,0 +1,201 @@
+{
+  "id": "dc48abc7-048d-414d-8bd0-816d52ca77c1",
+  "name": "dropdown47",
+  "type": "DropdownV2",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "5e8878b4-083b-46a4-97be-4a08bc4f9cdf",
+  "properties": {
+    "advanced": {
+      "value": "{{true}}"
+    },
+    "schema": {
+      "value": "{{page.variables.marketplaceBusinessLine.map(row=>({ label: row, value:row}))}}"
+    },
+    "options": {
+      "value": [
+        {
+          "label": "Home",
+          "value": "1",
+          "disable": {
+            "value": "{{false}}"
+          },
+          "visible": {
+            "value": "{{true}}"
+          },
+          "default": {
+            "value": "{{false}}"
+          }
+        },
+        {
+          "label": "option2",
+          "value": "2",
+          "disable": {
+            "value": false
+          },
+          "visible": {
+            "value": true
+          },
+          "default": {
+            "value": true
+          }
+        },
+        {
+          "label": "option3",
+          "value": "3",
+          "disable": {
+            "value": false
+          },
+          "visible": {
+            "value": true
+          },
+          "default": {
+            "value": false
+          }
+        }
+      ]
+    },
+    "label": {
+      "value": "Business Line"
+    },
+    "optionsLoadingState": {
+      "value": "{{false}}"
+    },
+    "sort": {
+      "value": "none"
+    },
+    "placeholder": {
+      "value": "Select an option"
+    },
+    "showClearBtn": {
+      "value": "{{true}}"
+    },
+    "showSearchInput": {
+      "value": "{{true}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{components.8ac3de4d-f5fc-4a5d-8969-3de476f27038.value === null || components.8ac3de4d-f5fc-4a5d-8969-3de476f27038.value === \"None\"}}",
+      "fxActive": true
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "tooltip": {
+      "value": ""
+    },
+    "tooltipText": {
+      "value": ""
+    }
+  },
+  "general": {},
+  "styles": {
+    "labelColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "labelWidth": {
+      "value": "33"
+    },
+    "auto": {
+      "value": "{{true}}"
+    },
+    "fieldBorderRadius": {
+      "value": "6"
+    },
+    "selectedTextColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "fieldBorderColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "errTextColor": {
+      "value": "var(--cc-error-systemStatus)"
+    },
+    "fieldBackgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "direction": {
+      "value": "left"
+    },
+    "alignment": {
+      "value": "top"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    },
+    "icon": {
+      "value": "IconHome2"
+    },
+    "iconVisibility": {
+      "value": false
+    },
+    "iconColor": {
+      "value": "var(--cc-default-icon)"
+    },
+    "accentColor": {
+      "value": "var(--cc-primary-brand)"
+    },
+    "widthType": {
+      "value": "ofField"
+    },
+    "menuWidthMode": {
+      "value": "matchField"
+    },
+    "menuCustomWidth": {
+      "value": "256"
+    }
+  },
+  "generalStyles": {
+    "box_shadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    },
+    "show_on_desktop": {
+      "value": "{{true}}"
+    },
+    "show_on_mobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {
+    "mandatory": {
+      "value": "{{false}}"
+    },
+    "customRule": {
+      "value": "{{components.8ac3de4d-f5fc-4a5d-8969-3de476f27038.value === null || components.8ac3de4d-f5fc-4a5d-8969-3de476f27038.value === \"None\" ? false : true}}"
+    }
+  },
+  "layouts": [
+    {
+      "id": "d615429f-159e-45e6-9bd4-26e9d2e14288",
+      "type": "desktop",
+      "top": 0,
+      "left": 29,
+      "width": 13,
+      "height": 40,
+      "componentId": "dc48abc7-048d-414d-8bd0-816d52ca77c1",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "7ba82329-7377-4347-99bc-3ffe6d871c82",
+      "type": "mobile",
+      "top": 0,
+      "left": 0,
+      "width": 0,
+      "height": 0,
+      "componentId": "dc48abc7-048d-414d-8bd0-816d52ca77c1",
+      "dimensionUnit": "count"
+    }
+  ]
+}

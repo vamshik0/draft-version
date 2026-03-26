@@ -1,0 +1,10 @@
+{
+  "id": "5ade0925-560a-4371-ba6d-d8989db43769",
+  "name": "Mock Swigconfig",
+  "kind": "grpcv2",
+  "type": "default",
+  "pluginId": null,
+  "appVersionId": null,
+  "organizationId": "ab19e0ea-5997-452a-bef7-a69b38bbadde",
+  "scope": "global"
+}

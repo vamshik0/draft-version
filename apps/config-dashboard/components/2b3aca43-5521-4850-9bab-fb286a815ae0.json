@@ -1,0 +1,65 @@
+{
+  "id": "2b3aca43-5521-4850-9bab-fb286a815ae0",
+  "name": "searchByDimensionFormTitle",
+  "type": "Text",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "5fb76542-94f5-442d-9748-9e7aba128c20-header",
+  "properties": {
+    "textFormat": {
+      "value": "markdown"
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "text": {
+      "value": "#### Form title"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    }
+  },
+  "general": {},
+  "styles": {},
+  "generalStyles": {
+    "box_shadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "show_on_desktop": {
+      "value": "{{true}}"
+    },
+    "show_on_mobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "234943d1-b0fe-4802-93d8-235fd6c2f600",
+      "type": "desktop",
+      "top": 0,
+      "left": 0,
+      "width": 42,
+      "height": 24,
+      "componentId": "2b3aca43-5521-4850-9bab-fb286a815ae0",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "7e607854-32ed-48f1-b7f5-e5e2e3515d96",
+      "type": "mobile",
+      "top": 0,
+      "left": 0,
+      "width": 0,
+      "height": 0,
+      "componentId": "2b3aca43-5521-4850-9bab-fb286a815ae0",
+      "dimensionUnit": "count"
+    }
+  ]
+}

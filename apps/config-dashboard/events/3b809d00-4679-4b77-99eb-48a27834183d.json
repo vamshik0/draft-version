@@ -1,0 +1,19 @@
+{
+  "id": "3b809d00-4679-4b77-99eb-48a27834183d",
+  "name": "onDataQuerySuccess",
+  "index": 2,
+  "event": {
+    "key": "currentInputsForDimensions",
+    "value": "",
+    "eventId": "onDataQuerySuccess",
+    "message": "Hello world!",
+    "queryId": "a6ca37c9-a757-45f2-b6fb-f0aae3d0ef6a",
+    "actionId": "run-query",
+    "alertType": "info",
+    "queryName": "setVaribalesOnAddConfig",
+    "parameters": {}
+  },
+  "sourceId": "734799f1-c781-49fd-9a23-6784805d1865",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

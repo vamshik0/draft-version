@@ -1,0 +1,96 @@
+{
+  "id": "bb59c1ea-302e-40be-b09c-40634fd2f4fa",
+  "name": "addConfigValueFormNonSingleSubmitButton",
+  "type": "Button",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "faf6e486-62b0-4109-aefc-4bfa45a64176",
+  "properties": {
+    "text": {
+      "value": "Add"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "tooltip": {
+      "value": ""
+    }
+  },
+  "general": {},
+  "styles": {
+    "textColor": {
+      "value": "#FFFFFF"
+    },
+    "borderColor": {
+      "value": "var(--cc-tertiary-brand)"
+    },
+    "loaderColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "backgroundColor": {
+      "value": "var(--cc-tertiary-brand)"
+    },
+    "iconColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "direction": {
+      "value": "right"
+    },
+    "padding": {
+      "value": "default",
+      "fxActive": true
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000090"
+    },
+    "icon": {
+      "value": "IconPlus"
+    },
+    "iconVisibility": {
+      "value": "{{true}}"
+    },
+    "type": {
+      "value": "primary"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "d2aedfb7-194b-49a7-ae9a-e3ee63ba33c1",
+      "type": "desktop",
+      "top": 410,
+      "left": 18,
+      "width": 6,
+      "height": 50,
+      "componentId": "bb59c1ea-302e-40be-b09c-40634fd2f4fa",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "d0686026-e4f3-453b-8f68-651c23643bf5",
+      "type": "mobile",
+      "top": 420,
+      "left": 17,
+      "width": 6,
+      "height": 40,
+      "componentId": "bb59c1ea-302e-40be-b09c-40634fd2f4fa",
+      "dimensionUnit": "count"
+    }
+  ]
+}

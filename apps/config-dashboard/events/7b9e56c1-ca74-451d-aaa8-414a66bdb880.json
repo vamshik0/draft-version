@@ -1,0 +1,17 @@
+{
+  "id": "7b9e56c1-ca74-451d-aaa8-414a66bdb880",
+  "name": "onClose",
+  "index": 0,
+  "event": {
+    "key": "addAppConfigCondition",
+    "value": "{{[]}}",
+    "eventId": "onClose",
+    "message": "Hello world!",
+    "actionId": "set-page-variable",
+    "alertType": "info",
+    "component": "addAppConfigModal"
+  },
+  "sourceId": "e6d19bc7-3de5-4f9b-8453-a405a47a328e",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

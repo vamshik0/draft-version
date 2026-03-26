@@ -1,0 +1,19 @@
+{
+  "id": "2b60c9a0-6ec5-4817-8631-9aedbc8c067e",
+  "name": "onClick",
+  "index": 1,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "queryId": "734799f1-c781-49fd-9a23-6784805d1865",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "addConfigFormSubmitButton",
+    "queryName": "addConfig",
+    "runOnlyIf": "{{components.c2973573-1be0-4e23-8e6b-f9ea9872e707.data.param_type === 1}}",
+    "parameters": {}
+  },
+  "sourceId": "efaae732-3685-43ec-a9fa-b3d3b4f5d200",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

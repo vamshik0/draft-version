@@ -1,0 +1,17 @@
+{
+  "id": "c051db9c-b736-4492-be44-c46d4a169a89",
+  "name": "onTabSwitch",
+  "index": 0,
+  "event": {
+    "key": "errorMessageBulkUpload",
+    "value": "",
+    "eventId": "onTabSwitch",
+    "message": "Hello world!",
+    "actionId": "set-page-variable",
+    "alertType": "info",
+    "component": "bulkUploadTabbedContainer"
+  },
+  "sourceId": "0bc8d1ef-847b-46e9-a340-9b5c9de6cc9c",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

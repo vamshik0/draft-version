@@ -1,0 +1,16 @@
+{
+  "id": "4582a7b8-1c76-445c-9805-30ad80212cf6",
+  "name": "onClose",
+  "index": 0,
+  "event": {
+    "eventId": "onClose",
+    "message": "Hello world!",
+    "actionId": "control-component",
+    "alertType": "info",
+    "component": "rollbackShowDiffModal2",
+    "componentId": "b7b6b45a-d9ee-427b-a0ec-520e550cacc2"
+  },
+  "sourceId": "7c204903-517b-4c30-9df7-4b2f0006be49",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

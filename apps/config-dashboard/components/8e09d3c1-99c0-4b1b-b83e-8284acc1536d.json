@@ -1,0 +1,187 @@
+{
+  "id": "8e09d3c1-99c0-4b1b-b83e-8284acc1536d",
+  "name": "addConfigFormSelectDimensionType",
+  "type": "DropdownV2",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "7576448e-b70d-4564-b6a8-781dc3e8fc3b",
+  "properties": {
+    "advanced": {
+      "value": "{{true}}"
+    },
+    "schema": {
+      "value": "{{[\n  { label: 'PRIMITIVE_TYPE_STRING', value: 1, disable: false, visible: true },\n  { label: 'PRIMITIVE_TYPE_INTEGER', value: 2, disable: false, visible: true }\n].map(row => ({\n  ...row,\n  default:\n    page.variables?.currentInputsForDimensions?.[listItem?.number]\n      ?.addConfigFormSelectDimensionType === row.value\n}))}}"
+    },
+    "options": {
+      "value": [
+        {
+          "label": "CITY_ID",
+          "value": "CITY_ID",
+          "disable": {
+            "value": "{{false}}"
+          },
+          "visible": {
+            "value": "{{true}}"
+          },
+          "default": {
+            "value": "{{false}}"
+          }
+        },
+        {
+          "label": "ZONE_ID",
+          "value": "ZONE_ID",
+          "disable": {
+            "value": "{{false}}"
+          },
+          "visible": {
+            "value": "{{true}}"
+          },
+          "default": {
+            "value": "{{false}}"
+          }
+        },
+        {
+          "label": "POD_ID",
+          "value": "POD_ID",
+          "disable": {
+            "value": "{{false}}"
+          },
+          "visible": {
+            "value": "{{true}}"
+          },
+          "default": {
+            "value": "{{false}}"
+          }
+        }
+      ]
+    },
+    "label": {
+      "value": "Dimension Type"
+    },
+    "optionsLoadingState": {
+      "value": "{{false}}"
+    },
+    "sort": {
+      "value": "none"
+    },
+    "placeholder": {
+      "value": "Select an option"
+    },
+    "showClearBtn": {
+      "value": "{{true}}"
+    },
+    "showSearchInput": {
+      "value": "{{true}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "tooltip": {
+      "value": ""
+    }
+  },
+  "general": {},
+  "styles": {
+    "labelColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "labelWidth": {
+      "value": "33"
+    },
+    "auto": {
+      "value": "{{true}}"
+    },
+    "fieldBorderRadius": {
+      "value": "6"
+    },
+    "selectedTextColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "fieldBorderColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "errTextColor": {
+      "value": "var(--cc-error-systemStatus)"
+    },
+    "fieldBackgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "direction": {
+      "value": "left"
+    },
+    "alignment": {
+      "value": "side"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    },
+    "icon": {
+      "value": "IconHome2"
+    },
+    "iconVisibility": {
+      "value": false
+    },
+    "iconColor": {
+      "value": "var(--cc-default-icon)"
+    },
+    "accentColor": {
+      "value": "var(--cc-primary-brand)"
+    },
+    "widthType": {
+      "value": "ofComponent"
+    },
+    "menuWidthMode": {
+      "value": "matchField"
+    },
+    "menuCustomWidth": {
+      "value": "256"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {
+    "mandatory": {
+      "value": "{{true}}"
+    },
+    "customRule": {
+      "value": null
+    }
+  },
+  "layouts": [
+    {
+      "id": "4a3f053c-af3b-4c13-ad63-a35b04d65bf8",
+      "type": "desktop",
+      "top": 10,
+      "left": 23,
+      "width": 14,
+      "height": 40,
+      "componentId": "8e09d3c1-99c0-4b1b-b83e-8284acc1536d",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "487f8a28-454b-4be4-a622-51bbc6631cd2",
+      "type": "mobile",
+      "top": 10,
+      "left": 7,
+      "width": 14,
+      "height": 40,
+      "componentId": "8e09d3c1-99c0-4b1b-b83e-8284acc1536d",
+      "dimensionUnit": "count"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f05e10a0-8c50-40f7-89c5-5cf8ecca3c3b",
+  "name": "onClose",
+  "index": 5,
+  "event": {
+    "key": "configBackupData",
+    "value": "[]",
+    "eventId": "onClose",
+    "message": "Hello world!",
+    "actionId": "set-page-variable",
+    "alertType": "info",
+    "component": "configHistoryModal2"
+  },
+  "sourceId": "a17a89c7-af72-4e37-b1f0-1aa712416e2d",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

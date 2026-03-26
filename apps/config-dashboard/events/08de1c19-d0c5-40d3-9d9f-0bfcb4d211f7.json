@@ -1,0 +1,19 @@
+{
+  "id": "08de1c19-d0c5-40d3-9d9f-0bfcb4d211f7",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "queryId": "d4cdb734-749f-406a-9d54-571476d9eb18",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "addConfigFormSubmitButton",
+    "queryName": "createDimensionObj",
+    "runOnlyIf": "{{components.948ae121-4b5c-4784-864f-2f0bbd53175d.value !== 1}}",
+    "parameters": {}
+  },
+  "sourceId": "efaae732-3685-43ec-a9fa-b3d3b4f5d200",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

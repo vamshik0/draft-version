@@ -1,0 +1,19 @@
+{
+  "id": "74dc9a05-3f55-4dc9-8da2-06dc3ff92858",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "queryId": "17b757c6-09d1-4fe7-ab10-4ded4bbec579",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "button130",
+    "queryName": "setDisableFileOperations",
+    "runOnlyIf": "{{! components.2b76bb83-2f44-434a-b955-2a9ee552a5f6.value}}",
+    "parameters": {}
+  },
+  "sourceId": "123e47b2-1922-448e-8fae-cd019fbd9bc0",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

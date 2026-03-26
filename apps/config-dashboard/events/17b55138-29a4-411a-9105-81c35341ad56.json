@@ -1,0 +1,16 @@
+{
+  "id": "17b55138-29a4-411a-9105-81c35341ad56",
+  "name": "onFileLoaded",
+  "index": 0,
+  "event": {
+    "eventId": "onFileLoaded",
+    "message": "File name can not contain spaces or operators eg. +",
+    "actionId": "show-alert",
+    "alertType": "info",
+    "component": "fileInputCSV",
+    "runOnlyIf": "{{components?.fileInputCSV?.files?.[0]?.name?.includes(\"+\") ||\ncomponents?.fileInputCSV?.files?.[0]?.name?.includes(\" \")}}"
+  },
+  "sourceId": "2ed54798-45ac-468b-9683-dd26f4527054",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

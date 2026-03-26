@@ -1,0 +1,124 @@
+{
+  "id": "72aeb848-23fe-4e36-b0b9-6ddede403073",
+  "name": "filepicker9",
+  "type": "FilePicker",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "62884a30-4633-470b-a376-3e37bcc3dfe1",
+  "properties": {
+    "label": {
+      "value": "CSV File"
+    },
+    "instructionText": {
+      "value": "Drag and drop files here or click to select files"
+    },
+    "enableDropzone": {
+      "value": "{{true}}",
+      "fxActive": true
+    },
+    "enablePicker": {
+      "value": "{{true}}",
+      "fxActive": true
+    },
+    "enableMultiple": {
+      "value": "{{false}}",
+      "fxActive": true
+    },
+    "parseContent": {
+      "value": "{{false}}"
+    },
+    "parseFileType": {
+      "value": "auto-detect"
+    },
+    "delimiter": {
+      "value": ","
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "tooltip": {
+      "value": ""
+    }
+  },
+  "general": {},
+  "styles": {
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "dropzoneTitleColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "boxShadow": {
+      "value": "0px 1px 3px #0000001A"
+    }
+  },
+  "generalStyles": {
+    "box_shadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    },
+    "show_on_desktop": {
+      "value": "{{true}}"
+    },
+    "show_on_mobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {
+    "enableValidation": {
+      "value": "{{false}}"
+    },
+    "fileType": {
+      "value": "image/*"
+    },
+    "minSize": {
+      "value": "{{50}}"
+    },
+    "maxSize": {
+      "value": "{{51200000}}"
+    },
+    "minFileCount": {
+      "value": "{{0}}"
+    },
+    "maxFileCount": {
+      "value": "{{2}}"
+    }
+  },
+  "layouts": [
+    {
+      "id": "cfe8dc27-fdb2-42a0-8393-be1ce183c80b",
+      "type": "desktop",
+      "top": 0,
+      "left": 0,
+      "width": 0,
+      "height": 8,
+      "componentId": "72aeb848-23fe-4e36-b0b9-6ddede403073",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "7e0287bb-ad73-42bd-a455-2e7a358360c4",
+      "type": "mobile",
+      "top": 0,
+      "left": 0,
+      "width": 0,
+      "height": 0,
+      "componentId": "72aeb848-23fe-4e36-b0b9-6ddede403073",
+      "dimensionUnit": "count"
+    }
+  ]
+}

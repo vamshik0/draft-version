@@ -1,0 +1,16 @@
+{
+  "id": "83877136-02f4-4a49-b012-02d025401814",
+  "name": "onDataQueryFailure",
+  "index": 12,
+  "event": {
+    "key": "operationKey",
+    "value": "{{\"\"}}",
+    "eventId": "onDataQueryFailure",
+    "message": "Hello world!",
+    "actionId": "set-page-variable",
+    "alertType": "info"
+  },
+  "sourceId": "d77516f7-96e8-4eee-b238-cdcfe12c8314",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

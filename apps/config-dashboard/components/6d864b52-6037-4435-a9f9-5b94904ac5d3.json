@@ -1,0 +1,84 @@
+{
+  "id": "6d864b52-6037-4435-a9f9-5b94904ac5d3",
+  "name": "container105",
+  "type": "Container",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "a2f4af0a-bd03-40c4-ab13-f25b5a575420",
+  "properties": {
+    "showHeader": {
+      "value": "{{false}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "//{{!components.56518f3a-0952-4672-af25-1abed0fb6b6f.value === false || components.4cc23572-36c4-4bdc-912c-b47cf3f1a23c.value === 1}}",
+      "fxActive": true
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "dynamicHeight": {
+      "value": "{{true}}"
+    },
+    "headerHeight": {
+      "value": "{{80}}"
+    },
+    "canvasHeight": {
+      "value": 60
+    }
+  },
+  "general": {},
+  "styles": {
+    "backgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "headerBackgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "headerDividerColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "borderRadius": {
+      "value": "6"
+    },
+    "borderColor": {
+      "value": "var(--cc-weak-border)"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "fbc162cc-960c-4218-9bd3-d5b97e3222c7",
+      "type": "desktop",
+      "top": 570,
+      "left": 25,
+      "width": 17,
+      "height": 100,
+      "componentId": "6d864b52-6037-4435-a9f9-5b94904ac5d3",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "75bd4b2b-61a9-4764-acac-e7349c9adb68",
+      "type": "mobile",
+      "top": 150,
+      "left": 3,
+      "width": 40,
+      "height": 450,
+      "componentId": "6d864b52-6037-4435-a9f9-5b94904ac5d3",
+      "dimensionUnit": "count"
+    }
+  ]
+}

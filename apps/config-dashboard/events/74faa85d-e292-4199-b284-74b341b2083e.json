@@ -1,0 +1,18 @@
+{
+  "id": "74faa85d-e292-4199-b284-74b341b2083e",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "queryId": "835c211d-d368-4796-98ca-1673cb75b609",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "deleteConfigValueFormSubmitButton",
+    "queryName": "createDeploymentStrategyObj",
+    "parameters": {}
+  },
+  "sourceId": "de77d58c-ef71-490f-b7a0-2df2c587f12d",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

@@ -1,0 +1,236 @@
+{
+  "id": "5e8878b4-083b-46a4-97be-4a08bc4f9cdf",
+  "name": "container107",
+  "type": "Container",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "a2f4af0a-bd03-40c4-ab13-f25b5a575420",
+  "properties": {
+    "showHeader": {
+      "value": false
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{page.variables.isMarketplaceAware.value || queries.277cb879-a5a8-43fc-bedd-41f39a2ed845.data.length >1}}",
+      "fxActive": true
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "dynamicHeight": {
+      "value": "{{true}}"
+    },
+    "headerHeight": {
+      "value": "{{80}}"
+    },
+    "canvasHeight": {
+      "value": 60
+    },
+    "undefined": {
+      "value": {
+        "showHeader": {
+          "value": false
+        },
+        "loadingState": {
+          "value": "{{false}}"
+        },
+        "visibility": {
+          "value": "{{true}}"
+        },
+        "disabledState": {
+          "value": "{{false}}"
+        },
+        "dynamicHeight": {
+          "value": "{{true}}"
+        },
+        "headerHeight": {
+          "value": "{{80}}"
+        },
+        "canvasHeight": {
+          "value": 60
+        },
+        "undefined": {
+          "value": {
+            "showHeader": {
+              "value": false
+            },
+            "loadingState": {
+              "value": "{{false}}"
+            },
+            "visibility": {
+              "value": "{{true}}"
+            },
+            "disabledState": {
+              "value": "{{false}}"
+            },
+            "dynamicHeight": {
+              "value": "{{true}}"
+            },
+            "headerHeight": {
+              "value": "{{80}}"
+            },
+            "canvasHeight": {
+              "value": 110
+            }
+          }
+        }
+      }
+    }
+  },
+  "general": {
+    "undefined": {
+      "value": {}
+    }
+  },
+  "styles": {
+    "backgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "headerBackgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "headerDividerColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "borderRadius": {
+      "value": "6"
+    },
+    "borderColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    },
+    "undefined": {
+      "value": {
+        "backgroundColor": {
+          "value": "var(--cc-surface1-surface)"
+        },
+        "headerBackgroundColor": {
+          "value": "var(--cc-surface1-surface)"
+        },
+        "headerDividerColor": {
+          "value": "var(--cc-default-border)"
+        },
+        "borderRadius": {
+          "value": "6"
+        },
+        "borderColor": {
+          "value": "var(--cc-default-border)"
+        },
+        "boxShadow": {
+          "value": "0px 0px 0px 0px #00000040"
+        },
+        "undefined": {
+          "value": {
+            "backgroundColor": {
+              "value": "var(--cc-surface1-surface)"
+            },
+            "headerBackgroundColor": {
+              "value": "var(--cc-surface1-surface)"
+            },
+            "headerDividerColor": {
+              "value": "var(--cc-default-border)"
+            },
+            "borderRadius": {
+              "value": "6"
+            },
+            "borderColor": {
+              "value": "var(--cc-default-border)"
+            },
+            "boxShadow": {
+              "value": "0px 0px 0px 0px #00000040"
+            }
+          }
+        }
+      }
+    }
+  },
+  "generalStyles": {
+    "box_shadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    },
+    "undefined": {
+      "value": {
+        "boxShadow": {
+          "value": "0px 0px 0px 0px #00000040"
+        },
+        "box_shadow": {
+          "value": "0px 0px 0px 0px #00000040"
+        },
+        "undefined": {
+          "value": {
+            "boxShadow": {
+              "value": "0px 0px 0px 0px #00000040"
+            },
+            "box_shadow": {
+              "value": "0px 0px 0px 0px #00000040"
+            }
+          }
+        }
+      }
+    }
+  },
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    },
+    "show_on_desktop": {
+      "value": "{{true}}"
+    },
+    "show_on_mobile": {
+      "value": "{{false}}"
+    },
+    "undefined": {
+      "value": {
+        "showOnDesktop": {
+          "value": "{{true}}"
+        },
+        "showOnMobile": {
+          "value": "{{false}}"
+        },
+        "show_on_desktop": {
+          "value": "{{true}}"
+        },
+        "show_on_mobile": {
+          "value": "{{false}}"
+        }
+      }
+    }
+  },
+  "validation": {
+    "undefined": {
+      "value": {
+        "undefined": {
+          "value": {}
+        }
+      }
+    }
+  },
+  "layouts": [
+    {
+      "id": "00d3ba43-4cb4-4fee-9a3b-2ee3729e86be",
+      "type": "desktop",
+      "top": 690,
+      "left": 0,
+      "width": 41,
+      "height": 80,
+      "componentId": "5e8878b4-083b-46a4-97be-4a08bc4f9cdf",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "b093b287-7a6a-4676-a82c-bd0fb7a29f0e",
+      "type": "mobile",
+      "top": 0,
+      "left": 0,
+      "width": 0,
+      "height": 0,
+      "componentId": "5e8878b4-083b-46a4-97be-4a08bc4f9cdf",
+      "dimensionUnit": "count"
+    }
+  ]
+}

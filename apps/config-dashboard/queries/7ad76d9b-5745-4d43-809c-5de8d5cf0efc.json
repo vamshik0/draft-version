@@ -1,0 +1,11 @@
+{
+  "id": "7ad76d9b-5745-4d43-809c-5de8d5cf0efc",
+  "name": "bulkUploadCheck",
+  "options": {
+    "code": "const appConfigType = 'CONFIG_TYPE_APP';\nconst shouldEnableFileOps = page.variables.isAdmin || \n  page.variables.isTestEnvironment || \n  page.variables.hideNewFeatures || \n  page.variables.isNonTech || components.configDetailKeyValue.data?.['Config Type'] === appConfigType;\nif(shouldEnableFileOps) {\n  //disableFileOperations.setValue(false);\n  await actions.setPageVariable(\"disableFileOperations\",false)\n} \nelse {\n  const tempExceptionList = page.variables.bulkUploadExceptionList;\n  for(let i = 0; i < tempExceptionList.length; i++) {\n    if(tempExceptionList[i].email === globals.currentUser.email) {\n      const dateString = tempExceptionList[i].startTime;\n      const expirationTime = tempExceptionList[i].expirationInMinutes;\n      const givenDate = new Date(dateString);\n      const currentDate = new Date();\n      // Allow Bulk Operation for negative expirationTime\n      if(expirationTime < 0) {\n        //disableFileOperations.setValue(false);\n        await actions.setPageVariable(\"disableFileOperations\", false)\n        return;\n      }\n      // Calculate the difference in milliseconds\n      const differenceInMilliseconds = currentDate - givenDate;\n      // Convert expiration minutes to milliseconds\n      const timeInMilliseconds = expirationTime * 60 * 1000;\n      // Check if the difference is within expiration time\n      const isWithinExpirationTime = (differenceInMilliseconds > 0 && differenceInMilliseconds <= timeInMilliseconds);\n      if(isWithinExpirationTime) {\n       // disableFileOperations.setValue(false);\n        await actions.setPageVariable(\"disableFileOperations\",false)\n        return;\n      }\n    }\n  }\n  //disableFileOperations.setValue(true);\n  await actions.setPageVariable(\"disableFileOperations\",true)\n\n}\n",
+    "parameters": [],
+    "runOnPageLoad": false
+  },
+  "dataSourceId": "39605bdb-34bb-41f6-a904-feb89a7e8958",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "27390df1-5ca3-496d-93b4-4332394416c7",
+  "name": "onDataQuerySuccess",
+  "index": 1,
+  "event": {
+    "key": "errorMessageBulkUpload",
+    "eventId": "onDataQuerySuccess",
+    "message": "Hello world!",
+    "actionId": "set-page-variable",
+    "alertType": "info"
+  },
+  "sourceId": "df406adf-55e8-4429-a238-96328d4e9cc8",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

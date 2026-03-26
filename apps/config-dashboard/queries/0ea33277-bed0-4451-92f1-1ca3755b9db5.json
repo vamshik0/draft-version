@@ -1,0 +1,55 @@
+{
+  "id": "0ea33277-bed0-4451-92f1-1ca3755b9db5",
+  "name": "addConfigValueForNonSingleParam1",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "raw_message": "{\n  \"service_name\": {{page.variables.selectedService}},\n  \"config_param_name\": {{page.variables.selectedConfig}},\n  \"dimensions\": [],\n  \"override_lower_dimensions\": false,\n  \"value\": {{page.variables.configValueTypeForAddConfigValue.value}},\n  \"pre_approval\": {\n    \"type\": {{components.af8ced09-8528-4d88-bfba-6d3188bb459b.value === \"\" ? 0 : 1}},\n    \"pre_approval_link\": {{components.af8ced09-8528-4d88-bfba-6d3188bb459b.value === \"\" ? \"\" : `https://swiggy.atlassian.net/browse/${components.af8ced09-8528-4d88-bfba-6d3188bb459b.value}`}}\n  },\n  \"skip_approval_reason\": {{! page.variables.hideNewFeatures && page.variables.isNonTech.value ? 2 : components.af8ced09-8528-4d88-bfba-6d3188bb459b.value === \"\" ? components.103c1b5f-7536-4283-aea9-ea639372d5e2.value === true ? 1 : 0 : 0}}\n}",
+    "metadata": [
+      [
+        "user",
+        "{{({\"name\": `${globals.currentUser.firstName} ${globals.currentUser.lastName}`, \"email_id\": `${globals.currentUser.email}` })}}"
+      ],
+      [
+        "multi_dim_config",
+        "true"
+      ],
+      [
+        "new_features_enabled",
+        "{{! page.variables.hideNewFeatures}}"
+      ],
+      [
+        "access_token",
+        "{{variables.access_token}}"
+      ],
+      [
+        "is_admin",
+        "{{page.variables.isAdmin}}"
+      ],
+      [
+        "authz_disabled_services",
+        "{{page.variables.AuthzDisabledList}}"
+      ],
+      [
+        "is_approver",
+        "false"
+      ],
+      [
+        "approval_flow_disabled_services",
+        "{{page.variables.approvalFlowDisabledServices}}"
+      ],
+      [
+        "approval_flow_enabled_services",
+        "{{page.variables.approvalFlowEnabledServices}}"
+      ],
+      [
+        "mumbai_deployed_services",
+        "{{page.variables.mumbai_deployed_services}}"
+      ]
+    ],
+    "service": "cpgateway.config.v1.ConfigParamAPI",
+    "method": "AddConfigParam"
+  },
+  "dataSourceId": "5ade0925-560a-4371-ba6d-d8989db43769",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

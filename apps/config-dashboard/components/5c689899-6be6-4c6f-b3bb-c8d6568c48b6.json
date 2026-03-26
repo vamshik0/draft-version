@@ -1,0 +1,149 @@
+{
+  "id": "5c689899-6be6-4c6f-b3bb-c8d6568c48b6",
+  "name": "rollbackShowDiffTable",
+  "type": "Table",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "ba733190-3103-4b87-bc33-6b2a291b0721",
+  "properties": {
+    "title": {
+      "value": "Table"
+    },
+    "visible": {
+      "value": "{{true}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "dataSourceSelector": {
+      "value": "rawJson"
+    },
+    "data": {
+      "value": "{{ [ \n\t\t{ id: 1, name: 'Olivia Nguyen', email: 'olivia.nguyen@example.com', date: '15/05/2022', phone: 9876543210, interest: ['Reading', 'Traveling','Photography'], photo: 'https://reqres.in/img/faces/7-image.jpg' }, \n\t\t{ id: 2, name: 'Liam Patel', email: 'liam.patel@example.com', date: '20/09/2021', phone: 8765432109, interest: ['Cooking','Gardening','Hiking'], photo: 'https://reqres.in/img/faces/5-image.jpg' }, \n\t\t{ id: 3, name: 'Sophia Reyes', email: 'sophia.reyes@example.com', date: '01/01/2023', phone: 7654321098, interest: ['Music','Dancing','Crafting'], photo: 'https://reqres.in/img/faces/3-image.jpg' }, \n\t\t{ id: 4, name: 'Jacob Hernandez', email: 'jacob.hernandez@example.com', date: '10/11/2022', phone: 6543210987, interest: ['Reading', 'Traveling', 'Volunteering'], photo: 'https://reqres.in/img/faces/1-image.jpg' }, \n\t\t{ id: 5, name: 'William Sanchez', email: 'william.sanchez@example.com', date: '07/01/2021', phone: 4321098765, interest: ['Music', 'Dancing', 'Hiking'], photo: 'https://reqres.in/img/faces/4-image.jpg' }, \n\t\t{ id: 6, name: 'Ethan Morales', email: 'ethan.morales@example.com', date: '05/11/2021', phone: 2109876543, interest: ['Cooking', 'Traveling', 'Photography'], photo: 'https://reqres.in/img/faces/6-image.jpg' }, \n\t\t{ id: 7, name: 'Mia Tiana', email: 'mia.tiana@example.com', date: '21/11/2022', phone: 1098705217, interest: ['Music', 'Gardening', 'Hiking'], photo: 'https://reqres.in/img/faces/2-image.jpg' }, \n\t\t{ id: 8, name: 'Lucas Ramirez', email: 'lucas.ramirez@example.com', date: '31/03/2023', phone: 9876543210, interest: ['Reading', 'Dancing', 'Crafting'], photo: 'https://reqres.in/img/faces/9-image.jpg' }, \n\t\t{ id: 9, name: 'Alexander Vela', email: 'alexander.vela@example.com', date: '07/09/2022', phone: 7654321098, interest: ['Music','Gardening','Photography'], photo: 'https://reqres.in/img/faces/8-image.jpg' }, \n\t\t{ id: 10, name: 'Michael Reyes', email: 'michael.reyes@example.com', date: '25/12/2021', phone: 5432109876, interest: ['Cooking','Crafting','Volunteering'], photo: 'https://reqres.in/img/faces/10-image.jpg' } \n] }}"
+    },
+    "useDynamicColumn": {
+      "value": "{{false}}"
+    },
+    "columnData": {
+      "value": "{{[{name: 'email', key: 'email', id: '1'}, {name: 'Full name', key: 'name', id: '2', isEditable: true}]}}"
+    },
+    "rowsPerPage": {
+      "value": "{{10}}"
+    },
+    "serverSidePagination": {
+      "value": "{{false}}"
+    },
+    "enableNextButton": {
+      "value": "{{true}}"
+    },
+    "enablePrevButton": {
+      "value": "{{true}}"
+    },
+    "totalRecords": {
+      "value": "{{10}}"
+    },
+    "enablePagination": {
+      "value": "{{true}}"
+    },
+    "serverSideSort": {
+      "value": "{{false}}"
+    },
+    "serverSideFilter": {
+      "value": "{{false}}"
+    },
+    "displaySearchBox": {
+      "value": "{{true}}"
+    },
+    "showDownloadButton": {
+      "value": "{{true}}"
+    },
+    "showFilterButton": {
+      "value": "{{true}}"
+    },
+    "isAllColumnsEditable": {
+      "value": "{{false}}"
+    },
+    "columns": {
+      "value": []
+    },
+    "showBulkUpdateActions": {
+      "value": "{{true}}"
+    },
+    "showBulkSelector": {
+      "value": "{{false}}"
+    },
+    "highlightSelectedRow": {
+      "value": "{{false}}"
+    },
+    "columnSizes": {
+      "value": "{{({})}}"
+    },
+    "actions": {
+      "value": []
+    },
+    "enabledSort": {
+      "value": "{{true}}"
+    },
+    "hideColumnSelectorButton": {
+      "value": "{{false}}"
+    },
+    "defaultSelectedRow": {
+      "value": "{{{\"id\":1}}}"
+    },
+    "showAddNewRowButton": {
+      "value": "{{true}}"
+    },
+    "allowSelection": {
+      "value": "{{true}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "selectRowOnCellEdit": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {},
+  "generalStyles": {
+    "box_shadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "show_on_desktop": {
+      "value": "{{true}}"
+    },
+    "show_on_mobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "8c497f4f-c0b2-4b84-ad25-f89efbd44f03",
+      "type": "desktop",
+      "top": 0,
+      "left": 0,
+      "width": 42,
+      "height": 40,
+      "componentId": "5c689899-6be6-4c6f-b3bb-c8d6568c48b6",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "2c983e81-4e1b-4422-9d12-fcb29ee0e900",
+      "type": "mobile",
+      "top": 0,
+      "left": 0,
+      "width": 0,
+      "height": 0,
+      "componentId": "5c689899-6be6-4c6f-b3bb-c8d6568c48b6",
+      "dimensionUnit": "count"
+    }
+  ]
+}

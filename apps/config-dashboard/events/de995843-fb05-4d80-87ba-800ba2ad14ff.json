@@ -1,0 +1,18 @@
+{
+  "id": "de995843-fb05-4d80-87ba-800ba2ad14ff",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "queryId": "b41b3da6-b9c6-4a51-9f4b-69030aa5bb9d",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "pendingApprovalFormRejectButton",
+    "queryName": "rejectPendingApprovals",
+    "parameters": {}
+  },
+  "sourceId": "34cab223-c762-4909-b0e0-79d6ba723a06",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

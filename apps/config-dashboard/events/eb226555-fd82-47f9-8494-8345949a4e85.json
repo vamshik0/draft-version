@@ -1,0 +1,18 @@
+{
+  "id": "eb226555-fd82-47f9-8494-8345949a4e85",
+  "name": "onDataQuerySuccess",
+  "index": 4,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Hello world!",
+    "queryId": "ec6fb2ba-0393-4a52-a2f0-2c1a977bb143",
+    "actionId": "run-query",
+    "alertType": "info",
+    "queryName": "updateConfigValueForNonSingleParam2",
+    "runOnlyIf": "{{components.updateConfigValueModal.show && components.configValueTabbedContainer.currentTabTitle === \"updateConfigValueNonParam2\"}}",
+    "parameters": {}
+  },
+  "sourceId": "4fc9f7c6-dab0-43b9-9356-5c52fad3914f",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

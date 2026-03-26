@@ -1,0 +1,95 @@
+{
+  "id": "75599651-ca5d-442d-84e7-2652a160a356",
+  "name": "rollbackSubmitFormButton4",
+  "type": "Button",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "e2ffb56b-7173-4f73-bbdb-52b8a340b531",
+  "properties": {
+    "text": {
+      "value": "Rollback"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "tooltip": {
+      "value": ""
+    }
+  },
+  "general": {},
+  "styles": {
+    "textColor": {
+      "value": "#FFFFFF"
+    },
+    "borderColor": {
+      "value": "#ff0000ff"
+    },
+    "loaderColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "backgroundColor": {
+      "value": "#ff0000ff"
+    },
+    "iconColor": {
+      "value": "var(--cc-default-icon)"
+    },
+    "direction": {
+      "value": "left"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000090"
+    },
+    "icon": {
+      "value": "IconAlignBoxBottomLeft"
+    },
+    "iconVisibility": {
+      "value": false
+    },
+    "type": {
+      "value": "primary"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "52d160ba-f265-439d-a9ca-e7e4ffbabff4",
+      "type": "desktop",
+      "top": 110,
+      "left": 17,
+      "width": 10,
+      "height": 40,
+      "componentId": "75599651-ca5d-442d-84e7-2652a160a356",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "374a7412-d46b-46ad-91f6-a64fedf8cf47",
+      "type": "mobile",
+      "top": 130,
+      "left": 17,
+      "width": 10,
+      "height": 40,
+      "componentId": "75599651-ca5d-442d-84e7-2652a160a356",
+      "dimensionUnit": "count"
+    }
+  ]
+}

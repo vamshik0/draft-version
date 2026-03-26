@@ -1,0 +1,18 @@
+{
+  "id": "5aae2767-92be-4c0b-bf65-d917c245c7f0",
+  "name": "onTabSwitch",
+  "index": 5,
+  "event": {
+    "eventId": "onTabSwitch",
+    "message": "Hello world!",
+    "actionId": "control-component",
+    "alertType": "info",
+    "component": "bulkUploadTabbedContainer",
+    "componentId": "2b76bb83-2f44-434a-b955-2a9ee552a5f6",
+    "componentSpecificActionHandle": "toggle",
+    "componentSpecificActionParams": []
+  },
+  "sourceId": "0bc8d1ef-847b-46e9-a340-9b5c9de6cc9c",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

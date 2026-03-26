@@ -1,0 +1,14 @@
+{
+  "id": "6e42182a-a806-4554-8d7e-9eadb6984227",
+  "name": "onDataQuerySuccess",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Config Value added with default value. You can add conditional value by clicking on update.",
+    "actionId": "show-alert",
+    "alertType": "success"
+  },
+  "sourceId": "66c241f4-9194-4937-8101-10e2c4299d81",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

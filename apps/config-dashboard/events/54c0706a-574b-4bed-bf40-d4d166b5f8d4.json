@@ -1,0 +1,17 @@
+{
+  "id": "54c0706a-574b-4bed-bf40-d4d166b5f8d4",
+  "name": "onDataQuerySuccess",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Hello world!",
+    "queryId": "d087bde1-d7d5-41f3-86a6-d8a01b66fe51",
+    "actionId": "run-query",
+    "alertType": "info",
+    "queryName": "onDownloadFromS3env",
+    "parameters": {}
+  },
+  "sourceId": "514c0321-12aa-489f-8142-35cabff16150",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

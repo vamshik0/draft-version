@@ -1,0 +1,18 @@
+{
+  "id": "9d818dea-930a-4d65-be35-edc1a8e2db32",
+  "name": "onPageLoad",
+  "index": 2,
+  "event": {
+    "eventId": "onPageLoad",
+    "message": "Hello world!",
+    "queryId": "c028daee-856d-49f2-af84-754e30dc12d9",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "page",
+    "queryName": "setAllPodCityWiseOnPageLoad",
+    "parameters": {}
+  },
+  "sourceId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "target": "page",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

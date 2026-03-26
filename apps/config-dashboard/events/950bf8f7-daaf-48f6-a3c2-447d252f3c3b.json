@@ -1,0 +1,18 @@
+{
+  "id": "950bf8f7-daaf-48f6-a3c2-447d252f3c3b",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "queryId": "d1dab268-f39c-4725-98d5-ac824a943a20",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "button111",
+    "queryName": "abortDeployment",
+    "parameters": {}
+  },
+  "sourceId": "2fa48ae7-1763-4ed5-a56f-7ec1b87df35a",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

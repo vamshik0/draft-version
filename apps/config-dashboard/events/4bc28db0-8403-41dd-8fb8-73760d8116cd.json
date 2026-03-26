@@ -1,0 +1,18 @@
+{
+  "id": "4bc28db0-8403-41dd-8fb8-73760d8116cd",
+  "name": "onDataQuerySuccess",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Hello world!",
+    "queryId": "d8887906-b1e3-426a-82c7-a7910c54004a",
+    "actionId": "run-query",
+    "alertType": "info",
+    "queryName": "dimensionToString",
+    "runOnlyIf": "{{queries.fetchConfigDetails.data['Param Type'] !== \"PARAM_TYPE_SINGLE_VALUED\"}}",
+    "parameters": {}
+  },
+  "sourceId": "0de5bb14-b3f6-4d36-b86c-ad03460c267b",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

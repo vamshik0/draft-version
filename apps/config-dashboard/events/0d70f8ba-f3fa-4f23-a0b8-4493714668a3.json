@@ -1,0 +1,18 @@
+{
+  "id": "0d70f8ba-f3fa-4f23-a0b8-4493714668a3",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "queryId": "bc696465-9f76-4f4f-8e06-af9449c41c8c",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "button108",
+    "queryName": "preRollbackOperations",
+    "parameters": {}
+  },
+  "sourceId": "45780314-278f-46f9-a434-1eed87c0c001",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

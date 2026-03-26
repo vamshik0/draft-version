@@ -1,0 +1,14 @@
+{
+  "id": "32d897f1-f9de-4779-b164-8c56882e6b87",
+  "name": "onDataQueryFailure",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "exceuteCopyConfigs Failed.{{queries.b85d7642-1e1d-42ac-bdb1-bfd939b47461.error.message}}",
+    "actionId": "show-alert",
+    "alertType": "info"
+  },
+  "sourceId": "b85d7642-1e1d-42ac-bdb1-bfd939b47461",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

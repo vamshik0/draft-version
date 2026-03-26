@@ -1,0 +1,15 @@
+{
+  "id": "a6a5283c-aad0-4253-a776-329d65919ff7",
+  "name": "downloadTemplate",
+  "options": {
+    "code": "let dimensionData = \"VALUE,\";\nqueries.fetchConfigDetails.data?.Dimensions?.forEach((val, idx) => {\n  dimensionData += val.dimension_name;\n  if(idx !== queries.fetchConfigDetails.data.Dimensions.length)\n  dimensionData += \",\";\n});\nlet formattedData = parameters.type === \"csv\" ? dimensionData : dimensionData.replace(/,/g, '\\t');\n\nconst blob = new Blob([formattedData], { type: parameters.type === \"csv\" ? 'text/csv;charset=utf-8;' : 'text/tab-separated-values;charset=utf-8;'});\nconst url = URL.createObjectURL(blob);\nconst link = document.createElement('a');\nlink.href = url;\nlink.download = `${ page.variables.selectedConfig}${parameters.type === \"csv\"? \".csv\": \".tsv\"}`; // Name of the file to be downloaded\ndocument.body.appendChild(link);\nlink.click();\ndocument.body.removeChild(link);\n\n//await components.updateConfigValueModal.close();\nawait actions.closeModal(\"updateConfigValueModal\")",
+    "parameters": [
+      {
+        "name": "type"
+      }
+    ],
+    "runOnPageLoad": false
+  },
+  "dataSourceId": "39605bdb-34bb-41f6-a904-feb89a7e8958",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

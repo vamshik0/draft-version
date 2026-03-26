@@ -1,0 +1,39 @@
+{
+  "id": "c5ad602d-0985-43b3-902d-5d601508d5ea",
+  "name": "addConfigCopy",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": true,
+    "raw_message": "{{page.variables.configListInput [ page.variables.addConfigCopyIndex]}}",
+    "service": "cpgateway.config.v1.ConfigParamAPI",
+    "method": "AddConfigParam",
+    "metadata": [
+      [
+        "user",
+        "{{({\"name\": `${globals.currentUser.firstName} ${globals.currentUser.lastName}`, \"email_id\": `${globals.currentUser.email}` })}}"
+      ],
+      [
+        "new_features_enabled",
+        "{{! page.variables.hideNewFeatures}}"
+      ],
+      [
+        "access_token",
+        "{{variables.access_token}}"
+      ],
+      [
+        "authz_disabled_services",
+        "{{page.variables.AuthzDisabledList}}"
+      ],
+      [
+        "mumbai_deployed_services",
+        "{{page.variables.mumbai_deployed_services}}"
+      ]
+    ],
+    "transformations": {
+      "javascript": "return data",
+      "python": "# write your code here\n# return value will be set as data and the original data will be available as rawData\n[row for row in data if row['amount'] > 1000]\n  "
+    }
+  },
+  "dataSourceId": "5ade0925-560a-4371-ba6d-d8989db43769",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

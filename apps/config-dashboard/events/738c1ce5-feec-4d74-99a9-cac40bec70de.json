@@ -1,0 +1,18 @@
+{
+  "id": "738c1ce5-feec-4d74-99a9-cac40bec70de",
+  "name": "onOpen",
+  "index": 0,
+  "event": {
+    "eventId": "onOpen",
+    "message": "Hello world!",
+    "queryId": "f9ae566b-2e8c-430d-89a0-c59ea8a139e3",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "pendingApprovalModal2",
+    "queryName": "fetchApprovalDetails",
+    "parameters": {}
+  },
+  "sourceId": "6aa9be11-cc4e-480b-b912-633370335621",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

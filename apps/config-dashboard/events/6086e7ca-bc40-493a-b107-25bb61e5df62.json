@@ -1,0 +1,16 @@
+{
+  "id": "6086e7ca-bc40-493a-b107-25bb61e5df62",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "value": "addConfig",
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "actionId": "set-page-variable",
+    "alertType": "info",
+    "component": "button1"
+  },
+  "sourceId": "d72c8948-d122-4d2c-9f6e-fe8be0d9a154",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

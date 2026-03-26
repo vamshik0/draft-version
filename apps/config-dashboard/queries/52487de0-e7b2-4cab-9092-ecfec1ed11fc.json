@@ -1,0 +1,27 @@
+{
+  "id": "52487de0-e7b2-4cab-9092-ecfec1ed11fc",
+  "name": "fetchConfigValuesWithFilters",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "raw_message": "{{JSON.stringify({\n  service_name: page.variables.selectedService,\n  config_param_name: page.variables.selectedConfig,\n  filters: [\n    {\n      filter_on_dimension: {\n        dimensions: page.variables.filtersOnDimensionArray\n      }\n    }\n  ],\n  last_returned_dimension: []\n})}}",
+    "metadata": [
+      [
+        "is_float_v2_enabled",
+        "true"
+      ],
+      [
+        "limit_response",
+        "{{page.variables.selectedService === \"de-slot-service\" && page.variables.selectedConfig === \"SLOT_COMPLIANCE_CONFIG\"}}"
+      ]
+    ],
+    "transformations": {
+      "javascript": "return data?.config_param_values;",
+      "python": "# write your code here\n# return value will be set as data and the original data will be available as rawData\n[row for row in data if row['amount'] > 1000]\n  "
+    },
+    "service": "cpgateway.config.v1.ConfigParamAPI",
+    "method": "ListConfigParams"
+  },
+  "dataSourceId": "5ade0925-560a-4371-ba6d-d8989db43769",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

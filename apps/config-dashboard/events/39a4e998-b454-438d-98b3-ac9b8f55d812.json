@@ -1,0 +1,14 @@
+{
+  "id": "39a4e998-b454-438d-98b3-ac9b8f55d812",
+  "name": "onDataQueryFailure",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "Failed to validate operation.{{queries.de342db5-65ee-4fd2-82c1-6a0314e36655.error.message}}",
+    "actionId": "show-alert",
+    "alertType": "error"
+  },
+  "sourceId": "de342db5-65ee-4fd2-82c1-6a0314e36655",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

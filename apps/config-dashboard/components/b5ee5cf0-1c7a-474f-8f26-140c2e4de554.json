@@ -1,0 +1,62 @@
+{
+  "id": "b5ee5cf0-1c7a-474f-8f26-140c2e4de554",
+  "name": "addConfigValueFormNonSingle2SubmitButton",
+  "type": "Button",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "0c2fd6cc-8d55-4992-ae1b-3be2b7b0fa13-footer",
+  "properties": {
+    "text": {
+      "value": "Add +"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "tooltip": {
+      "value": ""
+    }
+  },
+  "general": {},
+  "styles": {},
+  "generalStyles": {
+    "box_shadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "show_on_desktop": {
+      "value": "{{true}}"
+    },
+    "show_on_mobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "d0c71244-b798-4f80-afb0-2772170b633b",
+      "type": "desktop",
+      "top": 0,
+      "left": 17,
+      "width": 7,
+      "height": 40,
+      "componentId": "b5ee5cf0-1c7a-474f-8f26-140c2e4de554",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "0de5f27a-ce42-42d2-b8ce-9ee491df3ffb",
+      "type": "mobile",
+      "top": 0,
+      "left": 0,
+      "width": 0,
+      "height": 0,
+      "componentId": "b5ee5cf0-1c7a-474f-8f26-140c2e4de554",
+      "dimensionUnit": "count"
+    }
+  ]
+}

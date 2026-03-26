@@ -1,0 +1,96 @@
+{
+  "id": "2fa48ae7-1763-4ed5-a56f-7ec1b87df35a",
+  "name": "abortRolloutFormSubmitButton",
+  "type": "Button",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "28b4d62a-75c8-4282-b331-b5feba26fba2",
+  "properties": {
+    "text": {
+      "value": "Abort Rollout"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "loadingState": {
+      "value": "{{queries.d1dab268-f39c-4725-98d5-ac824a943a20.isLoading}}",
+      "fxActive": true
+    },
+    "tooltip": {
+      "value": ""
+    }
+  },
+  "general": {},
+  "styles": {
+    "textColor": {
+      "value": "#FFFFFF"
+    },
+    "borderColor": {
+      "value": "#fe0100ff"
+    },
+    "loaderColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "backgroundColor": {
+      "value": "#fe0100ff"
+    },
+    "iconColor": {
+      "value": "var(--cc-default-icon)"
+    },
+    "direction": {
+      "value": "left"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000090"
+    },
+    "icon": {
+      "value": "IconAlignBoxBottomLeft"
+    },
+    "iconVisibility": {
+      "value": false
+    },
+    "type": {
+      "value": "primary"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "375cd892-a85e-45bc-ab83-2da91dff949a",
+      "type": "desktop",
+      "top": 210,
+      "left": 18,
+      "width": 8,
+      "height": 40,
+      "componentId": "2fa48ae7-1763-4ed5-a56f-7ec1b87df35a",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "51842b53-23a4-4b78-9ad7-02b84d2bffdd",
+      "type": "mobile",
+      "top": 300,
+      "left": 17,
+      "width": 7,
+      "height": 40,
+      "componentId": "2fa48ae7-1763-4ed5-a56f-7ec1b87df35a",
+      "dimensionUnit": "count"
+    }
+  ]
+}

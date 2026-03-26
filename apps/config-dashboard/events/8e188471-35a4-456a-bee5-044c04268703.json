@@ -1,0 +1,14 @@
+{
+  "id": "8e188471-35a4-456a-bee5-044c04268703",
+  "name": "onDataQuerySuccess",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Condition Deleted",
+    "actionId": "show-alert",
+    "alertType": "success"
+  },
+  "sourceId": "ed681658-b67c-4e57-bc59-b984528bb4b0",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

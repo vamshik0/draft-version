@@ -1,0 +1,12 @@
+{
+  "id": "c5e88d02-8230-4ef6-8753-bd7bb1b368e5",
+  "name": "addDimension",
+  "options": {
+    "code": "let check = true;\nObject.values(components.addConfigFormListViewDimension.data).forEach((val) => {\n  if(!val.addConfigFormSelectDimensionType.value || (val.addConfigFormTextInputKey.value === \"\" && components.addConfigFormTextInputKey.isVisible) || (!val.addConfigFormSelectKey.isValid && components.addConfigFormSelectKey.isVisible) ) {\n    //addConfigForm.validate();\n    check = false;\n  }\n});\n\nif( page.variables.number_of_rows_for_dimensions >= 3 && ! page.variables.isTestEnvironment && \n! page.variables.isAdmin) {  components.addConfigFormDimensionErrorText.isVisible;\n  return;\n}\n\nif(check) {\nawait actions.setPageVariable(\"number_of_rows_for_dimensions\", page.variables.number_of_rows_for_dimensions + 1);\n  \nconst currArr =  [...(variables.incrementListView1|| [])] ;\n  currArr.push({\n    name: \"addGroups\" + currArr.length,\n    number: currArr.length,\n  });\n  \n  await actions.setVariable(\"incrementListView1\",currArr)\n}\n\nreturn check",
+    "parameters": [],
+    "showSuccessNotification": false,
+    "successMessage": "Dimension Added!"
+  },
+  "dataSourceId": "39605bdb-34bb-41f6-a904-feb89a7e8958",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

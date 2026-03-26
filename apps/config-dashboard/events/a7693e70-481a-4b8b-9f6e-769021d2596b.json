@@ -1,0 +1,18 @@
+{
+  "id": "a7693e70-481a-4b8b-9f6e-769021d2596b",
+  "name": "onDataQuerySuccess",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Hello world!",
+    "queryId": "d58117e4-c76a-497b-9e4a-3b703cee7006",
+    "actionId": "run-query",
+    "alertType": "info",
+    "queryName": "addConfigValue",
+    "runOnlyIf": "{{components.fb7e1739-397b-4a3c-8b2f-e0ecc9970d2a.show && components.addConfigValueTabbedContainer.currentTab === \"t0\"}}",
+    "parameters": {}
+  },
+  "sourceId": "835c211d-d368-4796-98ca-1673cb75b609",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

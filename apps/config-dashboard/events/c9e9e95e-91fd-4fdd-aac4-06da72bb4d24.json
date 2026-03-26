@@ -1,0 +1,18 @@
+{
+  "id": "c9e9e95e-91fd-4fdd-aac4-06da72bb4d24",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "queryId": "b588cbf6-fcea-4b6a-936d-f3d344c1bef1",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "searchByDimensionFormButtonAdd",
+    "queryName": "searchByDimensionAdd",
+    "parameters": {}
+  },
+  "sourceId": "f2760b82-0ffb-47bf-869f-eddd64203eff",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

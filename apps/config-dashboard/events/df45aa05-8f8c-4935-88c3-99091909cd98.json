@@ -1,0 +1,16 @@
+{
+  "id": "df45aa05-8f8c-4935-88c3-99091909cd98",
+  "name": "onClick",
+  "index": 1,
+  "event": {
+    "eventId": "onClick",
+    "message": "Please provide valid config value: {{components.bc92eb3b-5f06-4bfb-8545-05f1d0d46f02.value}} ",
+    "actionId": "show-alert",
+    "alertType": "info",
+    "component": "addConfigValueFormNonSingleSubmitButton",
+    "runOnlyIf": "{{! components.bc92eb3b-5f06-4bfb-8545-05f1d0d46f02.isVisible}}"
+  },
+  "sourceId": "bb59c1ea-302e-40be-b09c-40634fd2f4fa",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

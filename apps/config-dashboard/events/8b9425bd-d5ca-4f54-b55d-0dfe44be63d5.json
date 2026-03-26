@@ -1,0 +1,18 @@
+{
+  "id": "8b9425bd-d5ca-4f54-b55d-0dfe44be63d5",
+  "name": "onTabSwitch",
+  "index": 4,
+  "event": {
+    "eventId": "onTabSwitch",
+    "message": "Hello world!",
+    "actionId": "control-component",
+    "alertType": "info",
+    "component": "bulkUploadTabbedContainer",
+    "componentId": "1d4bb366-2ca2-4444-b61c-cec80fd6355a",
+    "componentSpecificActionHandle": "clearFiles",
+    "componentSpecificActionParams": []
+  },
+  "sourceId": "0bc8d1ef-847b-46e9-a340-9b5c9de6cc9c",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

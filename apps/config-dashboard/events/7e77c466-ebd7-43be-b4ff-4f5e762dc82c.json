@@ -1,0 +1,17 @@
+{
+  "id": "7e77c466-ebd7-43be-b4ff-4f5e762dc82c",
+  "name": "onDataQuerySuccess",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Hello world!",
+    "queryId": "8e93620d-8989-4b16-99f3-ff325b46c7e5",
+    "actionId": "run-query",
+    "alertType": "info",
+    "queryName": "rollbackConfig",
+    "parameters": {}
+  },
+  "sourceId": "bc696465-9f76-4f4f-8e06-af9449c41c8c",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

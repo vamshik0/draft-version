@@ -1,0 +1,17 @@
+{
+  "id": "29814043-893a-43df-a3b9-5da90b3e06bb",
+  "name": "onRowClicked",
+  "index": 1,
+  "event": {
+    "key": "selectedServiceRow",
+    "value": "{{components.1743f985-d277-48a6-a650-8ac6ceabf52b.selectedRow}}",
+    "eventId": "onRowClicked",
+    "message": "Hello world!",
+    "actionId": "set-page-variable",
+    "alertType": "info",
+    "component": "allServicesTable"
+  },
+  "sourceId": "1743f985-d277-48a6-a650-8ac6ceabf52b",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "477e8c46-4e0c-47fc-bb6c-b126f5a3a6ff",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "key": "incrementListView1",
+    "value": "{{(() => {\n  const currArr = [...(variables.incrementListView1 || [])];\n\n  currArr.pop();\n\n  return currArr;\n})()}}\n",
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "actionId": "set-custom-variable",
+    "alertType": "info",
+    "component": "addConfigFormDeleteDimensionButton"
+  },
+  "sourceId": "79e7cd99-e74e-4270-bdfa-ed3fa226dba7",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

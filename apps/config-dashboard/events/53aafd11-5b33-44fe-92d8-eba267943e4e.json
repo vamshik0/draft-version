@@ -1,0 +1,18 @@
+{
+  "id": "53aafd11-5b33-44fe-92d8-eba267943e4e",
+  "name": "onClick",
+  "index": 2,
+  "event": {
+    "key": "isMarketplaceAware",
+    "value": "false",
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "actionId": "set-page-variable",
+    "alertType": "info",
+    "component": "goBackToServiceDetailsButton",
+    "runOnlyIf": "{{page.variables.isMarketplaceAware}}"
+  },
+  "sourceId": "959540dd-eff6-48b1-94db-7b2aa276190c",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

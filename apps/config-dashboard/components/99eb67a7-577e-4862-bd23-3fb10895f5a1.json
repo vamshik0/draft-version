@@ -1,0 +1,65 @@
+{
+  "id": "99eb67a7-577e-4862-bd23-3fb10895f5a1",
+  "name": "deleteCdnProdOutageCB",
+  "type": "Checkbox",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "88cc4868-2bd1-4515-98ee-451cd632e3f1",
+  "properties": {
+    "label": {
+      "value": "Production Issue/Outage"
+    },
+    "defaultValue": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "tooltip": {
+      "value": ""
+    }
+  },
+  "general": {},
+  "styles": {},
+  "generalStyles": {
+    "box_shadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "show_on_desktop": {
+      "value": "{{true}}"
+    },
+    "show_on_mobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "70d6e941-6a91-43de-95a7-153a9511f11b",
+      "type": "desktop",
+      "top": 270,
+      "left": 3,
+      "width": 24,
+      "height": 24,
+      "componentId": "99eb67a7-577e-4862-bd23-3fb10895f5a1",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "818fb1b1-0289-4533-b27c-f6d5f8e1d8cf",
+      "type": "mobile",
+      "top": 0,
+      "left": 0,
+      "width": 0,
+      "height": 0,
+      "componentId": "99eb67a7-577e-4862-bd23-3fb10895f5a1",
+      "dimensionUnit": "count"
+    }
+  ]
+}

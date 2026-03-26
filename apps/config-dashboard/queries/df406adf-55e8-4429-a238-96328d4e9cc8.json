@@ -1,0 +1,47 @@
+{
+  "id": "df406adf-55e8-4429-a238-96328d4e9cc8",
+  "name": "uploadCPVFileApp",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": true,
+    "raw_message": "{{JSON.stringify({\n  file: {\n    service_name: page.variables.selectedService,\n    config_param_name: page.variables.selectedConfig,\n    upload_time: {\n      seconds: page.variables.appUploadTime\n    },\n    file_location: page.variables.appS3UploadUrl,\n    file_name: components.51bde082-f90a-4b2c-b69f-5e23087ee556.files['0'].name,\n    file_type: components.9e092c8d-495f-49e7-bb40-884679c56cf7.currentTabTittle === \"CSV\" ? 1 : 2,\n    delimiter: components.9e092c8d-495f-49e7-bb40-884679c56cf7.currentTabTittle === \"CSV\" ? \",\" : \"\\t\",\n    file_processing_type: 1,\n    message: \"\"\n  }\n})}}\n",
+    "metadata": [
+      [
+        "user",
+        "{{({\"name\": `${globals.currentUser.firstName} ${globals.currentUser.lastName}`, \"email_id\": `${globals.currentUser.email}` })}}"
+      ],
+      [
+        "access_token",
+        "{{variables.access_token}}"
+      ],
+      [
+        "authz_disabled_services",
+        "{{page.variables.AuthzDisabledList}}"
+      ],
+      [
+        "is_approver",
+        "{{false}}"
+      ],
+      [
+        "approval_flow_disabled_services",
+        "{{page.variables.approvalFlowDisabledServices}}"
+      ],
+      [
+        "approval_flow_enabled_services",
+        "{{page.variables.approvalFlowEnabledServices}}"
+      ],
+      [
+        "mumbai_deployed_services",
+        "{{page.variables.mumbai_deployed_services}}"
+      ]
+    ],
+    "service": "cpgateway.config.v1.ConfigParamValueAPI",
+    "method": "BulkUploadConfigParamValues",
+    "transformations": {
+      "javascript": "return data",
+      "python": "# write your code here\n# return value will be set as data and the original data will be available as rawData\n[row for row in data if row['amount'] > 1000]\n  "
+    }
+  },
+  "dataSourceId": "5ade0925-560a-4371-ba6d-d8989db43769",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

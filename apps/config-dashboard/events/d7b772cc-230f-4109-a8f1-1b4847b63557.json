@@ -1,0 +1,17 @@
+{
+  "id": "d7b772cc-230f-4109-a8f1-1b4847b63557",
+  "name": "onDataQuerySuccess",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Hello world!",
+    "queryId": "9314b469-fef8-4d46-b26d-6e10955325ed",
+    "actionId": "run-query",
+    "alertType": "info",
+    "queryName": "checkIfBulkUploadAllowed",
+    "parameters": {}
+  },
+  "sourceId": "7ad76d9b-5745-4d43-809c-5de8d5cf0efc",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

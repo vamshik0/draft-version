@@ -1,0 +1,17 @@
+{
+  "id": "150cc8db-ad4e-410b-ba79-e3999464ba09",
+  "name": "onChange",
+  "index": 0,
+  "event": {
+    "key": "filteredConfigs",
+    "value": "{{page.variables.allConfigs?.filter((val) => {\n  return val.config_param_name.toLowerCase().includes( components.searchConfigTextInput.value.trim().toLowerCase());\n })}}",
+    "eventId": "onChange",
+    "message": "Hello world!",
+    "actionId": "set-page-variable",
+    "alertType": "info",
+    "component": "searchConfigTextInput"
+  },
+  "sourceId": "04d5472e-0a73-4ecf-8753-1931b4476a48",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

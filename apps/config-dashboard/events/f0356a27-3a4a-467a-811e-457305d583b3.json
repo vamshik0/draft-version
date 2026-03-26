@@ -1,0 +1,14 @@
+{
+  "id": "f0356a27-3a4a-467a-811e-457305d583b3",
+  "name": "onDataQuerySuccess",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Configs copied successfully",
+    "actionId": "show-alert",
+    "alertType": "success"
+  },
+  "sourceId": "b85d7642-1e1d-42ac-bdb1-bfd939b47461",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}
