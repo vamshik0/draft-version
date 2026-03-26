@@ -1,0 +1,93 @@
+{
+  "id": "2b76bb83-2f44-434a-b955-2a9ee552a5f6",
+  "name": "TSVCheckboxFullRefresh",
+  "type": "Checkbox",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "62884a30-4633-470b-a376-3e37bcc3dfe1",
+  "properties": {
+    "label": {
+      "value": "Full Refresh? (This will delete all existing values and insert only these values)"
+    },
+    "defaultValue": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "tooltip": {
+      "value": ""
+    }
+  },
+  "general": {},
+  "styles": {
+    "textColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "checkboxColor": {
+      "value": "var(--cc-primary-brand)"
+    },
+    "uncheckedColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "handleColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "alignment": {
+      "value": "right"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000090"
+    },
+    "padding": {
+      "value": "default"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {
+    "mandatory": {
+      "value": "{{false}}"
+    },
+    "customRule": {
+      "value": null
+    }
+  },
+  "layouts": [
+    {
+      "id": "17870d05-90fe-4189-8270-76d4b77217e1",
+      "type": "desktop",
+      "top": 170,
+      "left": 1,
+      "width": 41,
+      "height": 50,
+      "componentId": "2b76bb83-2f44-434a-b955-2a9ee552a5f6",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "b5192598-3b4a-4747-a3e1-ec3465be75f4",
+      "type": "mobile",
+      "top": 270,
+      "left": 5,
+      "width": 21,
+      "height": 30,
+      "componentId": "2b76bb83-2f44-434a-b955-2a9ee552a5f6",
+      "dimensionUnit": "count"
+    }
+  ]
+}

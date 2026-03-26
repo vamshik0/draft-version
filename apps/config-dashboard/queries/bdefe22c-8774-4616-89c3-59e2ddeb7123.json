@@ -1,0 +1,41 @@
+{
+  "id": "bdefe22c-8774-4616-89c3-59e2ddeb7123",
+  "name": "fetchMonitoringResults",
+  "options": {
+    "method": "POST",
+    "url": "monitoring/get",
+    "headers": [],
+    "url_params": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "body": [
+      [
+        "id",
+        "\"monitoring-\"+{{page.variables.selectedService}} +\"-cp\""
+      ]
+    ],
+    "cookies": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "json_body": null,
+    "body_toggle": false,
+    "retry_network_errors": true,
+    "transformationLanguage": "javascript",
+    "enableTransformation": true,
+    "arrayValuesChanged": true,
+    "runOnPageLoad": false,
+    "raw_body": null,
+    "transformations": {
+      "javascript": "// Function to transform the data\nfunction transformApiResponse(response) {\n  const results = response.results;\n  const output = [];\n\n  results.forEach(result => {\n\n    //  const timestamp = new Date(result.timestampUnix * 1000).toISOString();\n\n    const istTimestamp = new Date(result.timestampUnix * 1000).toLocaleString('en-US', {\n      timeZone: 'Asia/Kolkata'\n    });\n\n    const timestamp = new Date(new Date(istTimestamp).toISOString());\n\n    if (result.results != null) {\n      result.results.forEach(metric => {\n      const { name, unit, baselineValue, comparatorValue } = metric;\n\n      if (!baselineValue || !comparatorValue || baselineValue[0]?.value === 0 || comparatorValue[0]?.value === 0) return;\n\n      const existingMetric = output.find(m => m.metric === name);\n\n      const dataPoint = {\n        baselineValue: baselineValue[0]?.value || null,\n        comparatorValue: comparatorValue[0]?.value || null,\n        timestamp: timestamp\n      };\n\n      if (existingMetric) {\n        existingMetric.data.push(dataPoint);\n      } else {\n        output.push({\n          metric: name,\n          unit: unit,\n          data: [dataPoint]\n        });\n      }\n    });\n    }\n  });\n\n  return output;\n}\n\n// Transform the response\n\n\nconst transformedData = transformApiResponse(data);\n\n// Output the transformed data\n//  console.log(JSON.stringify(transformedData, null, 2));\n\nreturn transformedData",
+      "python": "# write your code here\n# return value will be set as data and the original data will be available as rawData\n[row for row in data if row['amount'] > 1000]\n  "
+    }
+  },
+  "dataSourceId": "15f38284-5281-417c-8d0a-fb538412a17a",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "a4594886-7e89-4349-8b06-dffc2b8772ab",
+  "name": "onClick",
+  "index": 1,
+  "event": {
+    "key": "number_of_rows_for_dimensions",
+    "value": "{{page.variables.number_of_rows_for_dimensions -1}}",
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "actionId": "set-page-variable",
+    "alertType": "info",
+    "component": "addConfigFormDeleteDimensionButton"
+  },
+  "sourceId": "79e7cd99-e74e-4270-bdfa-ed3fa226dba7",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

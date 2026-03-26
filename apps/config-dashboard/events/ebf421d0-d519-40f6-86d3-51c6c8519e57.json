@@ -1,0 +1,24 @@
+{
+  "id": "ebf421d0-d519-40f6-86d3-51c6c8519e57",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "actionId": "control-component",
+    "alertType": "info",
+    "component": "goBackToServiceDetailsButton",
+    "componentId": "63ad2431-80d9-4752-a1b8-1a7cf47feda5",
+    "componentSpecificActionHandle": "setTab",
+    "componentSpecificActionParams": [
+      {
+        "value": "t1",
+        "handle": "id",
+        "displayName": "Id"
+      }
+    ]
+  },
+  "sourceId": "959540dd-eff6-48b1-94db-7b2aa276190c",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

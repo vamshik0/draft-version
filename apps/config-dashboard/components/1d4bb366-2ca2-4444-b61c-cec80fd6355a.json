@@ -1,0 +1,114 @@
+{
+  "id": "1d4bb366-2ca2-4444-b61c-cec80fd6355a",
+  "name": "fileInputTSV",
+  "type": "FilePicker",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "62884a30-4633-470b-a376-3e37bcc3dfe1",
+  "properties": {
+    "label": {
+      "value": "TSV File "
+    },
+    "instructionText": {
+      "value": "Drag and drop files here or click to select files"
+    },
+    "enableDropzone": {
+      "value": "{{true}}",
+      "fxActive": false
+    },
+    "enablePicker": {
+      "value": "{{true}}",
+      "fxActive": false
+    },
+    "enableMultiple": {
+      "value": "{{false}}",
+      "fxActive": false
+    },
+    "parseContent": {
+      "value": "{{false}}"
+    },
+    "parseFileType": {
+      "value": "auto-detect"
+    },
+    "delimiter": {
+      "value": ","
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "tooltip": {
+      "value": ""
+    }
+  },
+  "general": {},
+  "styles": {
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "dropzoneTitleColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "boxShadow": {
+      "value": "0px 1px 3px #0000001A"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {
+    "enableValidation": {
+      "value": "{{true}}"
+    },
+    "fileType": {
+      "value": "*/*"
+    },
+    "minSize": {
+      "value": ""
+    },
+    "maxSize": {
+      "value": ""
+    },
+    "minFileCount": {
+      "value": "{{0}}"
+    },
+    "maxFileCount": {
+      "value": "{{2}}"
+    }
+  },
+  "layouts": [
+    {
+      "id": "a71e1556-0c71-40e9-a8d8-664416743132",
+      "type": "desktop",
+      "top": 10,
+      "left": 1,
+      "width": 41,
+      "height": 140,
+      "componentId": "1d4bb366-2ca2-4444-b61c-cec80fd6355a",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "5945395a-53ac-48ab-9d20-cb94b07a870c",
+      "type": "mobile",
+      "top": 30,
+      "left": 0,
+      "width": 43,
+      "height": 140,
+      "componentId": "1d4bb366-2ca2-4444-b61c-cec80fd6355a",
+      "dimensionUnit": "count"
+    }
+  ]
+}

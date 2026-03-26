@@ -1,0 +1,17 @@
+{
+  "id": "8e5b4b32-2a06-4dca-91c6-48e9ac8000de",
+  "name": "onDataQuerySuccess",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Hello world!",
+    "queryId": "047ef1a4-5782-44a3-a0ef-7c53b872d2ba",
+    "actionId": "run-query",
+    "alertType": "info",
+    "queryName": "uploadCPVFile",
+    "parameters": {}
+  },
+  "sourceId": "333a5314-c248-4ce1-bdd7-8257b7e44c7e",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

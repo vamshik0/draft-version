@@ -1,0 +1,17 @@
+{
+  "id": "0de5bb14-b3f6-4d36-b86c-ad03460c267b",
+  "name": "fetchConfigDetails",
+  "options": {
+    "raw_message": "{\n  \"service_name\": {{JSON.stringify(page.variables.selectedService)}},\n  \"config_param_name\": {{JSON.stringify(page.variables.selectedConfig)}}\n}",
+    "transformations": {
+      "javascript": "return {\n    Name: data?.config_param.config_param_name,\n    \"Service Name\": data?.config_param.service_name,\n    \"Param Type\": data.config_param.param_type,\n    \"Value Type\": data.config_param.value_type,\n    \"Created By\": data.config_param.created_by.email_id,\n    Dimensions: data.config_param.dimensions,\n    Schema: data.config_param.json_schema,\n    \"Marketplace Aware\": data.config_param.is_marketplace_aware,\n    Environment: data.config_param.env,\n    ...(data.config_param.metadata?.description ? { Description: data.config_param.metadata.description } : {}),\n    ...(data.config_param.metadata?.config_type ? { \"Config Type\": data.config_param.metadata.config_type } : {}),\n    ...(data.config_param.metadata?.primary_service ? { \"Primary Service\": data.config_param.metadata.primary_service } : {}),\n    ...(data.config_param.metadata?.dependent_services ? { \"Dependent Services\": data.config_param.metadata.dependent_services } : {})\n};\n",
+      "python": "# write your code here\n# return value will be set as data and the original data will be available as rawData\n[row for row in data if row['amount'] > 1000]\n  "
+    },
+    "service": "cpgateway.config.v1.ConfigParamAPI",
+    "method": "GetConfigParam",
+    "enableTransformation": true,
+    "transformationLanguage": "javascript"
+  },
+  "dataSourceId": "5ade0925-560a-4371-ba6d-d8989db43769",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

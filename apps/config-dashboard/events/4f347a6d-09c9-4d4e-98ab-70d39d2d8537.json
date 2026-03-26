@@ -1,0 +1,19 @@
+{
+  "id": "4f347a6d-09c9-4d4e-98ab-70d39d2d8537",
+  "name": "onClick",
+  "index": 1,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "queryId": "4fc9f7c6-dab0-43b9-9356-5c52fad3914f",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "button117",
+    "queryName": "getConfigValueType",
+    "runOnlyIf": "{{ updateConfigValueFormTextInputValue.value !== \"\" && updateConfigValueTextError.hidden }}",
+    "parameters": {}
+  },
+  "sourceId": "ca192388-95c3-4c62-9f61-cc162bc6e4dd",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

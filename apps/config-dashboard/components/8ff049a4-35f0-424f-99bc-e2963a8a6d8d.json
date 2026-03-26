@@ -1,0 +1,103 @@
+{
+  "id": "8ff049a4-35f0-424f-99bc-e2963a8a6d8d",
+  "name": "updateConfigValueFormCheckboxGradualRollout",
+  "type": "Checkbox",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "fde13145-82fd-4166-9bd0-5b1deba2562a",
+  "properties": {
+    "label": {
+      "value": "Gradual Rollout"
+    },
+    "defaultValue": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "tooltip": {
+      "value": ""
+    }
+  },
+  "general": {},
+  "styles": {
+    "textColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "checkboxColor": {
+      "value": "var(--cc-primary-brand)"
+    },
+    "uncheckedColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "handleColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "alignment": {
+      "value": "right"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000090"
+    },
+    "padding": {
+      "value": "default"
+    }
+  },
+  "generalStyles": {
+    "box_shadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    },
+    "show_on_desktop": {
+      "value": "{{true}}"
+    },
+    "show_on_mobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {
+    "mandatory": {
+      "value": "{{false}}"
+    },
+    "customRule": {
+      "value": null
+    }
+  },
+  "layouts": [
+    {
+      "id": "f1ffd01b-5a9a-4a54-b378-4e345ac16ed4",
+      "type": "desktop",
+      "top": 20,
+      "left": 24,
+      "width": 16,
+      "height": 40,
+      "componentId": "8ff049a4-35f0-424f-99bc-e2963a8a6d8d",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "fc782a34-7d22-4131-adbb-d82117e9ddb3",
+      "type": "mobile",
+      "top": 0,
+      "left": 0,
+      "width": 0,
+      "height": 0,
+      "componentId": "8ff049a4-35f0-424f-99bc-e2963a8a6d8d",
+      "dimensionUnit": "count"
+    }
+  ]
+}

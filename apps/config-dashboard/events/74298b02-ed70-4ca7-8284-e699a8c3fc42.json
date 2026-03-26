@@ -1,0 +1,18 @@
+{
+  "id": "74298b02-ed70-4ca7-8284-e699a8c3fc42",
+  "name": "onClick",
+  "index": 1,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "queryId": "78885e5d-0c96-479d-8f6d-eeab36bf3e36",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "goBackToServiceDetailsButton2",
+    "queryName": "fetchAllConfigs",
+    "parameters": {}
+  },
+  "sourceId": "2f8661e6-062d-44b0-bca8-81f414aa9093",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

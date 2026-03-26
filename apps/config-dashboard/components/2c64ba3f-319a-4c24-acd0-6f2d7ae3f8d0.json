@@ -1,0 +1,146 @@
+{
+  "id": "2c64ba3f-319a-4c24-acd0-6f2d7ae3f8d0",
+  "name": "text257",
+  "type": "Text",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "934f1c3a-3820-4999-b55b-c623021e5da6-header",
+  "properties": {
+    "textFormat": {
+      "value": "html"
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "text": {
+      "value": "Container title"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "fontWeight": {
+      "value": "bold"
+    },
+    "textSize": {
+      "value": 16
+    },
+    "textColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000090"
+    },
+    "verticalAlignment": {
+      "value": "center"
+    }
+  },
+  "general": {},
+  "styles": {
+    "backgroundColor": {
+      "value": "#fff00000"
+    },
+    "textColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "textSize": {
+      "value": 16
+    },
+    "textAlign": {
+      "value": "left"
+    },
+    "fontWeight": {
+      "value": "bold"
+    },
+    "decoration": {
+      "value": "none"
+    },
+    "transformation": {
+      "value": "none"
+    },
+    "fontStyle": {
+      "value": "normal"
+    },
+    "lineHeight": {
+      "value": "{{1.5}}"
+    },
+    "textIndent": {
+      "value": "{{0}}"
+    },
+    "letterSpacing": {
+      "value": "{{0}}"
+    },
+    "wordSpacing": {
+      "value": "{{0}}"
+    },
+    "fontVariant": {
+      "value": "normal"
+    },
+    "verticalAlignment": {
+      "value": "center"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000090"
+    },
+    "borderColor": {
+      "value": "#ffffff00"
+    },
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "isScrollRequired": {
+      "value": "enabled"
+    },
+    "textFormat": {
+      "value": "html"
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "text": {
+      "value": "Container title"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "b805d19a-5e19-4508-911a-94206da08c95",
+      "type": "desktop",
+      "top": 20,
+      "left": 1,
+      "width": null,
+      "height": 40,
+      "componentId": "2c64ba3f-319a-4c24-acd0-6f2d7ae3f8d0",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "13bb1bb2-07dd-4a7e-a866-c48bd22818a1",
+      "type": "mobile",
+      "top": 20,
+      "left": 1,
+      "width": 20,
+      "height": 40,
+      "componentId": "2c64ba3f-319a-4c24-acd0-6f2d7ae3f8d0",
+      "dimensionUnit": "count"
+    }
+  ]
+}

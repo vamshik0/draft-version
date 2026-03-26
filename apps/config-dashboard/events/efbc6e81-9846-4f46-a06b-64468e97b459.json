@@ -1,0 +1,18 @@
+{
+  "id": "efbc6e81-9846-4f46-a06b-64468e97b459",
+  "name": "onPageLoad",
+  "index": 3,
+  "event": {
+    "eventId": "onPageLoad",
+    "message": "Hello world!",
+    "queryId": "938956d6-9015-4228-8b8b-a5355715647d",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "page",
+    "queryName": "setAllCitiesOnPageLoad",
+    "parameters": {}
+  },
+  "sourceId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "target": "page",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

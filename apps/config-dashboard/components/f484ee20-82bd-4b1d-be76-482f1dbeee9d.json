@@ -1,0 +1,129 @@
+{
+  "id": "f484ee20-82bd-4b1d-be76-482f1dbeee9d",
+  "name": "limitListCPVResponseText",
+  "type": "Text",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "63ad2431-80d9-4752-a1b8-1a7cf47feda5-t2",
+  "properties": {
+    "textFormat": {
+      "value": "markdown"
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "text": {
+      "value": "** **Only a limited subset of config values is shown due to the high total number. Some values may not be visible. Please reduce the number of config values, as using CP as a database is not recommended.** **"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "backgroundColor": {
+      "value": "#fde58aff"
+    },
+    "textColor": {
+      "value": "#db2627ff"
+    },
+    "textSize": {
+      "value": "{{14}}"
+    },
+    "textAlign": {
+      "value": "center"
+    },
+    "fontWeight": {
+      "value": "normal"
+    },
+    "decoration": {
+      "value": "none"
+    },
+    "transformation": {
+      "value": "none"
+    },
+    "fontStyle": {
+      "value": "normal"
+    },
+    "lineHeight": {
+      "value": "{{1.5}}"
+    },
+    "textIndent": {
+      "value": "{{0}}"
+    },
+    "letterSpacing": {
+      "value": "{{0}}"
+    },
+    "wordSpacing": {
+      "value": "{{0}}"
+    },
+    "fontVariant": {
+      "value": "normal"
+    },
+    "verticalAlignment": {
+      "value": "center"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    },
+    "borderColor": {
+      "value": "#ffffff00"
+    },
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "isScrollRequired": {
+      "value": "enabled"
+    }
+  },
+  "generalStyles": {
+    "box_shadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "show_on_desktop": {
+      "value": "{{true}}"
+    },
+    "show_on_mobile": {
+      "value": "{{false}}"
+    },
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "9a12a9cd-bdee-40f2-a5c5-b7514a6119c0",
+      "type": "desktop",
+      "top": 850,
+      "left": 1,
+      "width": 41,
+      "height": 60,
+      "componentId": "f484ee20-82bd-4b1d-be76-482f1dbeee9d",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "68aa5fc0-38dd-4929-8a26-14ddae8018e0",
+      "type": "mobile",
+      "top": 0,
+      "left": 0,
+      "width": 0,
+      "height": 0,
+      "componentId": "f484ee20-82bd-4b1d-be76-482f1dbeee9d",
+      "dimensionUnit": "count"
+    }
+  ]
+}

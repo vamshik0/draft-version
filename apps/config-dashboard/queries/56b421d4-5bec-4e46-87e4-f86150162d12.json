@@ -1,0 +1,11 @@
+{
+  "id": "56b421d4-5bec-4e46-87e4-f86150162d12",
+  "name": "setDimenAndAddCondition",
+  "options": {
+    "code": "let cdnObj = page.variables.addAppConfigCondition;\nlet dimenArray = [];\n\nlet dimen1 = {\n  dimension_name: \"CONFIG_KEY\",\n  type: \"TYPE_STRING\",\n  string_value: page.variables.configToBeUpdated.configKeyName,\n  value: \"string_value\"\n}\ndimenArray.push(dimen1);\nif (cdnObj.appChannel !== '' && cdnObj.appChannel !== 'NA') {\n  let dimen2 = {\n    dimension_name: \"APP_CHANNEL\",\n    type: \"TYPE_STRING\",\n    string_value: cdnObj.appChannel,\n    value: \"string_value\"\n  }\n  dimenArray.push(dimen2);\n}\nif (cdnObj.appVersion !== '' && cdnObj.appVersion !== 'NA') {\n  let dimen3 = {\n    dimension_name: \"VERSION\",\n    type: \"TYPE_STRING\",\n    string_value: cdnObj.appVersion,\n    value: \"string_value\"\n  }\n  dimenArray.push(dimen3);\n}\nif (cdnObj.cityIds !== '' && cdnObj.cityIds !== 'NA') {\n  let dimen4 = {\n    dimension_name: \"CITY_ID\",\n    type: \"TYPE_STRING\",\n    string_value: cdnObj.cityIds,\n    value: \"string_value\"\n  }\n  dimenArray.push(dimen4);\n}\n//conditionToBeAddedDimens.setValue(dimenArray);\nawait actions.setPageVariable(\"conditionToBeAddedDimens\",dimenArray)",
+    "parameters": [],
+    "runOnPageLoad": false
+  },
+  "dataSourceId": "39605bdb-34bb-41f6-a904-feb89a7e8958",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

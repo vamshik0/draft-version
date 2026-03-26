@@ -1,0 +1,19 @@
+{
+  "id": "56b889d8-a758-46a7-b2d1-70517960cd16",
+  "name": "onTabSwitch",
+  "index": 2,
+  "event": {
+    "eventId": "onTabSwitch",
+    "message": "Hello world!",
+    "queryId": "25a6b657-5e12-489a-bbb9-16a03fc7ebdd",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "allServicesContainer",
+    "queryName": "getConfigValuesTable",
+    "runOnlyIf": "{{components.63ad2431-80d9-4752-a1b8-1a7cf47feda5.currentTab===\"t2\"}}",
+    "parameters": {}
+  },
+  "sourceId": "63ad2431-80d9-4752-a1b8-1a7cf47feda5",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

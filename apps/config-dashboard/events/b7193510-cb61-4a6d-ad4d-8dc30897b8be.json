@@ -1,0 +1,18 @@
+{
+  "id": "b7193510-cb61-4a6d-ad4d-8dc30897b8be",
+  "name": "onDataQuerySuccess",
+  "index": 7,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Hello world!",
+    "queryId": "71f2201a-4c65-44eb-bab5-367bf516afed",
+    "actionId": "run-query",
+    "alertType": "info",
+    "queryName": "validateConfigCondition",
+    "runOnlyIf": "{{queries.d77516f7-96e8-4eee-b238-cdcfe12c8314.data&& page.variables.operationKey === \"addCondition\"}}",
+    "parameters": {}
+  },
+  "sourceId": "d77516f7-96e8-4eee-b238-cdcfe12c8314",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

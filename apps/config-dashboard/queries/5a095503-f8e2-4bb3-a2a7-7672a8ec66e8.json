@@ -1,0 +1,39 @@
+{
+  "id": "5a095503-f8e2-4bb3-a2a7-7672a8ec66e8",
+  "name": "approvePendingApprovals",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": true,
+    "raw_message": "{\n  \"service_name\": {{JSON.stringify(page.variables.selectedService)}},\n  \"config_param_name\": {{( JSON.stringify(page.variables.selectedConfig)}},\n  \"action\": 1\n}",
+    "method": "HandleConfigApproval",
+    "metadata": [
+      [
+        "user",
+        "{{({\"name\": `${globals.currentUser.firstName} ${globals.currentUser.lastName}`, \"email_id\": `${globals.currentUser.email}` })}}"
+      ],
+      [
+        "access_token",
+        "{{variables.access_token}}"
+      ],
+      [
+        "authz_disabled_services",
+        "{{page.variables.AuthzDisabledList}}"
+      ],
+      [
+        "is_admin",
+        "{{page.variables.isAdmin || page.variables.isExceptionAllowedForConfigSize}}"
+      ],
+      [
+        "is_shared_config",
+        "{{page.variables.isDependentConfig}}"
+      ]
+    ],
+    "service": "cpgateway.config.v1.ApprovalAPI",
+    "transformations": {
+      "javascript": "return data;",
+      "python": "# write your code here\n# return value will be set as data and the original data will be available as rawData\n[row for row in data if row['amount'] > 1000]\n  "
+    }
+  },
+  "dataSourceId": "5ade0925-560a-4371-ba6d-d8989db43769",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

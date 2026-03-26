@@ -1,0 +1,16 @@
+{
+  "id": "f7837820-a57a-45be-b643-a0de7f01c0b1",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "modal": "fb36629a-b1a2-435c-8167-21645552545e",
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "actionId": "close-modal",
+    "alertType": "info",
+    "component": "deleteConfigFailedButton"
+  },
+  "sourceId": "5d93bd1c-0598-4f63-a25e-a94ace00eb9f",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

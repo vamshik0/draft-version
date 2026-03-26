@@ -1,0 +1,19 @@
+{
+  "id": "d813a2d5-0604-492e-a9bd-7d80fd1dc386",
+  "name": "onFileLoaded",
+  "index": 1,
+  "event": {
+    "eventId": "onFileLoaded",
+    "message": "Hello world!",
+    "actionId": "control-component",
+    "alertType": "info",
+    "component": "fileInputCSV",
+    "runOnlyIf": "{{components?.fileInputCSV.files?.[0].name.includes(\"+\") || components?.fileInputCSV?.files?.[0].name.includes(\" \")}}",
+    "componentId": "2ed54798-45ac-468b-9683-dd26f4527054",
+    "componentSpecificActionHandle": "clearFiles",
+    "componentSpecificActionParams": []
+  },
+  "sourceId": "2ed54798-45ac-468b-9683-dd26f4527054",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

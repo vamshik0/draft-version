@@ -1,0 +1,19 @@
+{
+  "id": "88b863d9-16ad-4321-99a3-01017c1e2a7f",
+  "name": "onOpen",
+  "index": 1,
+  "event": {
+    "eventId": "onOpen",
+    "message": "Hello world!",
+    "queryId": "3c97956c-6fd7-403c-b371-a8e317e02b3d",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "configHistoryModal",
+    "queryName": "fetchConfigBackupFilesEnv",
+    "runOnlyIf": "{{page.variables.isTestEnvironment.value}}",
+    "parameters": {}
+  },
+  "sourceId": "8fcccf98-efae-4746-9172-8327597890a1",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

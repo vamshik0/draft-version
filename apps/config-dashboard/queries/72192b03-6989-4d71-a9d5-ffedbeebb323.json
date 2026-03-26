@@ -1,0 +1,39 @@
+{
+  "id": "72192b03-6989-4d71-a9d5-ffedbeebb323",
+  "name": "deleteConfig",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": true,
+    "raw_message": "{\n  \"service_name\": {{JSON.stringify (page.variablesselectedService)}},\n  \"config_param_name\": {{JSON.stringify ( components.75ee1470-4caf-48cc-b97e-3c838e2f532c.value)}},\n  \"pre_approval\": {\n    \"type\": {{components.51f3a7ac-f33b-4247-9054-0f7dccfcf772.value}}, === \"\" ? 0 : 1}},\n    \"pre_approval_link\": {{components.51f3a7ac-f33b-4247-9054-0f7dccfcf772.value === \"\" ? \"\" : `https://swiggy.atlassian.net/browse/${components.51f3a7ac-f33b-4247-9054-0f7dccfcf772.value}`}}\n  }\n}",
+    "service": "cpgateway.config.v1.ConfigParamAPI",
+    "method": "RemoveConfigParam",
+    "metadata": [
+      [
+        "user",
+        "{{({\"name\": `${globals.currentUser.firstName} ${globals.currentUser.lastName}`, \"email_id\": `${globals.currentUser.email}` })}}"
+      ],
+      [
+        "new_features_enabled",
+        "{{! page.variables.hideNewFeatures.value}}"
+      ],
+      [
+        "access_token",
+        "{{variables.access_token}}"
+      ],
+      [
+        "authz_disabled_services",
+        "{{page.variables.AuthzDisabledList}}"
+      ],
+      [
+        "mumbai_deployed_services",
+        "{{page.variables.mumbai_deployed_services}}"
+      ]
+    ],
+    "transformations": {
+      "javascript": "return data",
+      "python": "# write your code here\n# return value will be set as data and the original data will be available as rawData\n[row for row in data if row['amount'] > 1000]\n  "
+    }
+  },
+  "dataSourceId": "5ade0925-560a-4371-ba6d-d8989db43769",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

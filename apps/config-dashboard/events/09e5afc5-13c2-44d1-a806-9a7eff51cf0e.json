@@ -1,0 +1,18 @@
+{
+  "id": "09e5afc5-13c2-44d1-a806-9a7eff51cf0e",
+  "name": "onPageLoad",
+  "index": 5,
+  "event": {
+    "eventId": "onPageLoad",
+    "message": "Hello world!",
+    "queryId": "d450aa4e-5970-4ee0-9517-2e89571fe08d",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "page",
+    "queryName": "setAditionalServicesOnPageLoad",
+    "parameters": {}
+  },
+  "sourceId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "target": "page",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

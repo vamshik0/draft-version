@@ -1,0 +1,15 @@
+{
+  "id": "2872110e-5f80-45e3-9ef7-028b68b1b4a9",
+  "name": "onClick",
+  "index": 1,
+  "event": {
+    "eventId": "onClick",
+    "message": "Link copied successfully",
+    "actionId": "show-alert",
+    "alertType": "success",
+    "component": "shareableLinkForConfig"
+  },
+  "sourceId": "50f0adfe-384e-47de-b49a-1e5f34ee5246",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

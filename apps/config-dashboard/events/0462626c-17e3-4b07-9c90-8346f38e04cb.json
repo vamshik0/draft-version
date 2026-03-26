@@ -1,0 +1,18 @@
+{
+  "id": "0462626c-17e3-4b07-9c90-8346f38e04cb",
+  "name": "onDataQuerySuccess",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Hello world!",
+    "queryId": "4fc9f7c6-dab0-43b9-9356-5c52fad3914f",
+    "actionId": "run-query",
+    "alertType": "info",
+    "queryName": "getConfigValueType",
+    "runOnlyIf": "{{queries.d77516f7-96e8-4eee-b238-cdcfe12c8314.data && ((component.updateConfigValueModal.show && ( components.configValueTabbedContainer.currentTabTitle === 'updateConfigValueNonParam2' || components.configValueTabbedContainer.currentTabTitle === 'updateConfigValueNonParam1')) || ( components.addConfigValueModal.show && components.addConfigValueTabbedContainer.currentTabTitle === 'View 1'))}}",
+    "parameters": {}
+  },
+  "sourceId": "d77516f7-96e8-4eee-b238-cdcfe12c8314",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

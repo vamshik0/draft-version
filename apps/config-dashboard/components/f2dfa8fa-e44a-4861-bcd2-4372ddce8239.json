@@ -1,0 +1,93 @@
+{
+  "id": "f2dfa8fa-e44a-4861-bcd2-4372ddce8239",
+  "name": "CSVCheckboxFullRefresh",
+  "type": "Checkbox",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "2615da2d-e032-4e8e-aadf-a45ea54e50a1",
+  "properties": {
+    "label": {
+      "value": "Full Refresh? (This will delete all existing values and insert only these values)"
+    },
+    "defaultValue": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "tooltip": {
+      "value": ""
+    }
+  },
+  "general": {},
+  "styles": {
+    "textColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "checkboxColor": {
+      "value": "var(--cc-primary-brand)"
+    },
+    "uncheckedColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "handleColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "alignment": {
+      "value": "right"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000090"
+    },
+    "padding": {
+      "value": "default"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {
+    "mandatory": {
+      "value": "{{false}}"
+    },
+    "customRule": {
+      "value": null
+    }
+  },
+  "layouts": [
+    {
+      "id": "73d4ff61-7712-459f-9ad1-69667518c32f",
+      "type": "desktop",
+      "top": 260,
+      "left": 1,
+      "width": 41,
+      "height": 50,
+      "componentId": "f2dfa8fa-e44a-4861-bcd2-4372ddce8239",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "f61ac661-4616-4241-af26-eabca8beb76b",
+      "type": "mobile",
+      "top": 270,
+      "left": 5,
+      "width": 21,
+      "height": 30,
+      "componentId": "f2dfa8fa-e44a-4861-bcd2-4372ddce8239",
+      "dimensionUnit": "count"
+    }
+  ]
+}

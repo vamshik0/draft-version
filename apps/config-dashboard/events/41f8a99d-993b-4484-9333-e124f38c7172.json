@@ -1,0 +1,18 @@
+{
+  "id": "41f8a99d-993b-4484-9333-e124f38c7172",
+  "name": "onDataQuerySuccess",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Hello world!",
+    "queryId": "dcdb6c68-1d4d-4e0b-87fb-f2be8eb6f71c",
+    "actionId": "run-query",
+    "alertType": "info",
+    "queryName": "filterRollbackData",
+    "runOnlyIf": "{{components.420f4cfb-c590-4ef3-b513-d7a463bae084.currentTabTittle === \"rollbackToSpecificTime\"}}",
+    "parameters": {}
+  },
+  "sourceId": "3c97956c-6fd7-403c-b371-a8e317e02b3d",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

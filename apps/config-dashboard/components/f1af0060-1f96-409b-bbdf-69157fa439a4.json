@@ -1,0 +1,145 @@
+{
+  "id": "f1af0060-1f96-409b-bbdf-69157fa439a4",
+  "name": "addConfigFormTextInputName",
+  "type": "TextInput",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "c2973573-1be0-4e23-8e6b-f9ea9872e707",
+  "properties": {
+    "label": {
+      "value": "Name"
+    },
+    "placeholder": {
+      "value": "Enter value"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "tooltip": {
+      "value": "Config name should contain only capital letters, _(underscore) and digits"
+    },
+    "value": {
+      "value": ""
+    },
+    "showClearBtn": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "widthType": {
+      "value": "ofField"
+    },
+    "textColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "borderColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "accentColor": {
+      "value": "var(--cc-primary-brand)"
+    },
+    "errTextColor": {
+      "value": "var(--cc-error-systemStatus)"
+    },
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "backgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "iconColor": {
+      "value": "var(--cc-default-icon)"
+    },
+    "direction": {
+      "value": "left"
+    },
+    "width": {
+      "value": "{{33}}"
+    },
+    "alignment": {
+      "value": "top"
+    },
+    "color": {
+      "value": "var(--cc-primary-text)"
+    },
+    "auto": {
+      "value": "{{true}}"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    },
+    "icon": {
+      "value": "IconHome2"
+    },
+    "iconVisibility": {
+      "value": false
+    }
+  },
+  "generalStyles": {
+    "box_shadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "show_on_desktop": {
+      "value": "{{true}}"
+    },
+    "show_on_mobile": {
+      "value": "{{false}}"
+    },
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {
+    "mandatory": {
+      "value": "{{true}}"
+    },
+    "regex": {
+      "value": "^[A-Z0-9]([A-Z0-9_-]*[A-Z0-9])?$"
+    },
+    "minLength": {
+      "value": ""
+    },
+    "maxLength": {
+      "value": ""
+    },
+    "customRule": {
+      "value": "{{(() => {\n  const newValue =components.d6c3dffc-cd1c-40df-8234-b3813c44f3a9;\n  const isDuplicate = page.variables.allConfigs.some(val => val.config_param_name === newValue);\n  return isDuplicate ? \"Config Param already present with this name\" : \"\";\n})()}}"
+    }
+  },
+  "layouts": [
+    {
+      "id": "cff1bf04-d7a8-472e-8db6-4d2da115d53d",
+      "type": "desktop",
+      "top": 10,
+      "left": 1,
+      "width": 19,
+      "height": 40,
+      "componentId": "f1af0060-1f96-409b-bbdf-69157fa439a4",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "094acb3c-495b-48c2-9e6e-68ade314e15b",
+      "type": "mobile",
+      "top": 0,
+      "left": 0,
+      "width": 0,
+      "height": 0,
+      "componentId": "f1af0060-1f96-409b-bbdf-69157fa439a4",
+      "dimensionUnit": "count"
+    }
+  ]
+}

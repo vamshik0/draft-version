@@ -1,0 +1,127 @@
+{
+  "id": "a33eec26-c805-4ed2-9502-4bec88444f49",
+  "dataSourceId": "d6e2ef4d-d17d-4387-931a-112b5e76ec5e",
+  "environmentId": "9bcb5581-0e83-4eb5-babc-4033e455cbcd",
+  "options": {
+    "url": {
+      "value": "https://s3.ap-south-1.amazonaws.com/",
+      "encrypted": false
+    },
+    "auth_type": {
+      "value": "aws_v4",
+      "encrypted": false
+    },
+    "grant_type": {
+      "value": "authorization_code",
+      "encrypted": false
+    },
+    "add_token_to": {
+      "value": "header",
+      "encrypted": false
+    },
+    "header_prefix": {
+      "value": "Bearer ",
+      "encrypted": false
+    },
+    "access_token_url": {
+      "value": "",
+      "encrypted": false
+    },
+    "client_id": {
+      "value": "",
+      "encrypted": false
+    },
+    "client_secret": {
+      "credential_id": "dbc98667-cbf7-4185-bff8-ec8cf3bc2d41",
+      "encrypted": true
+    },
+    "audience": {
+      "value": "",
+      "encrypted": false
+    },
+    "scopes": {
+      "value": "read, write",
+      "encrypted": false
+    },
+    "username": {
+      "value": "",
+      "encrypted": false
+    },
+    "password": {
+      "credential_id": "f8c7ffbc-1acd-4d1e-a961-57b0647d6d1c",
+      "encrypted": true
+    },
+    "bearer_token": {
+      "credential_id": "a56f47b6-05f1-452c-9da4-53b491ffdc7f",
+      "encrypted": true
+    },
+    "auth_url": {
+      "value": "",
+      "encrypted": false
+    },
+    "client_auth": {
+      "value": "body",
+      "encrypted": false
+    },
+    "headers": {
+      "value": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "encrypted": false
+    },
+    "custom_query_params": {
+      "value": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "encrypted": false
+    },
+    "custom_auth_params": {
+      "value": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "encrypted": false
+    },
+    "access_token_custom_headers": {
+      "value": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "encrypted": false
+    },
+    "multiple_auth_enabled": {
+      "value": false,
+      "encrypted": false
+    },
+    "ssl_certificate": {
+      "value": "none",
+      "encrypted": false
+    },
+    "retry_network_errors": {
+      "value": true,
+      "encrypted": false
+    },
+    "use_credential_provider_chain": {
+      "value": true,
+      "encrypted": false
+    },
+    "aws_region": {
+      "value": "ap-south-1",
+      "encrypted": false
+    },
+    "aws_service": {
+      "value": "s3",
+      "encrypted": false
+    }
+  }
+}

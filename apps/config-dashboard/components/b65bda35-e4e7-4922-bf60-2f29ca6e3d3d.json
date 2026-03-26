@@ -1,0 +1,72 @@
+{
+  "id": "b65bda35-e4e7-4922-bf60-2f29ca6e3d3d",
+  "name": "deleteAppConfigCMRIDInput",
+  "type": "TextInput",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "a5f102fa-e0e7-4797-b767-5b28ffa6dddc",
+  "properties": {
+    "label": {
+      "value": "CMR ID"
+    },
+    "placeholder": {
+      "value": "Enter valid CMR. Ex: CMR-111709"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "tooltip": {
+      "value": ""
+    },
+    "showClearBtn": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "widthType": {
+      "value": "ofField"
+    }
+  },
+  "generalStyles": {
+    "box_shadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "show_on_desktop": {
+      "value": "{{true}}"
+    },
+    "show_on_mobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "4cc8e386-0141-4317-a541-099f70e5db6f",
+      "type": "desktop",
+      "top": 130,
+      "left": 0,
+      "width": 42,
+      "height": 8,
+      "componentId": "b65bda35-e4e7-4922-bf60-2f29ca6e3d3d",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "eaf6396a-2fa7-4a09-ad42-11805d6f502f",
+      "type": "mobile",
+      "top": 0,
+      "left": 0,
+      "width": 0,
+      "height": 0,
+      "componentId": "b65bda35-e4e7-4922-bf60-2f29ca6e3d3d",
+      "dimensionUnit": "count"
+    }
+  ]
+}

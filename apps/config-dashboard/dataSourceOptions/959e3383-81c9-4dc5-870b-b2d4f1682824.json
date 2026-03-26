@@ -1,0 +1,115 @@
+{
+  "id": "959e3383-81c9-4dc5-870b-b2d4f1682824",
+  "dataSourceId": "46fd922e-4f36-4ab7-b7ad-5bf59d69915d",
+  "environmentId": "5f02731d-91d1-4fb5-a18d-762d1673d627",
+  "options": {
+    "url": {
+      "value": "",
+      "encrypted": false
+    },
+    "auth_type": {
+      "value": "none",
+      "encrypted": false
+    },
+    "grant_type": {
+      "value": "authorization_code",
+      "encrypted": false
+    },
+    "add_token_to": {
+      "value": "header",
+      "encrypted": false
+    },
+    "header_prefix": {
+      "value": "Bearer ",
+      "encrypted": false
+    },
+    "access_token_url": {
+      "value": "",
+      "encrypted": false
+    },
+    "client_id": {
+      "value": "",
+      "encrypted": false
+    },
+    "client_secret": {
+      "credential_id": "33adf81e-5a2d-40a1-9b25-da85f0c3965b",
+      "encrypted": true
+    },
+    "audience": {
+      "value": "",
+      "encrypted": false
+    },
+    "scopes": {
+      "value": "read, write",
+      "encrypted": false
+    },
+    "username": {
+      "value": "",
+      "encrypted": false
+    },
+    "password": {
+      "credential_id": "44d73e3a-193f-46be-bd56-630a0fd32a63",
+      "encrypted": true
+    },
+    "bearer_token": {
+      "credential_id": "e4e9be5e-a732-49e2-9f06-b12558dd67e7",
+      "encrypted": true
+    },
+    "auth_url": {
+      "value": "",
+      "encrypted": false
+    },
+    "client_auth": {
+      "value": "body",
+      "encrypted": false
+    },
+    "headers": {
+      "value": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "encrypted": false
+    },
+    "custom_query_params": {
+      "value": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "encrypted": false
+    },
+    "custom_auth_params": {
+      "value": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "encrypted": false
+    },
+    "access_token_custom_headers": {
+      "value": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "encrypted": false
+    },
+    "multiple_auth_enabled": {
+      "value": false,
+      "encrypted": false
+    },
+    "ssl_certificate": {
+      "value": "none",
+      "encrypted": false
+    },
+    "retry_network_errors": {
+      "value": true,
+      "encrypted": false
+    }
+  }
+}

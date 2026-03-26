@@ -1,0 +1,10 @@
+{
+  "id": "46fd922e-4f36-4ab7-b7ad-5bf59d69915d",
+  "name": "Fetch All Pods",
+  "kind": "restapi",
+  "type": "default",
+  "pluginId": null,
+  "appVersionId": null,
+  "organizationId": "ab19e0ea-5997-452a-bef7-a69b38bbadde",
+  "scope": "global"
+}

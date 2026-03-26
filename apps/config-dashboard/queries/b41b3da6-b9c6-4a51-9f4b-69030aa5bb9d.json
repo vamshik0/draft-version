@@ -1,0 +1,23 @@
+{
+  "id": "b41b3da6-b9c6-4a51-9f4b-69030aa5bb9d",
+  "name": "rejectPendingApprovals",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "raw_message": "{\n  \"service_name\": {{JSON.stringify(page.variables.selectedService)}},\n  \"config_param_name\": {{JSON.stringify(page.variables.selectedConfig)}},\n  \"action\": 2\n}",
+    "metadata": [
+      [
+        "user",
+        "{{({\"name\": `${globals.currentUser.firstName} ${globals.currentUser.lastName}`, \"email_id\": `${globals.currentUser.email}` })}}"
+      ],
+      [
+        "is_shared_config",
+        "{{page.variables.isDependentConfig}}"
+      ]
+    ],
+    "service": "cpgateway.config.v1.ApprovalAPI",
+    "method": "HandleConfigApproval"
+  },
+  "dataSourceId": "5ade0925-560a-4371-ba6d-d8989db43769",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

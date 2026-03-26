@@ -1,0 +1,11 @@
+{
+  "id": "f362fd3a-2b82-48fb-aa72-6be31fcb5f0b",
+  "name": "getAllCitiesJS",
+  "options": {
+    "code": "// Retrieve the geo entity array from the data obtained using the getAllCities function\nconst geoEntityArray = getAllCities.data.geo_entity;\n\n// Map each entity in the geo entity array to a new object in the cityArray\nconst cityArray = geoEntityArray.map((entity) => ({\n  city_id: entity.id,\n  name: entity.name,\n}));\n\n// Return the resulting cityArray\nallCities.setValue(cityArray);",
+    "parameters": [],
+    "runOnPageLoad": false
+  },
+  "dataSourceId": "39605bdb-34bb-41f6-a904-feb89a7e8958",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

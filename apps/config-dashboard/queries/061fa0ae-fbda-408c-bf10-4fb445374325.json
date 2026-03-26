@@ -1,0 +1,51 @@
+{
+  "id": "061fa0ae-fbda-408c-bf10-4fb445374325",
+  "name": "updateConfigValue",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "raw_message": "{\n  \"service_name\": {{JSON.stringify(page.variables.selectedService)}},\n  \"config_param_name\": {{JSON.stringify(page.variables.selectedConfig)}},\n  \"dimensions\": {{JSON.stringify(components.9fc8757d-eecd-4c23-920d-9284f50cf5a6.selectedRow.dimensions)}},\n  \"override_lower_dimensions\": false,\n  \"value\": {{JSON.stringify(page.variables.configValueTypeForAddConfigValue)}},\n  \"deployment_strategy\": {{JSON.stringify(page.variables.deploymentStrategyObj)}},\n  \"pre_approval\": {\n    \"type\": {{components.ecc161b6-b9dd-4bd4-a98d-67040c5615da.value === \"\" ? 0 : 1}},\n    \"pre_approval_link\": {{components.ecc161b6-b9dd-4bd4-a98d-67040c5615da.value === \"\" ? \"\" : `https://swiggy.atlassian.net/browse/${ components.ecc161b6-b9dd-4bd4-a98d-67040c5615da.value}`}}\n  },\n  \"skip_approval_reason\": {{JSON.stringify(components.ecc161b6-b9dd-4bd4-a98d-67040c5615da.value === \"\" ? components.2f461b74-7f9a-4441-b351-07c128cfa80c.value : 0)}},\n  \"skip_deployment_reason\": {{JSON.stringify(components.2f461b74-7f9a-4441-b351-07c128cfa80c.value)}}\n}",
+    "metadata": [
+      [
+        "user",
+        "{{({\"name\": `${globals.currentUser.firstName} ${globals.currentUser.lastName}`, \"email_id\": `${globals.currentUser.email}` })}}"
+      ],
+      [
+        "new_features_enabled",
+        "{{! page.variables.hideNewFeatures.value}}"
+      ],
+      [
+        "access_token",
+        "{{variables.access_token}}"
+      ],
+      [
+        "is_admin",
+        "{{page.variables.isAdmin}}"
+      ],
+      [
+        "authz_disabled_services",
+        "{{page.variables.AuthzDisabledList}}"
+      ],
+      [
+        "is_approver",
+        "false"
+      ],
+      [
+        "approval_flow_disabled_services",
+        "{{page.variables.approvalFlowDisabledServices}}"
+      ],
+      [
+        "approval_flow_enabled_services",
+        "{{page.variables.approvalFlowEnabledServices}}"
+      ],
+      [
+        "mumbai_deployed_services",
+        "{{page.variables.mumbai_deployed_services}}"
+      ]
+    ],
+    "service": "cpgateway.config.v1.ConfigParamValueAPI",
+    "method": "UpdateConfigParamValue"
+  },
+  "dataSourceId": "5ade0925-560a-4371-ba6d-d8989db43769",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "695faf1c-daad-449d-880c-ba7fc1947507",
+  "name": "onDataQuerySuccess",
+  "index": 0,
+  "event": {
+    "key": "allPods",
+    "value": "{{queries.936e7d7e-4fb0-49c5-a742-8829745626e3.data}}",
+    "eventId": "onDataQuerySuccess",
+    "message": "Hello world!",
+    "actionId": "set-page-variable",
+    "alertType": "info"
+  },
+  "sourceId": "936e7d7e-4fb0-49c5-a742-8829745626e3",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

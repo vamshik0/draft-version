@@ -1,0 +1,39 @@
+{
+  "id": "734799f1-c781-49fd-9a23-6784805d1865",
+  "name": "addConfig",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": true,
+    "raw_message": "{\n  \"config_param\": {\n    \"config_param_name\": {{JSON.stringify(components.f1af0060-1f96-409b-bbdf-69157fa439a4.value)}},\n    \"service_name\": {{JSON.stringify(page.variables.selectedService)}},\n    \"param_type\": {{JSON.stringify(components.948ae121-4b5c-4784-864f-2f0bbd53175d.value)}},\n    \"value_type\": {{JSON.stringify(components.10aefc25-6465-4d29-8511-2e8760256b80.value)}},\n    \"dimensions\": {{JSON.stringify(\n      components.948ae121-4b5c-4784-864f-2f0bbd53175d.value === 1 ? [] : page.variables.dimensionObj\n    )}},\n    \"created_by\": {\n      \"name\": {{JSON.stringify(globals.currentUser.firstName + \" \" + globals.currentUser.lastName)}},\n      \"email_id\": {{JSON.stringify(globals.currentUser.email)}}\n    },\n    \"metadata\": {\n      \"description\": {{JSON.stringify(components.f1e70b4f-6caf-4906-846a-e832df136225.value)}},\n      \"config_type\": {{JSON.stringify(\n        page.variables.isAdmin \n          ? components.fa59863a-21b2-4da1-9779-f8fa72369992.value \n          : components.fa59863a-21b2-4da1-9779-f8fa72369992.value\n      )}},\n      \"dependent_services\": {{JSON.stringify(components.544bf7f6-7815-45c0-90c3-0e806d7d7121.value)}}\n    }\n  },\n  \"pre_approval\": {\n    \"type\": {{JSON.stringify(\n      components.d6c3dffc-cd1c-40df-8234-b3813c44f3a9 === \"\" ? 0 : 1\n    )}},\n    \"pre_approval_link\": {{JSON.stringify(\n      components.d6c3dffc-cd1c-40df-8234-b3813c44f3a9 === \"\"\n        ? \"\"\n        : `https://swiggy.atlassian.net/browse/${components.d6c3dffc-cd1c-40df-8234-b3813c44f3a9}`\n    )}}\n  }\n}\n",
+    "service": "cpgateway.config.v1.ConfigParamAPI",
+    "method": "AddConfigParam",
+    "metadata": [
+      [
+        "user",
+        "{{({\"name\": `${globals.currentUser.firstName} ${globals.currentUser.lastName}`, \"email_id\": `${globals.currentUser.email}` })}}"
+      ],
+      [
+        "new_features_enabled",
+        "{{! page.variables.hideNewFeatures.value}}"
+      ],
+      [
+        "access_token",
+        "{{variables.access_token}}"
+      ],
+      [
+        "authz_disabled_services",
+        "{{page.variables.AuthzDisabledList}}"
+      ],
+      [
+        "mumbai_deployed_services",
+        "{{page.variables.mumbai_deployed_services}}"
+      ]
+    ],
+    "transformations": {
+      "javascript": "return data",
+      "python": "# write your code here\n# return value will be set as data and the original data will be available as rawData\n[row for row in data if row['amount'] > 1000]\n  "
+    }
+  },
+  "dataSourceId": "5ade0925-560a-4371-ba6d-d8989db43769",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

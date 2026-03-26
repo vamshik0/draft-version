@@ -1,0 +1,95 @@
+{
+  "id": "7e4a9683-d5a4-493d-8770-547b5542eb82",
+  "name": "button76",
+  "type": "Button",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "a547888e-8e59-4432-bbd3-cfe13b12ae93-footer",
+  "properties": {
+    "text": {
+      "value": "Button2"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "tooltip": {
+      "value": ""
+    }
+  },
+  "general": {},
+  "styles": {
+    "textColor": {
+      "value": "#FFFFFF"
+    },
+    "borderColor": {
+      "value": "var(--cc-primary-brand)"
+    },
+    "loaderColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "backgroundColor": {
+      "value": "var(--cc-primary-brand)"
+    },
+    "iconColor": {
+      "value": "var(--cc-default-icon)"
+    },
+    "direction": {
+      "value": "left"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000090"
+    },
+    "icon": {
+      "value": "IconAlignBoxBottomLeft"
+    },
+    "iconVisibility": {
+      "value": false
+    },
+    "type": {
+      "value": "primary"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "45e603bf-05d6-4f4b-8662-2c36329620c8",
+      "type": "desktop",
+      "top": 50,
+      "left": 32,
+      "width": 9,
+      "height": 40,
+      "componentId": "7e4a9683-d5a4-493d-8770-547b5542eb82",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "785fba3e-1aad-4d6e-b4db-690e0f7455c5",
+      "type": "mobile",
+      "top": 20,
+      "left": 32,
+      "width": 9.30232558139535,
+      "height": 40,
+      "componentId": "7e4a9683-d5a4-493d-8770-547b5542eb82",
+      "dimensionUnit": "count"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "619b1731-16ef-48d2-96d9-c3aebf3f008e",
+  "dataSourceId": "c3ee1c01-3448-4eb7-994b-5038d50c8eb9",
+  "environmentId": "9bcb5581-0e83-4eb5-babc-4033e455cbcd",
+  "options": {
+    "url": {
+      "value": "regions-crud-service.{{constants.RETOOL_EXPOSED_ENV_NAME}}.{{constants.RETOOL_EXPOSED_ENV_LOCATION}}",
+      "encrypted": false
+    },
+    "proto_files": {
+      "value": "import_protos_from_filesystem",
+      "encrypted": false
+    },
+    "proto_file_url": {
+      "value": "",
+      "encrypted": false
+    },
+    "metadata": {
+      "value": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "encrypted": false
+    },
+    "auth_type": {
+      "value": "none",
+      "encrypted": false
+    },
+    "username": {
+      "value": "",
+      "encrypted": false
+    },
+    "password": {
+      "credential_id": "7bad184c-057e-4dd2-9d51-18fe97adb29c",
+      "encrypted": true
+    },
+    "bearer_token": {
+      "credential_id": "f97edf52-f62f-4fc1-8079-e8f3b1ff028f",
+      "encrypted": true
+    },
+    "grant_type": {
+      "value": "authorization_code",
+      "encrypted": false
+    },
+    "add_token_to": {
+      "value": "header",
+      "encrypted": false
+    },
+    "header_prefix": {
+      "value": "Bearer ",
+      "encrypted": false
+    },
+    "access_token_url": {
+      "value": "",
+      "encrypted": false
+    },
+    "client_id": {
+      "value": "",
+      "encrypted": false
+    },
+    "client_secret": {
+      "credential_id": "efdeb290-6f1a-4ad5-961d-17237a52cd78",
+      "encrypted": true
+    },
+    "audience": {
+      "value": "",
+      "encrypted": false
+    },
+    "scopes": {
+      "value": "read, write",
+      "encrypted": false
+    },
+    "auth_url": {
+      "value": "",
+      "encrypted": false
+    },
+    "client_auth": {
+      "value": "header",
+      "encrypted": false
+    },
+    "custom_auth_params": {
+      "value": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "encrypted": false
+    },
+    "ssl_enabled": {
+      "value": false,
+      "encrypted": false
+    },
+    "ssl_certificate": {
+      "value": "none",
+      "encrypted": false
+    },
+    "ca_cert": {
+      "credential_id": "611abcbd-25dc-47dc-8c98-394950eec109",
+      "encrypted": true
+    },
+    "client_key": {
+      "credential_id": "7bcaabe9-750a-4ab9-9dfd-e85ec7e5fad7",
+      "encrypted": true
+    },
+    "client_cert": {
+      "credential_id": "0059d16b-7232-4d18-b52d-a80b5fc6e612",
+      "encrypted": true
+    },
+    "proto_files_directory": {
+      "value": "",
+      "encrypted": false
+    },
+    "proto_files_pattern": {
+      "value": "**/*.proto",
+      "encrypted": false
+    },
+    "selected_services": {
+      "value": [
+        "swiggy.locationplatform.regionsservice.v2.GeoEntityAPI"
+      ],
+      "encrypted": false
+    }
+  }
+}

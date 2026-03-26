@@ -1,0 +1,16 @@
+{
+  "id": "cf553d71-d2cd-4951-abd5-b79aeb82811a",
+  "name": "onDataQuerySuccess",
+  "index": 2,
+  "event": {
+    "key": "storeDimensionValue",
+    "value": "{{[]}}",
+    "eventId": "onDataQuerySuccess",
+    "message": "Hello world!",
+    "actionId": "set-page-variable",
+    "alertType": "info"
+  },
+  "sourceId": "b336a881-8121-4b86-9107-1cce14940eb0",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

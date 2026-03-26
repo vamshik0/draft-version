@@ -1,0 +1,24 @@
+{
+  "id": "c0b1efe3-00d2-43d0-8fbe-4e95728b0cd3",
+  "name": "onDataQuerySuccess",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Hello world!",
+    "actionId": "control-component",
+    "alertType": "info",
+    "runOnlyIf": "{{queries.76e5e4fb-4e17-43bd-b773-af98420ecdb0.data !== 0 && ! page.variables.isAdmin}}",
+    "componentId": "867b1bb2-3672-4634-b26e-ad5e68054b8a",
+    "componentSpecificActionHandle": "setTab",
+    "componentSpecificActionParams": [
+      {
+        "value": "t2",
+        "handle": "id",
+        "displayName": "Id"
+      }
+    ]
+  },
+  "sourceId": "76e5e4fb-4e17-43bd-b773-af98420ecdb0",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

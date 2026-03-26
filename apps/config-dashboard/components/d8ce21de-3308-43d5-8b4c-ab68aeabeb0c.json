@@ -1,0 +1,65 @@
+{
+  "id": "d8ce21de-3308-43d5-8b4c-ab68aeabeb0c",
+  "name": "addConfigFormText2",
+  "type": "Text",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "c2973573-1be0-4e23-8e6b-f9ea9872e707-footer",
+  "properties": {
+    "textFormat": {
+      "value": "markdown"
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "text": {
+      "value": "##### **[Important] Check the Rate Limit of your service and reach out on #dxp-support if any change is required due to creation of this new config"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    }
+  },
+  "general": {},
+  "styles": {},
+  "generalStyles": {
+    "box_shadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "show_on_desktop": {
+      "value": "{{true}}"
+    },
+    "show_on_mobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "c521a2fe-53ae-4517-9105-2255137412c8",
+      "type": "desktop",
+      "top": 0,
+      "left": 0,
+      "width": 42,
+      "height": 24,
+      "componentId": "d8ce21de-3308-43d5-8b4c-ab68aeabeb0c",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "84a8475f-67cb-4bf0-8ce0-244bab48e0d6",
+      "type": "mobile",
+      "top": 0,
+      "left": 0,
+      "width": 0,
+      "height": 0,
+      "componentId": "d8ce21de-3308-43d5-8b4c-ab68aeabeb0c",
+      "dimensionUnit": "count"
+    }
+  ]
+}

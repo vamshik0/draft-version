@@ -1,0 +1,14 @@
+{
+  "id": "75d5e9cb-bc27-49f4-b496-88dd6ef878f2",
+  "name": "onDataQuerySuccess",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Condition Added Successfully",
+    "actionId": "show-alert",
+    "alertType": "success"
+  },
+  "sourceId": "56b421d4-5bec-4e46-87e4-f86150162d12",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

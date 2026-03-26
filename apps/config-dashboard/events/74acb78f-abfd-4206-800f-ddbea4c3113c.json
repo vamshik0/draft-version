@@ -1,0 +1,17 @@
+{
+  "id": "74acb78f-abfd-4206-800f-ddbea4c3113c",
+  "name": "onDataQuerySuccess",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Hello world!",
+    "queryId": "f362fd3a-2b82-48fb-aa72-6be31fcb5f0b",
+    "actionId": "run-query",
+    "alertType": "info",
+    "queryName": "getAllCitiesJS",
+    "parameters": {}
+  },
+  "sourceId": "65c7d25d-c4ff-4b32-9f38-aaf260473c10",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

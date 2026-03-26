@@ -1,0 +1,93 @@
+{
+  "id": "1578b959-0142-495a-a271-f91887325f2f",
+  "name": "container112",
+  "type": "Container",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "754650b0-39a8-45c2-92cb-b8310a79e2d6",
+  "properties": {
+    "showHeader": {
+      "value": "{{false}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "headerHeight": {
+      "value": "{{80}}"
+    },
+    "canvasHeight": {
+      "value": 410
+    }
+  },
+  "general": {},
+  "styles": {
+    "backgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "headerBackgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "headerDividerColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "borderRadius": {
+      "value": "6"
+    },
+    "borderColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "generalStyles": {
+    "box_shadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    },
+    "show_on_desktop": {
+      "value": "{{true}}"
+    },
+    "show_on_mobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "ac067d51-046f-4905-b722-a4e00456977d",
+      "type": "desktop",
+      "top": 0,
+      "left": 1,
+      "width": 41,
+      "height": 350,
+      "componentId": "1578b959-0142-495a-a271-f91887325f2f",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "a95eefc1-1723-489c-b0a9-7b41f359301e",
+      "type": "mobile",
+      "top": 0,
+      "left": 0,
+      "width": 0,
+      "height": 0,
+      "componentId": "1578b959-0142-495a-a271-f91887325f2f",
+      "dimensionUnit": "count"
+    }
+  ]
+}

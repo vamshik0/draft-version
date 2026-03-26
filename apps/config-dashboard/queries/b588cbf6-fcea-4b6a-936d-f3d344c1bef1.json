@@ -1,0 +1,10 @@
+{
+  "id": "b588cbf6-fcea-4b6a-936d-f3d344c1bef1",
+  "name": "searchByDimensionAdd",
+  "options": {
+    "code": "const filterName = components.searchByDimensionFormSelectFilter.value;\nconst filterValue = components.searchByDimensionFormTextInputValue.value;\nlet tempFilters = page.variables.filtersOnDimensionArray; \n\n// Check if dimension already present\n\nfor(let i = 0; i < tempFilters.length; i++) {\n  if(filterName === tempFilters[i].dimension_name) {\n    const type = tempFilters[i].type;\n    if(type === \"TYPE_STRING\") {\n      tempFilters[i].string_value = filterValue;\n    } else {\n      tempFilters[i].integer_value = JSON.parse(filterValue);\n    } \n   // filtersOnDimensionArray.setValue(tempFilters);\n    await actions.setPageVariable(\"filtersOnDimensionArray\",tempFilters)\n    return;\n  }\n} \n\n// Add new dimension\nlet obj = {};\nobj.dimension_name = filterName;\nlet allDimensions =  queries.fetchConfigDetails.data.Dimensions;\nfor(let i = 0; i < allDimensions.length; i++) {\n  if(allDimensions[i].dimension_name === filterName) {\n    obj.type = allDimensions[i].type;\n    break;\n  }\n}\nif(obj.type === \"TYPE_STRING\") {\n  obj.string_value = filterValue;\n} else {\n  obj.integer_value = JSON.parse(filterValue);\n}  \ntempFilters.push(obj);\n//filtersOnDimensionArray.setValue(tempFilters);\nawait actions.setPageVariable(\"filtersOnDimensionArray\",tempFilters)\n\n",
+    "parameters": []
+  },
+  "dataSourceId": "39605bdb-34bb-41f6-a904-feb89a7e8958",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "3b45413f-2e1a-4831-ac19-d340ca9fe21f",
+  "name": "onDataQuerySuccess",
+  "index": 9,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Hello world!",
+    "queryId": "d4a857db-a342-40e6-b673-68d315c93790",
+    "actionId": "run-query",
+    "alertType": "info",
+    "queryName": "deleteAppConfig",
+    "runOnlyIf": "{{queries.d77516f7-96e8-4eee-b238-cdcfe12c8314.data&& page.variables.operationKey === \"deleteConfig\"}}",
+    "parameters": {}
+  },
+  "sourceId": "d77516f7-96e8-4eee-b238-cdcfe12c8314",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

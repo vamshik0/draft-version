@@ -1,0 +1,129 @@
+{
+  "id": "5c0d6d4a-fa46-41f3-a36b-3d7a02c2f65f",
+  "name": "text194",
+  "type": "Text",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "ac7ac484-5301-4dcd-ada4-14e544d0df8b-header",
+  "properties": {
+    "textFormat": {
+      "value": "markdown"
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "text": {
+      "value": "### Delete value {{ (() => {\n  let currentValue = configValuesTable.selectedRow.value;\n  let inputType = fetchConfigDetails.data[\"Value Type\"].slice(5).toLowerCase();\n\n  switch (inputType) {\n    case 'string':\n      return currentValue;\n\n    case 'int':\n      return parseFloat(currentValue);\n\n    case 'float':\n      return parseFloat(currentValue);\n\n    case 'boolean':\n      return currentValue;\n\n    case 'string_array':\n      return JSON.stringify(currentValue);\n\n    case 'int_array':\n      return JSON.stringify(currentValue);\n\n    case 'float_array':\n      return currentValue.toString();\n\n    case 'boolean_array':\n      return JSON.stringify(currentValue)\n\n    case 'json':\n      return currentValue;\n  }\n})() }} of {{ selectedConfig.value }} config?"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "backgroundColor": {
+      "value": "#fff00000"
+    },
+    "textColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "textSize": {
+      "value": "{{14}}"
+    },
+    "textAlign": {
+      "value": "left"
+    },
+    "fontWeight": {
+      "value": "normal"
+    },
+    "decoration": {
+      "value": "none"
+    },
+    "transformation": {
+      "value": "none"
+    },
+    "fontStyle": {
+      "value": "normal"
+    },
+    "lineHeight": {
+      "value": "{{1.5}}"
+    },
+    "textIndent": {
+      "value": "{{0}}"
+    },
+    "letterSpacing": {
+      "value": "{{0}}"
+    },
+    "wordSpacing": {
+      "value": "{{0}}"
+    },
+    "fontVariant": {
+      "value": "normal"
+    },
+    "verticalAlignment": {
+      "value": "center"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    },
+    "borderColor": {
+      "value": "#ffffff00"
+    },
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "isScrollRequired": {
+      "value": "enabled"
+    }
+  },
+  "generalStyles": {
+    "box_shadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    },
+    "show_on_desktop": {
+      "value": "{{true}}"
+    },
+    "show_on_mobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "845e6db5-aa42-4c20-8ac6-3a4b4204780f",
+      "type": "desktop",
+      "top": 0,
+      "left": 0,
+      "width": null,
+      "height": 24,
+      "componentId": "5c0d6d4a-fa46-41f3-a36b-3d7a02c2f65f",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "5fd2c5b6-dae7-4dc6-a07a-587d3f9211b9",
+      "type": "mobile",
+      "top": 0,
+      "left": 0,
+      "width": 0,
+      "height": 0,
+      "componentId": "5c0d6d4a-fa46-41f3-a36b-3d7a02c2f65f",
+      "dimensionUnit": "count"
+    }
+  ]
+}

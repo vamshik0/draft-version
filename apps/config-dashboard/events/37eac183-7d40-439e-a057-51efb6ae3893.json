@@ -1,0 +1,14 @@
+{
+  "id": "37eac183-7d40-439e-a057-51efb6ae3893",
+  "name": "onDataQuerySuccess",
+  "index": 4,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Bulk Upload Successful",
+    "actionId": "show-alert",
+    "alertType": "success"
+  },
+  "sourceId": "df406adf-55e8-4429-a238-96328d4e9cc8",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

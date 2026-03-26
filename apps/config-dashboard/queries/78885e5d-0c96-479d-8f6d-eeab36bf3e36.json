@@ -1,0 +1,17 @@
+{
+  "id": "78885e5d-0c96-479d-8f6d-eeab36bf3e36",
+  "name": "fetchAllConfigs",
+  "options": {
+    "raw_message": "{\n  \"pagination\": {\n    \"offset\": \"\",\n    \"size\": \"\"\n  },\n  \"include_archived\": false,\n  \"filter_on_service_name\": {\n    \"service_name\": {{JSON.stringify(page.variables.selectedService)}}\n  }\n}",
+    "transformations": {
+      "javascript": "return data.config_params;",
+      "python": "# write your code here\n# return value will be set as data and the original data will be available as rawData\n[row for row in data if row['amount'] > 1000]\n  "
+    },
+    "service": "cpgateway.config.v1.ConfigParamAPI",
+    "method": "ListConfigParams",
+    "enableTransformation": true,
+    "transformationLanguage": "javascript"
+  },
+  "dataSourceId": "5ade0925-560a-4371-ba6d-d8989db43769",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

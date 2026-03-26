@@ -1,0 +1,20 @@
+{
+  "id": "711c5660-4ccc-4d1b-a292-1b6a0e797e30",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "queryId": "a6a5283c-aad0-4253-a776-329d65919ff7",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "button129",
+    "queryName": "downloadTemplate",
+    "parameters": {
+      "type": "tsv"
+    }
+  },
+  "sourceId": "9c0f13c1-075c-4bf4-a958-921f5eb6a735",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

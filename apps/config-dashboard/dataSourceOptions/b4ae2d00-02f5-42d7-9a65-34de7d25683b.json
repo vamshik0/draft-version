@@ -1,0 +1,134 @@
+{
+  "id": "b4ae2d00-02f5-42d7-9a65-34de7d25683b",
+  "dataSourceId": "5ade0925-560a-4371-ba6d-d8989db43769",
+  "environmentId": "9bcb5581-0e83-4eb5-babc-4033e455cbcd",
+  "options": {
+    "url": {
+      "value": "swigconfig.env004.in-west",
+      "encrypted": false
+    },
+    "proto_files": {
+      "value": "import_protos_from_filesystem",
+      "encrypted": false
+    },
+    "proto_file_url": {
+      "value": "",
+      "encrypted": false
+    },
+    "metadata": {
+      "value": [
+        [
+          "client-id",
+          "retool"
+        ],
+        [
+          "cp-env",
+          "UAT"
+        ]
+      ],
+      "encrypted": false
+    },
+    "auth_type": {
+      "value": "none",
+      "encrypted": false
+    },
+    "username": {
+      "value": "",
+      "encrypted": false
+    },
+    "password": {
+      "credential_id": "4f25739d-b4ad-4073-8351-c3a910e9d6de",
+      "encrypted": true
+    },
+    "bearer_token": {
+      "credential_id": "2f5e5e1d-4199-4c4e-a59e-73c9a90e4007",
+      "encrypted": true
+    },
+    "grant_type": {
+      "value": "authorization_code",
+      "encrypted": false
+    },
+    "add_token_to": {
+      "value": "header",
+      "encrypted": false
+    },
+    "header_prefix": {
+      "value": "Bearer ",
+      "encrypted": false
+    },
+    "access_token_url": {
+      "value": "",
+      "encrypted": false
+    },
+    "client_id": {
+      "value": "",
+      "encrypted": false
+    },
+    "client_secret": {
+      "credential_id": "0801b012-de99-4af1-87b9-8fd9fa69670b",
+      "encrypted": true
+    },
+    "audience": {
+      "value": "",
+      "encrypted": false
+    },
+    "scopes": {
+      "value": "read, write",
+      "encrypted": false
+    },
+    "auth_url": {
+      "value": "",
+      "encrypted": false
+    },
+    "client_auth": {
+      "value": "header",
+      "encrypted": false
+    },
+    "custom_auth_params": {
+      "value": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "encrypted": false
+    },
+    "ssl_enabled": {
+      "value": false,
+      "encrypted": false
+    },
+    "ssl_certificate": {
+      "value": "none",
+      "encrypted": false
+    },
+    "ca_cert": {
+      "credential_id": "91b66885-a80b-4579-8a0b-8e67632d56ad",
+      "encrypted": true
+    },
+    "client_key": {
+      "credential_id": "bd5f4015-4478-4231-a4c8-9152139b5dcb",
+      "encrypted": true
+    },
+    "client_cert": {
+      "credential_id": "b8bf987a-78b0-4f0e-8956-eddbf6a7182a",
+      "encrypted": true
+    },
+    "proto_files_directory": {
+      "value": "",
+      "encrypted": false
+    },
+    "proto_files_pattern": {
+      "value": "**/*.proto",
+      "encrypted": false
+    },
+    "selected_services": {
+      "value": [
+        "cpgateway.config.v1.ConfigParamAPI",
+        "cpgateway.config.v1.ConfigParamValueAPI",
+        "cpgateway.config.v1.ApprovalAPI",
+        "cpgateway.config.v1.ConfigAPI"
+      ],
+      "encrypted": false
+    }
+  }
+}

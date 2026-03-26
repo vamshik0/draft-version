@@ -1,0 +1,19 @@
+{
+  "id": "5468a0a2-e3f4-4639-89ee-554c9fc684eb",
+  "name": "onOpen",
+  "index": 1,
+  "event": {
+    "eventId": "onOpen",
+    "message": "Hello world!",
+    "queryId": "e0a53cc3-223d-42f4-998f-c4633622c7e4",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "addConfigValueModal",
+    "queryName": "createDimensionArray",
+    "runOnlyIf": "{{components.646d7b6b-77d0-4428-a34e-e3e2508281f9.currentTab === \"t2\"}}",
+    "parameters": {}
+  },
+  "sourceId": "fb7e1739-397b-4a3c-8b2f-e0ecc9970d2a",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

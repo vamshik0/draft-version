@@ -1,0 +1,19 @@
+{
+  "id": "0aa4d179-0a89-4c8e-b002-59e96d41da56",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "queryId": "76e5e4fb-4e17-43bd-b773-af98420ecdb0",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "deleteConfigFormSubmitButton",
+    "queryName": "fetchConfigValuesBeforeDelete",
+    "runOnlyIf": "{{components.allConfigsTable.selectedRow.config_param_name !== \"CANARY_RUNNING\" \n  || ( \n    components.allConfigsTable.selectedRow.config_param_name === \"CANARY_RUNNING\" \n    && page.variables.isAdmin.value \n  )}}",
+    "parameters": {}
+  },
+  "sourceId": "f748e27c-c421-42f3-93a1-8e937121388b",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

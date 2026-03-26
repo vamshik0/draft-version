@@ -1,0 +1,15 @@
+{
+  "id": "940540a2-3662-4dac-a41d-62c48a198437",
+  "name": "onDataQuerySuccess",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "You've reached the limit of 3 operations. Please wait for 5 minutes before performing next operation. \nTip: Use this time to monitor your systems and review metrics and logs.",
+    "actionId": "show-alert",
+    "alertType": "error",
+    "runOnlyIf": "{{! queries.d77516f7-96e8-4eee-b238-cdcfe12c8314.data}}"
+  },
+  "sourceId": "d77516f7-96e8-4eee-b238-cdcfe12c8314",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

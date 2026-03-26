@@ -1,0 +1,17 @@
+{
+  "id": "bbea39e4-e44f-4bab-b015-162ee2038eda",
+  "name": "onClose",
+  "index": 1,
+  "event": {
+    "key": "rollbackDiffArray",
+    "value": "[]",
+    "eventId": "onClose",
+    "message": "Hello world!",
+    "actionId": "set-page-variable",
+    "alertType": "info",
+    "component": "rollbackShowDiffModal2"
+  },
+  "sourceId": "7c204903-517b-4c30-9df7-4b2f0006be49",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

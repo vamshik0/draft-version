@@ -1,0 +1,21 @@
+{
+  "id": "db32a8c9-4ad4-4082-b5f4-e010997f7b03",
+  "name": "onChange",
+  "index": 0,
+  "event": {
+    "eventId": "onChange",
+    "message": "Hello world!",
+    "queryId": "29eb4128-a299-4eff-8e71-56feabb3de3a",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "updateConfigValueFormNonSingleTextInputValue",
+    "queryName": "validateInput",
+    "parameters": {
+      "type": "{{queries.fetchConfigDetails.data[\"Value Type\"].toLocaleLowerCase()}}",
+      "input": "{{components.38a55b37-2fcd-45fa-9a8b-a47279833a84.value}}"
+    }
+  },
+  "sourceId": "38a55b37-2fcd-45fa-9a8b-a47279833a84",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

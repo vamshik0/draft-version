@@ -1,0 +1,27 @@
+{
+  "id": "882d35a1-f8a1-43c1-9c7b-ce71b140cf3a",
+  "name": "uploadToS3envApp",
+  "options": {
+    "method": "PUT",
+    "url": "{{page.variables.appS3UploadUrl}}",
+    "headers": [
+      [
+        "Content-type",
+        "application/octet-stream"
+      ]
+    ],
+    "url_params": [],
+    "body": [],
+    "cookies": [],
+    "json_body": null,
+    "body_toggle": true,
+    "retry_network_errors": true,
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "arrayValuesChanged": true,
+    "runOnPageLoad": false,
+    "raw_body": "{{JSON.stringify( components.21776d5b-cd3f-4818-8a90-2d3f5e3e772b.files[0].base64Data )}}"
+  },
+  "dataSourceId": "3c96ad36-72c8-4c9e-8a38-59279318063c",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

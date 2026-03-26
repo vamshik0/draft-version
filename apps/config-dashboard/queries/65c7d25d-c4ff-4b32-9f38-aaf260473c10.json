@@ -1,0 +1,18 @@
+{
+  "id": "65c7d25d-c4ff-4b32-9f38-aaf260473c10",
+  "name": "fetchCitiesList",
+  "options": {
+    "raw_message": "{{\nJSON.stringify({\n  request_ctx: {\n    request_id: crypto.randomUUID(),\n    client_ctx: {\n      source: \"retool\",\n      client_id: \"city-open-close-retool\"\n    }\n  },\n  layer_id: \"CITY\"\n})\n}}",
+    "service": "swiggy.locationplatform.regionsservice.v2.GeoEntityAPI",
+    "method": "GetAll",
+    "transformations": {
+      "javascript": "return data.geo_entity;",
+      "python": "# write your code here\n# return value will be set as data and the original data will be available as rawData\n[row for row in data if row['amount'] > 1000]\n  "
+    },
+    "run_on_page_load": true,
+    "enableTransformation": true,
+    "transformationLanguage": "javascript"
+  },
+  "dataSourceId": "c3ee1c01-3448-4eb7-994b-5038d50c8eb9",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "61ebb6e9-633f-439b-ad96-7f7b40a7e266",
+  "name": "onDataQuerySuccess",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Hello world!",
+    "queryId": "7f9ea724-f003-4913-877f-e9306658f88c",
+    "actionId": "run-query",
+    "alertType": "info",
+    "queryName": "openConfigDetailsPage",
+    "runOnlyIf": "{{(variables.service !== undefined && variables.service !== \"\") && ( variables.config !== undefined && variables.config !== \"\")}}",
+    "parameters": {}
+  },
+  "sourceId": "d7f856e1-24be-457b-836c-9666fba87c62",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

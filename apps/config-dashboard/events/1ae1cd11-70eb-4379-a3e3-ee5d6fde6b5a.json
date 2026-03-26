@@ -1,0 +1,17 @@
+{
+  "id": "1ae1cd11-70eb-4379-a3e3-ee5d6fde6b5a",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "actionId": "copy-to-clipboard",
+    "alertType": "info",
+    "component": "shareableLinkForConfig2",
+    "runOnlyIf": "",
+    "contentToCopy": "https://cp.swiggyops.de?service={{page.variables.selectedService}}&config={{page.variables.selectedConfig}}"
+  },
+  "sourceId": "4ecf19ab-7b41-494b-9e71-7ddb205e165a",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

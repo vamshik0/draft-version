@@ -1,0 +1,11 @@
+{
+  "id": "83a1e03b-4f22-44d8-adb1-5f7d03469c7b",
+  "name": "triggerBulkUpload",
+  "options": {
+    "code": "const currentTime = parseInt(new Date().getTime() / 1000);\n\n// Set app upload time\nawait actions.setPageVariable(\"appUploadTime\", currentTime);\n\nif (page.variables.isTestEnvironment) {\n  await actions.setPageVariable(\n    \"appS3UploadUrl\",\n    page.variables.bucketName + \"/\" +\n    page.variables.selectedService + \"/\" +\n    page.variables.selectedConfig + \"/UAT/\" +\n    page.variables.dateToday + \"/\" +\n    components.fileInputCSV2.files[0].name.slice(\n      0,\n      components.fileInputCSV2.files[0].name.length - 4\n    ) +\n    \"_\" +\n    currentTime +\n    components.fileInputCSV2.files[0]?.name.slice(\n      components.fileInputCSV2.files[0]?.name.length - 4\n    )\n  );\n} else {\n  await actions.setPageVariable(\n    \"appS3UploadUrl\",\n    page.variables.bucketName + \"/\" +\n    page.variables.selectedService + \"/\" +\n    page.variables.selectedConfig + \"/\" +\n    page.variables.dateToday + \"/\" +\n    components.fileInputCSV2.files[0]?.name.slice(\n      0,\n      components.fileInputCSV2.files[0]?.name.length - 4\n    ) +\n    \"_\" +\n    currentTime +\n    components.fileInputCSV2.files[0]?.name.slice(\n      components.fileInputCSV2.files[0]?.name.length - 4\n    )\n  );\n}\n",
+    "parameters": [],
+    "runOnPageLoad": false
+  },
+  "dataSourceId": "39605bdb-34bb-41f6-a904-feb89a7e8958",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

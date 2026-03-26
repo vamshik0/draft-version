@@ -1,0 +1,14 @@
+{
+  "id": "2ef3a71f-c899-44df-8c3d-63250c8404b0",
+  "name": "onDataQueryFailure",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "Config Approval Details Fetching Failed.{{queries.f9ae566b-2e8c-430d-89a0-c59ea8a139e3.error.message}}",
+    "actionId": "show-alert",
+    "alertType": "error"
+  },
+  "sourceId": "f9ae566b-2e8c-430d-89a0-c59ea8a139e3",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

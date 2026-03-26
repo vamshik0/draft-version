@@ -1,0 +1,10 @@
+{
+  "id": "875c8d58-a2c2-470c-af28-6f796d8beb96",
+  "name": "setVariablesOnPageLoad2",
+  "options": {
+    "code": "\nawait actions.setPageVariable(\"filteredServices\", page.variables.allServices )\nawait actions.setPageVariable(\"filteredConfigs\",page.variables.allConfigs)\nawait actions.setPageVariable(\"filteredConfigValues\",page.variables.allConfigValues)\nawait actions.setPageVariable(\"CMRHelperText\",page.variables.isTestEnvironment ? \"Enter a dummy CMR eg. CMR-111709\": \"\")\nawait actions.setPageVariable(\"hideRolloutButtonCondition\", queries.fetchConfigDetails.data['Param Type'] !== \"PARAM_TYPE_SINGLE_VALUED\" || page.variables.isMarketplaceAware.value ? true : ! components.configValuesTable.data[0].is_in_rollout_phase)\nawait actions.setPageVariable(\"disableCanaryRunningConfigs\",( page.variables.selectedConfig ===\"CANARY_RUNNING\") && ! page.variables.isAdmin)\nawait actions.setPageVariable(\"isNonTech\", page.variables.isTestEnvironment.value ? false : !( ( globals.current_user?.metadata?.hasOwnProperty(\"claims\") && globals.current_user?.metadata?.claims?.hasOwnProperty(\"personas\") && ( globals.current_user?.metadata?.claims?.personas[0]?.org?.hasOwnProperty(\"engineer\") || globals.current_user?.metadata?.claims?.personas[0]?.org?.hasOwnProperty(\"engineering_lead\") || globals.current_user?.metadata.claims.personas[0].org.hasOwnProperty(\"engineering_manager\") ) ) || page.variables?.techList?.value?.hasOwnProperty( globals.current_user?.email)) )\nawait actions.setPageVariable(\"bucketName\", page.variables.isTestEnvironment.value ? `cpvfilesv1-${ window.location.href.slice(15, 21)}`: `cpvfilesv1` )\nawait actions.setPageVariable(\"approvalFlowEnabledServices\",page.variables.isTestEnvironment ? \"\" : \"*\")\nawait actions.setPageVariable(\"appFilteredConfigEntries\", page.variables?.appConfigEntries)\n",
+    "parameters": []
+  },
+  "dataSourceId": "39605bdb-34bb-41f6-a904-feb89a7e8958",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

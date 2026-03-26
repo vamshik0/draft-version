@@ -1,0 +1,55 @@
+{
+  "id": "dae94790-ad96-4e95-a79f-0f68ec3681ca",
+  "name": "deleteConfigValueForNonSingleParam2",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "raw_message": "{{JSON.stringify({\n  service_name: page.variables.selectedService,\n  config_param_name: page.variables.selectedConfig,\n  dimensions: components.filteredConfigValues.value[components.9fc8757d-eecd-4c23-920d-9284f50cf5a6.selectedRow].dimensions,\n  override_lower_dimensions: components.839abcc7-66a5-472a-8144-431d69690dd6.value,\n  pre_approval: {\n    type: components.133b7432-b30c-409b-91e6-1780786f0193.value === \"\" ? 0 : 1,\n    pre_approval_link: components.133b7432-b30c-409b-91e6-1780786f0193.value === \"\" ? \"\" : `https://swiggy.atlassian.net/browse/${components.133b7432-b30c-409b-91e6-1780786f0193.value}`\n  },\n  skip_approval_reason: !page.variables.hideNewFeatures && page.variables.isNonTech \n    ? 2 \n    : components.133b7432-b30c-409b-91e6-1780786f0193.value === \"\" \n      ? (components.515f7e59-b48b-460d-8e22-519cee82561e.value === true ? 1 : 0) \n      : 0\n})}}\n",
+    "service": "cpgateway.config.v1.ConfigParamValueAPI",
+    "method": "RemoveConfigParamValue",
+    "metadata": [
+      [
+        "user",
+        "{{({\"name\": `${globals.currentUser.firstName} ${globals.currentUser.lastName}`, \"email_id\": `${globals.currentUser.email}` })}}"
+      ],
+      [
+        "multi_dim_config",
+        "{{true}}"
+      ],
+      [
+        "new_features_enabled",
+        "{{! page.variables.hideNewFeatures}}"
+      ],
+      [
+        "access_token",
+        "{{variables.access_token}}"
+      ],
+      [
+        "is_admin",
+        "{{page.variables.isAdmin}}"
+      ],
+      [
+        "authz_disabled_services",
+        "{{page.variables.AuthzDisabledList}}"
+      ],
+      [
+        "is_approver",
+        "{{false}}"
+      ],
+      [
+        "approval_flow_disabled_services",
+        "{{page.variables.approvalFlowDisabledServices}}"
+      ],
+      [
+        "approval_flow_enabled_services",
+        "{{page.variables.approvalFlowEnabledServices}}"
+      ],
+      [
+        "mumbai_deployed_services",
+        "{{page.variables.mumbai_deployed_services}}"
+      ]
+    ]
+  },
+  "dataSourceId": "5ade0925-560a-4371-ba6d-d8989db43769",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

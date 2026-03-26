@@ -1,0 +1,95 @@
+{
+  "id": "7a98c3e7-ce4f-45ce-bf65-8e6ddbe47ca0",
+  "name": "pendingApprovalFormRejectForceButton",
+  "type": "Button",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "9bbe8ae1-d194-47b6-8372-5553ad0dd557",
+  "properties": {
+    "text": {
+      "value": "Force Clear"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "tooltip": {
+      "value": "The force clear rejects any pending approvals which might be lying stale in the system"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textColor": {
+      "value": "#FFFFFF"
+    },
+    "borderColor": {
+      "value": "#fe0100ff"
+    },
+    "loaderColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "backgroundColor": {
+      "value": "#fe0100ff"
+    },
+    "iconColor": {
+      "value": "var(--cc-default-icon)"
+    },
+    "direction": {
+      "value": "left"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000090"
+    },
+    "icon": {
+      "value": "IconAlignBoxBottomLeft"
+    },
+    "iconVisibility": {
+      "value": false
+    },
+    "type": {
+      "value": "primary"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "5b8fcb0a-8acd-40c2-84d3-4d6d56070d27",
+      "type": "desktop",
+      "top": 250,
+      "left": 36,
+      "width": 7,
+      "height": 40,
+      "componentId": "7a98c3e7-ce4f-45ce-bf65-8e6ddbe47ca0",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "544393cf-586c-4fd9-bcec-c485a58345db",
+      "type": "mobile",
+      "top": 260,
+      "left": 27,
+      "width": 6,
+      "height": 40,
+      "componentId": "7a98c3e7-ce4f-45ce-bf65-8e6ddbe47ca0",
+      "dimensionUnit": "count"
+    }
+  ]
+}

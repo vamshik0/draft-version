@@ -1,0 +1,17 @@
+{
+  "id": "fd326c5a-1656-4d00-89da-d148f55bda1b",
+  "name": "getAppConfigValue",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": true,
+    "raw_message": "{{JSON.stringify({\n  config_param_metas: [\n    {\n      config_param_name: queries.0de5bb14-b3f6-4d36-b86c-ad03460c267b.data.Name,\n      dimensions: page.variables.testDimensions\n    }\n  ],\n  service_name: page.variables.selectedService\n})}}\n",
+    "transformations": {
+      "javascript": "return data.configs[0].config_param_values[0].value.string_value;",
+      "python": "# write your code here\n# return value will be set as data and the original data will be available as rawData\n[row for row in data if row['amount'] > 1000]\n  "
+    },
+    "service": "cpgateway.config.v1.ConfigAPI",
+    "method": "BatchGetConfigs"
+  },
+  "dataSourceId": "5ade0925-560a-4371-ba6d-d8989db43769",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

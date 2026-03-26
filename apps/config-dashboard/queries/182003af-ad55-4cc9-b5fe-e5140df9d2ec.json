@@ -1,0 +1,46 @@
+{
+  "id": "182003af-ad55-4cc9-b5fe-e5140df9d2ec",
+  "name": "fetchConfigBackupFiles",
+  "options": {
+    "method": "get",
+    "url": "{{page.variables.bucketName}}?prefix={{page.variables.selectedService}}/{{page.variables.selectedConfig}}/config_backup/",
+    "headers": [
+      [
+        "Content-Disposition",
+        "attachment"
+      ]
+    ],
+    "url_params": [
+      [
+        "prefix",
+        "{{page.variables.selectedService}}/{{page.variables.selectedConfig}}/config_backup/"
+      ]
+    ],
+    "body": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "cookies": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "json_body": null,
+    "body_toggle": false,
+    "retry_network_errors": true,
+    "transformationLanguage": "javascript",
+    "enableTransformation": true,
+    "arrayValuesChanged": true,
+    "runOnPageLoad": false,
+    "transformations": {
+      "javascript": "return data.parsedXml.ListBucketResult.Contents;",
+      "python": "# write your code here\n# return value will be set as data and the original data will be available as rawData\n[row for row in data if row['amount'] > 1000]\n  "
+    },
+    "raw_body": null
+  },
+  "dataSourceId": "d6e2ef4d-d17d-4387-931a-112b5e76ec5e",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

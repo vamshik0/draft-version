@@ -1,0 +1,125 @@
+{
+  "id": "8094ee6b-ab88-40be-8440-65e01f2cc398",
+  "dataSourceId": "c3ee1c01-3448-4eb7-994b-5038d50c8eb9",
+  "environmentId": "5f02731d-91d1-4fb5-a18d-762d1673d627",
+  "options": {
+    "url": {
+      "value": "",
+      "encrypted": false
+    },
+    "proto_files": {
+      "value": "server_reflection",
+      "encrypted": false
+    },
+    "proto_file_url": {
+      "value": "",
+      "encrypted": false
+    },
+    "metadata": {
+      "value": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "encrypted": false
+    },
+    "auth_type": {
+      "value": "none",
+      "encrypted": false
+    },
+    "username": {
+      "value": "",
+      "encrypted": false
+    },
+    "password": {
+      "credential_id": "ed60b093-162c-4838-85a2-24653df31e14",
+      "encrypted": true
+    },
+    "bearer_token": {
+      "credential_id": "e9262e19-3e2d-4fe8-8005-21de46726570",
+      "encrypted": true
+    },
+    "grant_type": {
+      "value": "authorization_code",
+      "encrypted": false
+    },
+    "add_token_to": {
+      "value": "header",
+      "encrypted": false
+    },
+    "header_prefix": {
+      "value": "Bearer ",
+      "encrypted": false
+    },
+    "access_token_url": {
+      "value": "",
+      "encrypted": false
+    },
+    "client_id": {
+      "value": "",
+      "encrypted": false
+    },
+    "client_secret": {
+      "credential_id": "d004fd3f-15d4-4fa7-8cd3-a63bebeea8cb",
+      "encrypted": true
+    },
+    "audience": {
+      "value": "",
+      "encrypted": false
+    },
+    "scopes": {
+      "value": "read, write",
+      "encrypted": false
+    },
+    "auth_url": {
+      "value": "",
+      "encrypted": false
+    },
+    "client_auth": {
+      "value": "header",
+      "encrypted": false
+    },
+    "custom_auth_params": {
+      "value": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "encrypted": false
+    },
+    "ssl_enabled": {
+      "value": false,
+      "encrypted": false
+    },
+    "ssl_certificate": {
+      "value": "none",
+      "encrypted": false
+    },
+    "ca_cert": {
+      "credential_id": "caf270dd-c4d2-4f6f-9373-a7b2a6913a03",
+      "encrypted": true
+    },
+    "client_key": {
+      "credential_id": "d58fca8e-c1bd-434d-87bf-373695644b5b",
+      "encrypted": true
+    },
+    "client_cert": {
+      "credential_id": "d77b35fc-09f0-4286-8568-ad0f733bddac",
+      "encrypted": true
+    },
+    "proto_files_directory": {
+      "value": "",
+      "encrypted": false
+    },
+    "proto_files_pattern": {
+      "value": "**/*.proto",
+      "encrypted": false
+    },
+    "selected_services": {
+      "value": [],
+      "encrypted": false
+    }
+  }
+}

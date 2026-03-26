@@ -1,0 +1,10 @@
+{
+  "id": "c7e012f7-791b-4aa5-89ae-e50daaa4255f",
+  "name": "setBulkUploadExceptionListOnPageLoad",
+  "options": {
+    "code": "await actions.setPageVariable(\"bulkUploadExceptionList\",[\n//provide negative integer for \"expirationInMinutes\" to provide unlimited exception\n  {\n    \"email\": \"ayush.gupta_ftc@external.swiggy.in\",\n    \"startTime\": \"2024-11-12T11:04:00\",\n    \"expirationInMinutes\": -15,\n  },\n  {\n    \"email\": \"savitha.bh_ch@external.swiggy.in\",\n    \"startTime\": \"2024-11-08T17:50:00\",\n    \"expirationInMinutes\": -15,\n  },\n  {\n    \"email\": \"hithesh.bn_ch@external.swiggy.in\",\n    \"startTime\": \"2024-11-08T17:50:00\",\n    \"expirationInMinutes\": -15,\n  }, \n  {\n    \"email\": \"deepak.subbiah@swiggy.in\",\n    \"startTime\": \"2024-11-08T17:50:00\",\n    \"expirationInMinutes\": -15,\n  },\n  {\n    \"email\": \"ashwani.ranjan@swiggy.in\",\n    \"startTime\": \"2025-12-24T17:30:00\",\n    \"expirationInMinutes\": -15,\n  },\n  {\n    \"email\": \"sambathkumar.j@swiggy.in\",\n    \"startTime\": \"2025-02-27T22:00:00\",\n    \"expirationInMinutes\": 60,\n  },\n  {\n    \"email\": \"saurav.kumar5@swiggy.in\",\n    \"startTime\": \"2025-07-22T17:00:00\",\n    \"expirationInMinutes\": 43200,\n  },\n  {\n    \"email\": \"avdhoot.j@swiggy.in\",\n    \"startTime\": \"2026-01-16T17:00:00\",\n    \"expirationInMinutes\": 4320,\n  },\n  {\n    \"email\": \"aditya.shrivastav1@swiggy.in\",\n    \"startTime\": \"2026-01-20T17:00:00\",\n    \"expirationInMinutes\": 10080,\n  },\n\n]\n)",
+    "parameters": []
+  },
+  "dataSourceId": "39605bdb-34bb-41f6-a904-feb89a7e8958",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

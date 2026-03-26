@@ -1,0 +1,16 @@
+{
+  "id": "d1b325a9-f7a0-4c8a-b081-ba895c80b931",
+  "name": "onDataQuerySuccess",
+  "index": 2,
+  "event": {
+    "key": "errorMessageBulkUpload",
+    "value": "{{queries.882d35a1-f8a1-43c1-9c7b-ce71b140cf3a.error || queries.uploadToS3envApp.data.message}}",
+    "eventId": "onDataQuerySuccess",
+    "message": "Hello world!",
+    "actionId": "set-page-variable",
+    "alertType": "info"
+  },
+  "sourceId": "882d35a1-f8a1-43c1-9c7b-ce71b140cf3a",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "9e7a5ebf-28e2-4653-8fa4-d9ad00cf46a4",
+  "name": "onDataQuerySuccess",
+  "index": 7,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Hello world!",
+    "actionId": "control-component",
+    "alertType": "info",
+    "componentId": "065a7658-6d37-4fff-9b2a-23557b52f910",
+    "componentSpecificActionHandle": "setVisibility",
+    "componentSpecificActionParams": [
+      {
+        "type": "toggle",
+        "value": "{{true}}",
+        "handle": "disable",
+        "displayName": "Value",
+        "defaultValue": "{{false}}"
+      }
+    ]
+  },
+  "sourceId": "734799f1-c781-49fd-9a23-6784805d1865",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

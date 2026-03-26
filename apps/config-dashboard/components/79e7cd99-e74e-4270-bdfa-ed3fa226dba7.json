@@ -1,0 +1,97 @@
+{
+  "id": "79e7cd99-e74e-4270-bdfa-ed3fa226dba7",
+  "name": "addConfigFormDeleteDimensionButton",
+  "type": "Button",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "7576448e-b70d-4564-b6a8-781dc3e8fc3b",
+  "properties": {
+    "text": {
+      "value": ""
+    },
+    "visibility": {
+      "value": "{{Number(listItem.number)+1 === page.variables.number_of_rows_for_dimensions}}",
+      "fxActive": true
+    },
+    "disabledState": {
+      "value": "{{listItem.number ==0}}",
+      "fxActive": true
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "tooltip": {
+      "value": ""
+    }
+  },
+  "general": {},
+  "styles": {
+    "textColor": {
+      "value": "#FFFFFF"
+    },
+    "borderColor": {
+      "value": "#ff0000ff"
+    },
+    "loaderColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "backgroundColor": {
+      "value": "#ff0000ff"
+    },
+    "iconColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "direction": {
+      "value": "left"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000090"
+    },
+    "icon": {
+      "value": "IconTrash"
+    },
+    "iconVisibility": {
+      "value": "{{true}}"
+    },
+    "type": {
+      "value": "primary"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "b891d91f-c73b-4c39-b8fd-f7446d5f3f37",
+      "type": "desktop",
+      "top": 10,
+      "left": 39,
+      "width": 2,
+      "height": 40,
+      "componentId": "79e7cd99-e74e-4270-bdfa-ed3fa226dba7",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "b388a617-2fa0-4e62-95ca-bb4b6d8c38fd",
+      "type": "mobile",
+      "top": 10,
+      "left": 38,
+      "width": 5,
+      "height": 40,
+      "componentId": "79e7cd99-e74e-4270-bdfa-ed3fa226dba7",
+      "dimensionUnit": "count"
+    }
+  ]
+}

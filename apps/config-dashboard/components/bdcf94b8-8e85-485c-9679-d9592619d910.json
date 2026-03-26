@@ -1,0 +1,199 @@
+{
+  "id": "bdcf94b8-8e85-485c-9679-d9592619d910",
+  "name": "tabs10",
+  "type": "Tabs",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "ff74fde0-903f-41f0-9063-213741008261-t10",
+  "properties": {
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "useDynamicOptions": {
+      "value": "{{false}}"
+    },
+    "tabs": {
+      "value": "{{ [\n  {\n    \"title\": \"CSV\",\n    \"id\": \"0\"\n  },\n  {\n    \"title\": \"TSV\",\n    \"id\": \"1\"\n  }\n] }}"
+    },
+    "tabItems": {
+      "value": [
+        {
+          "id": "t0",
+          "title": "CSV",
+          "icon": {
+            "value": "IconHome2"
+          },
+          "iconVisibility": {
+            "value": false
+          },
+          "loading": {
+            "value": false
+          },
+          "disable": {
+            "value": false
+          },
+          "visible": {
+            "value": true
+          },
+          "fieldBackgroundColor": {
+            "value": "var(--cc-surface1-surface)"
+          }
+        },
+        {
+          "id": "t1",
+          "title": "TSV",
+          "icon": {
+            "value": "IconHome2"
+          },
+          "iconVisibility": {
+            "value": false
+          },
+          "loading": {
+            "value": false
+          },
+          "disable": {
+            "value": false
+          },
+          "visible": {
+            "value": true
+          },
+          "fieldBackgroundColor": {
+            "value": "var(--cc-surface1-surface)"
+          }
+        },
+        {
+          "id": "t2",
+          "title": "Tab 3",
+          "icon": {
+            "value": "IconHome2"
+          },
+          "iconVisibility": {
+            "value": false
+          },
+          "loading": {
+            "value": false
+          },
+          "disable": {
+            "value": false
+          },
+          "visible": {
+            "value": true
+          },
+          "fieldBackgroundColor": {
+            "value": "var(--cc-surface1-surface)"
+          }
+        }
+      ]
+    },
+    "defaultTab": {
+      "value": "t0"
+    },
+    "hideTabs": {
+      "value": false
+    },
+    "renderOnlyActiveTab": {
+      "value": false
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "tooltip": {
+      "value": ""
+    }
+  },
+  "general": {},
+  "styles": {
+    "headerBackground": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "divider": {
+      "value": "var(--cc-default-border)"
+    },
+    "unselectedText": {
+      "value": "var(--cc-placeholder-text)"
+    },
+    "selectedText": {
+      "value": "var(--cc-primary-text)"
+    },
+    "hoverBackground": {
+      "value": "#1B1F24"
+    },
+    "unselectedIcon": {
+      "value": "var(--cc-default-icon)"
+    },
+    "selectedIcon": {
+      "value": "var(--cc-default-icon)"
+    },
+    "accent": {
+      "value": "var(--cc-primary-brand)"
+    },
+    "tabWidth": {
+      "value": "auto"
+    },
+    "transition": {
+      "value": "none"
+    },
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "commonBackgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "border": {
+      "value": "var(--cc-weak-border)"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    },
+    "padding": {
+      "value": "default"
+    }
+  },
+  "generalStyles": {
+    "box_shadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    },
+    "show_on_desktop": {
+      "value": "{{true}}"
+    },
+    "show_on_mobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "626400dd-811d-4e14-966e-347ef6298ad1",
+      "type": "desktop",
+      "top": 0,
+      "left": 0,
+      "width": null,
+      "height": 160,
+      "componentId": "bdcf94b8-8e85-485c-9679-d9592619d910",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "41d48a57-5cb2-44d9-93a1-5560f452a898",
+      "type": "mobile",
+      "top": 0,
+      "left": 0,
+      "width": 0,
+      "height": 0,
+      "componentId": "bdcf94b8-8e85-485c-9679-d9592619d910",
+      "dimensionUnit": "count"
+    }
+  ]
+}

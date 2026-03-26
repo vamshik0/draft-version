@@ -1,0 +1,18 @@
+{
+  "id": "17780853-f9b3-47c7-a851-dca10f4e48a7",
+  "name": "onDataQuerySuccess",
+  "index": 2,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Hello world!",
+    "queryId": "c5c8fc3f-e90e-4e74-82af-4f67207354b8",
+    "actionId": "run-query",
+    "alertType": "info",
+    "queryName": "createDimensionValue",
+    "runOnlyIf": "{{queries.d77516f7-96e8-4eee-b238-cdcfe12c8314.data && ( components.addConfigValueModal.show &&  components.addConfigValueTabbedContainer.currentTabTittle === 'View 2')}}",
+    "parameters": {}
+  },
+  "sourceId": "d77516f7-96e8-4eee-b238-cdcfe12c8314",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

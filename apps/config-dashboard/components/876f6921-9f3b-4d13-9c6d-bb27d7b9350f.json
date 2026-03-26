@@ -1,0 +1,72 @@
+{
+  "id": "876f6921-9f3b-4d13-9c6d-bb27d7b9350f",
+  "name": "maxAppVersionValue",
+  "type": "TextInput",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "3f10a3ab-eac3-4eac-8ddd-95c39ea931a9",
+  "properties": {
+    "label": {
+      "value": "Max App Version(Inclusive)"
+    },
+    "placeholder": {
+      "value": "Enter value"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "tooltip": {
+      "value": ""
+    },
+    "showClearBtn": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "widthType": {
+      "value": "ofField"
+    }
+  },
+  "generalStyles": {
+    "box_shadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "show_on_desktop": {
+      "value": "{{true}}"
+    },
+    "show_on_mobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "904e890e-d451-471f-8c7b-343d804dbe17",
+      "type": "desktop",
+      "top": 110,
+      "left": 21,
+      "width": 21,
+      "height": 8,
+      "componentId": "876f6921-9f3b-4d13-9c6d-bb27d7b9350f",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "e3feb366-62be-4dda-ba49-bd8af993fb97",
+      "type": "mobile",
+      "top": 0,
+      "left": 0,
+      "width": 0,
+      "height": 0,
+      "componentId": "876f6921-9f3b-4d13-9c6d-bb27d7b9350f",
+      "dimensionUnit": "count"
+    }
+  ]
+}

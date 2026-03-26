@@ -1,0 +1,129 @@
+{
+  "id": "9346adef-a155-4571-b720-0ed072358234",
+  "name": "NewReleases",
+  "type": "Text",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": null,
+  "properties": {
+    "textFormat": {
+      "value": "html"
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "text": {
+      "value": "<div style=\"font-family: Arial, sans-serif; line-height: 1.6; margin: 20px;\">\n    <div style=\"text-align: center; font-size: 24px; font-weight: bold; color: #2C3E50; margin-bottom: 20px; \">\n        🌟 What's New? 🌟\n    </div>\n    <div style=\"padding: 15px; border: 1px solid #E0E0E0; border-radius: 8px; background-color: #F9FAFB;\">\n    <div style=\"padding: 15px; border: 1px solid #E0E0E0; border-radius: 8px; background-color: #F9FAFB; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\">\n        <h4 style=\"color: #34495E; font-size: 18px; font-weight: bold; margin-top: 0;\">\n            🚀 Introducing Shared Config  in CP:\n        </h4>\n        <ol style=\"padding-left: 20px; color: #34495E; margin-top: 10px;\">\n            <li>Refer to the <a href=\"https://swiggy.atlassian.net/wiki/x/4oS0RQE\" style=\"color: #3498DB; text-decoration: none;\">SOP document here</a>.</li>\n            <li>Shared configs are fully supported in CP SDK.</li>\n            <li>If you're using legacy CP APIs, you'll need to migrate to CP SDK to use shared configs.</li></li>\n        </ol>\n        <blockquote style=\"font-style: italic; color: #7F8C8D; margin-left: 10px; margin-top: 10px; border-left: 4px solid #3498DB; padding-left: 10px;\">\n            💡 Please reach out to #dxp-support for any queries.\n        </blockquote>\n    </div>\n    <hr style=\"border: none; border-top: 1px solid #E0E0E0; margin: 20px 0;\">\n    <div style=\"padding: 15px; border: 1px solid #E0E0E0; border-radius: 8px; background-color: #F9FAFB; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\">\n        <h4 style=\"color: #34495E; font-size: 18px; font-weight: bold; margin-top: 0;\">\n            🚀 Introducing Approval Flow in CP:\n        </h4>\n        <ol style=\"padding-left: 20px; color: #34495E; margin-top: 10px;\">\n            <li>Refer to the <a href=\"https://docs.google.com/document/d/1oDbnK7cejDOjncIEOP5uHVaI7cuD0MSjoKWpw6AO1l0/edit?tab=t.0\" style=\"color: #3498DB; text-decoration: none;\">SOP document here</a>.</li>\n            <li>The new approval flow aims to get better visibility into the changes made to the configs.</li>\n        </ol>\n        <blockquote style=\"font-style: italic; color: #7F8C8D; margin-left: 10px; margin-top: 10px; border-left: 4px solid #3498DB; padding-left: 10px;\">\n            💡 Please reach out to #dxp-support for any queries.\n        </blockquote>\n    </div>\n    <hr style=\"border: none; border-top: 1px solid #E0E0E0; margin: 20px 0;\">\n    <div style=\"padding: 15px; border: 1px solid #E0E0E0; border-radius: 8px; background-color: #F9FAFB; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\">\n        <h4 style=\"color: #34495E; font-size: 18px; font-weight: bold; margin-top: 0;\">\n            🚀 Introducing Rollback in CP – Fix Config Mistakes Instantly! 🔄 :\n        </h4>\n        <ol style=\"padding-left: 20px; color: #34495E; margin-top: 10px;\">\n            <li>Refer to the <a href=\"https://swiggy.atlassian.net/wiki/x/cwB-DQE\" style=\"color: #3498DB; text-decoration: none;\">SOP document here</a>.</li>\n            <li>Rollback is supported for all types of configs(Single Valued, Hierarchical or Parameterised).</li>\n            <li>Rollback will work only for configs which are updated after 20 Feb 2025.</li>\n            <li>Always verify the config values by downloading the desired rollback version file before using the Rollback functionality.</li>\n        </ol>\n        <blockquote style=\"font-style: italic; color: #7F8C8D; margin-left: 10px; margin-top: 10px; border-left: 4px solid #3498DB; padding-left: 10px;\">\n            💡 Please reach out to #dxp-support for any queries.\n        </blockquote>\n    </div>\n    <hr style=\"border: none; border-top: 1px solid #E0E0E0; margin: 20px 0;\">\n    <!--<div style=\"padding: 15px; border: 1px solid #E0E0E0; border-radius: 8px; background-color: #F9FAFB; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\">\n        <h4 style=\"color: #34495E; font-size: 18px; font-weight: bold; margin-top: 0;\">\n            Following changes are done as a part of NYE Preparation 🎉 :\n        </h4>\n        <ol style=\"padding-left: 20px; color: #34495E; margin-top: 10px;\">\n            <li>🚫 Config addition is now stopped.</li>\n            <li>🚫 Config deletion is now stopped.</li>\n        </ol>\n        <blockquote style=\"font-style: italic; color: #7F8C8D; margin-left: 10px; margin-top: 10px; border-left: 4px solid #3498DB; padding-left: 10px;\">\n            💡 Please reach out to #dxp-support for exception. We are following approval flows same as Code Freeze.\n        </blockquote>\n    <hr style=\"border: none; border-top: 1px solid #E0E0E0; margin: 20px 0;\">\n    </div> -->\n      <div style=\"padding: 15px; border: 1px solid #E0E0E0; border-radius: 8px; background-color: #F9FAFB; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\">\n        <h4 style=\"color: #34495E; font-size: 18px; font-weight: bold; margin-top: 0;\">\n            🛠 If you encounter errors like:\n        </h4>\n        <blockquote style=\"font-style: italic; color: #7F8C8D; margin-left: 10px; margin-top: 10px; border-left: 4px solid #3498DB; padding-left: 10px;\">\n            \"User is not authorized to perform this operation.\"\n        </blockquote>\n        <ol style=\"padding-left: 20px; color: #34495E; margin-top: 10px;\">\n            <li>Refer to the <a href=\"https://docs.google.com/document/d/14EJ4i4W8NSI2A3j25-YrO662-uRZyBQMM9PxwovxOJQ/edit?tab=t.0\" style=\"color: #3498DB; text-decoration: none;\">SOP document here</a>.</li>\n            <li>If this is urgent, contact the <b>tech owner</b> of the service. Anyone with access to the service's <b>engineering pod</b> should be able to update the config.</li>\n            <li>If this is still not resolved, reach out to <b>#dxp-support</b>.</li>\n        </ol>\n      </div>\n    <hr style=\"border: none; border-top: 1px solid #E0E0E0; margin: 20px 0;\">\n    <div style=\"padding: 15px; border: 1px solid #E0E0E0; border-radius: 8px; background-color: #F9FAFB; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\">\n        <h4 style=\"color: #34495E; font-size: 18px; font-weight: bold; margin-top: 0;\">\n            🐞 If you see a popup like:\n        </h4>\n        <blockquote style=\"font-style: italic; color: #7F8C8D; margin-left: 10px; margin-top: 10px; border-left: 4px solid #E74C3C; padding-left: 10px;\">\n            \"{current_user.metadata.token} was evaluated as...\"\n        </blockquote>\n        <ol style=\"padding-left: 20px; color: #34495E; margin-top: 10px;\">\n            <li>Refresh the page (this is a known <b>Retool bug</b>).</li>\n            <li>If the issue persists after refreshing, reach out to <b>#dxp-support</b>.</li>\n        </ol>\n    </div>\n</div>\n</div>"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "backgroundColor": {
+      "value": "#fff00000"
+    },
+    "textColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "textSize": {
+      "value": "{{14}}"
+    },
+    "textAlign": {
+      "value": "left"
+    },
+    "fontWeight": {
+      "value": "normal"
+    },
+    "decoration": {
+      "value": "none"
+    },
+    "transformation": {
+      "value": "none"
+    },
+    "fontStyle": {
+      "value": "normal"
+    },
+    "lineHeight": {
+      "value": "{{1.5}}"
+    },
+    "textIndent": {
+      "value": "{{0}}"
+    },
+    "letterSpacing": {
+      "value": "{{0}}"
+    },
+    "wordSpacing": {
+      "value": "{{0}}"
+    },
+    "fontVariant": {
+      "value": "normal"
+    },
+    "verticalAlignment": {
+      "value": "center"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    },
+    "borderColor": {
+      "value": "#ffffff00"
+    },
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "isScrollRequired": {
+      "value": "enabled"
+    }
+  },
+  "generalStyles": {
+    "box_shadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "show_on_desktop": {
+      "value": "{{true}}"
+    },
+    "show_on_mobile": {
+      "value": "{{false}}"
+    },
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "82088f3c-8047-46c3-87be-7029b0c77e3c",
+      "type": "desktop",
+      "top": 1900,
+      "left": 1,
+      "width": 41,
+      "height": 1280,
+      "componentId": "9346adef-a155-4571-b720-0ed072358234",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "766966d2-2df7-4f6e-93fd-37414726952e",
+      "type": "mobile",
+      "top": 0,
+      "left": 0,
+      "width": 0,
+      "height": 0,
+      "componentId": "9346adef-a155-4571-b720-0ed072358234",
+      "dimensionUnit": "count"
+    }
+  ]
+}

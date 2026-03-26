@@ -1,0 +1,16 @@
+{
+  "id": "331dc75c-aefc-422a-9b59-d9bb4123e6be",
+  "name": "onDataQueryFailure",
+  "index": 2,
+  "event": {
+    "key": "errorMessageBulkUpload",
+    "value": "{{queries.67af2471-52c6-40fd-aee6-68bd7135a317.error|| queries.uploadToS3App.data.message}}",
+    "eventId": "onDataQueryFailure",
+    "message": "Hello world!",
+    "actionId": "set-page-variable",
+    "alertType": "info"
+  },
+  "sourceId": "67af2471-52c6-40fd-aee6-68bd7135a317",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

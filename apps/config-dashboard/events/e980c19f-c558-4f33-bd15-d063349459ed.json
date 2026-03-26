@@ -1,0 +1,14 @@
+{
+  "id": "e980c19f-c558-4f33-bd15-d063349459ed",
+  "name": "onDataQueryFailure",
+  "index": 2,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "Error in setting bulk upload operations.{{queries.83a1e03b-4f22-44d8-adb1-5f7d03469c7b.error.message}}",
+    "actionId": "show-alert",
+    "alertType": "error"
+  },
+  "sourceId": "83a1e03b-4f22-44d8-adb1-5f7d03469c7b",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

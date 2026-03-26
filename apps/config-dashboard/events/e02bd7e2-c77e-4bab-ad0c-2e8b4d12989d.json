@@ -1,0 +1,17 @@
+{
+  "id": "e02bd7e2-c77e-4bab-ad0c-2e8b4d12989d",
+  "name": "onDataQuerySuccess",
+  "index": 0,
+  "event": {
+    "key": "configBackupData",
+    "value": "{{queries.3c97956c-6fd7-403c-b371-a8e317e02b3d.data}}",
+    "eventId": "onDataQuerySuccess",
+    "message": "Hello world!",
+    "actionId": "set-page-variable",
+    "alertType": "info",
+    "runOnlyIf": "{{queries.3c97956c-6fd7-403c-b371-a8e317e02b3d.data.length > 0}}"
+  },
+  "sourceId": "3c97956c-6fd7-403c-b371-a8e317e02b3d",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

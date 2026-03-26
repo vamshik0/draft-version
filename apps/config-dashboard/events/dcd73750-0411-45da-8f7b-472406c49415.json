@@ -1,0 +1,14 @@
+{
+  "id": "dcd73750-0411-45da-8f7b-472406c49415",
+  "name": "onDataQueryFailure",
+  "index": 2,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "{{queries.78885e5d-0c96-479d-8f6d-eeab36bf3e36.error.message}}",
+    "actionId": "show-alert",
+    "alertType": "error"
+  },
+  "sourceId": "78885e5d-0c96-479d-8f6d-eeab36bf3e36",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

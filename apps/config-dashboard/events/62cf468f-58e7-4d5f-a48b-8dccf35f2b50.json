@@ -1,0 +1,24 @@
+{
+  "id": "62cf468f-58e7-4d5f-a48b-8dccf35f2b50",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "actionId": "control-component",
+    "alertType": "info",
+    "component": "newViewButton",
+    "componentId": "63ad2431-80d9-4752-a1b8-1a7cf47feda5",
+    "componentSpecificActionHandle": "setTab",
+    "componentSpecificActionParams": [
+      {
+        "value": "t3",
+        "handle": "id",
+        "displayName": "Id"
+      }
+    ]
+  },
+  "sourceId": "6c751af4-4ef5-4baa-9b09-40fae66684f8",
+  "target": "component",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

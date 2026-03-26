@@ -1,0 +1,93 @@
+{
+  "id": "56ddfdbf-17cb-410d-828d-d6858ce20ff9",
+  "name": "addConfigValueFormNonSingleContainerCMR",
+  "type": "Container",
+  "pageId": "cf8f3631-503b-4941-b5c1-d489b6343752",
+  "parent": "faf6e486-62b0-4109-aefc-4bfa45a64176",
+  "properties": {
+    "showHeader": {
+      "value": false
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "headerHeight": {
+      "value": "{{80}}"
+    },
+    "canvasHeight": {
+      "value": 110
+    }
+  },
+  "general": {},
+  "styles": {
+    "backgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "headerBackgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderRadius": {
+      "value": "6"
+    },
+    "borderColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    },
+    "headerDividerColor": {
+      "value": "var(--cc-default-border)"
+    }
+  },
+  "generalStyles": {
+    "box_shadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "show_on_desktop": {
+      "value": "{{true}}"
+    },
+    "show_on_mobile": {
+      "value": "{{false}}"
+    },
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "e60e9789-1c18-4e1d-a214-221a76ad8941",
+      "type": "desktop",
+      "top": 220,
+      "left": 0,
+      "width": 43,
+      "height": 170,
+      "componentId": "56ddfdbf-17cb-410d-828d-d6858ce20ff9",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "711db555-9dd2-4d22-937f-ece6878263fa",
+      "type": "mobile",
+      "top": 0,
+      "left": 0,
+      "width": 0,
+      "height": 0,
+      "componentId": "56ddfdbf-17cb-410d-828d-d6858ce20ff9",
+      "dimensionUnit": "count"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "06b41f98-09ef-43c9-9fc0-a381b627f467",
+  "name": "onDataQuerySuccess",
+  "index": 0,
+  "event": {
+    "key": "allConfigValues",
+    "value": "{{queries.277cb879-a5a8-43fc-bedd-41f39a2ed845.data}}",
+    "eventId": "onDataQuerySuccess",
+    "message": "Hello world!",
+    "actionId": "set-page-variable",
+    "alertType": "info"
+  },
+  "sourceId": "277cb879-a5a8-43fc-bedd-41f39a2ed845",
+  "target": "data_query",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

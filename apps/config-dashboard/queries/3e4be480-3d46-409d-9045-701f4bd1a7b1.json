@@ -1,0 +1,11 @@
+{
+  "id": "3e4be480-3d46-409d-9045-701f4bd1a7b1",
+  "name": "openServiceDetailsPage",
+  "options": {
+    "code": "const serviceName = variables.service;\nif(serviceName !== \"\") {\n  const searchedService = filteredServices.value.find(obj => obj.serviceName === serviceName);\n\n  // If service exists in CP, set service name, details and fetch rate limit and configs.\n  if(searchedService) {\n    components.allServicesContainer.setTab(\"t1\"); \n    await actions.setPageVariable(\"selectedServiceRow\",searchedService)\n    await actions.setPageVariable(\"selectedService\",serviceName)\n    await queries.fetchAllConfigs.run();\n    await queries.fetchRateLimit.run();\n  } else {\n    components.allServicesContainer.setTab(\"t0\");\n    utils.showNotification({\n        title: \"Wrong Service Name\",\n        description: \"Service you're trying to open doesn't exist.\",\n        notificationType: \"error\"\n      }\n    );\n    return;\n  }\n}",
+    "parameters": [],
+    "runOnPageLoad": false
+  },
+  "dataSourceId": "39605bdb-34bb-41f6-a904-feb89a7e8958",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}

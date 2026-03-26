@@ -1,0 +1,25 @@
+{
+  "id": "02cd4bf7-362c-48b9-92e7-11426224b54c",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "ref": "Action1",
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "actionId": "control-component",
+    "alertType": "info",
+    "runOnlyIf": "{{queries.fetchConfigDetails.data[\"Param Type\"] === 'PARAM_TYPE_SINGLE_VALUED' && ! page.variables.isMarketplaceAware.value}}",
+    "componentId": "5d99b12a-a84e-4f90-886b-a3f89633b93f",
+    "componentSpecificActionHandle": "setTab",
+    "componentSpecificActionParams": [
+      {
+        "value": "t1",
+        "handle": "id",
+        "displayName": "Id"
+      }
+    ]
+  },
+  "sourceId": "9fc8757d-eecd-4c23-920d-9284f50cf5a6",
+  "target": "table_action",
+  "appVersionId": "9c996ea9-d6d3-45ea-914d-e69f7520a8b4"
+}
