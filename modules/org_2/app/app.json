@@ -1,0 +1,13 @@
+{
+  "id": "c18234fc-aaa2-4f0b-b7b1-8ee0d45a1dab",
+  "name": "org_2",
+  "type": "module",
+  "slug": "2a828e5c-9346-44b3-9643-da1d497c0b93",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "apps",
+  "tooljetVersion": "3.21.23-beta-ee"
+}

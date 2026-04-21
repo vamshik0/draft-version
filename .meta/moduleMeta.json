@@ -10,5 +10,25 @@
   "135da193-b056-4e9b-a82e-117791d2f845": {
     "appPath": "modules/soccer",
     "updatedAt": "2026-04-21T12:42:31.691Z"
+  },
+  "36458762-8b92-4c5b-b31f-805cefa1ec4f": {
+    "appPath": "modules/kick-1",
+    "updatedAt": "2026-04-21T15:19:37.864Z"
+  },
+  "a860e92c-00ec-42b1-b496-75362e93ffb6": {
+    "appPath": "modules/dummy-1",
+    "updatedAt": "2026-04-21T15:20:08.403Z"
+  },
+  "1f2ce3ea-0eb7-4435-9512-7d758f502a3b": {
+    "appPath": "modules/dummy-2",
+    "updatedAt": "2026-04-21T15:20:08.419Z"
+  },
+  "00ef5574-574a-4d74-bc73-e56067e3e90a": {
+    "appPath": "modules/org_1",
+    "updatedAt": "2026-04-21T15:20:34.533Z"
+  },
+  "c18234fc-aaa2-4f0b-b7b1-8ee0d45a1dab": {
+    "appPath": "modules/org_2",
+    "updatedAt": "2026-04-21T15:20:52.856Z"
   }
 }

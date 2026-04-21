@@ -1,0 +1,13 @@
+{
+  "id": "65fe54c6-8515-4084-87ce-95466f2a4f19",
+  "name": "Bollywood",
+  "type": "front-end",
+  "slug": "6298936f-d7a0-4338-9061-8e857b232ee8",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "table",
+  "tooljetVersion": "3.21.23-beta-ee"
+}

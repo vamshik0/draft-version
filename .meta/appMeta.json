@@ -10,5 +10,13 @@
   "622110a3-6de9-4bf5-944c-d16c3a45dec2": {
     "appPath": "apps/Third",
     "updatedAt": "2026-04-21T12:42:31.694Z"
+  },
+  "22a604d8-1cea-498e-a3d6-53466d110e29": {
+    "appPath": "apps/Dummy app",
+    "updatedAt": "2026-04-21T15:20:08.419Z"
+  },
+  "65fe54c6-8515-4084-87ce-95466f2a4f19": {
+    "appPath": "apps/Bollywood",
+    "updatedAt": "2026-04-21T15:19:37.864Z"
   }
 }
