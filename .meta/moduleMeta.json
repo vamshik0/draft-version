@@ -26,5 +26,9 @@
   "00ef5574-574a-4d74-bc73-e56067e3e90a": {
     "appPath": "modules/org_1",
     "updatedAt": "2026-04-21T15:20:34.533Z"
+  },
+  "c18234fc-aaa2-4f0b-b7b1-8ee0d45a1dab": {
+    "appPath": "modules/org_2",
+    "updatedAt": "2026-04-21T15:20:52.856Z"
   }
 }
