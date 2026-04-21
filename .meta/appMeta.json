@@ -2,5 +2,9 @@
   "ba2d7886-da09-409d-8ead-16d66b4afddd": {
     "appPath": "apps/First",
     "updatedAt": "2026-04-21T10:00:45.583Z"
+  },
+  "436dd918-0179-49db-94fa-1a13db167aeb": {
+    "appPath": "apps/Second",
+    "updatedAt": "2026-04-21T11:47:12.355Z"
   }
 }
