@@ -22,5 +22,9 @@
   "1f2ce3ea-0eb7-4435-9512-7d758f502a3b": {
     "appPath": "modules/dummy-2",
     "updatedAt": "2026-04-21T15:20:08.419Z"
+  },
+  "00ef5574-574a-4d74-bc73-e56067e3e90a": {
+    "appPath": "modules/org_1",
+    "updatedAt": "2026-04-21T15:20:34.533Z"
   }
 }
