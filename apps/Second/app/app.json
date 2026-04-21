@@ -1,0 +1,13 @@
+{
+  "id": "436dd918-0179-49db-94fa-1a13db167aeb",
+  "name": "Second",
+  "type": "front-end",
+  "slug": "6c04286a-ba7f-40bd-9747-12c440e7b320",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "archive",
+  "tooljetVersion": "3.21.23-beta-ee"
+}
