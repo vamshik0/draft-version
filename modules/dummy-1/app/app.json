@@ -1,0 +1,13 @@
+{
+  "id": "a860e92c-00ec-42b1-b496-75362e93ffb6",
+  "name": "dummy-1",
+  "type": "module",
+  "slug": "b8c1e908-eee1-4008-9014-8fbbea01febb",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "table",
+  "tooljetVersion": "3.21.23-beta-ee"
+}

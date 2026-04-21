@@ -5,14 +5,14 @@
   "pageId": "f8056b9c-953c-4e8b-8fc2-9560847ddb27",
   "parent": null,
   "properties": {
-    "moduleAppId": {
-      "value": "52b58c2e-de23-4053-8fb4-e8b085855ce0"
-    },
-    "moduleVersionId": {
-      "value": "d9c1b647-5805-4e42-9ebc-e385386493d6"
-    },
     "visibility": {
       "value": true
+    },
+    "moduleAppId": {
+      "value": "1f2ce3ea-0eb7-4435-9512-7d758f502a3b"
+    },
+    "moduleVersionId": {
+      "value": "v1"
     }
   },
   "general": {
