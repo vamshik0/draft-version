@@ -1,0 +1,13 @@
+{
+  "id": "135da193-b056-4e9b-a82e-117791d2f845",
+  "name": "soccer",
+  "type": "module",
+  "slug": "b5535c77-2762-4885-800c-ba25d11adc16",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "folderupload",
+  "tooljetVersion": "3.21.23-beta-ee"
+}

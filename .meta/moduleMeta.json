@@ -6,5 +6,9 @@
   "8c531f1c-3a30-4ec0-a809-815dea31d2fa": {
     "appPath": "modules/m-football",
     "updatedAt": "2026-04-21T11:48:49.387Z"
+  },
+  "135da193-b056-4e9b-a82e-117791d2f845": {
+    "appPath": "modules/soccer",
+    "updatedAt": "2026-04-21T12:27:59.641Z"
   }
 }
