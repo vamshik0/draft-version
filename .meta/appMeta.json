@@ -18,5 +18,9 @@
   "65fe54c6-8515-4084-87ce-95466f2a4f19": {
     "appPath": "apps/Bollywood",
     "updatedAt": "2026-04-21T15:19:37.864Z"
+  },
+  "9ebcc943-b413-40a1-9645-3c85376adb76": {
+    "appPath": "apps/Test-module",
+    "updatedAt": "2026-04-21T15:37:32.112Z"
   }
 }
