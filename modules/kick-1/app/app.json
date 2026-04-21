@@ -1,0 +1,13 @@
+{
+  "id": "36458762-8b92-4c5b-b31f-805cefa1ec4f",
+  "name": "kick-1",
+  "type": "module",
+  "slug": "f8f3ca97-b289-4b4d-bac1-8e024ed0f898",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "server",
+  "tooljetVersion": "3.21.23-beta-ee"
+}
