@@ -15,13 +15,13 @@
       "value": "{{true}}"
     }
   },
-  "general": null,
+  "general": {},
   "styles": {
     "backgroundColor": {
       "value": "#fff"
     }
   },
-  "generalStyles": null,
+  "generalStyles": {},
   "displayPreferences": {
     "showOnDesktop": {
       "value": "{{true}}"
@@ -30,14 +30,14 @@
       "value": "{{true}}"
     }
   },
-  "validation": null,
+  "validation": {},
   "layouts": [
     {
       "id": "43e7b82c-8ff4-4999-ac53-2311974d0d8b",
       "type": "desktop",
       "top": 50,
       "left": 3,
-      "width": 20,
+      "width": 14,
       "height": 580,
       "componentId": "3ba4f24c-ede7-47e2-9093-7f5789e26db2",
       "dimensionUnit": "count"

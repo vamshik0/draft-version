@@ -3,7 +3,7 @@
   "name": "create-module",
   "type": "module",
   "slug": "a78f96be-42c1-4c59-a92a-e72169d8b9e9",
-  "isPublic": null,
+  "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
