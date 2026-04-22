@@ -1,0 +1,13 @@
+{
+  "id": "b50d088e-2fab-4d50-991a-ec867c8f2a0c",
+  "name": "Test-module_Copy",
+  "type": "front-end",
+  "slug": "47a996cf-624b-43d2-a261-bae2550a4ab3",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "draghandle",
+  "tooljetVersion": "3.21.23-beta-ee"
+}
