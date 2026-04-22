@@ -1,0 +1,13 @@
+{
+  "id": "44513472-6af1-4d8d-add1-5241654c65f1",
+  "name": "Macbook",
+  "type": "front-end",
+  "slug": "f96f0c9e-a59a-46a3-86d6-26a7c623af47",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "layers",
+  "tooljetVersion": "3.21.23-beta-ee"
+}
