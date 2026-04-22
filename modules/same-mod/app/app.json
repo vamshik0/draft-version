@@ -1,0 +1,13 @@
+{
+  "id": "734c9bd2-1cd6-4cce-9be7-c83cb3e79865",
+  "name": "same-mod",
+  "type": "module",
+  "slug": "070dc263-4ecd-4a08-b38d-cf16c14ccc3d",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "globe",
+  "tooljetVersion": "3.21.23-beta-ee"
+}

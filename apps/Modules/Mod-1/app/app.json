@@ -1,0 +1,13 @@
+{
+  "id": "cd416e2e-5129-4c53-a8d8-70d884b95482",
+  "name": "Mod-1",
+  "type": "front-end",
+  "slug": "b4be91b6-39e9-4cb2-a0d3-9cd2722cf96b",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "sentfast",
+  "tooljetVersion": "3.21.23-beta-ee"
+}
