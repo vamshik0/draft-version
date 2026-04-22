@@ -3,11 +3,11 @@
   "name": "Test-system",
   "type": "front-end",
   "slug": "3edd88b6-762b-41b2-8ba6-128b30e4c202",
-  "isPublic": null,
+  "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
   "appBuilderMode": "visual",
   "icon": "sun",
-  "tooljetVersion": "3.21.17-beta-ee"
+  "tooljetVersion": "3.21.23-beta-ee"
 }
