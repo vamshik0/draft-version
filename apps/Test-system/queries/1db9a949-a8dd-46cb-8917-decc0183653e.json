@@ -3,7 +3,8 @@
   "name": "runjs2",
   "options": {
     "code": "",
-    "parameters": []
+    "parameters": [],
+    "method": "get"
   },
   "dataSourceId": "34a1ca3f-3b42-4e57-9031-246ba96c5a7b",
   "appVersionId": "f0d87039-0b16-42c7-bcaf-de2e04ecb111"
