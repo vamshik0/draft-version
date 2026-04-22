@@ -3,7 +3,7 @@
   "name": "Test-module",
   "type": "front-end",
   "slug": "b50d088e-2fab-4d50-991a-ec867c8f2a0c",
-  "isPublic": null,
+  "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,

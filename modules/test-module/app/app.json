@@ -3,7 +3,7 @@
   "name": "test-module",
   "type": "module",
   "slug": "1cc1c26c-75d6-4894-a7a9-018b0f796bc7",
-  "isPublic": null,
+  "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
