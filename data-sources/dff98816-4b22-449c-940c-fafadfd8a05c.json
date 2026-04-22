@@ -1,0 +1,41 @@
+{
+  "id": "dff98816-4b22-449c-940c-fafadfd8a05c",
+  "name": "snowflake",
+  "kind": "snowflake",
+  "type": "default",
+  "options": {
+    "development": {
+      "role": "",
+      "schema": "",
+      "account": "",
+      "database": "",
+      "username": "",
+      "auth_type": "basic",
+      "warehouse": "",
+      "grant_type": "authorization_code",
+      "oauth_type": "custom_app"
+    },
+    "production": {
+      "role": "",
+      "schema": "",
+      "account": "",
+      "database": "",
+      "username": "",
+      "auth_type": "basic",
+      "warehouse": "",
+      "grant_type": "authorization_code",
+      "oauth_type": "custom_app"
+    },
+    "staging": {
+      "role": "",
+      "schema": "",
+      "account": "",
+      "database": "",
+      "username": "",
+      "auth_type": "basic",
+      "warehouse": "",
+      "grant_type": "authorization_code",
+      "oauth_type": "custom_app"
+    }
+  }
+}

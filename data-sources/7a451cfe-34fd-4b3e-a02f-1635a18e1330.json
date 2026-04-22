@@ -1,0 +1,11 @@
+{
+  "id": "7a451cfe-34fd-4b3e-a02f-1635a18e1330",
+  "name": "bigquery",
+  "kind": "bigquery",
+  "type": "default",
+  "options": {
+    "development": {},
+    "production": {},
+    "staging": {}
+  }
+}
