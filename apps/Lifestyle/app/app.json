@@ -1,0 +1,13 @@
+{
+  "id": "0ea3fcde-4886-426a-b673-859581916330",
+  "name": "Lifestyle",
+  "type": "front-end",
+  "slug": "fe456e70-7e51-4ef6-bfda-1b53309689ea",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "archive",
+  "tooljetVersion": "3.21.23-beta-ee"
+}
