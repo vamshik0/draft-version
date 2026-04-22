@@ -1,0 +1,60 @@
+{
+  "id": "27917872-5058-4442-9ae5-706f2de17ee2",
+  "name": "moduleviewer1",
+  "type": "ModuleViewer",
+  "pageId": "eb39b5b6-b35d-47e3-9eab-cb5cf94cd7cd",
+  "parent": null,
+  "properties": {
+    "moduleAppId": {
+      "value": "47eb7fa4-e99b-4f93-b6c0-9f08aa5bb8df"
+    },
+    "moduleVersionId": {
+      "value": "vamshi-branch"
+    },
+    "visibility": {
+      "value": true
+    }
+  },
+  "general": {},
+  "styles": {
+    "backgroundColor": {
+      "value": "#fff"
+    }
+  },
+  "generalStyles": {
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "19aa2341-42ee-4ca8-8a4b-8eb728106e4e",
+      "type": "desktop",
+      "top": 150,
+      "left": 1,
+      "width": 14,
+      "height": 580,
+      "componentId": "27917872-5058-4442-9ae5-706f2de17ee2",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "7521e97a-45e2-4e2b-acbd-8943c567979e",
+      "type": "mobile",
+      "top": 150,
+      "left": 1,
+      "width": 38,
+      "height": 400,
+      "componentId": "27917872-5058-4442-9ae5-706f2de17ee2",
+      "dimensionUnit": "count"
+    }
+  ]
+}

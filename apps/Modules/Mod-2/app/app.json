@@ -1,0 +1,13 @@
+{
+  "id": "77c063a6-5041-49b3-9fad-b15a0b7cd551",
+  "name": "Mod-2",
+  "type": "front-end",
+  "slug": "af481ccd-f86d-45a5-a01b-92b1b57de063",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "folderupload",
+  "tooljetVersion": "3.21.23-beta-ee"
+}

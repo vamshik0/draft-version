@@ -1,13 +1,13 @@
 {
-  "id": "47eb7fa4-e99b-4f93-b6c0-9f08aa5bb8df",
-  "name": "create-module",
+  "id": "734c9bd2-1cd6-4cce-9be7-c83cb3e79865",
+  "name": "same-mod",
   "type": "module",
-  "slug": "a78f96be-42c1-4c59-a92a-e72169d8b9e9",
-  "isPublic": false,
+  "slug": "070dc263-4ecd-4a08-b38d-cf16c14ccc3d",
+  "isPublic": null,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
   "appBuilderMode": "visual",
-  "icon": "menuhome",
+  "icon": "globe",
   "tooljetVersion": "3.21.23-beta-ee"
 }
