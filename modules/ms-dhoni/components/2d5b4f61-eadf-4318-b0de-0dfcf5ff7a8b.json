@@ -50,12 +50,6 @@
     "labelColor": {
       "value": "var(--cc-primary-text)"
     },
-    "visibility": {
-      "value": "{{true}}"
-    },
-    "disabledState": {
-      "value": "{{false}}"
-    },
     "padding": {
       "value": "default"
     },
