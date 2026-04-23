@@ -54,5 +54,9 @@
   "cd416e2e-5129-4c53-a8d8-70d884b95482": {
     "appPath": "apps/Modules/Mod-1",
     "updatedAt": "2026-04-22T13:35:25.905Z"
+  },
+  "e54fcbe2-b0b5-4c09-a55f-8c4d3c9e9b79": {
+    "appPath": "apps/Sports/Cricket",
+    "updatedAt": "2026-04-23T00:15:57.655Z"
   }
 }
