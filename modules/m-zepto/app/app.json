@@ -1,0 +1,13 @@
+{
+  "id": "76d57c6c-1a8d-4e09-be17-01817d9057cf",
+  "name": "m-zepto",
+  "type": "module",
+  "slug": "099d2c8d-85cc-410b-9437-38bd1ac61df4",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "draghandle",
+  "tooljetVersion": "3.21.23-beta-ee"
+}
