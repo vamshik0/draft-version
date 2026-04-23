@@ -1,0 +1,13 @@
+{
+  "id": "377213e8-eb3f-46cd-906f-02d27aec7106",
+  "name": "a-zepto",
+  "type": "front-end",
+  "slug": "1a05bb5b-1b65-4f96-9610-8f2d08956ac9",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "table",
+  "tooljetVersion": "3.21.23-beta-ee"
+}
