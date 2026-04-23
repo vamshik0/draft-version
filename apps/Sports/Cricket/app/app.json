@@ -1,0 +1,13 @@
+{
+  "id": "e54fcbe2-b0b5-4c09-a55f-8c4d3c9e9b79",
+  "name": "Cricket",
+  "type": "front-end",
+  "slug": "273adec2-5c18-4a51-bbca-d42aa39f0e19",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "folderupload",
+  "tooljetVersion": "3.21.23-beta-ee"
+}

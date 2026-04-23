@@ -1,0 +1,13 @@
+{
+  "id": "0d88d95e-5b4b-441c-88bd-2bbdff960979",
+  "name": "ms-dhoni",
+  "type": "module",
+  "slug": "35126f23-b786-4069-b28a-3b84e27680d1",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "sun",
+  "tooljetVersion": "3.21.23-beta-ee"
+}
