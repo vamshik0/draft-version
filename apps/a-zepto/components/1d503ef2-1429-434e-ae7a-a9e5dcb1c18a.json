@@ -56,12 +56,6 @@
     "text": {
       "value": "Button1"
     },
-    "visibility": {
-      "value": "{{true}}"
-    },
-    "disabledState": {
-      "value": "{{false}}"
-    },
     "loadingState": {
       "value": "{{false}}"
     },
@@ -97,6 +91,21 @@
     },
     "padding": {
       "value": "default"
+    },
+    "textSize": {
+      "value": "{{14}}"
+    },
+    "fontWeight": {
+      "value": "normal"
+    },
+    "contentAlignment": {
+      "value": "center"
+    },
+    "hoverBackgroundColor": {
+      "value": "var(--cc-primary-brand)"
+    },
+    "hoverBackgroundMode": {
+      "value": "auto"
     }
   },
   "generalStyles": {},
