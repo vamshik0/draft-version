@@ -1,0 +1,13 @@
+{
+  "id": "21f7cf67-314f-4701-b5ff-506794e247db",
+  "name": "NO-DS-app",
+  "type": "front-end",
+  "slug": "86d31f67-cd83-40d1-90a6-8f89c064af71",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "sun",
+  "tooljetVersion": "3.21.25-beta-ee"
+}

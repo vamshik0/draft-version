@@ -62,5 +62,9 @@
   "377213e8-eb3f-46cd-906f-02d27aec7106": {
     "appPath": "apps/a-zepto",
     "updatedAt": "2026-04-23T21:37:13.631Z"
+  },
+  "21f7cf67-314f-4701-b5ff-506794e247db": {
+    "appPath": "apps/NO-DS-app",
+    "updatedAt": "2026-04-24T13:42:54.956Z"
   }
 }

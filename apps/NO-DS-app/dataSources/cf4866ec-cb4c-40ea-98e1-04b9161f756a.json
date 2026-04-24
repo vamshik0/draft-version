@@ -1,0 +1,9 @@
+{
+  "id": "cf4866ec-cb4c-40ea-98e1-04b9161f756a",
+  "name": "do-not-use",
+  "kind": "mongodb",
+  "type": "default",
+  "pluginId": null,
+  "appVersionId": null,
+  "scope": "global"
+}
