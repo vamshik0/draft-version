@@ -1,0 +1,13 @@
+{
+  "id": "8256123b-776c-404b-a5d6-dea40fee81ee",
+  "name": "a-navItems",
+  "type": "front-end",
+  "slug": "066a9df1-f71f-4415-a4b5-34760f290765",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "draghandle",
+  "tooljetVersion": "3.21.25-beta-ee"
+}
