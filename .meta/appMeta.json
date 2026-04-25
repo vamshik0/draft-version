@@ -66,5 +66,9 @@
   "21f7cf67-314f-4701-b5ff-506794e247db": {
     "appPath": "apps/NO-DS-app",
     "updatedAt": "2026-04-24T13:42:54.956Z"
+  },
+  "79143bef-7a77-4d47-a878-6e654c062d2d": {
+    "appPath": "apps/Zepto-2",
+    "updatedAt": "2026-04-25T06:03:31.063Z"
   }
 }

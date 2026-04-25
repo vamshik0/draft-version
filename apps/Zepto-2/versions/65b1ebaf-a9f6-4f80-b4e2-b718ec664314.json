@@ -1,5 +1,5 @@
 {
-  "id": "76d57c6c-1a8d-4e09-be17-01817d9057cf",
+  "id": "65b1ebaf-a9f6-4f80-b4e2-b718ec664314",
   "definition": {},
   "globalSettings": {
     "appInMaintenance": false,
@@ -11,10 +11,10 @@
     "appMode": "light"
   },
   "pageSettings": {},
-  "showViewerNavigation": false,
-  "homePageId": "97c767a7-0bde-4973-af6c-47fd5367d0b1",
+  "showViewerNavigation": true,
+  "homePageId": "9dbd0ae0-9370-4fec-bd78-e6b5e73296d7",
   "versionType": "branch",
-  "appId": "76d57c6c-1a8d-4e09-be17-01817d9057cf",
+  "appId": "79143bef-7a77-4d47-a878-6e654c062d2d",
   "promotedFrom": null,
   "status": "DRAFT",
   "description": null,
