@@ -1,0 +1,8 @@
+{
+  "id": "667e87e5-bec3-4e2c-8251-2086e2ee17e9",
+  "organizationId": "4f88a4f2-ad88-4ba8-a6b8-46dbd1f5cde9",
+  "name": "production",
+  "isDefault": true,
+  "priority": 3,
+  "enabled": true
+}
