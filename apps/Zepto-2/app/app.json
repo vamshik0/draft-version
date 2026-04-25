@@ -1,0 +1,13 @@
+{
+  "id": "79143bef-7a77-4d47-a878-6e654c062d2d",
+  "name": "Zepto-2",
+  "type": "front-end",
+  "slug": "17a30fbd-8fad-4ef3-bca5-66f849a8d116",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "folderupload",
+  "tooljetVersion": "3.21.25-beta-ee"
+}
