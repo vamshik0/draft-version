@@ -50,5 +50,9 @@
   "76d57c6c-1a8d-4e09-be17-01817d9057cf": {
     "appPath": "modules/m-zepto",
     "updatedAt": "2026-04-25T06:03:31.062Z"
+  },
+  "b760c834-8a7c-4b25-a96e-5db37847882a": {
+    "appPath": "modules/m-navItems",
+    "updatedAt": "2026-04-25T07:12:49.600Z"
   }
 }

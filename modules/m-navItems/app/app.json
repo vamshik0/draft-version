@@ -1,0 +1,13 @@
+{
+  "id": "b760c834-8a7c-4b25-a96e-5db37847882a",
+  "name": "m-navItems",
+  "type": "module",
+  "slug": "57efb3eb-7d30-4ca9-a220-a47bb0298abf",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "shield",
+  "tooljetVersion": "3.21.25-beta-ee"
+}
