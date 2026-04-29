@@ -1,0 +1,13 @@
+{
+  "id": "dfa4c560-966a-4737-8eeb-ba9b8a45b417",
+  "name": "a-inventory",
+  "type": "front-end",
+  "slug": "b898e3e6-c31b-4f91-81d5-807edd1fb949",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "grid",
+  "tooljetVersion": "3.21.27-beta-ee"
+}
