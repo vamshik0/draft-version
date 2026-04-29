@@ -78,5 +78,9 @@
   "dfa4c560-966a-4737-8eeb-ba9b8a45b417": {
     "appPath": "apps/a-inventory",
     "updatedAt": "2026-04-29T06:28:30.434Z"
+  },
+  "1277d956-3a64-4ef6-a80e-27df484efb57": {
+    "appPath": "apps/Local-queries",
+    "updatedAt": "2026-04-29T09:29:48.919Z"
   }
 }
