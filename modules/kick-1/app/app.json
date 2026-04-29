@@ -3,11 +3,11 @@
   "name": "kick-1",
   "type": "module",
   "slug": "f8f3ca97-b289-4b4d-bac1-8e024ed0f898",
-  "isPublic": null,
+  "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
   "appBuilderMode": "visual",
   "icon": "server",
-  "tooljetVersion": "3.21.23-beta-ee"
+  "tooljetVersion": "3.21.27-beta-ee"
 }
