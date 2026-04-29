@@ -54,5 +54,9 @@
   "b760c834-8a7c-4b25-a96e-5db37847882a": {
     "appPath": "modules/m-navItems",
     "updatedAt": "2026-04-25T07:19:55.514Z"
+  },
+  "fefe6f34-4382-4020-9bbf-2b2ffd7d06b2": {
+    "appPath": "modules/m-inventory",
+    "updatedAt": "2026-04-29T06:28:30.434Z"
   }
 }

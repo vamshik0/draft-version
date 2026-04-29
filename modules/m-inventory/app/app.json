@@ -1,13 +1,13 @@
 {
-  "id": "dfa4c560-966a-4737-8eeb-ba9b8a45b417",
-  "name": "a-inventory",
-  "type": "front-end",
-  "slug": "b898e3e6-c31b-4f91-81d5-807edd1fb949",
+  "id": "fefe6f34-4382-4020-9bbf-2b2ffd7d06b2",
+  "name": "m-inventory",
+  "type": "module",
+  "slug": "b69c44da-ce28-4edf-a3c5-91a17cf37648",
   "isPublic": null,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
   "appBuilderMode": "visual",
-  "icon": "grid",
+  "icon": "archive",
   "tooljetVersion": "3.21.24-beta-ee"
 }
