@@ -23,11 +23,17 @@
     "updatedAt": "2026-04-22T13:36:08.991Z",
     "contentHash": "06017b6ce6d54091b8f5f6ef2fb770a00802c07bb49a553fd5301b9bed6dca07"
   },
+  "de45b4fe-5194-4681-b467-74b47ba19fd7": {
+    "name": "ui_url",
+    "kind": "restapi",
+    "updatedAt": "2026-05-01T10:22:17.193Z",
+    "contentHash": "978d5f2dcabb732fb5b723d8c992822c9e14d527068276c239def45569d846a4"
+  },
   "dff98816-4b22-449c-940c-fafadfd8a05c": {
     "name": "snowflake",
     "kind": "snowflake",
     "updatedAt": "2026-04-22T13:36:08.992Z",
     "contentHash": "be9464d5e40384a19a5c7b21ec58c35bfc5d830856348fe0d2bed19accb0d949"
   },
-  "lastUpdatedAt": "2026-05-01T10:19:05.979Z"
+  "lastUpdatedAt": "2026-05-01T10:22:17.193Z"
 }
