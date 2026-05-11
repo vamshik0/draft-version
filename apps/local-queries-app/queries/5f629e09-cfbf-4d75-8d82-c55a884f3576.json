@@ -1,0 +1,14 @@
+{
+  "id": "5f629e09-cfbf-4d75-8d82-c55a884f3576",
+  "name": "runpy1",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "code": "# Assuming 'data' contains results from a SQL or API query\ntransformed = [\n    {\n        \"id\": item['id'],\n        \"display_name\": f\"{item['first_name']} {item['last_name']}\",\n        \"is_active\": item['status'] == 'active'\n    } \n    for item in data\n]\nreturn transformed",
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "5615cd96-c679-4930-90ec-4a1f8309992f",
+  "appVersionId": "1c352417-01b7-481b-b959-713d9dfbb8a3",
+  "kind": "runpy",
+  "dataSourceType": "static"
+}
