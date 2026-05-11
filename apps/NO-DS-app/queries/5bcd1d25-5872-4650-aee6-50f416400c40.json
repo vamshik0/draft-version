@@ -8,6 +8,8 @@
     "operation": "list_collections",
     "runOnPageLoad": true
   },
-  "dataSourceId": "cf4866ec-cb4c-40ea-98e1-04b9161f756a",
-  "appVersionId": "6fcfa530-c86c-471a-bcf6-7c7c236b2755"
+  "dataSourceId": "93c243e3-d2d6-45c8-be4c-3c152fc969da",
+  "appVersionId": "6fcfa530-c86c-471a-bcf6-7c7c236b2755",
+  "kind": "mongodb",
+  "dataSourceType": "default"
 }
