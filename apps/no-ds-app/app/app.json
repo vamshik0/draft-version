@@ -1,0 +1,13 @@
+{
+  "id": "e0be5c94-5d97-4354-840d-19cb9863cbe7",
+  "name": "no-ds-app",
+  "type": "front-end",
+  "slug": "34ec3fa6-ecf0-4ecc-8832-e0f3c1bb40b4",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "grid",
+  "tooljetVersion": "3.21.29-beta-ee"
+}
