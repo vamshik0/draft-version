@@ -78,5 +78,9 @@
   "dfa4c560-966a-4737-8eeb-ba9b8a45b417": {
     "appPath": "apps/a-inventory",
     "updatedAt": "2026-04-29T05:59:37.624Z"
+  },
+  "e0be5c94-5d97-4354-840d-19cb9863cbe7": {
+    "appPath": "apps/no-ds-app",
+    "updatedAt": "2026-05-11T11:31:11.851Z"
   }
 }

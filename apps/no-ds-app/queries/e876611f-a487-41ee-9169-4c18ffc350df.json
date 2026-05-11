@@ -1,0 +1,14 @@
+{
+  "id": "e876611f-a487-41ee-9169-4c18ffc350df",
+  "name": "runpy1",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "code": "# Create a simple class to format data\nclass UserProfile:\n    def __init__(self, name, email):\n        self.name = name\n        self.email = email\n    \n    def greet(self):\n        return f\"Welcome back, {self.name}! ({self.email})\"\n\n# Access ToolJet globals for the current user\nuser = UserProfile(tj_globals.currentUser.firstName, tj_globals.currentUser.email)\n\n# Update a text component on the canvas\ncomponents.text1.setText(user.greet())\n\n# Trigger another query (e.g., a GET request)\nqueries.getSalesData.run()\n",
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "5615cd96-c679-4930-90ec-4a1f8309992f",
+  "appVersionId": "f19b58ed-845c-405a-b604-b9f7acec10ce",
+  "kind": "runpy",
+  "dataSourceType": "static"
+}
