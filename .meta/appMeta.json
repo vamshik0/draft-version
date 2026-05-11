@@ -86,9 +86,5 @@
   "6105bc05-5967-4e97-91d9-6e72c3165015": {
     "appPath": "apps/s3 app",
     "updatedAt": "2026-05-11T09:57:07.405Z"
-  },
-  "3ef35d17-a16e-4204-9c3c-3cf9017533b9": {
-    "appPath": "apps/local-queries-app",
-    "updatedAt": "2026-05-11T11:37:48.865Z"
   }
 }
