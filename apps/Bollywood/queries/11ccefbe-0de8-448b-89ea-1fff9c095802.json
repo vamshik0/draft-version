@@ -18,7 +18,8 @@
         "key": "",
         "value": ""
       }
-    ]
+    ],
+    "operation": "operations"
   },
   "dataSourceId": "bf7ecadc-1b80-4ddc-8359-d487c8fdbe83",
   "appVersionId": "9512a023-d0ee-4658-a65e-c7ea7ad26521",
