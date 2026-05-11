@@ -17,7 +17,7 @@
   },
   "65fe54c6-8515-4084-87ce-95466f2a4f19": {
     "appPath": "apps/Bollywood",
-    "updatedAt": "2026-04-21T15:19:37.864Z"
+    "updatedAt": "2026-05-11T10:51:36.162Z"
   },
   "9ebcc943-b413-40a1-9645-3c85376adb76": {
     "appPath": "apps/Test-module",
@@ -25,7 +25,7 @@
   },
   "44513472-6af1-4d8d-add1-5241654c65f1": {
     "appPath": "apps/Macbook",
-    "updatedAt": "2026-04-22T06:36:25.172Z"
+    "updatedAt": "2026-04-29T07:46:01.458Z"
   },
   "3315e335-a288-437c-bd06-5f6fd9334460": {
     "appPath": "apps/Test-system",
@@ -57,7 +57,7 @@
   },
   "e54fcbe2-b0b5-4c09-a55f-8c4d3c9e9b79": {
     "appPath": "apps/Sports/Cricket",
-    "updatedAt": "2026-04-23T00:17:55.143Z"
+    "updatedAt": "2026-04-29T07:30:03.324Z"
   },
   "377213e8-eb3f-46cd-906f-02d27aec7106": {
     "appPath": "apps/a-zepto",
@@ -82,5 +82,14 @@
   "e0be5c94-5d97-4354-840d-19cb9863cbe7": {
     "appPath": "apps/no-ds-app",
     "updatedAt": "2026-05-11T11:31:11.851Z"
+    "updatedAt": "2026-04-29T06:28:30.434Z"
+  },
+  "1277d956-3a64-4ef6-a80e-27df484efb57": {
+    "appPath": "apps/Local-queries",
+    "updatedAt": "2026-04-29T10:02:02.567Z"
+  },
+  "6105bc05-5967-4e97-91d9-6e72c3165015": {
+    "appPath": "apps/s3 app",
+    "updatedAt": "2026-05-11T09:57:07.405Z"
   }
 }

@@ -53,12 +53,6 @@
     "loadingState": {
       "value": "{{false}}"
     },
-    "disabledState": {
-      "value": "{{false}}"
-    },
-    "visibility": {
-      "value": "{{true}}"
-    },
     "fontWeight": {
       "value": "bold"
     },

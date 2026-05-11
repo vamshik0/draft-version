@@ -13,7 +13,7 @@
   "pageSettings": {},
   "showViewerNavigation": false,
   "homePageId": "5c351468-bf86-4acf-86ed-8009a3c28264",
-  "versionType": "branch",
+  "versionType": "version",
   "appId": "0d88d95e-5b4b-441c-88bd-2bbdff960979",
   "promotedFrom": null,
   "status": "DRAFT",
@@ -21,5 +21,6 @@
   "publishedAt": null,
   "releasedAt": null,
   "isStub": false,
+  "moduleReferenceId": "7473cf56-13db-4b0e-8957-64c6d01fdead",
   "sourceTag": null
 }

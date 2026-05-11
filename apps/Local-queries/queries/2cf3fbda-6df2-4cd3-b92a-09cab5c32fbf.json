@@ -1,0 +1,20 @@
+{
+  "id": "2cf3fbda-6df2-4cd3-b92a-09cab5c32fbf",
+  "name": "local-restApi",
+  "options": {
+    "method": "get",
+    "url": "",
+    "url_params": [],
+    "headers": [],
+    "cookies": [],
+    "body": [],
+    "json_body": null,
+    "body_toggle": false,
+    "retry_network_errors": null,
+    "transformationLanguage": "javascript",
+    "enableTransformation": false
+  },
+  "dataSourceId": "e2c00981-6b73-411d-8706-a1c3b81dafb6",
+  "appVersionId": "d9a3a678-3cf6-4f3d-be8a-6d7f942986ec",
+  "kind": "restapi"
+}

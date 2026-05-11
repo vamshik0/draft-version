@@ -3,11 +3,11 @@
   "name": "soccer",
   "type": "module",
   "slug": "b5535c77-2762-4885-800c-ba25d11adc16",
-  "isPublic": null,
+  "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
   "appBuilderMode": "visual",
   "icon": "folderupload",
-  "tooljetVersion": "3.21.23-beta-ee"
+  "tooljetVersion": "3.21.24-beta-ee"
 }

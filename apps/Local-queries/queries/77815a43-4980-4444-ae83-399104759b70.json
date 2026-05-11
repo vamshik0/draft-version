@@ -1,0 +1,12 @@
+{
+  "id": "77815a43-4980-4444-ae83-399104759b70",
+  "name": "local-js",
+  "options": {
+    "code": "return 'hello';",
+    "parameters": [],
+    "method": "get"
+  },
+  "dataSourceId": "b2582fe5-772f-48b6-8eff-35a194208600",
+  "appVersionId": "d9a3a678-3cf6-4f3d-be8a-6d7f942986ec",
+  "kind": "runjs"
+}

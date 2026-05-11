@@ -1,0 +1,13 @@
+{
+  "id": "1277d956-3a64-4ef6-a80e-27df484efb57",
+  "name": "Local-queries",
+  "type": "front-end",
+  "slug": "79a435af-ac98-4d3e-adc6-f2696773a6b9",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "sentfast",
+  "tooljetVersion": "3.21.27-beta-ee"
+}
