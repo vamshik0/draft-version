@@ -31,6 +31,9 @@
     },
     "showClearBtn": {
       "value": "{{false}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
     }
   },
   "general": {},

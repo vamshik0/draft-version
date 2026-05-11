@@ -1,0 +1,20 @@
+{
+  "id": "03f896cc-df25-4051-a8cf-78d7ca451c8a",
+  "name": "local-workflows1",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "operation": "operations",
+    "params": [
+      {
+        "key": "",
+        "value": ""
+      }
+    ],
+    "method": "get"
+  },
+  "dataSourceId": "38461ce6-77f8-462e-a2fb-02198085135d",
+  "appVersionId": "9512a023-d0ee-4658-a65e-c7ea7ad26521",
+  "kind": "workflows",
+  "dataSourceType": "static"
+}
