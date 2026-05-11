@@ -23,6 +23,12 @@
     "updatedAt": "2026-04-22T13:36:08.991Z",
     "contentHash": "06017b6ce6d54091b8f5f6ef2fb770a00802c07bb49a553fd5301b9bed6dca07"
   },
+  "93c243e3-d2d6-45c8-be4c-3c152fc969da": {
+    "name": "mongodb",
+    "kind": "mongodb",
+    "updatedAt": "2026-05-11T21:12:06.911Z",
+    "contentHash": "aa610581033f042d1c984e0c08cbb49e5b71e6c9be0b3b637b3ac67a74c50b4f"
+  },
   "a4401bcf-38a9-4406-a264-e6f7b95d7bcb": {
     "name": "test-s3",
     "kind": "s3",
@@ -41,5 +47,5 @@
     "updatedAt": "2026-04-22T13:36:08.992Z",
     "contentHash": "be9464d5e40384a19a5c7b21ec58c35bfc5d830856348fe0d2bed19accb0d949"
   },
-  "lastUpdatedAt": "2026-05-11T09:57:23.070Z"
+  "lastUpdatedAt": "2026-05-11T21:12:06.911Z"
 }
