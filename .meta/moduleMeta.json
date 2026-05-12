@@ -58,5 +58,9 @@
   "fefe6f34-4382-4020-9bbf-2b2ffd7d06b2": {
     "appPath": "modules/m-inventory",
     "updatedAt": "2026-04-29T06:28:30.434Z"
+  },
+  "dd74a60b-6c8a-4151-aa8c-258d3616c0e5": {
+    "appPath": "modules/redis-cache",
+    "updatedAt": "2026-05-12T14:43:51.363Z"
   }
 }
