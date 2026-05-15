@@ -1,0 +1,15 @@
+{
+  "id": "becef4c7-b513-412c-b56c-843b9ce542ff",
+  "name": "SMPL_query_1",
+  "options": {
+    "mode": "sql",
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "query": "select * from products;",
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "7e566d96-f8c0-46e5-9ecc-4d00212cf89d",
+  "appVersionId": "cce7ff7a-23b7-4345-b80e-2ed6dd8c1d5a",
+  "kind": "postgresql",
+  "dataSourceType": "sample"
+}
