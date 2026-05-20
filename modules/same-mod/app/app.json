@@ -3,11 +3,11 @@
   "name": "same-mod",
   "type": "module",
   "slug": "070dc263-4ecd-4a08-b38d-cf16c14ccc3d",
-  "isPublic": null,
+  "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
   "appBuilderMode": "visual",
   "icon": "globe",
-  "tooljetVersion": "3.21.23-beta-ee"
+  "tooljetVersion": "3.21.34-beta-ee"
 }
