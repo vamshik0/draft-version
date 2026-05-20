@@ -8,5 +8,6 @@
   },
   "dataSourceId": "b2582fe5-772f-48b6-8eff-35a194208600",
   "appVersionId": "d9a3a678-3cf6-4f3d-be8a-6d7f942986ec",
-  "kind": "runjs"
+  "kind": "runjs",
+  "dataSourceType": "static"
 }

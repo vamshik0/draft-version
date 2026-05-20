@@ -16,5 +16,6 @@
   },
   "dataSourceId": "e2c00981-6b73-411d-8706-a1c3b81dafb6",
   "appVersionId": "d9a3a678-3cf6-4f3d-be8a-6d7f942986ec",
-  "kind": "restapi"
+  "kind": "restapi",
+  "dataSourceType": "static"
 }
