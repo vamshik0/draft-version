@@ -13,14 +13,14 @@
   "pageSettings": {},
   "showViewerNavigation": false,
   "homePageId": "88bf3be3-57c0-4d84-acb2-aa3dea9b21db",
-  "versionType": "branch",
+  "versionType": "version",
   "appId": "36458762-8b92-4c5b-b31f-805cefa1ec4f",
   "promotedFrom": null,
-  "status": "DRAFT",
-  "description": null,
+  "status": "PUBLISHED",
+  "description": "saving v2 with new moduleName",
   "publishedAt": null,
   "releasedAt": null,
   "isStub": false,
-  "moduleReferenceId": "5e94cb26-9e0a-4f30-b550-0c8fb7ef2886",
+  "moduleReferenceId": "9ce99949-db29-42c3-aeb2-5692caeb21ac",
   "sourceTag": null
 }
