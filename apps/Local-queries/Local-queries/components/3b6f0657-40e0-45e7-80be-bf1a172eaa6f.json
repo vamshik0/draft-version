@@ -9,7 +9,7 @@
       "value": "36458762-8b92-4c5b-b31f-805cefa1ec4f"
     },
     "moduleVersionId": {
-      "value": "0c48b513-23db-493b-b6f4-d3150f21458d"
+      "value": "8259b34e-0dd7-4c9b-b0e9-8e33f4284a30"
     },
     "visibility": {
       "value": true
@@ -19,6 +19,9 @@
   "styles": {
     "backgroundColor": {
       "value": "#fff"
+    },
+    "padding": {
+      "value": "default"
     }
   },
   "generalStyles": {
