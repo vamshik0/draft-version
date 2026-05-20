@@ -31,11 +31,11 @@
     "json_body": null,
     "body_toggle": false,
     "retry_network_errors": true,
-    "transformationLanguage": "javascript",
-    "enableTransformation": false,
-    "runOnPageLoad": true,
     "raw_body": null,
-    "arrayValuesChanged": true
+    "array_values_changed": true,
+    "enableTransformation": false,
+    "transformationLanguage": "javascript",
+    "runOnPageLoad": true
   },
   "dataSourceId": "de45b4fe-5194-4681-b467-74b47ba19fd7",
   "appVersionId": "36458762-8b92-4c5b-b31f-805cefa1ec4f",
