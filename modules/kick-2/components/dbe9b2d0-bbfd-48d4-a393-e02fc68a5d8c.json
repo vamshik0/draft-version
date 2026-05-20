@@ -6,13 +6,13 @@
   "parent": "4823c513-ebd3-41d8-bd4a-73cf6d6ebe52",
   "properties": {
     "value": {
-      "value": ""
+      "value": "{{queries.e13c5c55-c261-46d5-8d91-244b06c18a2a.data.title}}"
     },
     "label": {
-      "value": "Label"
+      "value": "RestApi1 value"
     },
     "placeholder": {
-      "value": "Enter your phone"
+      "value": "{{queries.e13c5c55-c261-46d5-8d91-244b06c18a2a.data.title}}"
     },
     "visibility": {
       "value": "{{true}}"
