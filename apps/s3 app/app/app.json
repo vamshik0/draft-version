@@ -3,11 +3,11 @@
   "name": "s3 app",
   "type": "front-end",
   "slug": "df36dcfd-c620-4ef4-a59e-dcf231ce8c37",
-  "isPublic": null,
+  "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
   "appBuilderMode": "visual",
   "icon": "sentfast",
-  "tooljetVersion": "3.21.30-beta-ee"
+  "tooljetVersion": "3.21.34-beta-ee"
 }
