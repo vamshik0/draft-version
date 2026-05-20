@@ -9,10 +9,10 @@
       "value": "0"
     },
     "label": {
-      "value": "Label"
+      "value": "{{queries.cadb6120-7595-40d4-8167-55980e3458f0.data.message}}"
     },
     "placeholder": {
-      "value": "Enter amount"
+      "value": "{{queries.cadb6120-7595-40d4-8167-55980e3458f0.data.message}}"
     },
     "visibility": {
       "value": "{{true}}"
