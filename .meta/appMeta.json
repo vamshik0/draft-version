@@ -102,5 +102,13 @@
   "da48993a-9485-4386-a390-46291f57d975": {
     "appPath": "apps/Snowflake",
     "updatedAt": "2026-05-16T09:36:51.641Z"
+  },
+  "bba92a7f-1ad8-4931-b254-75c2ed5232e0": {
+    "appPath": "apps/folder 1/dsa",
+    "updatedAt": "2026-05-21T16:35:28.636Z"
+  },
+  "85a274bd-f39e-4e60-9f06-f48f9fd823b6": {
+    "appPath": "apps/Local-queries/new ap",
+    "updatedAt": "2026-05-21T16:41:42.306Z"
   }
 }

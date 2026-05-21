@@ -1,0 +1,13 @@
+{
+  "id": "bba92a7f-1ad8-4931-b254-75c2ed5232e0",
+  "name": "dsa",
+  "type": "front-end",
+  "slug": "cb3ddd3e-977d-457e-9343-5a7c41bafdcd",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "archive",
+  "tooljetVersion": "3.21.34-beta-ee"
+}
