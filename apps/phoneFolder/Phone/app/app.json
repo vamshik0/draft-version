@@ -1,0 +1,13 @@
+{
+  "id": "b662684c-e26b-43ce-a9dc-e78d87b7de7e",
+  "name": "Phone",
+  "type": "front-end",
+  "slug": "a2b54478-ff0d-47fd-a0c6-8e454e123074",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "shield",
+  "tooljetVersion": "3.21.34-beta-ee"
+}
