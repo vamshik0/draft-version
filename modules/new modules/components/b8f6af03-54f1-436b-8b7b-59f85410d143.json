@@ -1,0 +1,116 @@
+{
+  "id": "b8f6af03-54f1-436b-8b7b-59f85410d143",
+  "name": "form1",
+  "type": "Form",
+  "pageId": "2846747f-4d0e-4830-8f74-0956e9c2de6b",
+  "parent": "9e658d3b-a31f-4dcb-acbb-71ee6ae25852",
+  "properties": {
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "advanced": {
+      "value": "{{false}}"
+    },
+    "JSONSchema": {
+      "value": "{{ {title: 'User registration form', properties: {firstname: {type: 'textinput',value: 'Maria',label:'First name', validation:{maxLength:6}, styles: {backgroundColor: '#f6f5ff',textColor: 'black'},},lastname:{type: 'textinput',value: 'Doe', label:'Last name', styles: {backgroundColor: '#f6f5ff',textColor: 'black'},},age:{type:'number', label:'Age'},}, submitButton: {value: 'Submit', styles: {backgroundColor: '#3a433b',borderColor:'#595959'}}} }}"
+    },
+    "newJsonSchema": {
+      "value": "{{ {title: 'User registration form', properties: {firstname: {type: 'textinput',value: 'Maria',label:'First name', validation:{maxLength:6}, styles: {backgroundColor: '#f6f5ff',textColor: 'black'},},lastname:{type: 'textinput',value: 'Doe', label:'Last name', styles: {backgroundColor: '#f6f5ff',textColor: 'black'},},age:{type:'number', label:'Age'},}, submitButton: {value: 'Submit', styles: {backgroundColor: '#3a433b',borderColor:'#595959'}}} }}"
+    },
+    "showHeader": {
+      "value": "{{true}}"
+    },
+    "showFooter": {
+      "value": "{{true}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "headerHeight": {
+      "value": 60
+    },
+    "footerHeight": {
+      "value": 60
+    },
+    "validateOnSubmit": {
+      "value": "{{true}}"
+    },
+    "resetOnSubmit": {
+      "value": "{{true}}"
+    },
+    "generateFormFrom": {
+      "value": ""
+    },
+    "JSONData": {
+      "value": {}
+    },
+    "buttonToSubmit": {
+      "value": "dccb15fb-291d-45b6-bbc3-ae2f8cbb8468"
+    }
+  },
+  "general": {},
+  "styles": {
+    "headerBackgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "footerBackgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "backgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderRadius": {
+      "value": "6"
+    },
+    "borderColor": {
+      "value": "var(--cc-weak-border)"
+    },
+    "headerDividerColor": {
+      "value": "var(--cc-weak-border)"
+    },
+    "footerDividerColor": {
+      "value": "var(--cc-weak-border)"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "47bd1892-d1f7-45dc-96c5-7cca685ce59e",
+      "type": "desktop",
+      "top": 90,
+      "left": 14,
+      "width": 17,
+      "height": 450,
+      "componentId": "b8f6af03-54f1-436b-8b7b-59f85410d143",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "7ab5c896-ee25-45ff-bd82-e206a7279b7c",
+      "type": "mobile",
+      "top": 20,
+      "left": 20,
+      "width": 17,
+      "height": 450,
+      "componentId": "b8f6af03-54f1-436b-8b7b-59f85410d143",
+      "dimensionUnit": "count"
+    }
+  ]
+}
