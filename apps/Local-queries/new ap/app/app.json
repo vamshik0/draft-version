@@ -3,11 +3,11 @@
   "name": "new ap",
   "type": "front-end",
   "slug": "f9144266-c271-4f04-8519-c06b56dcc77f",
-  "isPublic": null,
+  "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
   "appBuilderMode": "visual",
   "icon": "grid",
-  "tooljetVersion": "3.21.34-beta-ee"
+  "tooljetVersion": "3.21.37-beta-ee"
 }
