@@ -3,11 +3,11 @@
   "name": "new modules",
   "type": "module",
   "slug": "b50f7c64-1890-487e-ac90-19df90886dae",
-  "isPublic": null,
+  "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
   "appBuilderMode": "visual",
   "icon": "home",
-  "tooljetVersion": "3.21.34-beta-ee"
+  "tooljetVersion": "3.21.37-beta-ee"
 }
