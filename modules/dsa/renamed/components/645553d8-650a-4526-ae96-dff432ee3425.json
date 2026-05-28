@@ -12,7 +12,7 @@
       "value": "{{false}}"
     },
     "text": {
-      "value": "Hello {{queries.7a94fc1e-c457-4ecc-95a1-6dc3e31f34bb.data.title}}👋"
+      "value": "Hello {{queries.7a94fc1e-c457-4ecc-95a1-6dc3e31f34bb.data[0].title}}👋"
     },
     "loadingState": {
       "value": "{{false}}"
@@ -104,7 +104,7 @@
       "top": 190,
       "left": 2,
       "width": 31,
-      "height": 40,
+      "height": 70,
       "componentId": "645553d8-650a-4526-ae96-dff432ee3425",
       "dimensionUnit": "count"
     },
