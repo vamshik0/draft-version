@@ -134,5 +134,9 @@
   "de384481-c2ec-46f1-9900-a7166e42e2a2": {
     "appPath": "apps/Local-queries/new module -app",
     "updatedAt": "2026-05-28T11:45:52.949Z"
+  },
+  "5632923d-7992-4f25-bf7d-c4ec709856e4": {
+    "appPath": "apps/NO-DS-app_1",
+    "updatedAt": "2026-06-03T20:47:34.883Z"
   }
 }
