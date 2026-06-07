@@ -1,0 +1,13 @@
+{
+  "id": "947b052b-7d46-4987-b5f0-3e7ba4230c44",
+  "name": "one-oneone-app-export",
+  "type": "front-end",
+  "slug": "d862f49e-89b7-4409-966b-e7412c896710",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "layers",
+  "tooljetVersion": "3.21.41-beta-ee"
+}

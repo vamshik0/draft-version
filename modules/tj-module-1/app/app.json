@@ -1,13 +1,13 @@
 {
-  "id": "382749f0-0ed2-49e5-8c09-568e522cdacd",
-  "name": "common-module-1",
+  "id": "0873ad40-970f-43cb-b35b-fa1c55a8f17d",
+  "name": "tj-module-1",
   "type": "module",
-  "slug": "3283db46-56e2-4c64-9a4f-b905016bc67e",
+  "slug": "988ce253-c05b-45fe-9ad0-96b6922a0a7a",
   "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
   "appBuilderMode": "visual",
-  "icon": "floppydisk",
+  "icon": "apps",
   "tooljetVersion": "3.21.41-beta-ee"
 }
