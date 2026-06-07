@@ -1,0 +1,13 @@
+{
+  "id": "7ecaa0d2-dd99-400b-922d-fd61709ed467",
+  "name": "Navigation - PAN_INDIA",
+  "type": "module",
+  "slug": "727cc1f4-c83f-4303-8978-b1d9a571cd01",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "sentfast",
+  "tooljetVersion": "3.21.41-beta-ee"
+}
