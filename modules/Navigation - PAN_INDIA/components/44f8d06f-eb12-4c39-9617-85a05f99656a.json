@@ -1,0 +1,70 @@
+{
+  "id": "44f8d06f-eb12-4c39-9617-85a05f99656a",
+  "name": "customcomponent2",
+  "type": "CustomComponent",
+  "pageId": "cfa58f2d-c3e0-48ba-b2b0-5223bbad1cb2",
+  "parent": "665dc857-5e34-4503-8793-a597c8489211",
+  "properties": {
+    "visible": {
+      "value": "{{true}}"
+    },
+    "data": {
+      "value": "{{{ title: 'Hi! There', buttonText: 'Update Title'}}}"
+    },
+    "code": {
+      "value": "import React from 'https://cdn.jsdelivr.net/npm/react@17.0.2/+esm';\n  import ReactDOM from 'https://cdn.jsdelivr.net/npm/react-dom@17.0.2/+esm';\n  import { Button, Container } from 'https://cdn.jsdelivr.net/npm/@material-ui/core@4.12.4/+esm';\n  const MyCustomComponent = ({data, updateData, runQuery}) => (\n    <Container>\n        <h1>{data.title}</h1>\n        <Button\n          color=\"primary\"\n          variant=\"outlined\"\n          onClick={() => {updateData({title: 'Hello World!!'})}}\n        >\n          {data.buttonText}\n        </Button>\n      </Container>\n  );\n  const ConnectedComponent = Tooljet.connectComponent(MyCustomComponent);\n  ReactDOM.render(<ConnectedComponent />, document.body);",
+      "skipResolve": true
+    }
+  },
+  "general": {},
+  "styles": {
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "borderColor": {
+      "value": "var(--cc-weak-border)"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "generalStyles": {
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "0760fc48-e0aa-4270-87ba-e226ca1692ee",
+      "type": "desktop",
+      "top": 100,
+      "left": 14,
+      "width": 11,
+      "height": 150,
+      "componentId": "44f8d06f-eb12-4c39-9617-85a05f99656a",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "743bfbff-3ce1-40c2-97cd-9f83a094c83d",
+      "type": "mobile",
+      "top": 60,
+      "left": 23,
+      "width": 20,
+      "height": 140,
+      "componentId": "44f8d06f-eb12-4c39-9617-85a05f99656a",
+      "dimensionUnit": "count"
+    }
+  ]
+}
