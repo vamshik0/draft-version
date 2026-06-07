@@ -154,5 +154,9 @@
   "ff1b2790-f3d0-4188-a713-c5eacd0606b4": {
     "appPath": "apps/reg-app-mod-pan-india-export",
     "updatedAt": "2026-06-07T20:29:23.430Z"
+  },
+  "ec2e2af7-e447-4e35-87ec-4ef4efe0b575": {
+    "appPath": "apps/one-two-app-export-1",
+    "updatedAt": "2026-06-07T20:50:46.506Z"
   }
 }
