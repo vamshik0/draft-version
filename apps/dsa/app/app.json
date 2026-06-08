@@ -1,13 +1,13 @@
 {
-  "id": "bba92a7f-1ad8-4931-b254-75c2ed5232e0",
+  "id": "4fa58795-f972-494f-ae57-fbb77fcbdc19",
   "name": "dsa",
   "type": "front-end",
-  "slug": "cb3ddd3e-977d-457e-9343-5a7c41bafdcd",
+  "slug": "536adc2f-d0b7-4b9a-b96a-4ae5ab37b7de",
   "isPublic": null,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
   "appBuilderMode": "visual",
-  "icon": "archive",
-  "tooljetVersion": "3.21.34-beta-ee"
+  "icon": "sun",
+  "tooljetVersion": "3.21.42-beta-ee"
 }
