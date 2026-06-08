@@ -107,10 +107,6 @@
     "appPath": "apps/folder 1/dsa",
     "updatedAt": "2026-05-21T16:35:28.636Z"
   },
-  "85a274bd-f39e-4e60-9f06-f48f9fd823b6": {
-    "appPath": "apps/Local-queries/new ap",
-    "updatedAt": "2026-05-28T11:48:50.457Z"
-  },
   "39f9a222-5cf9-486d-9e9d-7ee9964752b1": {
     "appPath": "apps/common-app-1",
     "updatedAt": "2026-05-22T05:55:54.720Z"
@@ -163,12 +159,8 @@
     "appPath": "apps/one-oneone-app-export",
     "updatedAt": "2026-06-07T20:52:14.347Z"
   },
-  "4fa58795-f972-494f-ae57-fbb77fcbdc19": {
-    "appPath": "apps/dsa",
-    "updatedAt": "2026-06-08T11:56:17.860Z"
-  },
   "462fc313-edef-4512-bcb2-572e9eb027fa": {
-    "appPath": "apps/new ap",
-    "updatedAt": "2026-06-08T12:07:26.122Z"
+    "appPath": "apps/new ap_1",
+    "updatedAt": "2026-06-08T12:18:09.896Z"
   }
 }
