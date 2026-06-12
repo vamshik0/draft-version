@@ -11,8 +11,8 @@
     "json_body": null,
     "body_toggle": false,
     "retry_network_errors": null,
-    "transformationLanguage": "javascript",
     "enableTransformation": false,
+    "transformationLanguage": "javascript",
     "runOnPageLoad": true,
     "runOnDependencyChange": false
   },
