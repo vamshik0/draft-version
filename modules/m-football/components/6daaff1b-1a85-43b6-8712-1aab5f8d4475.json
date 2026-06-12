@@ -12,7 +12,7 @@
       "value": "{{false}}"
     },
     "text": {
-      "value": "Hello {{globals.currentUser.firstName}}👋"
+      "value": "Hello {{globals.currentUser.firstName}} - {{globals.appVersion.name}} 👋"
     },
     "loadingState": {
       "value": "{{false}}"
@@ -28,6 +28,9 @@
     },
     "tooltipFormat": {
       "value": "plainText"
+    },
+    "tooltip": {
+      "value": ""
     }
   },
   "general": {},
@@ -106,7 +109,7 @@
       "type": "desktop",
       "top": 210,
       "left": 11,
-      "width": 19,
+      "width": 29,
       "height": 40,
       "componentId": "6daaff1b-1a85-43b6-8712-1aab5f8d4475",
       "dimensionUnit": "count"
