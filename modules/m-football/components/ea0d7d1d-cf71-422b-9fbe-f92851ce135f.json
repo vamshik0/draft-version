@@ -1,15 +1,18 @@
 {
-  "id": "526dc143-8244-4ac2-a496-88bfa8f52120",
-  "name": "button1",
+  "id": "ea0d7d1d-cf71-422b-9fbe-f92851ce135f",
+  "name": "button3",
   "type": "Button",
   "pageId": "0f7af511-8572-4007-875c-e6c27d39d0d1",
   "parent": "c60768f3-1c61-4708-b676-41027a4fd910",
   "properties": {
     "text": {
-      "value": "m-football"
+      "value": "Button"
     },
     "visibility": {
       "value": "{{true}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
     },
     "disabledState": {
       "value": "{{false}}"
@@ -19,9 +22,6 @@
     },
     "tooltip": {
       "value": ""
-    },
-    "collapseWhenHidden": {
-      "value": "{{false}}"
     },
     "tooltipFormat": {
       "value": "plainText"
@@ -93,23 +93,23 @@
   "validation": {},
   "layouts": [
     {
-      "id": "e4879133-4e1d-4eff-a916-93462a8e3551",
+      "id": "a7236d4f-592c-48d7-a7ca-0a52080f384a",
       "type": "desktop",
-      "top": 90,
-      "left": 5,
+      "top": 280,
+      "left": 6,
       "width": 12,
       "height": 40,
-      "componentId": "526dc143-8244-4ac2-a496-88bfa8f52120",
+      "componentId": "ea0d7d1d-cf71-422b-9fbe-f92851ce135f",
       "dimensionUnit": "count"
     },
     {
-      "id": "80e72214-850a-4dc9-a7e9-ecce26ff67d4",
+      "id": "688d19f4-be44-415d-ae0e-96248318c271",
       "type": "mobile",
-      "top": 90,
-      "left": 5,
+      "top": 280,
+      "left": 6,
       "width": 12,
       "height": 40,
-      "componentId": "526dc143-8244-4ac2-a496-88bfa8f52120",
+      "componentId": "ea0d7d1d-cf71-422b-9fbe-f92851ce135f",
       "dimensionUnit": "count"
     }
   ]
