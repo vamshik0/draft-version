@@ -6,7 +6,7 @@
   "parent": "c60768f3-1c61-4708-b676-41027a4fd910",
   "properties": {
     "text": {
-      "value": "Button"
+      "value": "{{queries.19691cbf-a67a-4255-b0ea-dd60ccff7ece.data.title}}"
     },
     "visibility": {
       "value": "{{true}}"
