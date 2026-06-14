@@ -53,6 +53,12 @@
     "updatedAt": "2026-05-11T09:57:23.070Z",
     "contentHash": "e626c2cc8eb1457927ae2f6c039cfd640f55678f46f5b6b9d6f8bfd212dc768f"
   },
+  "cff5d753-8340-4851-9d8a-603dfae1c7fa": {
+    "name": "couchdb-test-1",
+    "kind": "couchdb",
+    "updatedAt": "2026-06-14T13:06:07.095Z",
+    "contentHash": "034c4ff04d620854532fb48c84e30c5b563c1503e1b6b552e7b273b0fa6a858f"
+  },
   "de45b4fe-5194-4681-b467-74b47ba19fd7": {
     "name": "ui_url",
     "kind": "restapi",
@@ -65,5 +71,5 @@
     "updatedAt": "2026-04-22T13:36:08.992Z",
     "contentHash": "be9464d5e40384a19a5c7b21ec58c35bfc5d830856348fe0d2bed19accb0d949"
   },
-  "lastUpdatedAt": "2026-06-12T11:45:54.929Z"
+  "lastUpdatedAt": "2026-06-14T13:06:07.095Z"
 }
