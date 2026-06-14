@@ -8,8 +8,8 @@
   "1e622be3-5b33-435f-a088-e2c9222f621f": {
     "name": "post-salesforce",
     "kind": "salesforce",
-    "updatedAt": "2026-06-12T11:45:54.929Z",
-    "contentHash": "686b6409e847c38ad551b4f60da0d7cd5c25d85344222b0d6e4ec935cba463b9"
+    "updatedAt": "2026-06-14T13:33:13.700Z",
+    "contentHash": "dbc82985a3f3bb060252144a42209744eece77c242a03a128810d72e0defe8d7"
   },
   "3294e8b4-1c51-48ab-9431-9ecf3116f7c2": {
     "name": "grpcv2",
@@ -28,6 +28,12 @@
     "kind": "restapi",
     "updatedAt": "2026-05-12T14:45:23.212Z",
     "contentHash": "cb9712f68add8e7af3ebe8cf7c72f035b6897a1578fe08a4d4465f1315be9f55"
+  },
+  "6511502d-f4b6-4bcf-ba32-7cd95e2ceafc": {
+    "name": "clickhouse-test-1",
+    "kind": "clickhouse",
+    "updatedAt": "2026-06-14T13:33:13.700Z",
+    "contentHash": "16b99c69e5d77edf6427a9f6bce231329374912bf0208362b71f2f2480acae52"
   },
   "71224f8e-4a1e-4934-8bab-2cba45c06677": {
     "name": "restapi",
@@ -77,5 +83,5 @@
     "updatedAt": "2026-04-22T13:36:08.992Z",
     "contentHash": "be9464d5e40384a19a5c7b21ec58c35bfc5d830856348fe0d2bed19accb0d949"
   },
-  "lastUpdatedAt": "2026-06-14T13:08:41.185Z"
+  "lastUpdatedAt": "2026-06-14T13:33:13.700Z"
 }

@@ -1,0 +1,11 @@
+{
+  "id": "6511502d-f4b6-4bcf-ba32-7cd95e2ceafc",
+  "name": "clickhouse-test-1",
+  "kind": "clickhouse",
+  "type": "default",
+  "options": {
+    "development": {},
+    "production": {},
+    "staging": {}
+  }
+}
