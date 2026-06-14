@@ -1,0 +1,23 @@
+{
+  "id": "d7e1351a-c893-44d7-a662-2f01003566a9",
+  "name": "dynamodb-test-1",
+  "kind": "dynamodb",
+  "type": "default",
+  "options": {
+    "development": {
+      "region": "",
+      "access_key": "",
+      "instance_metadata_credentials": "iam_access_keys"
+    },
+    "production": {
+      "region": "",
+      "access_key": "",
+      "instance_metadata_credentials": "iam_access_keys"
+    },
+    "staging": {
+      "region": "",
+      "access_key": "",
+      "instance_metadata_credentials": "iam_access_keys"
+    }
+  }
+}
