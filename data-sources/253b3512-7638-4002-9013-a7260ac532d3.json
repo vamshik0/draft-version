@@ -1,0 +1,29 @@
+{
+  "id": "253b3512-7638-4002-9013-a7260ac532d3",
+  "name": "elasticsearch-test-1",
+  "kind": "elasticsearch",
+  "type": "default",
+  "options": {
+    "development": {
+      "host": "localhost",
+      "port": 9200,
+      "username": "",
+      "ssl_enabled": true,
+      "ssl_certificate": "none"
+    },
+    "production": {
+      "host": "localhost",
+      "port": 9200,
+      "username": "",
+      "ssl_enabled": true,
+      "ssl_certificate": "none"
+    },
+    "staging": {
+      "host": "localhost",
+      "port": 9200,
+      "username": "",
+      "ssl_enabled": true,
+      "ssl_certificate": "none"
+    }
+  }
+}
