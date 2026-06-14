@@ -11,6 +11,12 @@
     "updatedAt": "2026-06-14T13:33:13.700Z",
     "contentHash": "dbc82985a3f3bb060252144a42209744eece77c242a03a128810d72e0defe8d7"
   },
+  "253b3512-7638-4002-9013-a7260ac532d3": {
+    "name": "elasticsearch-test-1",
+    "kind": "elasticsearch",
+    "updatedAt": "2026-06-14T19:14:17.255Z",
+    "contentHash": "a0615838c17efc50f087f00df31a5243d051e1c94729183204d47c97ccf5ef78"
+  },
   "3294e8b4-1c51-48ab-9431-9ecf3116f7c2": {
     "name": "grpcv2",
     "kind": "grpcv2",
@@ -83,5 +89,5 @@
     "updatedAt": "2026-04-22T13:36:08.992Z",
     "contentHash": "be9464d5e40384a19a5c7b21ec58c35bfc5d830856348fe0d2bed19accb0d949"
   },
-  "lastUpdatedAt": "2026-06-14T13:33:13.700Z"
+  "lastUpdatedAt": "2026-06-14T19:14:17.257Z"
 }
