@@ -27,6 +27,5 @@
       "redirect_url": ""
     }
   },
-  "isPlugin": true,
-  "pluginKind": "salesforce"
+  "isPlugin": true
 }
