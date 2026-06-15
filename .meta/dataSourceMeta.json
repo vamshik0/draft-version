@@ -1,4 +1,10 @@
 {
+  "10cc9e98-0a82-4d33-8828-b16755002173": {
+    "name": "redis-test-1",
+    "kind": "redis",
+    "updatedAt": "2026-06-14T19:22:11.362Z",
+    "contentHash": "3fe069eb5e85cd346e754f6e4a1509abff63fe001664820ee85d428c0bb3cddc"
+  },
   "1c9da688-2045-470b-8ec5-bef9daddb35c": {
     "name": "postgresql",
     "kind": "postgresql",
@@ -14,7 +20,7 @@
   "253b3512-7638-4002-9013-a7260ac532d3": {
     "name": "elasticsearch-test-1",
     "kind": "elasticsearch",
-    "updatedAt": "2026-06-14T19:14:17.255Z",
+    "updatedAt": "2026-06-14T19:22:11.363Z",
     "contentHash": "a0615838c17efc50f087f00df31a5243d051e1c94729183204d47c97ccf5ef78"
   },
   "3294e8b4-1c51-48ab-9431-9ecf3116f7c2": {
