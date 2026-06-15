@@ -11,12 +11,6 @@
     "updatedAt": "2026-06-14T13:33:13.700Z",
     "contentHash": "dbc82985a3f3bb060252144a42209744eece77c242a03a128810d72e0defe8d7"
   },
-  "253b3512-7638-4002-9013-a7260ac532d3": {
-    "name": "elasticsearch-test-1",
-    "kind": "elasticsearch",
-    "updatedAt": "2026-06-14T19:22:11.363Z",
-    "contentHash": "a0615838c17efc50f087f00df31a5243d051e1c94729183204d47c97ccf5ef78"
-  },
   "3294e8b4-1c51-48ab-9431-9ecf3116f7c2": {
     "name": "grpcv2",
     "kind": "grpcv2",
@@ -28,12 +22,6 @@
     "kind": "restapi",
     "updatedAt": "2026-05-12T14:45:23.212Z",
     "contentHash": "cb9712f68add8e7af3ebe8cf7c72f035b6897a1578fe08a4d4465f1315be9f55"
-  },
-  "6511502d-f4b6-4bcf-ba32-7cd95e2ceafc": {
-    "name": "clickhouse-test-1",
-    "kind": "clickhouse",
-    "updatedAt": "2026-06-14T13:33:13.700Z",
-    "contentHash": "16b99c69e5d77edf6427a9f6bce231329374912bf0208362b71f2f2480acae52"
   },
   "71224f8e-4a1e-4934-8bab-2cba45c06677": {
     "name": "restapi",
@@ -65,35 +53,11 @@
     "updatedAt": "2026-05-11T09:57:23.070Z",
     "contentHash": "e626c2cc8eb1457927ae2f6c039cfd640f55678f46f5b6b9d6f8bfd212dc768f"
   },
-  "c6dcd491-0c0e-4c1d-a426-80232b724421": {
-    "name": "airtable-test-leak-1",
-    "kind": "airtable",
-    "updatedAt": "2026-06-15T06:07:45.817Z",
-    "contentHash": "2618f890a31e6d6e4d075f950b7ffb302b61a983ad7a61f1e3ed81e4d87bf6c8"
-  },
-  "cff5d753-8340-4851-9d8a-603dfae1c7fa": {
-    "name": "couchdb-test-1",
-    "kind": "couchdb",
-    "updatedAt": "2026-06-14T13:06:07.095Z",
-    "contentHash": "034c4ff04d620854532fb48c84e30c5b563c1503e1b6b552e7b273b0fa6a858f"
-  },
-  "d7e1351a-c893-44d7-a662-2f01003566a9": {
-    "name": "dynamodb-test-1",
-    "kind": "dynamodb",
-    "updatedAt": "2026-06-14T19:20:46.216Z",
-    "contentHash": "3c5b9f9ca3be617af98adcf89215c626ca43ed70c6cd7fa111b79ec140124ea4"
-  },
   "de45b4fe-5194-4681-b467-74b47ba19fd7": {
     "name": "ui_url",
     "kind": "restapi",
     "updatedAt": "2026-05-01T10:22:17.193Z",
     "contentHash": "978d5f2dcabb732fb5b723d8c992822c9e14d527068276c239def45569d846a4"
-  },
-  "de81d2f6-0b8b-4d05-8c43-79437c8b4abc": {
-    "name": "rethinkdb-leak-test",
-    "kind": "rethinkdb",
-    "updatedAt": "2026-06-14T19:30:30.252Z",
-    "contentHash": "5dd39e541add6f53bddb5c9dcd4340a04aee4a7f1951c371c01ddc9ed465371e"
   },
   "dff98816-4b22-449c-940c-fafadfd8a05c": {
     "name": "snowflake",
