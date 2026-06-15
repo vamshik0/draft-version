@@ -53,6 +53,12 @@
     "updatedAt": "2026-05-11T09:57:23.070Z",
     "contentHash": "e626c2cc8eb1457927ae2f6c039cfd640f55678f46f5b6b9d6f8bfd212dc768f"
   },
+  "b1b17060-0eff-48db-afbf-fb933b006d28": {
+    "name": "ds-mysql-2",
+    "kind": "mysql",
+    "updatedAt": "2026-06-15T09:30:12.123Z",
+    "contentHash": "0279af5767c86fd900ca035232432b07ea900534ed250a4c1f20051fdcacc22b"
+  },
   "de45b4fe-5194-4681-b467-74b47ba19fd7": {
     "name": "ui_url",
     "kind": "restapi",
