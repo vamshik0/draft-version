@@ -1,0 +1,38 @@
+{
+  "id": "9cfb19e8-c1ba-4e7d-9ab4-86e3919a3576",
+  "name": "oracledb",
+  "kind": "oracledb",
+  "type": "default",
+  "options": {
+    "development": {
+      "host": "localhost",
+      "port": 1521,
+      "ssl_enabled": true,
+      "database_type": "SID",
+      "use_tns_alias": "no",
+      "ssl_certificate": "none",
+      "client_path_type": "default",
+      "instant_client_version": "21_10"
+    },
+    "production": {
+      "host": "localhost",
+      "port": 1521,
+      "ssl_enabled": true,
+      "database_type": "SID",
+      "use_tns_alias": "no",
+      "ssl_certificate": "none",
+      "client_path_type": "default",
+      "instant_client_version": "21_10"
+    },
+    "staging": {
+      "host": "localhost",
+      "port": 1521,
+      "ssl_enabled": true,
+      "database_type": "SID",
+      "use_tns_alias": "no",
+      "ssl_certificate": "none",
+      "client_path_type": "default",
+      "instant_client_version": "21_10"
+    }
+  }
+}

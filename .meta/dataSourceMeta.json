@@ -53,11 +53,23 @@
     "updatedAt": "2026-05-11T21:12:06.911Z",
     "contentHash": "aa610581033f042d1c984e0c08cbb49e5b71e6c9be0b3b637b3ac67a74c50b4f"
   },
+  "9cfb19e8-c1ba-4e7d-9ab4-86e3919a3576": {
+    "name": "oracledb",
+    "kind": "oracledb",
+    "updatedAt": "2026-06-15T06:07:45.816Z",
+    "contentHash": "1d05b16cd595ecf4f275a41f231aaa776fe20e7f43f504dcfef0eab0ab720284"
+  },
   "a4401bcf-38a9-4406-a264-e6f7b95d7bcb": {
     "name": "test-s3",
     "kind": "s3",
     "updatedAt": "2026-05-11T09:57:23.070Z",
     "contentHash": "e626c2cc8eb1457927ae2f6c039cfd640f55678f46f5b6b9d6f8bfd212dc768f"
+  },
+  "c6dcd491-0c0e-4c1d-a426-80232b724421": {
+    "name": "airtable-test-leak-1",
+    "kind": "airtable",
+    "updatedAt": "2026-06-15T06:07:45.817Z",
+    "contentHash": "2618f890a31e6d6e4d075f950b7ffb302b61a983ad7a61f1e3ed81e4d87bf6c8"
   },
   "cff5d753-8340-4851-9d8a-603dfae1c7fa": {
     "name": "couchdb-test-1",
@@ -89,5 +101,5 @@
     "updatedAt": "2026-04-22T13:36:08.992Z",
     "contentHash": "be9464d5e40384a19a5c7b21ec58c35bfc5d830856348fe0d2bed19accb0d949"
   },
-  "lastUpdatedAt": "2026-06-15T04:51:37.578Z"
+  "lastUpdatedAt": "2026-06-15T06:07:45.817Z"
 }
