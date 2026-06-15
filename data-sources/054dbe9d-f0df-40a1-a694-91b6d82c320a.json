@@ -1,0 +1,47 @@
+{
+  "id": "054dbe9d-f0df-40a1-a694-91b6d82c320a",
+  "name": "ds-mssql-1",
+  "kind": "mssql",
+  "type": "default",
+  "options": {
+    "development": {
+      "host": "localhost",
+      "port": 1433,
+      "azure": false,
+      "ssh_port": 22,
+      "auth_type": "sql",
+      "ssh_enabled": "disabled",
+      "ssl_enabled": false,
+      "ssh_auth_type": "private_key",
+      "connection_type": "manual",
+      "ssl_certificate": "none",
+      "allow_dynamic_connection_parameters": false
+    },
+    "production": {
+      "host": "localhost",
+      "port": 1433,
+      "azure": false,
+      "ssh_port": 22,
+      "auth_type": "sql",
+      "ssh_enabled": "disabled",
+      "ssl_enabled": false,
+      "ssh_auth_type": "private_key",
+      "connection_type": "manual",
+      "ssl_certificate": "none",
+      "allow_dynamic_connection_parameters": false
+    },
+    "staging": {
+      "host": "localhost",
+      "port": 1433,
+      "azure": false,
+      "ssh_port": 22,
+      "auth_type": "sql",
+      "ssh_enabled": "disabled",
+      "ssl_enabled": false,
+      "ssh_auth_type": "private_key",
+      "connection_type": "manual",
+      "ssl_certificate": "none",
+      "allow_dynamic_connection_parameters": false
+    }
+  }
+}
