@@ -1,0 +1,29 @@
+{
+  "id": "70d612b0-c2aa-4bac-818b-5c4d770c3610",
+  "name": "leakredis-3",
+  "kind": "redis",
+  "type": "default",
+  "options": {
+    "development": {
+      "host": "localhost",
+      "port": 6379,
+      "username": "",
+      "tls_enabled": false,
+      "tls_certificate": "none"
+    },
+    "production": {
+      "host": "localhost",
+      "port": 6379,
+      "username": "",
+      "tls_enabled": false,
+      "tls_certificate": "none"
+    },
+    "staging": {
+      "host": "localhost",
+      "port": 6379,
+      "username": "",
+      "tls_enabled": false,
+      "tls_certificate": "none"
+    }
+  }
+}
