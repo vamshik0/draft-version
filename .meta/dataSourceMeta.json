@@ -35,6 +35,12 @@
     "updatedAt": "2026-05-01T10:19:05.979Z",
     "contentHash": "8b058b6821a5402f01140199cccdd897a500d97405df27ccbef8a6f873ac5524"
   },
+  "7c61eb79-1ddc-4f06-9401-faeb62a1f889": {
+    "name": "ds-mysql-1",
+    "kind": "mysql",
+    "updatedAt": "2026-06-15T08:58:53.913Z",
+    "contentHash": "feea16f39b2e93b76a73d04e9dc45a90f287b80de3054c56f51e6e2ba78ffd19"
+  },
   "93c243e3-d2d6-45c8-be4c-3c152fc969da": {
     "name": "mongodb",
     "kind": "mongodb",
@@ -59,5 +65,5 @@
     "updatedAt": "2026-04-22T13:36:08.992Z",
     "contentHash": "be9464d5e40384a19a5c7b21ec58c35bfc5d830856348fe0d2bed19accb0d949"
   },
-  "lastUpdatedAt": "2026-06-15T08:14:04.461Z"
+  "lastUpdatedAt": "2026-06-15T08:58:53.914Z"
 }
