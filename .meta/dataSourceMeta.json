@@ -29,12 +29,6 @@
     "updatedAt": "2026-05-12T14:45:23.212Z",
     "contentHash": "cb9712f68add8e7af3ebe8cf7c72f035b6897a1578fe08a4d4465f1315be9f55"
   },
-  "6511502d-f4b6-4bcf-ba32-7cd95e2ceafc": {
-    "name": "clickhouse-test-1",
-    "kind": "clickhouse",
-    "updatedAt": "2026-06-14T13:33:13.700Z",
-    "contentHash": "16b99c69e5d77edf6427a9f6bce231329374912bf0208362b71f2f2480acae52"
-  },
   "71224f8e-4a1e-4934-8bab-2cba45c06677": {
     "name": "restapi",
     "kind": "restapi",
@@ -58,6 +52,12 @@
     "kind": "s3",
     "updatedAt": "2026-05-11T09:57:23.070Z",
     "contentHash": "e626c2cc8eb1457927ae2f6c039cfd640f55678f46f5b6b9d6f8bfd212dc768f"
+  },
+  "c6dcd491-0c0e-4c1d-a426-80232b724421": {
+    "name": "airtable-test-leak-1",
+    "kind": "airtable",
+    "updatedAt": "2026-06-15T04:55:45.424Z",
+    "contentHash": "2618f890a31e6d6e4d075f950b7ffb302b61a983ad7a61f1e3ed81e4d87bf6c8"
   },
   "cff5d753-8340-4851-9d8a-603dfae1c7fa": {
     "name": "couchdb-test-1",
@@ -89,5 +89,5 @@
     "updatedAt": "2026-04-22T13:36:08.992Z",
     "contentHash": "be9464d5e40384a19a5c7b21ec58c35bfc5d830856348fe0d2bed19accb0d949"
   },
-  "lastUpdatedAt": "2026-06-15T04:51:37.578Z"
+  "lastUpdatedAt": "2026-06-15T04:55:45.425Z"
 }

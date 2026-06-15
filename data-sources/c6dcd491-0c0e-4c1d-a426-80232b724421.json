@@ -1,7 +1,7 @@
 {
-  "id": "6511502d-f4b6-4bcf-ba32-7cd95e2ceafc",
-  "name": "clickhouse-test-1",
-  "kind": "clickhouse",
+  "id": "c6dcd491-0c0e-4c1d-a426-80232b724421",
+  "name": "airtable-test-leak-1",
+  "kind": "airtable",
   "type": "default",
   "options": {
     "development": {},
