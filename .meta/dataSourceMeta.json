@@ -11,12 +11,6 @@
     "updatedAt": "2026-06-14T13:33:13.700Z",
     "contentHash": "dbc82985a3f3bb060252144a42209744eece77c242a03a128810d72e0defe8d7"
   },
-  "29c228d9-b35c-421f-b8d1-9010be6170ae": {
-    "name": "leak-redis-1",
-    "kind": "redis",
-    "updatedAt": "2026-06-15T07:01:03.920Z",
-    "contentHash": "d624fe114fca2ce07846cf3bfaae7e4ec5fb166996c8b3ad5d6da5444250e3e5"
-  },
   "3294e8b4-1c51-48ab-9431-9ecf3116f7c2": {
     "name": "grpcv2",
     "kind": "grpcv2",
@@ -38,7 +32,7 @@
   "750b5c04-e53d-47ea-8f91-06104c3816dd": {
     "name": "leak-baserow-1",
     "kind": "baserow",
-    "updatedAt": "2026-06-15T07:02:08.734Z",
+    "updatedAt": "2026-06-15T07:13:00.710Z",
     "contentHash": "b64b049472b3e45561b36acf7442ad76f0c791cb956f103891dde01b746a6e37"
   },
   "7a451cfe-34fd-4b3e-a02f-1635a18e1330": {
@@ -50,7 +44,7 @@
   "915e38f3-f26b-4aed-af39-ec35acbb5e40": {
     "name": "leak-baserow-2",
     "kind": "baserow",
-    "updatedAt": "2026-06-15T07:11:03.293Z",
+    "updatedAt": "2026-06-15T07:19:59.154Z",
     "contentHash": "cd5e333c32c911e0536f0a713c03edf8c68b8cac9e3bf76a9ea16104f3212e19"
   },
   "93c243e3-d2d6-45c8-be4c-3c152fc969da": {
@@ -83,5 +77,5 @@
     "updatedAt": "2026-04-22T13:36:08.992Z",
     "contentHash": "be9464d5e40384a19a5c7b21ec58c35bfc5d830856348fe0d2bed19accb0d949"
   },
-  "lastUpdatedAt": "2026-06-15T07:11:03.293Z"
+  "lastUpdatedAt": "2026-06-15T07:19:59.154Z"
 }
