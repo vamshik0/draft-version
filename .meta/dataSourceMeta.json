@@ -11,12 +11,6 @@
     "updatedAt": "2026-06-14T13:33:13.700Z",
     "contentHash": "dbc82985a3f3bb060252144a42209744eece77c242a03a128810d72e0defe8d7"
   },
-  "29c228d9-b35c-421f-b8d1-9010be6170ae": {
-    "name": "leak-redis-1",
-    "kind": "redis",
-    "updatedAt": "2026-06-15T07:01:03.920Z",
-    "contentHash": "d624fe114fca2ce07846cf3bfaae7e4ec5fb166996c8b3ad5d6da5444250e3e5"
-  },
   "3294e8b4-1c51-48ab-9431-9ecf3116f7c2": {
     "name": "grpcv2",
     "kind": "grpcv2",
