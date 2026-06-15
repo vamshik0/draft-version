@@ -1,0 +1,11 @@
+{
+  "id": "750b5c04-e53d-47ea-8f91-06104c3816dd",
+  "name": "leak-baserow-1",
+  "kind": "baserow",
+  "type": "default",
+  "options": {
+    "development": {},
+    "production": {},
+    "staging": {}
+  }
+}
