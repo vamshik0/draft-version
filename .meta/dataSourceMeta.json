@@ -1,10 +1,4 @@
 {
-  "10cc9e98-0a82-4d33-8828-b16755002173": {
-    "name": "redis-test-1",
-    "kind": "redis",
-    "updatedAt": "2026-06-14T19:22:11.362Z",
-    "contentHash": "3fe069eb5e85cd346e754f6e4a1509abff63fe001664820ee85d428c0bb3cddc"
-  },
   "1c9da688-2045-470b-8ec5-bef9daddb35c": {
     "name": "postgresql",
     "kind": "postgresql",
@@ -41,12 +35,6 @@
     "updatedAt": "2026-05-01T10:19:05.979Z",
     "contentHash": "8b058b6821a5402f01140199cccdd897a500d97405df27ccbef8a6f873ac5524"
   },
-  "74133d17-20eb-4a40-9d1a-ccbfe7abdeea": {
-    "name": "typesense-leak-test",
-    "kind": "typesense",
-    "updatedAt": "2026-06-14T19:28:51.594Z",
-    "contentHash": "95a3d21bf11c6fde9aeac30df1135b7f6f7a606a9447093669b73dbf00fbcdc2"
-  },
   "7a451cfe-34fd-4b3e-a02f-1635a18e1330": {
     "name": "bigquery",
     "kind": "bigquery",
@@ -58,12 +46,6 @@
     "kind": "mongodb",
     "updatedAt": "2026-05-11T21:12:06.911Z",
     "contentHash": "aa610581033f042d1c984e0c08cbb49e5b71e6c9be0b3b637b3ac67a74c50b4f"
-  },
-  "9e801529-968f-46fb-a622-6ed420606ebe": {
-    "name": "mongodb-test-1",
-    "kind": "mongodb",
-    "updatedAt": "2026-06-14T13:08:41.185Z",
-    "contentHash": "21f95fa3ccccd4a6fe43de7b1864209257506e6f0a31cb8b5fdc5021afa3817a"
   },
   "a4401bcf-38a9-4406-a264-e6f7b95d7bcb": {
     "name": "test-s3",
