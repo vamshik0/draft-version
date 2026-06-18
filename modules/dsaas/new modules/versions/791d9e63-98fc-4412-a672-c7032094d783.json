@@ -13,14 +13,15 @@
   "pageSettings": {},
   "showViewerNavigation": false,
   "homePageId": "2846747f-4d0e-4830-8f74-0956e9c2de6b",
-  "versionType": "version",
+  "versionType": "branch",
   "appId": "5d71bf4b-2420-4cee-b41e-ef0e6ec06705",
   "promotedFrom": null,
-  "status": "PUBLISHED",
+  "status": "DRAFT",
   "description": null,
   "publishedAt": null,
   "releasedAt": null,
   "isStub": false,
   "moduleReferenceId": "3930aed2-c174-4a0d-9173-97a176a3db8d",
+  "remoteUpdatedAt": null,
   "sourceTag": null
 }
