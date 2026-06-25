@@ -5,7 +5,7 @@
   "type": "default",
   "options": {
     "development": {
-      "url": "https://jsonplaceholder.typicode.com/albums",
+      "url": "https://jsonplaceholder.typicode.com/posts",
       "scopes": "read, write",
       "headers": [
         [
@@ -87,7 +87,7 @@
       ]
     },
     "staging": {
-      "url": "https://jsonplaceholder.typicode.com/posts",
+      "url": "https://jsonplaceholder.typicode.com/albums",
       "scopes": "read, write",
       "headers": [
         [

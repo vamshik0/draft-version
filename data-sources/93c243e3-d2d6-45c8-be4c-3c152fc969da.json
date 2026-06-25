@@ -9,6 +9,7 @@
       "port": "27018",
       "use_ssl": false,
       "database": "test",
+      "password": "{{secrets.mongo}}",
       "ssh_port": 22,
       "username": "mongo",
       "ssh_enabled": "disabled",
