@@ -170,5 +170,9 @@
   "0bd8bc1f-848e-40a2-9136-2e476fef2f22": {
     "appPath": "apps/Im-Ads-SOS/IM-Ads-Update-Live-Campaign",
     "updatedAt": "2026-06-29T10:14:40.581Z"
+  },
+  "b496729e-02d3-4283-8ab2-3d244215dd87": {
+    "appPath": "apps/Im-Ads-SOS/IM-Ads-SOS-Update-Live-Campaign",
+    "updatedAt": "2026-06-29T10:15:06.046Z"
   }
 }
