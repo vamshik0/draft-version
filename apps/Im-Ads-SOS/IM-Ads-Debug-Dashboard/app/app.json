@@ -1,0 +1,13 @@
+{
+  "id": "dbf7b8a9-8897-4393-9b45-467e60d7f326",
+  "name": "IM-Ads-Debug-Dashboard",
+  "type": "front-end",
+  "slug": "0f237fd6-1545-49a5-8e5b-40db44fb08c3",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "apps",
+  "tooljetVersion": "3.21.47-beta-ee"
+}
