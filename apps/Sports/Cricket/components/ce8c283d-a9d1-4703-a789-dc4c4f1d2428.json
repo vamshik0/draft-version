@@ -206,6 +206,9 @@
     },
     "collapseWhenHidden": {
       "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
     }
   },
   "general": {},
