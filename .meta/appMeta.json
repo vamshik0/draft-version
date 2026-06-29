@@ -178,5 +178,9 @@
   "dbf7b8a9-8897-4393-9b45-467e60d7f326": {
     "appPath": "apps/Im-Ads-SOS/IM-Ads-Debug-Dashboard",
     "updatedAt": "2026-06-29T10:16:22.912Z"
+  },
+  "0f237fd6-1545-49a5-8e5b-40db44fb08c3": {
+    "appPath": "apps/Im-Ads-SOS/IM-Ads-Getcampaign-Dashboard",
+    "updatedAt": "2026-06-29T10:16:46.640Z"
   }
 }
