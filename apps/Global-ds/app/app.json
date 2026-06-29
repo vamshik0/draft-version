@@ -1,0 +1,13 @@
+{
+  "id": "2e868fd2-24ea-4685-9180-151d439c3597",
+  "name": "Global-ds",
+  "type": "front-end",
+  "slug": "477cb648-9b32-4221-8961-1451259f6a42",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "draghandle",
+  "tooljetVersion": "3.21.47-beta-ee"
+}
