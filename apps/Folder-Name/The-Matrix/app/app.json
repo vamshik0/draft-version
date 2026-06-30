@@ -1,0 +1,13 @@
+{
+  "id": "65b3165a-f34a-405a-bba9-ad5a42804287",
+  "name": "The-Matrix",
+  "type": "front-end",
+  "slug": "4616ba0c-b1a6-47fd-9b50-4ec4b64c53a3",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "sentfast",
+  "tooljetVersion": "3.21.47-beta-ee"
+}
