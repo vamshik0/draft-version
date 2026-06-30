@@ -1,0 +1,13 @@
+{
+  "id": "b65b78c7-ad8c-46c6-a9ae-de9f9a7ac57c",
+  "name": "The-Leftovers",
+  "type": "front-end",
+  "slug": "07fffc6f-d1fa-4f4d-b570-a52419a9b8a0",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "server",
+  "tooljetVersion": "3.21.47-beta-ee"
+}
