@@ -42,16 +42,14 @@
     "contentHash": "72205ee32a021329fc1bdf411a4a2fa5f5fbaf79487952d0f03777022ad2f3cb"
   },
   "a4401bcf-38a9-4406-a264-e6f7b95d7bcb": {
-    "name": "test-s3",
-    "kind": "s3",
-    "updatedAt": "2026-05-11T09:57:23.070Z",
-    "contentHash": "e626c2cc8eb1457927ae2f6c039cfd640f55678f46f5b6b9d6f8bfd212dc768f"
-  },
-  "afaee565-dd4f-445e-a237-02c2afa6f83f": {
     "name": "Search s3",
     "kind": "s3",
-    "updatedAt": "2026-07-01T11:04:41.038Z",
-    "contentHash": "5561b49c189602ebf5b452e59a9a1c2dda65f64adaa1c884408de085d29aa918"
+    "updatedAt": "2026-07-01T11:18:23.000Z"
+  },
+  "afaee565-dd4f-445e-a237-02c2afa6f83f": {
+    "name": "test-s3",
+    "kind": "s3",
+    "updatedAt": "2026-07-01T11:18:23.000Z"
   },
   "de45b4fe-5194-4681-b467-74b47ba19fd7": {
     "name": "ui_url",
