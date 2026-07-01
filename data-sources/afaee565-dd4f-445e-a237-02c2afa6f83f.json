@@ -1,0 +1,30 @@
+{
+  "id": "afaee565-dd4f-445e-a237-02c2afa6f83f",
+  "name": "Search s3",
+  "kind": "s3",
+  "type": "default",
+  "options": {
+    "development": {
+      "region": "ap-south-1",
+      "endpoint": "",
+      "access_key": "",
+      "endpoint_enabled": false,
+      "instance_metadata_credentials": "default_credentials_provider_chain"
+    },
+    "production": {
+      "region": "ap-south-1",
+      "endpoint": "",
+      "role_arn": "",
+      "access_key": "ASIAVIKMSX734PMF77FT",
+      "endpoint_enabled": false,
+      "instance_metadata_credentials": "default_credentials_provider_chain"
+    },
+    "staging": {
+      "region": "ap-southeast-1",
+      "endpoint": "",
+      "access_key": "",
+      "endpoint_enabled": false,
+      "instance_metadata_credentials": "default_credentials_provider_chain"
+    }
+  }
+}

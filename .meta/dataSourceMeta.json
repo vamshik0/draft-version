@@ -29,6 +29,12 @@
     "updatedAt": "2026-05-01T10:19:05.979Z",
     "contentHash": "8b058b6821a5402f01140199cccdd897a500d97405df27ccbef8a6f873ac5524"
   },
+  "74827414-5885-4481-95c1-525b4ed62582": {
+    "name": "FnV Process Excellence DB",
+    "kind": "postgresql",
+    "updatedAt": "2026-07-01T11:04:41.038Z",
+    "contentHash": "2281891b22e6e9099b1830c24c67765f1ca4a26f9698598c6b4ff2d25e4050ef"
+  },
   "93c243e3-d2d6-45c8-be4c-3c152fc969da": {
     "name": "mongodb",
     "kind": "mongodb",
@@ -40,6 +46,12 @@
     "kind": "s3",
     "updatedAt": "2026-05-11T09:57:23.070Z",
     "contentHash": "e626c2cc8eb1457927ae2f6c039cfd640f55678f46f5b6b9d6f8bfd212dc768f"
+  },
+  "afaee565-dd4f-445e-a237-02c2afa6f83f": {
+    "name": "Search s3",
+    "kind": "s3",
+    "updatedAt": "2026-07-01T11:04:41.038Z",
+    "contentHash": "5561b49c189602ebf5b452e59a9a1c2dda65f64adaa1c884408de085d29aa918"
   },
   "de45b4fe-5194-4681-b467-74b47ba19fd7": {
     "name": "ui_url",
@@ -53,5 +65,5 @@
     "updatedAt": "2026-04-22T13:36:08.992Z",
     "contentHash": "be9464d5e40384a19a5c7b21ec58c35bfc5d830856348fe0d2bed19accb0d949"
   },
-  "lastUpdatedAt": "2026-06-29T11:19:16.631Z"
+  "lastUpdatedAt": "2026-07-01T11:04:41.038Z"
 }
