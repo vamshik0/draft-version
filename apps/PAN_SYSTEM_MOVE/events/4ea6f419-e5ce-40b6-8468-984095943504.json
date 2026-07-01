@@ -1,0 +1,17 @@
+{
+  "id": "4ea6f419-e5ce-40b6-8468-984095943504",
+  "name": "onDataQuerySuccess",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Hello world!",
+    "queryId": "01640fcc-6d9d-433e-ad18-9ac4a9be228f",
+    "actionId": "run-query",
+    "alertType": "info",
+    "queryName": "repack_data_read",
+    "parameters": {}
+  },
+  "sourceId": "00b89155-f52a-4031-a1aa-90332d06c649",
+  "target": "data_query",
+  "appVersionId": "ab968e19-546b-416e-83fd-3f767865e771"
+}

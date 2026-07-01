@@ -1,0 +1,19 @@
+{
+  "id": "c05adcca-ae95-43c5-b06a-930d8ef352b4",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "queryId": "00b89155-f52a-4031-a1aa-90332d06c649",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "button1",
+    "queryName": "repack_id",
+    "runOnlyIf": "{{Number(components.numberInput1.value) <= \nNumber(components.table4.selectedRow.pending_to_putaway)}}",
+    "parameters": {}
+  },
+  "sourceId": "d413f860-f8e1-4708-bdf9-b4f0a6b600d2",
+  "target": "component",
+  "appVersionId": "ab968e19-546b-416e-83fd-3f767865e771"
+}
