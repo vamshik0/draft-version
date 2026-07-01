@@ -1,6 +1,6 @@
 {
   "id": "afaee565-dd4f-445e-a237-02c2afa6f83f",
-  "name": "Search s3",
+  "name": "test-s3",
   "kind": "s3",
   "type": "default",
   "options": {
