@@ -1,6 +1,6 @@
 {
   "id": "50a10314-b95a-419c-a717-0760adabbd35",
-  "name": "JSON-data-changed",
+  "name": "ui_url",
   "kind": "restapi",
   "type": "default",
   "options": {
