@@ -1,0 +1,17 @@
+{
+  "id": "518c2793-bcde-454a-b0ab-53cd4e39ec36",
+  "name": "onDataQuerySuccess",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Hello world!",
+    "queryId": "688b68fb-e7cd-4cd0-ad49-ab6a96fe2e8d",
+    "actionId": "run-query",
+    "alertType": "info",
+    "queryName": "REPACK_DB",
+    "parameters": {}
+  },
+  "sourceId": "58549949-0756-4cec-b5fd-ebcc3c337ef4",
+  "target": "data_query",
+  "appVersionId": "ab968e19-546b-416e-83fd-3f767865e771"
+}

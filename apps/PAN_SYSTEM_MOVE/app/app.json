@@ -1,0 +1,13 @@
+{
+  "id": "4047d1b0-7251-4fdb-8f96-9f4d56646762",
+  "name": "PAN_SYSTEM_MOVE",
+  "type": "front-end",
+  "slug": "84dcf284-68e0-451e-9e18-f62f33d6e2d1",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "share",
+  "tooljetVersion": "3.21.49-beta-ee"
+}
