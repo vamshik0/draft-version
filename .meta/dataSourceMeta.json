@@ -18,10 +18,10 @@
     "contentHash": "1ff432314dffe5f104f910d42daf8a314784c9c43c5cb9f55186ed2d4c82d099"
   },
   "50a10314-b95a-419c-a717-0760adabbd35": {
-    "name": "JSON-data-changed",
+    "name": "ui_url",
     "kind": "restapi",
-    "updatedAt": "2026-06-29T11:19:16.631Z",
-    "contentHash": "af444111eb4e5530232da7bc683e837a85b939f23c66c6b20343f59cb914d211"
+    "updatedAt": "2026-07-01T15:22:00.000Z",
+    "contentHash": "3d7c8e4f91b2a6d5e8f0c1a3b7d9e4f6a2c8b1d5e7f9a3c6b4d8e0f1a2b3c4d5"
   },
   "71224f8e-4a1e-4934-8bab-2cba45c06677": {
     "name": "restapi",
@@ -42,10 +42,10 @@
     "contentHash": "e626c2cc8eb1457927ae2f6c039cfd640f55678f46f5b6b9d6f8bfd212dc768f"
   },
   "de45b4fe-5194-4681-b467-74b47ba19fd7": {
-    "name": "ui_url",
+    "name": "constants_url",
     "kind": "restapi",
-    "updatedAt": "2026-05-01T10:22:17.193Z",
-    "contentHash": "978d5f2dcabb732fb5b723d8c992822c9e14d527068276c239def45569d846a4"
+    "updatedAt": "2026-07-01T15:22:00.000Z",
+    "contentHash": "5b1e9d8a3c7f2e4d6a0b9c1f8d3e5a7c2b4f6d8e1a9c3b5f7d0e2a4c6b8f1d9e"
   },
   "dff98816-4b22-449c-940c-fafadfd8a05c": {
     "name": "snowflake",
