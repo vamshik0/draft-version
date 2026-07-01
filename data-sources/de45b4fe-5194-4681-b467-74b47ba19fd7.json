@@ -1,6 +1,6 @@
 {
   "id": "de45b4fe-5194-4681-b467-74b47ba19fd7",
-  "name": "ui_url",
+  "name": "constants_url",
   "kind": "restapi",
   "type": "default",
   "options": {
