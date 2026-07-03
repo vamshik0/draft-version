@@ -1,0 +1,13 @@
+{
+  "id": "1133cecd-974b-4e84-803e-9d283ece8696",
+  "name": "Separate-app",
+  "type": "front-end",
+  "slug": "fae3b316-b31e-4b02-9cec-c7583ccebe6a",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "globe",
+  "tooljetVersion": "3.21.49-beta-ee"
+}
