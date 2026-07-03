@@ -198,5 +198,9 @@
   "4047d1b0-7251-4fdb-8f96-9f4d56646762": {
     "appPath": "apps/PAN_SYSTEM_MOVE",
     "updatedAt": "2026-07-01T10:50:03.113Z"
+  },
+  "65f4337d-7eb3-4e90-98de-6c66d28e44c6": {
+    "appPath": "apps/Outisde-folder-app",
+    "updatedAt": "2026-07-03T06:24:58.009Z"
   }
 }
