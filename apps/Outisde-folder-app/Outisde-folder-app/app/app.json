@@ -1,0 +1,13 @@
+{
+  "id": "65f4337d-7eb3-4e90-98de-6c66d28e44c6",
+  "name": "Outisde-folder-app",
+  "type": "front-end",
+  "slug": "fd0dc2c0-8dfb-440a-861a-ab2f2471eac6",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "folderupload",
+  "tooljetVersion": "3.21.49-beta-ee"
+}
