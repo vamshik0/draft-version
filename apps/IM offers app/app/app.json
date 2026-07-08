@@ -1,0 +1,13 @@
+{
+  "id": "9c45cae8-8394-441f-b67a-3a7b865678c8",
+  "name": "IM offers app",
+  "type": "front-end",
+  "slug": "e4ac64a3-dd74-4ac6-ac08-d71ff418cbac",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "grid",
+  "tooljetVersion": "3.21.49-beta-ee"
+}
