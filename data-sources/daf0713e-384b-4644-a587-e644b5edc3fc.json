@@ -1,0 +1,35 @@
+{
+  "id": "daf0713e-384b-4644-a587-e644b5edc3fc",
+  "name": "couchdb",
+  "kind": "couchdb",
+  "type": "default",
+  "options": {
+    "development": {
+      "host": "",
+      "port": "5984",
+      "database": "",
+      "protocol": {
+        "encrypted": false
+      },
+      "username": ""
+    },
+    "production": {
+      "host": "",
+      "port": "5984",
+      "database": "",
+      "protocol": {
+        "encrypted": false
+      },
+      "username": ""
+    },
+    "staging": {
+      "host": "",
+      "port": "5984",
+      "database": "",
+      "protocol": {
+        "encrypted": false
+      },
+      "username": ""
+    }
+  }
+}
