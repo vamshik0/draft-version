@@ -99,6 +99,8 @@
       "left": 6,
       "width": 12,
       "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "ea0d7d1d-cf71-422b-9fbe-f92851ce135f",
       "dimensionUnit": "count"
     },
@@ -109,6 +111,8 @@
       "left": 6,
       "width": 12,
       "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "ea0d7d1d-cf71-422b-9fbe-f92851ce135f",
       "dimensionUnit": "count"
     }
