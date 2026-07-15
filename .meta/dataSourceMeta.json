@@ -20,8 +20,8 @@
   "50a10314-b95a-419c-a717-0760adabbd35": {
     "name": "JSON-data-changed",
     "kind": "restapi",
-    "updatedAt": "2026-06-29T11:19:16.631Z",
-    "contentHash": "af444111eb4e5530232da7bc683e837a85b939f23c66c6b20343f59cb914d211"
+    "updatedAt": "2026-07-15T10:56:47.148Z",
+    "contentHash": "28b3951297358968ba12ac0ef0cef6e506dd45ecc24be1dc13c5f964ccb5d682"
   },
   "71224f8e-4a1e-4934-8bab-2cba45c06677": {
     "name": "restapi",
@@ -44,12 +44,14 @@
   "a4401bcf-38a9-4406-a264-e6f7b95d7bcb": {
     "name": "Search s3",
     "kind": "s3",
-    "updatedAt": "2026-07-01T11:18:23.000Z"
+    "updatedAt": "2026-07-15T10:56:47.149Z",
+    "contentHash": "70ba709ce0233102756fb729bc8cf905f6deae07bad6a20f4a07856a90c9ff15"
   },
   "afaee565-dd4f-445e-a237-02c2afa6f83f": {
     "name": "test-s3",
     "kind": "s3",
-    "updatedAt": "2026-07-01T11:18:23.000Z"
+    "updatedAt": "2026-07-15T10:56:47.149Z",
+    "contentHash": "268b76fff1cd9c7b900b33ed1e650651115fbaee089665f3721571f43c2fa0ac"
   },
   "de45b4fe-5194-4681-b467-74b47ba19fd7": {
     "name": "ui_url",
@@ -63,5 +65,5 @@
     "updatedAt": "2026-04-22T13:36:08.992Z",
     "contentHash": "be9464d5e40384a19a5c7b21ec58c35bfc5d830856348fe0d2bed19accb0d949"
   },
-  "lastUpdatedAt": "2026-07-01T11:18:23.000Z"
+  "lastUpdatedAt": "2026-07-15T10:56:47.149Z"
 }
