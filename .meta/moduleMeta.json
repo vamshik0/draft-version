@@ -1,8 +1,4 @@
 {
-  "135da193-b056-4e9b-a82e-117791d2f845": {
-    "appPath": "modules/soccer",
-    "updatedAt": "2026-04-29T07:46:01.457Z"
-  },
   "36458762-8b92-4c5b-b31f-805cefa1ec4f": {
     "appPath": "modules/kick-2",
     "updatedAt": "2026-05-20T13:23:13.402Z"
@@ -27,17 +23,9 @@
     "appPath": "modules/m-zepto",
     "updatedAt": "2026-07-13T11:45:28.783Z"
   },
-  "fefe6f34-4382-4020-9bbf-2b2ffd7d06b2": {
-    "appPath": "modules/m-inventory",
-    "updatedAt": "2026-04-29T06:28:30.434Z"
-  },
   "dd74a60b-6c8a-4151-aa8c-258d3616c0e5": {
     "appPath": "modules/redis-cache",
     "updatedAt": "2026-05-12T14:47:59.815Z"
-  },
-  "382749f0-0ed2-49e5-8c09-568e522cdacd": {
-    "appPath": "modules/common-module-1",
-    "updatedAt": "2026-07-15T10:35:13.460Z"
   },
   "5d71bf4b-2420-4cee-b41e-ef0e6ec06705": {
     "appPath": "modules/dsaas/new modules",
@@ -46,10 +34,6 @@
   "3283db46-56e2-4c64-9a4f-b905016bc67e": {
     "appPath": "modules/common-module-1 v2",
     "updatedAt": "2026-05-22T09:53:39.486Z"
-  },
-  "7ecaa0d2-dd99-400b-922d-fd61709ed467": {
-    "appPath": "modules/Navigation - PAN_INDIA",
-    "updatedAt": "2026-07-01T10:50:03.113Z"
   },
   "3883ebba-b6f8-4245-b06e-3f2472b1fec6": {
     "appPath": "modules/skoolsy/skoolsy",
