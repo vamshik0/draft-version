@@ -1,8 +1,4 @@
 {
-  "ba2d7886-da09-409d-8ead-16d66b4afddd": {
-    "appPath": "apps/First",
-    "updatedAt": "2026-04-21T10:00:45.583Z"
-  },
   "22a604d8-1cea-498e-a3d6-53466d110e29": {
     "appPath": "apps/Dummy app",
     "updatedAt": "2026-04-21T15:20:08.419Z"
@@ -23,17 +19,9 @@
     "appPath": "apps/Test-system",
     "updatedAt": "2026-04-22T09:09:48.054Z"
   },
-  "d09042c4-d2dd-429f-bd55-5d71c0b51bd7": {
-    "appPath": "apps/Buttons-app",
-    "updatedAt": "2026-04-22T09:32:54.873Z"
-  },
   "0ea3fcde-4886-426a-b673-859581916330": {
     "appPath": "apps/Lifestyle",
     "updatedAt": "2026-04-22T10:01:58.562Z"
-  },
-  "b50d088e-2fab-4d50-991a-ec867c8f2a0c": {
-    "appPath": "apps/Test-module_Copy",
-    "updatedAt": "2026-04-22T12:11:24.645Z"
   },
   "da40391b-8e69-4694-95f0-3631bd867b11": {
     "appPath": "apps/cycle-app-export",
@@ -42,10 +30,6 @@
   "77c063a6-5041-49b3-9fad-b15a0b7cd551": {
     "appPath": "apps/Modules/Mod-2",
     "updatedAt": "2026-05-28T11:44:35.660Z"
-  },
-  "cd416e2e-5129-4c53-a8d8-70d884b95482": {
-    "appPath": "apps/Modules/Mod-1",
-    "updatedAt": "2026-04-22T13:35:25.905Z"
   },
   "e54fcbe2-b0b5-4c09-a55f-8c4d3c9e9b79": {
     "appPath": "apps/Sports/Cricket",
