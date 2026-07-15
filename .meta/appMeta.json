@@ -107,10 +107,6 @@
     "appPath": "apps/one-two-app-export-1",
     "updatedAt": "2026-06-07T20:50:46.506Z"
   },
-  "947b052b-7d46-4987-b5f0-3e7ba4230c44": {
-    "appPath": "apps/one-oneone-app-export",
-    "updatedAt": "2026-06-29T07:15:04.152Z"
-  },
   "4fa58795-f972-494f-ae57-fbb77fcbdc19": {
     "appPath": "apps/dsa",
     "updatedAt": "2026-06-08T11:56:17.860Z"
@@ -127,10 +123,6 @@
     "appPath": "apps/Im-Ads-SOS/IM-Ads-Debug-Dashboard",
     "updatedAt": "2026-06-29T10:16:22.912Z"
   },
-  "0f237fd6-1545-49a5-8e5b-40db44fb08c3": {
-    "appPath": "apps/Im-Ads-SOS/IM-Ads-Getcampaign-Dashboard",
-    "updatedAt": "2026-06-29T10:16:46.640Z"
-  },
   "65b3165a-f34a-405a-bba9-ad5a42804287": {
     "appPath": "apps/Folder-Name/The-Matrix",
     "updatedAt": "2026-06-30T11:59:55.935Z"
@@ -138,9 +130,5 @@
   "b65b78c7-ad8c-46c6-a9ae-de9f9a7ac57c": {
     "appPath": "apps/The-Leftovers/The-Leftovers",
     "updatedAt": "2026-07-13T11:45:28.784Z"
-  },
-  "9c45cae8-8394-441f-b67a-3a7b865678c8": {
-    "appPath": "apps/IM offers app/IM offers app",
-    "updatedAt": "2026-07-08T05:42:24.230Z"
   }
 }
