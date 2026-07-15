@@ -1,0 +1,13 @@
+{
+  "id": "536d105a-88cb-4ebb-a5ec-8aef4fc11e13",
+  "name": "couchdb1",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "operation": "list_records"
+  },
+  "dataSourceId": "daf0713e-384b-4644-a587-e644b5edc3fc",
+  "appVersionId": "9900b2e7-e919-49e6-bfaf-10c748d2cc61",
+  "kind": "couchdb",
+  "dataSourceType": "default"
+}
