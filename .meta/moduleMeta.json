@@ -15,18 +15,6 @@
     "appPath": "modules/kick-2",
     "updatedAt": "2026-05-20T13:23:13.402Z"
   },
-  "a860e92c-00ec-42b1-b496-75362e93ffb6": {
-    "appPath": "modules/dummy-1",
-    "updatedAt": "2026-04-21T15:20:08.403Z"
-  },
-  "1f2ce3ea-0eb7-4435-9512-7d758f502a3b": {
-    "appPath": "modules/dummy-2",
-    "updatedAt": "2026-04-21T15:20:08.419Z"
-  },
-  "00ef5574-574a-4d74-bc73-e56067e3e90a": {
-    "appPath": "modules/org_1",
-    "updatedAt": "2026-04-21T15:20:34.533Z"
-  },
   "01952409-0de8-4eb4-bd27-749006f976b5": {
     "appPath": "modules/testing-module",
     "updatedAt": "2026-04-23T00:04:08.232Z"
@@ -46,10 +34,6 @@
   "76d57c6c-1a8d-4e09-be17-01817d9057cf": {
     "appPath": "modules/m-zepto",
     "updatedAt": "2026-07-13T11:45:28.783Z"
-  },
-  "b760c834-8a7c-4b25-a96e-5db37847882a": {
-    "appPath": "modules/m-navItems",
-    "updatedAt": "2026-04-25T07:19:55.514Z"
   },
   "fefe6f34-4382-4020-9bbf-2b2ffd7d06b2": {
     "appPath": "modules/m-inventory",
