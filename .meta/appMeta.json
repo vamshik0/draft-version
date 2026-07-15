@@ -19,10 +19,6 @@
     "appPath": "apps/Bollywood",
     "updatedAt": "2026-05-11T10:51:36.162Z"
   },
-  "9ebcc943-b413-40a1-9645-3c85376adb76": {
-    "appPath": "apps/Test-module",
-    "updatedAt": "2026-04-23T00:04:08.233Z"
-  },
   "44513472-6af1-4d8d-add1-5241654c65f1": {
     "appPath": "apps/Macbook",
     "updatedAt": "2026-04-29T07:46:01.458Z"
@@ -58,10 +54,6 @@
   "21f7cf67-314f-4701-b5ff-506794e247db": {
     "appPath": "apps/NO-DS-app",
     "updatedAt": "2026-05-11T21:10:02.116Z"
-  },
-  "79143bef-7a77-4d47-a878-6e654c062d2d": {
-    "appPath": "apps/Zepto-2",
-    "updatedAt": "2026-04-25T06:03:31.063Z"
   },
   "8256123b-776c-404b-a5d6-dea40fee81ee": {
     "appPath": "apps/a-navItems",
@@ -110,10 +102,6 @@
   "6e9772cd-d63b-4dfd-857e-f01d0869bc31": {
     "appPath": "apps/common-app-4",
     "updatedAt": "2026-05-22T08:05:56.952Z"
-  },
-  "d61ee375-9d9a-4979-ac1a-d63ee3ec9944": {
-    "appPath": "apps/common-app-5",
-    "updatedAt": "2026-05-22T08:06:36.476Z"
   },
   "de384481-c2ec-46f1-9900-a7166e42e2a2": {
     "appPath": "apps/Local-queries/new module -app",
@@ -182,10 +170,6 @@
   "b65b78c7-ad8c-46c6-a9ae-de9f9a7ac57c": {
     "appPath": "apps/The-Leftovers/The-Leftovers",
     "updatedAt": "2026-07-13T11:45:28.784Z"
-  },
-  "4047d1b0-7251-4fdb-8f96-9f4d56646762": {
-    "appPath": "apps/PAN_SYSTEM_MOVE",
-    "updatedAt": "2026-07-01T10:50:03.113Z"
   },
   "9c45cae8-8394-441f-b67a-3a7b865678c8": {
     "appPath": "apps/IM offers app/IM offers app",
