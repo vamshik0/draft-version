@@ -3,17 +3,9 @@
     "appPath": "apps/Dummy app",
     "updatedAt": "2026-04-21T15:20:08.419Z"
   },
-  "65fe54c6-8515-4084-87ce-95466f2a4f19": {
-    "appPath": "apps/Bollywood",
-    "updatedAt": "2026-05-11T10:51:36.162Z"
-  },
   "9ebcc943-b413-40a1-9645-3c85376adb76": {
     "appPath": "apps/Test-module",
     "updatedAt": "2026-04-23T00:04:08.233Z"
-  },
-  "44513472-6af1-4d8d-add1-5241654c65f1": {
-    "appPath": "apps/Macbook",
-    "updatedAt": "2026-04-29T07:46:01.458Z"
   },
   "3315e335-a288-437c-bd06-5f6fd9334460": {
     "appPath": "apps/Test-system",
@@ -51,10 +43,6 @@
     "appPath": "apps/a-navItems",
     "updatedAt": "2026-04-25T07:19:55.514Z"
   },
-  "dfa4c560-966a-4737-8eeb-ba9b8a45b417": {
-    "appPath": "apps/a-inventory",
-    "updatedAt": "2026-04-29T06:28:30.434Z"
-  },
   "1277d956-3a64-4ef6-a80e-27df484efb57": {
     "appPath": "apps/Local-queries/Local-queries-renamed",
     "updatedAt": "2026-05-20T13:23:13.402Z"
@@ -66,10 +54,6 @@
   "8e739499-2504-4a5e-ae16-8bb242ced817": {
     "appPath": "apps/Salesforce-app",
     "updatedAt": "2026-05-11T21:16:10.755Z"
-  },
-  "8fdb7855-eac2-4ba8-9d21-1b3acece9a15": {
-    "appPath": "apps/Redis-app",
-    "updatedAt": "2026-05-12T14:47:59.815Z"
   },
   "997c5198-a660-4583-8781-a90256f572c7": {
     "appPath": "apps/DB-app",
@@ -98,10 +82,6 @@
   "d61ee375-9d9a-4979-ac1a-d63ee3ec9944": {
     "appPath": "apps/common-app-5",
     "updatedAt": "2026-05-22T08:06:36.476Z"
-  },
-  "de384481-c2ec-46f1-9900-a7166e42e2a2": {
-    "appPath": "apps/Local-queries/new module -app",
-    "updatedAt": "2026-05-28T11:45:52.949Z"
   },
   "5632923d-7992-4f25-bf7d-c4ec709856e4": {
     "appPath": "apps/NO-DS-app_1",
