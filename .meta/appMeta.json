@@ -75,10 +75,6 @@
     "appPath": "apps/Redis-app",
     "updatedAt": "2026-05-12T14:47:59.815Z"
   },
-  "997c5198-a660-4583-8781-a90256f572c7": {
-    "appPath": "apps/DB-app",
-    "updatedAt": "2026-05-15T09:18:44.248Z"
-  },
   "da48993a-9485-4386-a390-46291f57d975": {
     "appPath": "apps/Snowflake",
     "updatedAt": "2026-05-16T09:36:51.641Z"
