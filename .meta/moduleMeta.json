@@ -3,10 +3,6 @@
     "appPath": "modules/dsa/renamed",
     "updatedAt": "2026-06-08T12:07:26.122Z"
   },
-  "8c531f1c-3a30-4ec0-a809-815dea31d2fa": {
-    "appPath": "modules/m-football",
-    "updatedAt": "2026-07-15T10:33:09.360Z"
-  },
   "135da193-b056-4e9b-a82e-117791d2f845": {
     "appPath": "modules/soccer",
     "updatedAt": "2026-04-29T07:46:01.457Z"
@@ -19,10 +15,6 @@
     "appPath": "modules/dummy-1",
     "updatedAt": "2026-04-21T15:20:08.403Z"
   },
-  "1f2ce3ea-0eb7-4435-9512-7d758f502a3b": {
-    "appPath": "modules/dummy-2",
-    "updatedAt": "2026-04-21T15:20:08.419Z"
-  },
   "00ef5574-574a-4d74-bc73-e56067e3e90a": {
     "appPath": "modules/org_1",
     "updatedAt": "2026-04-21T15:20:34.533Z"
@@ -30,10 +22,6 @@
   "c18234fc-aaa2-4f0b-b7b1-8ee0d45a1dab": {
     "appPath": "modules/org_2",
     "updatedAt": "2026-04-21T15:20:52.856Z"
-  },
-  "01952409-0de8-4eb4-bd27-749006f976b5": {
-    "appPath": "modules/testing-module",
-    "updatedAt": "2026-04-23T00:04:08.232Z"
   },
   "47eb7fa4-e99b-4f93-b6c0-9f08aa5bb8df": {
     "appPath": "modules/create-module",
@@ -78,10 +66,6 @@
   "7ecaa0d2-dd99-400b-922d-fd61709ed467": {
     "appPath": "modules/Navigation - PAN_INDIA",
     "updatedAt": "2026-07-01T10:50:03.113Z"
-  },
-  "0873ad40-970f-43cb-b35b-fa1c55a8f17d": {
-    "appPath": "modules/tj-module-1",
-    "updatedAt": "2026-07-15T11:07:35.638Z"
   },
   "3883ebba-b6f8-4245-b06e-3f2472b1fec6": {
     "appPath": "modules/skoolsy/skoolsy",
