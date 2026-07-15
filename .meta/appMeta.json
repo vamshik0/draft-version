@@ -55,10 +55,6 @@
     "appPath": "apps/NO-DS-app",
     "updatedAt": "2026-05-11T21:10:02.116Z"
   },
-  "8256123b-776c-404b-a5d6-dea40fee81ee": {
-    "appPath": "apps/a-navItems",
-    "updatedAt": "2026-04-25T07:19:55.514Z"
-  },
   "dfa4c560-966a-4737-8eeb-ba9b8a45b417": {
     "appPath": "apps/a-inventory",
     "updatedAt": "2026-04-29T06:28:30.434Z"
@@ -90,10 +86,6 @@
   "39f9a222-5cf9-486d-9e9d-7ee9964752b1": {
     "appPath": "apps/common-app-1",
     "updatedAt": "2026-05-22T05:55:54.720Z"
-  },
-  "a3407718-a638-4ca2-ac57-1d2532d2c0cf": {
-    "appPath": "apps/common-app-2",
-    "updatedAt": "2026-06-29T07:15:44.093Z"
   },
   "b02f3a79-972d-48b4-821e-b4751d89c5ab": {
     "appPath": "apps/common-app-3",
@@ -143,10 +135,6 @@
     "appPath": "apps/new ap",
     "updatedAt": "2026-06-08T12:07:26.122Z"
   },
-  "5fe624d2-9c6d-40d8-8cfa-ea1d01566d3f": {
-    "appPath": "apps/Im-Ads-SOS/IM-Ads-Update-Placement-Dashboard",
-    "updatedAt": "2026-06-29T10:13:54.342Z"
-  },
   "0bd8bc1f-848e-40a2-9136-2e476fef2f22": {
     "appPath": "apps/Im-Ads-SOS/IM-Ads-Update-Live-Campaign",
     "updatedAt": "2026-06-29T10:14:40.581Z"
@@ -158,10 +146,6 @@
   "0f237fd6-1545-49a5-8e5b-40db44fb08c3": {
     "appPath": "apps/Im-Ads-SOS/IM-Ads-Getcampaign-Dashboard",
     "updatedAt": "2026-06-29T10:16:46.640Z"
-  },
-  "2e868fd2-24ea-4685-9180-151d439c3597": {
-    "appPath": "apps/Global-ds",
-    "updatedAt": "2026-06-29T11:17:10.230Z"
   },
   "65b3165a-f34a-405a-bba9-ad5a42804287": {
     "appPath": "apps/Folder-Name/The-Matrix",
