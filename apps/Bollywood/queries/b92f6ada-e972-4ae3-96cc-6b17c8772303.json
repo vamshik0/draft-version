@@ -1,0 +1,12 @@
+{
+  "id": "b92f6ada-e972-4ae3-96cc-6b17c8772303",
+  "name": "local-runpy2",
+  "options": {
+    "code": "",
+    "parameters": []
+  },
+  "dataSourceId": "8d640214-7efa-46c1-86e8-b795a0d7ab99",
+  "appVersionId": "9512a023-d0ee-4658-a65e-c7ea7ad26521",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

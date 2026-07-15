@@ -1,0 +1,19 @@
+{
+  "id": "bd1fd4fd-0c29-484a-8641-dc5c577da66a",
+  "name": "local-tooljetdb1",
+  "options": {
+    "operation": "",
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "params": [
+      {
+        "key": "",
+        "value": ""
+      }
+    ]
+  },
+  "dataSourceId": "65cd3528-d442-4ec5-aa89-ddd0b9548dc6",
+  "appVersionId": "9512a023-d0ee-4658-a65e-c7ea7ad26521",
+  "kind": "tooljetdb",
+  "dataSourceType": "static"
+}

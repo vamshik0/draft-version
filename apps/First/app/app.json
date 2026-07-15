@@ -1,0 +1,13 @@
+{
+  "id": "ba2d7886-da09-409d-8ead-16d66b4afddd",
+  "name": "First",
+  "type": "front-end",
+  "slug": "0cd5c1e2-c2cf-4ece-aeba-149944e9e93e",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "floppydisk",
+  "tooljetVersion": "3.21.21-beta-ee"
+}

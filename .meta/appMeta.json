@@ -1,15 +1,47 @@
 {
+  "ba2d7886-da09-409d-8ead-16d66b4afddd": {
+    "appPath": "apps/First",
+    "updatedAt": "2026-04-21T10:00:45.583Z"
+  },
+  "436dd918-0179-49db-94fa-1a13db167aeb": {
+    "appPath": "apps/Second",
+    "updatedAt": "2026-07-15T10:33:09.373Z"
+  },
+  "622110a3-6de9-4bf5-944c-d16c3a45dec2": {
+    "appPath": "apps/Third",
+    "updatedAt": "2026-04-21T12:42:31.694Z"
+  },
   "22a604d8-1cea-498e-a3d6-53466d110e29": {
     "appPath": "apps/Dummy app",
     "updatedAt": "2026-04-21T15:20:08.419Z"
+  },
+  "65fe54c6-8515-4084-87ce-95466f2a4f19": {
+    "appPath": "apps/Bollywood",
+    "updatedAt": "2026-05-11T10:51:36.162Z"
   },
   "9ebcc943-b413-40a1-9645-3c85376adb76": {
     "appPath": "apps/Test-module",
     "updatedAt": "2026-04-23T00:04:08.233Z"
   },
+  "44513472-6af1-4d8d-add1-5241654c65f1": {
+    "appPath": "apps/Macbook",
+    "updatedAt": "2026-04-29T07:46:01.458Z"
+  },
+  "3315e335-a288-437c-bd06-5f6fd9334460": {
+    "appPath": "apps/Test-system",
+    "updatedAt": "2026-04-22T09:09:48.054Z"
+  },
+  "d09042c4-d2dd-429f-bd55-5d71c0b51bd7": {
+    "appPath": "apps/Buttons-app",
+    "updatedAt": "2026-04-22T09:32:54.873Z"
+  },
   "0ea3fcde-4886-426a-b673-859581916330": {
     "appPath": "apps/Lifestyle",
     "updatedAt": "2026-04-22T10:01:58.562Z"
+  },
+  "b50d088e-2fab-4d50-991a-ec867c8f2a0c": {
+    "appPath": "apps/Test-module_Copy",
+    "updatedAt": "2026-04-22T12:11:24.645Z"
   },
   "da40391b-8e69-4694-95f0-3631bd867b11": {
     "appPath": "apps/cycle-app-export",
@@ -18,6 +50,10 @@
   "77c063a6-5041-49b3-9fad-b15a0b7cd551": {
     "appPath": "apps/Modules/Mod-2",
     "updatedAt": "2026-05-28T11:44:35.660Z"
+  },
+  "cd416e2e-5129-4c53-a8d8-70d884b95482": {
+    "appPath": "apps/Modules/Mod-1",
+    "updatedAt": "2026-04-22T13:35:25.905Z"
   },
   "e54fcbe2-b0b5-4c09-a55f-8c4d3c9e9b79": {
     "appPath": "apps/Sports/Cricket",
@@ -39,6 +75,10 @@
     "appPath": "apps/a-navItems",
     "updatedAt": "2026-04-25T07:19:55.514Z"
   },
+  "dfa4c560-966a-4737-8eeb-ba9b8a45b417": {
+    "appPath": "apps/a-inventory",
+    "updatedAt": "2026-04-29T06:28:30.434Z"
+  },
   "1277d956-3a64-4ef6-a80e-27df484efb57": {
     "appPath": "apps/Local-queries/Local-queries-renamed",
     "updatedAt": "2026-05-20T13:23:13.402Z"
@@ -50,6 +90,10 @@
   "8e739499-2504-4a5e-ae16-8bb242ced817": {
     "appPath": "apps/Salesforce-app",
     "updatedAt": "2026-05-11T21:16:10.755Z"
+  },
+  "8fdb7855-eac2-4ba8-9d21-1b3acece9a15": {
+    "appPath": "apps/Redis-app",
+    "updatedAt": "2026-05-12T14:47:59.815Z"
   },
   "997c5198-a660-4583-8781-a90256f572c7": {
     "appPath": "apps/DB-app",
@@ -79,9 +123,17 @@
     "appPath": "apps/common-app-5",
     "updatedAt": "2026-05-22T08:06:36.476Z"
   },
+  "de384481-c2ec-46f1-9900-a7166e42e2a2": {
+    "appPath": "apps/Local-queries/new module -app",
+    "updatedAt": "2026-05-28T11:45:52.949Z"
+  },
   "5632923d-7992-4f25-bf7d-c4ec709856e4": {
     "appPath": "apps/NO-DS-app_1",
     "updatedAt": "2026-06-03T20:47:34.883Z"
+  },
+  "7a0f2e4d-e45c-4594-b7d2-150d942fc0f6": {
+    "appPath": "apps/Macbook_1",
+    "updatedAt": "2026-07-15T10:57:41.618Z"
   },
   "842c98d5-15b2-4506-8ae1-1eeaf0d91b9f": {
     "appPath": "apps/Snowflake_1",
@@ -90,6 +142,10 @@
   "05c682ff-16ba-4f67-8aed-cfde8979cd62": {
     "appPath": "apps/Salesforce-app_1",
     "updatedAt": "2026-06-03T20:58:01.552Z"
+  },
+  "ff1b2790-f3d0-4188-a713-c5eacd0606b4": {
+    "appPath": "apps/reg-app-mod-pan-india-export",
+    "updatedAt": "2026-06-07T20:29:23.430Z"
   },
   "ec2e2af7-e447-4e35-87ec-4ef4efe0b575": {
     "appPath": "apps/one-two-app-export-1",
