@@ -43,14 +43,6 @@
     "appPath": "apps/Test-module_Copy",
     "updatedAt": "2026-04-22T12:11:24.645Z"
   },
-  "da40391b-8e69-4694-95f0-3631bd867b11": {
-    "appPath": "apps/cycle-app-export",
-    "updatedAt": "2026-04-22T12:13:53.803Z"
-  },
-  "77c063a6-5041-49b3-9fad-b15a0b7cd551": {
-    "appPath": "apps/Modules/Mod-2",
-    "updatedAt": "2026-05-28T11:44:35.660Z"
-  },
   "cd416e2e-5129-4c53-a8d8-70d884b95482": {
     "appPath": "apps/Modules/Mod-1",
     "updatedAt": "2026-04-22T13:35:25.905Z"
@@ -170,10 +162,6 @@
   "0bd8bc1f-848e-40a2-9136-2e476fef2f22": {
     "appPath": "apps/Im-Ads-SOS/IM-Ads-Update-Live-Campaign",
     "updatedAt": "2026-06-29T10:14:40.581Z"
-  },
-  "b496729e-02d3-4283-8ab2-3d244215dd87": {
-    "appPath": "apps/Im-Ads-SOS/IM-Ads-SOS-Update-Live-Campaign",
-    "updatedAt": "2026-06-29T10:15:06.046Z"
   },
   "dbf7b8a9-8897-4393-9b45-467e60d7f326": {
     "appPath": "apps/Im-Ads-SOS/IM-Ads-Debug-Dashboard",
