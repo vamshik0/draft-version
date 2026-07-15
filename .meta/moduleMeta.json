@@ -27,10 +27,6 @@
     "appPath": "modules/org_1",
     "updatedAt": "2026-04-21T15:20:34.533Z"
   },
-  "c18234fc-aaa2-4f0b-b7b1-8ee0d45a1dab": {
-    "appPath": "modules/org_2",
-    "updatedAt": "2026-04-21T15:20:52.856Z"
-  },
   "01952409-0de8-4eb4-bd27-749006f976b5": {
     "appPath": "modules/testing-module",
     "updatedAt": "2026-04-23T00:04:08.232Z"
@@ -71,10 +67,6 @@
     "appPath": "modules/dsaas/new modules",
     "updatedAt": "2026-05-28T11:45:52.949Z"
   },
-  "3283db46-56e2-4c64-9a4f-b905016bc67e": {
-    "appPath": "modules/common-module-1 v2",
-    "updatedAt": "2026-05-22T09:53:39.486Z"
-  },
   "7ecaa0d2-dd99-400b-922d-fd61709ed467": {
     "appPath": "modules/Navigation - PAN_INDIA",
     "updatedAt": "2026-07-01T10:50:03.113Z"
@@ -82,9 +74,5 @@
   "0873ad40-970f-43cb-b35b-fa1c55a8f17d": {
     "appPath": "modules/tj-module-1",
     "updatedAt": "2026-06-29T07:15:04.152Z"
-  },
-  "3883ebba-b6f8-4245-b06e-3f2472b1fec6": {
-    "appPath": "modules/skoolsy/skoolsy",
-    "updatedAt": "2026-07-08T05:50:43.832Z"
   }
 }
