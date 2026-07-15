@@ -1,0 +1,13 @@
+{
+  "id": "de384481-c2ec-46f1-9900-a7166e42e2a2",
+  "name": "new module -app",
+  "type": "front-end",
+  "slug": "f3febe00-a7d5-4add-9151-f7070c15b572",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "folderupload",
+  "tooljetVersion": "3.21.37-beta-ee"
+}

@@ -1,0 +1,98 @@
+{
+  "id": "5805ff3f-760f-40f0-97dc-3713793118cf",
+  "name": "text1",
+  "type": "Text",
+  "pageId": "fba58a14-5121-4080-ac50-7368ab69c374",
+  "parent": "62fc98e0-5f15-4e5d-9b36-24bf8e827b4e",
+  "properties": {
+    "textFormat": {
+      "value": "html"
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "text": {
+      "value": "{{cardData.title}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "fontWeight": {
+      "value": "bold"
+    },
+    "textSize": {
+      "value": 16
+    },
+    "textColor": {
+      "value": "var(--cc-primary-text)"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textFormat": {
+      "value": "html"
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "text": {
+      "value": "{{cardData.title}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "fontWeight": {
+      "value": "bold"
+    },
+    "textSize": {
+      "value": 16
+    },
+    "textColor": {
+      "value": "var(--cc-primary-text)"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "1534fe5c-b82c-4036-8177-944a1bd8b11a",
+      "type": "desktop",
+      "top": 20,
+      "left": 4,
+      "width": 13.953488372093023,
+      "height": 30,
+      "componentId": "5805ff3f-760f-40f0-97dc-3713793118cf",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "47342d47-45d5-468c-8821-5831693ca5f9",
+      "type": "mobile",
+      "top": 20,
+      "left": 4,
+      "width": 13.953488372093023,
+      "height": 30,
+      "componentId": "5805ff3f-760f-40f0-97dc-3713793118cf",
+      "dimensionUnit": "count"
+    }
+  ]
+}
