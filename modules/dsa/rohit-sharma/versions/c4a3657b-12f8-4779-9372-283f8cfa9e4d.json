@@ -17,11 +17,10 @@
   "appId": "0d88d95e-5b4b-441c-88bd-2bbdff960979",
   "promotedFrom": null,
   "status": "PUBLISHED",
-  "description": "saving v1",
+  "description": "created a_1 of module",
   "publishedAt": null,
   "releasedAt": null,
   "isStub": false,
-  "moduleReferenceId": "8e2e6720-c8bd-462b-ab8d-c991dbf1e819",
   "remoteUpdatedAt": null,
-  "sourceTag": null
+  "sourceTag": "a_1"
 }
