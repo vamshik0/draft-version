@@ -63,14 +63,6 @@
     "appPath": "apps/Local-queries/Local-queries-renamed",
     "updatedAt": "2026-05-20T13:23:13.402Z"
   },
-  "6105bc05-5967-4e97-91d9-6e72c3165015": {
-    "appPath": "apps/s3 app",
-    "updatedAt": "2026-06-12T11:07:15.765Z"
-  },
-  "8e739499-2504-4a5e-ae16-8bb242ced817": {
-    "appPath": "apps/Salesforce-app",
-    "updatedAt": "2026-05-11T21:16:10.755Z"
-  },
   "8fdb7855-eac2-4ba8-9d21-1b3acece9a15": {
     "appPath": "apps/Redis-app",
     "updatedAt": "2026-05-12T14:47:59.815Z"
@@ -106,10 +98,6 @@
   "842c98d5-15b2-4506-8ae1-1eeaf0d91b9f": {
     "appPath": "apps/Snowflake_1",
     "updatedAt": "2026-06-03T20:56:11.025Z"
-  },
-  "05c682ff-16ba-4f67-8aed-cfde8979cd62": {
-    "appPath": "apps/Salesforce-app_1",
-    "updatedAt": "2026-06-03T20:58:01.552Z"
   },
   "ff1b2790-f3d0-4188-a713-c5eacd0606b4": {
     "appPath": "apps/reg-app-mod-pan-india-export",
