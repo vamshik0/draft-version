@@ -1,0 +1,13 @@
+{
+  "id": "7c0211af-9523-4a3b-8bfc-71f4b02c9b15",
+  "name": "builders-1",
+  "type": "module",
+  "slug": "f4cf0d36-912e-4e51-bcfa-873668d50347",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "sentfast",
+  "tooljetVersion": "3.21.52-beta-ee"
+}
