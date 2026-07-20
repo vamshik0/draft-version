@@ -16,5 +16,6 @@
   "type": "default",
   "pageHeader": null,
   "pageFooter": null,
-  "appId": "dbf7b8a9-8897-4393-9b45-467e60d7f326"
+  "appId": "dbf7b8a9-8897-4393-9b45-467e60d7f326",
+  "targetCorelationId": null
 }
