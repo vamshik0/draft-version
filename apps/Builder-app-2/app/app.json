@@ -1,0 +1,13 @@
+{
+  "id": "647543ae-990f-4905-9896-1b5a524980b0",
+  "name": "Builder-app-2",
+  "type": "front-end",
+  "slug": "4595fc40-e427-440b-a185-9946d286e68b",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "globe",
+  "tooljetVersion": "3.21.52-beta-ee"
+}

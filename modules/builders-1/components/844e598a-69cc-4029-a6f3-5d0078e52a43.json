@@ -54,6 +54,30 @@
           "textColor": {
             "value": "#CE2761"
           }
+        },
+        {
+          "title": "v3",
+          "icon": {
+            "value": "IconHome"
+          },
+          "iconVisibility": {
+            "value": "{{true}}"
+          },
+          "backgroundColor": {
+            "value": "#6745E21A"
+          },
+          "loading": {
+            "value": "{{false}}"
+          },
+          "visible": {
+            "value": "{{true}}"
+          },
+          "disable": {
+            "value": "{{false}}"
+          },
+          "textColor": {
+            "value": "#6745E2"
+          }
         }
       ]
     },
