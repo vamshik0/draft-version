@@ -6,7 +6,7 @@
   "parent": null,
   "properties": {
     "value": {
-      "value": "{{queries.33cba726-04d0-4c89-83de-8eb08d3dce8a.data.message}}"
+      "value": "{{queries.08f67a2d-efe0-4d19-9e52-6cfbd63e39e8.data.message}}"
     },
     "label": {
       "value": "Rest api query via secret constants"
