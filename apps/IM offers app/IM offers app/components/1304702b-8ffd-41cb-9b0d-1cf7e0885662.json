@@ -1,15 +1,15 @@
 {
-  "id": "1bed9da9-09be-48be-8095-5703971e3ac8",
-  "name": "textinput1",
+  "id": "1304702b-8ffd-41cb-9b0d-1cf7e0885662",
+  "name": "textinput2",
   "type": "TextInput",
   "pageId": "dbecf584-019e-462f-aa5a-17a2082517a5",
   "parent": null,
   "properties": {
     "value": {
-      "value": "IM offers app - {{globals.appVersion.name}}"
+      "value": "{{queries.33cba726-04d0-4c89-83de-8eb08d3dce8a.data.message}}"
     },
     "label": {
-      "value": "App-name"
+      "value": "Rest api query via secret constants"
     },
     "placeholder": {
       "value": "Enter your input"
@@ -124,27 +124,27 @@
   },
   "layouts": [
     {
-      "id": "addabe7e-782d-4437-b74f-2c3c549d895f",
+      "id": "32d51ed6-44e4-45b8-b910-a023a8fdc271",
       "type": "desktop",
       "top": 80,
-      "left": 1,
-      "width": 12,
-      "height": 40,
-      "widthPx": null,
-      "fillWidth": null,
-      "componentId": "1bed9da9-09be-48be-8095-5703971e3ac8",
-      "dimensionUnit": "count"
-    },
-    {
-      "id": "25c15eb0-4888-4a07-a119-553dd177176d",
-      "type": "mobile",
-      "top": 210,
-      "left": 1,
+      "left": 14,
       "width": 10,
       "height": 40,
       "widthPx": null,
       "fillWidth": null,
-      "componentId": "1bed9da9-09be-48be-8095-5703971e3ac8",
+      "componentId": "1304702b-8ffd-41cb-9b0d-1cf7e0885662",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "ae4155bc-a517-4110-ad3f-8c4cc2a1072b",
+      "type": "mobile",
+      "top": 80,
+      "left": 16,
+      "width": 10,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "1304702b-8ffd-41cb-9b0d-1cf7e0885662",
       "dimensionUnit": "count"
     }
   ]
