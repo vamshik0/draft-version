@@ -60,10 +60,10 @@
     "contentHash": "0188a9fa757a8fcca3cf4bea9aef19b4614b1f8c1178dacc6d85f5a012e72acf"
   },
   "de45b4fe-5194-4681-b467-74b47ba19fd7": {
-    "name": "ui_url",
+    "name": "secrets_restapi",
     "kind": "restapi",
-    "updatedAt": "2026-07-20T10:15:14.649Z",
-    "contentHash": "fa3768a850f22b62c1a99729949fc6c551ffb33e3b3fc42798f20add4528b8b6"
+    "updatedAt": "2026-07-20T11:16:01.403Z",
+    "contentHash": "7a92b3064e892507e537743dcc5272ab384dc82d4c8487155fe7251ba0693621"
   },
   "dff98816-4b22-449c-940c-fafadfd8a05c": {
     "name": "snowflake",
@@ -71,5 +71,5 @@
     "updatedAt": "2026-04-22T13:36:08.992Z",
     "contentHash": "be9464d5e40384a19a5c7b21ec58c35bfc5d830856348fe0d2bed19accb0d949"
   },
-  "lastUpdatedAt": "2026-07-20T10:15:14.649Z"
+  "lastUpdatedAt": "2026-07-20T11:16:01.403Z"
 }
