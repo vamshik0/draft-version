@@ -1,0 +1,22 @@
+{
+  "id": "726ab713-280e-450a-8acd-15cdd1b1ec62",
+  "name": "restapi1",
+  "options": {
+    "method": "get",
+    "url": "{{globals.environment.name}}",
+    "url_params": [],
+    "headers": [],
+    "cookies": [],
+    "body": [],
+    "json_body": null,
+    "body_toggle": false,
+    "retry_network_errors": true,
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "de45b4fe-5194-4681-b467-74b47ba19fd7",
+  "appVersionId": "05f5bbb1-39ce-4076-b315-a03439485668",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
