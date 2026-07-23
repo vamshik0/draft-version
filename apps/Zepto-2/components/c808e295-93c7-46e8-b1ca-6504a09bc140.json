@@ -9,16 +9,29 @@
       "value": "76d57c6c-1a8d-4e09-be17-01817d9057cf"
     },
     "moduleVersionId": {
-      "value": "v2"
+      "value": "008f39ff-8e5f-46c4-bcaf-60fbcda734a0",
+      "versionName": "a_1"
     },
     "visibility": {
       "value": true
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
     }
   },
   "general": {},
   "styles": {
     "backgroundColor": {
       "value": "#fff"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "cssClass": {
+      "value": ""
     }
   },
   "generalStyles": {
@@ -43,6 +56,8 @@
       "left": 1,
       "width": 16,
       "height": 580,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "c808e295-93c7-46e8-b1ca-6504a09bc140",
       "dimensionUnit": "count"
     },
@@ -53,6 +68,8 @@
       "left": -3,
       "width": 38,
       "height": 400,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "c808e295-93c7-46e8-b1ca-6504a09bc140",
       "dimensionUnit": "count"
     }
