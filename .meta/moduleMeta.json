@@ -90,5 +90,9 @@
   "7c0211af-9523-4a3b-8bfc-71f4b02c9b15": {
     "appPath": "modules/builders-1",
     "updatedAt": "2026-07-20T10:43:03.814Z"
+  },
+  "12a7ed1b-408e-452b-9229-60556849f616": {
+    "appPath": "modules/migratedMod",
+    "updatedAt": "2026-07-23T12:13:48.118Z"
   }
 }

@@ -1,0 +1,13 @@
+{
+  "id": "12a7ed1b-408e-452b-9229-60556849f616",
+  "name": "migratedMod",
+  "type": "module",
+  "slug": "483b4585-0e5c-40ec-b61e-7b90279c62dd",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "globe",
+  "tooljetVersion": "3.21.53-beta-ee"
+}
