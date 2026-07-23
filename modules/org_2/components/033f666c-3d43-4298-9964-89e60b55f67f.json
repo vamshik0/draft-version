@@ -15,13 +15,13 @@
       "value": "{{true}}"
     }
   },
-  "general": null,
+  "general": {},
   "styles": {
     "backgroundColor": {
       "value": "#fff"
     }
   },
-  "generalStyles": null,
+  "generalStyles": {},
   "displayPreferences": {
     "showOnDesktop": {
       "value": "{{true}}"
@@ -30,7 +30,7 @@
       "value": "{{true}}"
     }
   },
-  "validation": null,
+  "validation": {},
   "layouts": [
     {
       "id": "3bf5c387-345e-4ece-b2c9-41f2f7e74d85",
@@ -39,6 +39,8 @@
       "left": 3,
       "width": 16,
       "height": 590,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "033f666c-3d43-4298-9964-89e60b55f67f",
       "dimensionUnit": "count"
     },
@@ -49,6 +51,8 @@
       "left": 3,
       "width": 38,
       "height": 400,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "033f666c-3d43-4298-9964-89e60b55f67f",
       "dimensionUnit": "count"
     }
