@@ -1,0 +1,13 @@
+{
+  "id": "de82e955-eeb6-4723-8640-81537f5d4aa0",
+  "name": "migratedApp",
+  "type": "front-end",
+  "slug": "c273e26f-d683-4c69-8f41-7408e2b1f4b6",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "server",
+  "tooljetVersion": "3.21.53-beta-ee"
+}

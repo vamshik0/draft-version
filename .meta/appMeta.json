@@ -210,5 +210,9 @@
   "647543ae-990f-4905-9896-1b5a524980b0": {
     "appPath": "apps/Builder-app-2",
     "updatedAt": "2026-07-20T10:43:03.814Z"
+  },
+  "de82e955-eeb6-4723-8640-81537f5d4aa0": {
+    "appPath": "apps/migratedApp",
+    "updatedAt": "2026-07-23T12:14:42.751Z"
   }
 }
