@@ -3,11 +3,11 @@
   "name": "Dummy app",
   "type": "front-end",
   "slug": "c7114cae-7ec1-4036-be3a-9050dc8a3647",
-  "isPublic": null,
+  "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
   "appBuilderMode": "visual",
   "icon": "globe",
-  "tooljetVersion": "3.21.23-beta-ee"
+  "tooljetVersion": "3.21.53-beta-ee"
 }

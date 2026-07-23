@@ -3,11 +3,11 @@
   "name": "dummy-1",
   "type": "module",
   "slug": "b8c1e908-eee1-4008-9014-8fbbea01febb",
-  "isPublic": null,
+  "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
   "appBuilderMode": "visual",
   "icon": "table",
-  "tooljetVersion": "3.21.23-beta-ee"
+  "tooljetVersion": "3.21.53-beta-ee"
 }
