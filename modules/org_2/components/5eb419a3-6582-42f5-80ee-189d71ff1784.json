@@ -84,6 +84,102 @@
           "visible": {
             "value": true
           }
+        },
+        {
+          "title": "Tag 5",
+          "icon": {
+            "value": "IconHome"
+          },
+          "iconVisibility": {
+            "value": "{{true}}"
+          },
+          "backgroundColor": {
+            "value": "#1A9C6D1A"
+          },
+          "loading": {
+            "value": "{{false}}"
+          },
+          "visible": {
+            "value": "{{true}}"
+          },
+          "disable": {
+            "value": "{{false}}"
+          },
+          "textColor": {
+            "value": "#1A9C6D"
+          }
+        },
+        {
+          "title": "Tag 6",
+          "icon": {
+            "value": "IconHome"
+          },
+          "iconVisibility": {
+            "value": "{{true}}"
+          },
+          "backgroundColor": {
+            "value": "#69AF201A"
+          },
+          "loading": {
+            "value": "{{false}}"
+          },
+          "visible": {
+            "value": "{{true}}"
+          },
+          "disable": {
+            "value": "{{false}}"
+          },
+          "textColor": {
+            "value": "#69AF20"
+          }
+        },
+        {
+          "title": "Tag 7",
+          "icon": {
+            "value": "IconHome"
+          },
+          "iconVisibility": {
+            "value": "{{true}}"
+          },
+          "backgroundColor": {
+            "value": "#F357171A"
+          },
+          "loading": {
+            "value": "{{false}}"
+          },
+          "visible": {
+            "value": "{{true}}"
+          },
+          "disable": {
+            "value": "{{false}}"
+          },
+          "textColor": {
+            "value": "#F35717"
+          }
+        },
+        {
+          "title": "Tag 8",
+          "icon": {
+            "value": "IconHome"
+          },
+          "iconVisibility": {
+            "value": "{{true}}"
+          },
+          "backgroundColor": {
+            "value": "#EB2E391A"
+          },
+          "loading": {
+            "value": "{{false}}"
+          },
+          "visible": {
+            "value": "{{true}}"
+          },
+          "disable": {
+            "value": "{{false}}"
+          },
+          "textColor": {
+            "value": "#EB2E39"
+          }
         }
       ]
     },
@@ -101,6 +197,9 @@
     },
     "tooltip": {
       "value": ""
+    },
+    "tooltipFormat": {
+      "value": "plainText"
     }
   },
   "general": {},
@@ -121,11 +220,7 @@
       "value": "8"
     }
   },
-  "generalStyles": {
-    "boxShadow": {
-      "value": "0px 0px 0px 0px #00000040"
-    }
-  },
+  "generalStyles": {},
   "displayPreferences": {
     "showOnDesktop": {
       "value": "{{true}}"
@@ -142,7 +237,9 @@
       "top": 370,
       "left": 8,
       "width": 24,
-      "height": 30,
+      "height": 150,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "5eb419a3-6582-42f5-80ee-189d71ff1784",
       "dimensionUnit": "count"
     },
@@ -153,6 +250,8 @@
       "left": 8,
       "width": 24,
       "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "5eb419a3-6582-42f5-80ee-189d71ff1784",
       "dimensionUnit": "count"
     }

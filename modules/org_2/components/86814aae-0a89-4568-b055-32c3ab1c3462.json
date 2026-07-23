@@ -16,6 +16,9 @@
     },
     "placeholder": {
       "value": ""
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
     }
   },
   "general": {},
@@ -58,6 +61,8 @@
       "left": 5,
       "width": 31,
       "height": 120,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "86814aae-0a89-4568-b055-32c3ab1c3462",
       "dimensionUnit": "count"
     },
@@ -68,6 +73,8 @@
       "left": 0,
       "width": 43,
       "height": 120,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "86814aae-0a89-4568-b055-32c3ab1c3462",
       "dimensionUnit": "count"
     }
