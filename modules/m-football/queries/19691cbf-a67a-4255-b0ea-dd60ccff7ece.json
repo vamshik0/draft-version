@@ -16,7 +16,7 @@
     "runOnPageLoad": true,
     "runOnDependencyChange": false
   },
-  "dataSourceId": "93142818-df1e-4568-87b5-49c3be1c5152",
+  "dataSourceId": "c2613561-0421-446b-8046-412854798ea1",
   "appVersionId": "f3cd77d8-1b90-4b3f-990b-961fc5a36822",
   "kind": "restapi",
   "dataSourceType": "static"

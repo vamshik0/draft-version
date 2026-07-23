@@ -192,6 +192,12 @@
           }
         }
       ]
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
     }
   },
   "general": {},
@@ -236,11 +242,7 @@
       "value": "0px 0px 0px 0px #00000040"
     }
   },
-  "generalStyles": {
-    "boxShadow": {
-      "value": "0px 0px 0px 0px #00000040"
-    }
-  },
+  "generalStyles": {},
   "displayPreferences": {
     "showOnDesktop": {
       "value": "{{true}}"
@@ -271,6 +273,8 @@
       "left": 2,
       "width": 22,
       "height": 200,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "7ebe409d-7f32-43b8-b43d-42aefdb1cd01",
       "dimensionUnit": "count"
     },
@@ -281,6 +285,8 @@
       "left": 2,
       "width": 22,
       "height": 200,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "7ebe409d-7f32-43b8-b43d-42aefdb1cd01",
       "dimensionUnit": "count"
     }
