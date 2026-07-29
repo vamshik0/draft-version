@@ -22,5 +22,6 @@
   "releasedAt": null,
   "isStub": false,
   "remoteUpdatedAt": null,
-  "sourceTag": null
+  "sourceTag": null,
+  "isSynced": true
 }
