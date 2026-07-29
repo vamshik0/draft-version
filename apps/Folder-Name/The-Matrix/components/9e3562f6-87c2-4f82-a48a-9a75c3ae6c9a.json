@@ -6,7 +6,7 @@
   "parent": null,
   "properties": {
     "value": {
-      "value": "{{queries.726ab713-280e-450a-8acd-15cdd1b1ec62.data.message}}"
+      "value": "{{queries.726ab713-280e-450a-8acd-15cdd1b1ec62.data.title}}"
     },
     "label": {
       "value": "Label"

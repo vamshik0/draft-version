@@ -3,7 +3,7 @@
   "name": "restapi1",
   "options": {
     "method": "get",
-    "url": "{{globals.environment.name}}",
+    "url": "/1",
     "url_params": [],
     "headers": [],
     "cookies": [],
@@ -15,7 +15,7 @@
     "enableTransformation": false,
     "runOnPageLoad": true
   },
-  "dataSourceId": "de45b4fe-5194-4681-b467-74b47ba19fd7",
+  "dataSourceId": "50a10314-b95a-419c-a717-0760adabbd35",
   "appVersionId": "05f5bbb1-39ce-4076-b315-a03439485668",
   "kind": "restapi",
   "dataSourceType": "default"
