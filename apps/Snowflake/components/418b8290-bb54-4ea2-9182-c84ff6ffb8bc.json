@@ -58,6 +58,9 @@
     },
     "fields": {
       "value": []
+    },
+    "tooltipFormat": {
+      "value": "plainText"
     }
   },
   "general": {},
@@ -102,6 +105,8 @@
       "left": 4,
       "width": 15,
       "height": 450,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "418b8290-bb54-4ea2-9182-c84ff6ffb8bc",
       "dimensionUnit": "count"
     },
@@ -112,6 +117,8 @@
       "left": 4,
       "width": 15,
       "height": 450,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "418b8290-bb54-4ea2-9182-c84ff6ffb8bc",
       "dimensionUnit": "count"
     }

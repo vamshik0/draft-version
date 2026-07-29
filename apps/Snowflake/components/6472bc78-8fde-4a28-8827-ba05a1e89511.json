@@ -25,6 +25,9 @@
     },
     "collapseWhenHidden": {
       "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
     }
   },
   "general": {},
@@ -105,6 +108,8 @@
       "left": 1,
       "width": 13.953488372093023,
       "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "6472bc78-8fde-4a28-8827-ba05a1e89511",
       "dimensionUnit": "count"
     },
@@ -115,6 +120,8 @@
       "left": 1,
       "width": 13.953488372093023,
       "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "6472bc78-8fde-4a28-8827-ba05a1e89511",
       "dimensionUnit": "count"
     }
