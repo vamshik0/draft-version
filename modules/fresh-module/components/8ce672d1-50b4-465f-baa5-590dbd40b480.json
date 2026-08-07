@@ -1,0 +1,77 @@
+{
+  "id": "8ce672d1-50b4-465f-baa5-590dbd40b480",
+  "name": "customcomponent1",
+  "type": "CustomComponent",
+  "pageId": "24e7deb7-8c0f-433b-896b-2b03e7bac171",
+  "parent": "f2eeac8c-5cf0-44b5-b844-05b0836e999c",
+  "properties": {
+    "visible": {
+      "value": "{{true}}"
+    },
+    "data": {
+      "value": "{{{ title: 'Hi! There', buttonText: 'Update Title'}}}"
+    },
+    "code": {
+      "value": "import React from 'https://cdn.jsdelivr.net/npm/react@17.0.2/+esm';\n  import ReactDOM from 'https://cdn.jsdelivr.net/npm/react-dom@17.0.2/+esm';\n  import { Button, Container } from 'https://cdn.jsdelivr.net/npm/@material-ui/core@4.12.4/+esm';\n  const MyCustomComponent = ({data, updateData, runQuery}) => (\n    <Container>\n        <h1>{data.title}</h1>\n        <Button\n          color=\"primary\"\n          variant=\"outlined\"\n          onClick={() => {updateData({title: 'Hello World!!'})}}\n        >\n          {data.buttonText}\n        </Button>\n      </Container>\n  );\n  const ConnectedComponent = Tooljet.connectComponent(MyCustomComponent);\n  ReactDOM.render(<ConnectedComponent />, document.body);",
+      "skipResolve": true
+    }
+  },
+  "general": {},
+  "styles": {
+    "cssClass": {
+      "value": ""
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "borderColor": {
+      "value": "var(--cc-weak-border)"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "generalStyles": {
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "2f5d5bf9-e7cc-4d2c-a8d6-dd677d121938",
+      "type": "desktop",
+      "top": 160,
+      "left": 2,
+      "width": 23,
+      "height": 140,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "8ce672d1-50b4-465f-baa5-590dbd40b480",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "8463572a-4f95-4b19-baa3-5b9a3693c79b",
+      "type": "mobile",
+      "top": 160,
+      "left": 2,
+      "width": 23,
+      "height": 140,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "8ce672d1-50b4-465f-baa5-590dbd40b480",
+      "dimensionUnit": "count"
+    }
+  ]
+}
