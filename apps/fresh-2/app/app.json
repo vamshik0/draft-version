@@ -1,0 +1,13 @@
+{
+  "id": "3dda43d5-af9b-4904-b893-417d2f6a59c7",
+  "name": "fresh-2",
+  "type": "front-end",
+  "slug": "1f06e7cc-6168-4275-82bf-6e62c1b632a9",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "draghandle",
+  "tooljetVersion": "3.21.58-beta-ee"
+}
