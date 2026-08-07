@@ -1,0 +1,13 @@
+{
+  "id": "a9c67759-0fff-4d6f-8745-382f40917794",
+  "name": "fresh-app",
+  "type": "front-end",
+  "slug": "9634e89d-df7e-4676-bea8-0cae344a2436",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "sentfast",
+  "tooljetVersion": "3.21.58-beta-ee"
+}

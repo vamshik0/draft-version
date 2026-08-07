@@ -1,0 +1,13 @@
+{
+  "id": "98173cba-5fa6-4b8a-b519-a4d58ceb99ab",
+  "name": "fresh-module",
+  "type": "module",
+  "slug": "35c1fcb7-b72d-42f9-97fc-f40939c48cc5",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "floppydisk",
+  "tooljetVersion": "3.21.58-beta-ee"
+}

@@ -218,5 +218,9 @@
   "f516c599-ba8d-4523-a375-a4a9f3cbf5b6": {
     "appPath": "apps/release_migrate_2",
     "updatedAt": "2026-08-07T06:48:55.432Z"
+  },
+  "a9c67759-0fff-4d6f-8745-382f40917794": {
+    "appPath": "apps/fresh-app",
+    "updatedAt": "2026-08-07T10:10:13.596Z"
   }
 }
