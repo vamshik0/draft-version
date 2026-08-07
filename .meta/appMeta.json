@@ -214,5 +214,9 @@
   "45d7aa05-3154-4b55-a4be-f5c90efa287f": {
     "appPath": "apps/Relasemigrate_main",
     "updatedAt": "2026-08-07T06:29:15.346Z"
+  },
+  "f516c599-ba8d-4523-a375-a4a9f3cbf5b6": {
+    "appPath": "apps/release_migrate_2",
+    "updatedAt": "2026-08-07T06:48:55.432Z"
   }
 }
