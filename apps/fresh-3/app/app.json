@@ -1,0 +1,13 @@
+{
+  "id": "b1e899b1-bb8a-4121-bc38-b5d95cc10ece",
+  "name": "fresh-3",
+  "type": "front-end",
+  "slug": "0f7cd653-1c81-4a20-82c2-b0eb59868370",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "menuhome",
+  "tooljetVersion": "3.21.58-beta-ee"
+}

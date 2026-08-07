@@ -1,0 +1,13 @@
+{
+  "id": "975b6acc-e342-47a2-b687-ec5e844a34cb",
+  "name": "unsync-module",
+  "type": "module",
+  "slug": "ba56cfba-b1f5-4943-8fb8-5cefe5d61793",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "home",
+  "tooljetVersion": "3.21.58-beta-ee"
+}
