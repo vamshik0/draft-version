@@ -1,0 +1,41 @@
+{
+  "id": "782ddce9-4ff0-4871-98dc-62506d9549d9",
+  "kind": "postgresql",
+  "name": "postgresql_3_pratush",
+  "options": {
+    "development": {
+      "allow_dynamic_connection_parameters": false,
+      "connection_type": "manual",
+      "host": "localhost",
+      "port": 5432,
+      "ssh_auth_type": "private_key",
+      "ssh_enabled": "disabled",
+      "ssh_port": 22,
+      "ssl_certificate": "none",
+      "ssl_enabled": true
+    },
+    "production": {
+      "allow_dynamic_connection_parameters": false,
+      "connection_type": "manual",
+      "host": "localhost",
+      "port": 5432,
+      "ssh_auth_type": "private_key",
+      "ssh_enabled": "disabled",
+      "ssh_port": 22,
+      "ssl_certificate": "none",
+      "ssl_enabled": true
+    },
+    "staging": {
+      "allow_dynamic_connection_parameters": false,
+      "connection_type": "manual",
+      "host": "localhost",
+      "port": 5432,
+      "ssh_auth_type": "private_key",
+      "ssh_enabled": "disabled",
+      "ssh_port": 22,
+      "ssl_certificate": "none",
+      "ssl_enabled": true
+    }
+  },
+  "type": "default"
+}
