@@ -230,5 +230,9 @@
   "b1e899b1-bb8a-4121-bc38-b5d95cc10ece": {
     "appPath": "apps/fresh-3",
     "updatedAt": "2026-08-07T10:33:52.021Z"
+  },
+  "d62f6c8a-8acb-426a-a833-2e9145e25495": {
+    "appPath": "apps/crash_check",
+    "updatedAt": "2026-08-12T10:17:09.602Z"
   }
 }
