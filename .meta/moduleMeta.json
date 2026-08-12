@@ -110,5 +110,9 @@
   "975b6acc-e342-47a2-b687-ec5e844a34cb": {
     "appPath": "modules/unsync-module",
     "updatedAt": "2026-08-07T10:33:52.021Z"
+  },
+  "66318804-d9e7-46b6-b16b-5f50afe4c097": {
+    "appPath": "modules/Crash_mod",
+    "updatedAt": "2026-08-12T10:08:29.976Z"
   }
 }

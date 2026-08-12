@@ -1,0 +1,22 @@
+{
+  "id": "84cb1916-f605-4e2c-8083-e54319414089",
+  "name": "restapi1",
+  "options": {
+    "method": "get",
+    "url": "https://dummyjson.com/users",
+    "url_params": [],
+    "headers": [],
+    "cookies": [],
+    "body": [],
+    "json_body": null,
+    "body_toggle": false,
+    "retry_network_errors": null,
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "87108fd2-35cc-422a-bbaf-5074a5a4f644",
+  "appVersionId": "5825266b-4f9b-48ce-9b75-85262f2328f6",
+  "kind": "restapi",
+  "dataSourceType": "static"
+}
