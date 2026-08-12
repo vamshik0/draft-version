@@ -1,0 +1,13 @@
+{
+  "id": "d62f6c8a-8acb-426a-a833-2e9145e25495",
+  "name": "crash_check",
+  "type": "front-end",
+  "slug": "73696f6a-2518-40b2-9ed5-6f1f13121126",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "sentfast",
+  "tooljetVersion": "3.21.59-beta-ee"
+}
