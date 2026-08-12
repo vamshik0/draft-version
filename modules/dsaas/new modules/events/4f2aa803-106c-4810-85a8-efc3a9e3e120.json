@@ -1,0 +1,14 @@
+{
+  "id": "4f2aa803-106c-4810-85a8-efc3a9e3e120",
+  "name": "Event #1",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "'failed!'",
+    "actionId": "show-alert",
+    "alertType": "error"
+  },
+  "sourceId": "7d93782e-9b6e-437d-9117-f5a71f74986d",
+  "target": "data_query",
+  "appVersionId": "791d9e63-98fc-4412-a672-c7032094d783"
+}

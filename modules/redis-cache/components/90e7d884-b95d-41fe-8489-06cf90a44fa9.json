@@ -31,6 +31,9 @@
     },
     "showClearBtn": {
       "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
     }
   },
   "general": {},

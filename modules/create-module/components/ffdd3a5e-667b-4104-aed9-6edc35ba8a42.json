@@ -43,6 +43,9 @@
     },
     "tooltip": {
       "value": ""
+    },
+    "tooltipFormat": {
+      "value": "plainText"
     }
   },
   "general": {},

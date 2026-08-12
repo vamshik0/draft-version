@@ -55,6 +55,9 @@
     },
     "buttonToSubmit": {
       "value": "a285315c-be09-4159-a2ac-116731326a4c"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
     }
   },
   "general": {},

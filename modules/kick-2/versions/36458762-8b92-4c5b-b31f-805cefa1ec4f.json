@@ -13,14 +13,15 @@
   "pageSettings": {},
   "showViewerNavigation": false,
   "homePageId": "88bf3be3-57c0-4d84-acb2-aa3dea9b21db",
-  "versionType": "version",
+  "versionType": "branch",
   "appId": "36458762-8b92-4c5b-b31f-805cefa1ec4f",
   "promotedFrom": null,
-  "status": "PUBLISHED",
-  "description": "saving v2 with new moduleName",
+  "status": "DRAFT",
+  "description": null,
   "publishedAt": null,
   "releasedAt": null,
   "isStub": false,
   "moduleReferenceId": "9ce99949-db29-42c3-aeb2-5692caeb21ac",
+  "remoteUpdatedAt": null,
   "sourceTag": null
 }
