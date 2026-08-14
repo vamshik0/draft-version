@@ -1,0 +1,13 @@
+{
+  "id": "42a37013-49ae-4469-9863-532147318361",
+  "name": "Letsconnect_mod",
+  "type": "module",
+  "slug": "a19c2866-c60e-4385-8b10-a35f7a4cdfc6",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "table",
+  "tooljetVersion": "3.21.58-beta-ee"
+}
