@@ -1,0 +1,45 @@
+{
+  "id": "c38c992d-3d71-42f6-9b73-1f115c39f477",
+  "name": "postgresql_4_letsconnect",
+  "kind": "postgresql",
+  "type": "default",
+  "options": {
+    "development": {
+      "host": "{{constants.host}}",
+      "port": 5432,
+      "password": "{{secrets.secret}}",
+      "ssh_port": 22,
+      "username": "postgres",
+      "ssh_enabled": "disabled",
+      "ssl_enabled": false,
+      "ssh_auth_type": "private_key",
+      "connection_type": "manual",
+      "ssl_certificate": "none",
+      "allow_dynamic_connection_parameters": false
+    },
+    "production": {
+      "host": "{{constants.host}}",
+      "port": 5432,
+      "password": "{{secrets.secret}}",
+      "ssh_port": 22,
+      "username": "postgres",
+      "ssh_enabled": "disabled",
+      "ssl_enabled": false,
+      "ssh_auth_type": "private_key",
+      "connection_type": "manual",
+      "ssl_certificate": "none",
+      "allow_dynamic_connection_parameters": false
+    },
+    "staging": {
+      "host": "localhost",
+      "port": 5432,
+      "ssh_port": 22,
+      "ssh_enabled": "disabled",
+      "ssl_enabled": true,
+      "ssh_auth_type": "private_key",
+      "connection_type": "manual",
+      "ssl_certificate": "none",
+      "allow_dynamic_connection_parameters": false
+    }
+  }
+}
