@@ -1,0 +1,13 @@
+{
+  "id": "70c0ef5a-8472-40d8-b23a-772fb9b610fe",
+  "name": "Letsconnect",
+  "type": "front-end",
+  "slug": "87189299-ea37-4db3-8211-4c4258629878",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "shield",
+  "tooljetVersion": "3.21.58-beta-ee"
+}
