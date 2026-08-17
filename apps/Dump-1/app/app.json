@@ -1,0 +1,13 @@
+{
+  "id": "8ec4d437-f7c6-4faa-a687-51575436c3a3",
+  "name": "Dump-1",
+  "type": "front-end",
+  "slug": "acd1f0b3-c11e-4afb-a099-b604b99928f3",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "grid",
+  "tooljetVersion": "3.21.56-beta-ee"
+}
