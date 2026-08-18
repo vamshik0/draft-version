@@ -6,7 +6,7 @@
   "parent": "9e658d3b-a31f-4dcb-acbb-71ee6ae25852",
   "properties": {
     "text": {
-      "value": "Button"
+      "value": "Run workflow"
     },
     "visibility": {
       "value": "{{true}}"
@@ -22,6 +22,9 @@
     },
     "tooltip": {
       "value": ""
+    },
+    "tooltipFormat": {
+      "value": "plainText"
     }
   },
   "general": {},
@@ -96,6 +99,8 @@
       "left": 7,
       "width": 5,
       "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "dc3bbd32-eda8-4121-8346-4b7322e44bf2",
       "dimensionUnit": "count"
     },
@@ -106,6 +111,8 @@
       "left": 14,
       "width": 5,
       "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "dc3bbd32-eda8-4121-8346-4b7322e44bf2",
       "dimensionUnit": "count"
     }
