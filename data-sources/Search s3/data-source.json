@@ -1,0 +1,32 @@
+{
+  "id": "a4401bcf-38a9-4406-a264-e6f7b95d7bcb",
+  "kind": "s3",
+  "name": "Search s3",
+  "options": {
+    "development": {
+      "access_key": "AKIATFA53SDS6E4F7NHW",
+      "allow_dynamic_connection_parameters": true,
+      "bucket_name": "datasource-testing",
+      "endpoint_enabled": false,
+      "instance_metadata_credentials": "iam_access_keys",
+      "region": "us-west-1"
+    },
+    "production": {
+      "access_key": "AKIATFA53SDS6E4F7NHW",
+      "allow_dynamic_connection_parameters": true,
+      "bucket_name": "datasource-testing",
+      "endpoint_enabled": false,
+      "instance_metadata_credentials": "iam_access_keys",
+      "region": "us-west-1"
+    },
+    "staging": {
+      "access_key": "AKIATFA53SDS6E4F7NHW",
+      "allow_dynamic_connection_parameters": true,
+      "bucket_name": "datasource-testing",
+      "endpoint_enabled": false,
+      "instance_metadata_credentials": "iam_access_keys",
+      "region": "us-west-1"
+    }
+  },
+  "type": "default"
+}
