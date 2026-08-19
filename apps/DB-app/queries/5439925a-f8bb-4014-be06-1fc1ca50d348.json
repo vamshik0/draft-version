@@ -1,0 +1,13 @@
+{
+  "id": "5439925a-f8bb-4014-be06-1fc1ca50d348",
+  "name": "runjs1",
+  "options": {
+    "code": "",
+    "parameters": [],
+    "mode": "sql"
+  },
+  "dataSourceId": "8d640214-7efa-46c1-86e8-b795a0d7ab99",
+  "appVersionId": "cce7ff7a-23b7-4345-b80e-2ed6dd8c1d5a",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}
