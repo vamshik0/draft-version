@@ -10,8 +10,10 @@
         "value": ""
       }
     ],
-    "workflowId": "7cbe3d96-053c-4b45-8dda-e4e1798d12f7",
-    "workflowVersionId": "1ccdc067-22ec-4b45-b18b-91ce53e2ab10"
+    "workflowId": "7c372d20-08e9-4889-af0f-3c4cf449f3ed",
+    "workflowVersionId": "19e41471-38c2-47c2-a150-1d593f2be7ae",
+    "workflowName": "IM-Ads runjs workflow",
+    "workflowVersionName": "v1"
   },
   "dataSourceId": "38461ce6-77f8-462e-a2fb-02198085135d",
   "appVersionId": "e6dfec78-5db9-4ab1-b5ab-432b6952386b",
