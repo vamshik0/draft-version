@@ -1,0 +1,13 @@
+{
+  "id": "842c98d5-15b2-4506-8ae1-1eeaf0d91b9f",
+  "name": "Snowflake_1",
+  "type": "front-end",
+  "slug": "05c682ff-16ba-4f67-8aed-cfde8979cd62",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "grid",
+  "tooljetVersion": "3.21.38-beta-ee"
+}

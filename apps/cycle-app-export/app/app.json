@@ -1,0 +1,13 @@
+{
+  "id": "da40391b-8e69-4694-95f0-3631bd867b11",
+  "name": "cycle-app-export",
+  "type": "front-end",
+  "slug": "0063ef51-a443-49ae-b82a-6f2ae35fbf83",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "grid",
+  "tooljetVersion": "3.21.23-beta-ee"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "d09042c4-d2dd-429f-bd55-5d71c0b51bd7",
+  "name": "Buttons-app",
+  "type": "front-end",
+  "slug": "ff04f6e2-fbcb-45f2-bbfb-e8707857af21",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "home",
+  "tooljetVersion": "3.21.23-beta-ee"
+}
