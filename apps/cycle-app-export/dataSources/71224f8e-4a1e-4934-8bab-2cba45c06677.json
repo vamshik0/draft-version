@@ -1,9 +1,0 @@
-{
-  "id": "71224f8e-4a1e-4934-8bab-2cba45c06677",
-  "name": "restapi",
-  "kind": "restapi",
-  "type": "default",
-  "pluginId": null,
-  "appVersionId": null,
-  "scope": "global"
-}
