@@ -1,0 +1,18 @@
+{
+  "id": "f9038a5f-c674-47b0-9dc5-4429d82966b7",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "queryId": "01640fcc-6d9d-433e-ad18-9ac4a9be228f",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "button7",
+    "queryName": "repack_data_read",
+    "parameters": {}
+  },
+  "sourceId": "a4e0f20c-6187-44ea-b0f8-8ac481899371",
+  "target": "component",
+  "appVersionId": "ab968e19-546b-416e-83fd-3f767865e771"
+}

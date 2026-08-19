@@ -1,0 +1,17 @@
+{
+  "id": "93304d1e-359c-4c8a-a182-c735f56c489e",
+  "name": "onDataQuerySuccess",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Hello world!",
+    "queryId": "00b89155-f52a-4031-a1aa-90332d06c649",
+    "actionId": "run-query",
+    "alertType": "info",
+    "queryName": "repack_id",
+    "parameters": {}
+  },
+  "sourceId": "58549949-0756-4cec-b5fd-ebcc3c337ef4",
+  "target": "data_query",
+  "appVersionId": "ab968e19-546b-416e-83fd-3f767865e771"
+}

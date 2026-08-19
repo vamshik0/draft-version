@@ -1,0 +1,18 @@
+{
+  "id": "97821d70-a7e8-4b04-a812-7130d064b95e",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "actionId": "control-component",
+    "alertType": "info",
+    "component": "button6",
+    "componentId": "d53cb3ca-1824-4f0c-bed8-335c7a25c8d6",
+    "componentSpecificActionHandle": "close",
+    "componentSpecificActionParams": []
+  },
+  "sourceId": "5210b98b-6252-4c3b-a99b-a76c7dc7641c",
+  "target": "component",
+  "appVersionId": "ab968e19-546b-416e-83fd-3f767865e771"
+}
