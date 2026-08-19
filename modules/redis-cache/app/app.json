@@ -1,0 +1,13 @@
+{
+  "id": "dd74a60b-6c8a-4151-aa8c-258d3616c0e5",
+  "name": "redis-cache",
+  "type": "module",
+  "slug": "3a5b73ee-ec1d-47b2-b8d7-0b09c50af3dd",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "layers",
+  "tooljetVersion": "3.21.31-beta-ee"
+}

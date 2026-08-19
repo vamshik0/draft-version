@@ -1,0 +1,13 @@
+{
+  "id": "8fdb7855-eac2-4ba8-9d21-1b3acece9a15",
+  "name": "Redis-app",
+  "type": "front-end",
+  "slug": "5ad28525-0c0e-4a06-8289-c788f6e73bfe",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "menuhome",
+  "tooljetVersion": "3.21.31-beta-ee"
+}

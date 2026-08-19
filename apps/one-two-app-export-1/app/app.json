@@ -1,0 +1,13 @@
+{
+  "id": "ec2e2af7-e447-4e35-87ec-4ef4efe0b575",
+  "name": "one-two-app-export-1",
+  "type": "front-end",
+  "slug": "89b272c1-f5e0-4e15-b34f-d7acb068acef",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "home",
+  "tooljetVersion": "3.21.41-beta-ee"
+}
