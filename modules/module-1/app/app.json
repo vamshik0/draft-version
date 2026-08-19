@@ -1,0 +1,13 @@
+{
+  "id": "9feb01fd-461b-4eb5-b9af-49a2282b5afc",
+  "name": "module-1",
+  "type": "module",
+  "slug": "4f9b42c1-f3ca-4daa-9079-e27e72fc8d60",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "floppydisk",
+  "tooljetVersion": "3.21.61-beta-ee"
+}
