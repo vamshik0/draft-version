@@ -10,8 +10,10 @@
         "value": ""
       }
     ],
-    "workflowId": "8d47c7e8-ee02-4dd8-a6bc-a858558970d6",
-    "workflowVersionId": "cf3e5452-4d3b-4a43-a4de-ea4cec7eea71"
+    "workflowId": "c8103e8a-44ec-4292-b965-e5b5d8ee850b",
+    "workflowVersionId": "977339b4-6609-404d-a715-9f4d547d49f3",
+    "workflowName": "module-workflow",
+    "workflowVersionName": "v1"
   },
   "dataSourceId": "38461ce6-77f8-462e-a2fb-02198085135d",
   "appVersionId": "791d9e63-98fc-4412-a672-c7032094d783",

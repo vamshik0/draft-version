@@ -10,8 +10,10 @@
         "value": ""
       }
     ],
-    "workflowId": "282e1125-52b6-4187-a998-d538c39dce49",
-    "workflowVersionId": "7b9fb34b-50c4-4240-ae5d-f4a376c09410"
+    "workflowId": "f02c3255-b6b1-44e1-b710-d1f0c5a74cab",
+    "workflowVersionId": "3e4a1c46-a22a-464c-b4f7-e3f9e7427dcc",
+    "workflowName": "IM-Ads restApi workflow",
+    "workflowVersionName": "v1"
   },
   "dataSourceId": "38461ce6-77f8-462e-a2fb-02198085135d",
   "appVersionId": "d785de1a-5b7c-4a48-a20d-3c39be5e1e7b",
