@@ -3,7 +3,7 @@
   "name": "restapi3",
   "options": {
     "method": "get",
-    "url": "{{globals.environment.name}}",
+    "url": "",
     "url_params": [],
     "headers": [],
     "cookies": [],
