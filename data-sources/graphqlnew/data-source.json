@@ -1,0 +1,181 @@
+{
+  "id": "caa293c9-a57e-488b-8bad-27d47c19fd6a",
+  "kind": "graphql",
+  "options": {
+    "development": {
+      "access_token_custom_headers": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "access_token_url": "",
+      "add_token_to": "header",
+      "audience": "",
+      "auth_type": "none",
+      "auth_url": "",
+      "body": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "client_auth": "header",
+      "client_id": "",
+      "cookies": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "custom_auth_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "custom_query_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "grant_type": "authorization_code",
+      "header_prefix": "Bearer ",
+      "headers": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "multiple_auth_enabled": false,
+      "scopes": "read, write",
+      "ssl_certificate": "none",
+      "url": "",
+      "url_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "username": ""
+    },
+    "production": {
+      "access_token_custom_headers": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "access_token_url": "",
+      "add_token_to": "header",
+      "audience": "",
+      "auth_type": "none",
+      "auth_url": "",
+      "body": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "client_auth": "header",
+      "client_id": "",
+      "cookies": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "custom_auth_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "custom_query_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "grant_type": "authorization_code",
+      "header_prefix": "Bearer ",
+      "headers": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "multiple_auth_enabled": false,
+      "scopes": "read, write",
+      "ssl_certificate": "none",
+      "url": "",
+      "url_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "username": ""
+    },
+    "staging": {
+      "access_token_custom_headers": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "access_token_url": "",
+      "add_token_to": "header",
+      "audience": "",
+      "auth_type": "none",
+      "auth_url": "",
+      "body": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "client_auth": "header",
+      "client_id": "",
+      "cookies": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "custom_auth_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "custom_query_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "grant_type": "authorization_code",
+      "header_prefix": "Bearer ",
+      "headers": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "multiple_auth_enabled": false,
+      "scopes": "read, write",
+      "ssl_certificate": "none",
+      "url": "",
+      "url_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "username": ""
+    }
+  },
+  "type": "default"
+}

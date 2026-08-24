@@ -1,0 +1,44 @@
+{
+  "id": "a8885ca1-52fc-448a-91a6-1e50a0147c74",
+  "kind": "postgresql",
+  "options": {
+    "development": {
+      "allow_dynamic_connection_parameters": false,
+      "connection_type": "manual",
+      "host": "9.234.17.31",
+      "password": "{{secrets.secret}}",
+      "port": 5432,
+      "ssh_auth_type": "private_key",
+      "ssh_enabled": "disabled",
+      "ssh_port": 22,
+      "ssl_certificate": "none",
+      "ssl_enabled": false,
+      "username": "postgres"
+    },
+    "production": {
+      "allow_dynamic_connection_parameters": false,
+      "connection_type": "manual",
+      "host": "{{constants.host}}",
+      "password": "{{secrets.secret}}",
+      "port": 5432,
+      "ssh_auth_type": "private_key",
+      "ssh_enabled": "disabled",
+      "ssh_port": 22,
+      "ssl_certificate": "none",
+      "ssl_enabled": false,
+      "username": "postgres"
+    },
+    "staging": {
+      "allow_dynamic_connection_parameters": false,
+      "connection_type": "manual",
+      "host": "localhost",
+      "port": 5432,
+      "ssh_auth_type": "private_key",
+      "ssh_enabled": "disabled",
+      "ssh_port": 22,
+      "ssl_certificate": "none",
+      "ssl_enabled": true
+    }
+  },
+  "type": "default"
+}
