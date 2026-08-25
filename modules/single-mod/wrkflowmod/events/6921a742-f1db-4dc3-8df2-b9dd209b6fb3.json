@@ -1,0 +1,18 @@
+{
+  "id": "6921a742-f1db-4dc3-8df2-b9dd209b6fb3",
+  "name": "Event #1",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "queryId": "e34d0526-355b-4942-bba3-7ddfc8866d47",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "button1",
+    "queryName": "workflows1",
+    "parameters": {}
+  },
+  "sourceId": "27a8b555-09db-4f66-be53-f65ca4a63ae4",
+  "target": "component",
+  "appVersionId": "8d151b1e-47f6-4543-a4a9-775f5f98338a"
+}
