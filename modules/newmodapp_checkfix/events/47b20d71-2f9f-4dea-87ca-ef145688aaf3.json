@@ -1,0 +1,18 @@
+{
+  "id": "47b20d71-2f9f-4dea-87ca-ef145688aaf3",
+  "name": "Event #1",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "queryId": "721e9c08-f33a-4b31-bb31-706b22dc73b8",
+    "actionId": "run-query",
+    "alertType": "info",
+    "component": "button1",
+    "queryName": "postgresql1",
+    "parameters": {}
+  },
+  "sourceId": "12c67582-f0d2-423e-a247-da7b7211f31a",
+  "target": "component",
+  "appVersionId": "754b3a6c-88d1-482b-8e1c-08bebc8ad3d2"
+}
