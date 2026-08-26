@@ -1,0 +1,15 @@
+{
+  "id": "21ab9e68-3c45-4172-8924-eaa263376c0c",
+  "name": "postgresql1",
+  "options": {
+    "mode": "sql",
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "query": "select * from users;",
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "33a6987c-4e63-4c90-a77e-e00aaa23d67d",
+  "appVersionId": "d6b98339-fe50-4933-860d-b28340b57151",
+  "kind": "postgresql",
+  "dataSourceType": "default"
+}
