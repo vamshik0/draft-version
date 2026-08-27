@@ -1,0 +1,22 @@
+{
+  "id": "08beb896-2d8d-4c0e-9060-2dc6450dfd60",
+  "name": "restapi1",
+  "options": {
+    "method": "get",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "url_params": [],
+    "headers": [],
+    "cookies": [],
+    "body": [],
+    "json_body": null,
+    "body_toggle": false,
+    "retry_network_errors": null,
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "6dbcbcd9-a992-451d-8f31-b2c6594647d3",
+  "appVersionId": "48fb0d3a-c795-499e-b5bd-a7bd22a0506d",
+  "kind": "restapi",
+  "dataSourceType": "static"
+}
