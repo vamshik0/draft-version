@@ -1,0 +1,21 @@
+{
+  "id": "d48a1ea1-0e75-40a6-bfb6-53afb431bae7",
+  "name": "Home",
+  "handle": "home",
+  "index": 1,
+  "disabled": false,
+  "hidden": false,
+  "icon": null,
+  "autoComputeLayout": true,
+  "appVersionId": "03b88af1-a933-4d59-ac76-0e31bf0ce550",
+  "pageGroupIndex": 1,
+  "pageGroupId": null,
+  "isPageGroup": false,
+  "url": null,
+  "openIn": "new_tab",
+  "type": "default",
+  "pageHeader": null,
+  "pageFooter": null,
+  "appId": "d8dfa19d-ea98-41aa-8ff2-4d47b10b82a3",
+  "targetCorelationId": null
+}
