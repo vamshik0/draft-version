@@ -2,7 +2,7 @@
   "id": "09f255ac-f9d2-4882-a30a-3dabb4d4d433",
   "type": "front-end",
   "slug": "1e503fbe-87d2-487d-b800-4bc555595331",
-  "isPublic": false,
+  "isPublic": true,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
