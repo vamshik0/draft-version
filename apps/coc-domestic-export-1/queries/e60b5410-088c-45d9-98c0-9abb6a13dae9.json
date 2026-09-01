@@ -1,0 +1,12 @@
+{
+  "id": "e60b5410-088c-45d9-98c0-9abb6a13dae9",
+  "name": "renderActivity",
+  "options": {
+    "code": "return null;",
+    "confirmationMessage": ""
+  },
+  "dataSourceId": "c4fc15ca-7405-442f-8f56-addce735bb13",
+  "appVersionId": "16fa65a1-f884-4cb7-b9ba-e949d8e32bf2",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

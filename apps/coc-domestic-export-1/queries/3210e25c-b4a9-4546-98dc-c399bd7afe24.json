@@ -1,0 +1,13 @@
+{
+  "id": "3210e25c-b4a9-4546-98dc-c399bd7afe24",
+  "name": "renderTiles",
+  "options": {
+    "code": "const rows = queries.fetchApps.data?.rows || [];\nconst tiles = rows.map(row => `\n  <article onclick=\"window.parent.postMessage({type:'tile_click',appId:'${row.tj_app_id}',name:'${row.name}'},'*')\"\n    style=\"min-height:112px;padding:16px 18px;border-radius:20px;border:1px solid #e7ebf2;\n      background:linear-gradient(160deg,rgba(234,239,252,0.72),rgba(248,249,254,0.96));\n      display:flex;flex-direction:column;justify-content:space-between;\n      cursor:${row.tj_app_id?'pointer':'default'};opacity:${row.tj_app_id?1:0.55}\">\n    <h4 style=\"margin:0;font-size:15px;font-weight:700;color:#2a3140\">${row.name}</h4>\n    <div style=\"color:#6b7486;font-size:12px\">${(row.default_scope||[]).join(' · ')}</div>\n  </article>`).join('');\nreturn { html: `<div style=\"display:grid;grid-template-columns:repeat(3,1fr);gap:14px\">${tiles}</div>` };",
+    "runOnPageLoad": false,
+    "confirmationMessage": ""
+  },
+  "dataSourceId": "c4fc15ca-7405-442f-8f56-addce735bb13",
+  "appVersionId": "16fa65a1-f884-4cb7-b9ba-e949d8e32bf2",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}
