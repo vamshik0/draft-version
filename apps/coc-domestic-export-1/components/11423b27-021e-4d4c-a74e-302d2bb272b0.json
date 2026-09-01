@@ -1,0 +1,65 @@
+{
+  "id": "11423b27-021e-4d4c-a74e-302d2bb272b0",
+  "name": "navSubmissionsBtn",
+  "type": "Button",
+  "pageId": "3f93f32a-c3b1-4621-8a9a-16ee7ef828a3",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": ""
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textSize": {
+      "value": "{{14}}"
+    },
+    "fontWeight": {
+      "value": "normal"
+    },
+    "contentAlignment": {
+      "value": "center"
+    },
+    "hoverBackgroundMode": {
+      "value": "auto"
+    },
+    "hoverBackgroundColor": {
+      "value": "var(--cc-primary-brand)"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "4ede653f-15f3-4999-b09b-c36fe8c08886",
+      "type": "desktop",
+      "top": 80,
+      "left": 4,
+      "width": 4,
+      "height": 36,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "11423b27-021e-4d4c-a74e-302d2bb272b0",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "f75be593-4407-4d24-991a-391b9e615a46",
+      "type": "mobile",
+      "top": 80,
+      "left": 7,
+      "width": 7,
+      "height": 36,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "11423b27-021e-4d4c-a74e-302d2bb272b0",
+      "dimensionUnit": "count"
+    }
+  ]
+}

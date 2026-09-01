@@ -1,0 +1,13 @@
+{
+  "id": "faf54aca-205e-42d5-a04b-b0f2090bdc4f",
+  "name": "closeRuleDetails",
+  "options": {
+    "code": "await actions.setVariable(\"rule_details_visible\", false);\n",
+    "runOnPageLoad": false,
+    "confirmationMessage": ""
+  },
+  "dataSourceId": "c4fc15ca-7405-442f-8f56-addce735bb13",
+  "appVersionId": "77ecd672-c7d9-427e-8756-1676e2c77e95",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

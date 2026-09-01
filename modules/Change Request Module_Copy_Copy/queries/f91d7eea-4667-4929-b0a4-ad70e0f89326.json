@@ -1,0 +1,12 @@
+{
+  "id": "f91d7eea-4667-4929-b0a4-ad70e0f89326",
+  "name": "openRuleDetails",
+  "options": {
+    "code": "// No-op — replaced by Tab 2 (Preview) flow via assemblePreview.\n// Original logic preserved in version control if rollback needed.\nconsole.log('[OPEN_RULE] no-op — preview is rendered on Preview tab via assemblePreview');\nreturn { ok: true, skipped: true };\n",
+    "confirmationMessage": ""
+  },
+  "dataSourceId": "c4fc15ca-7405-442f-8f56-addce735bb13",
+  "appVersionId": "77ecd672-c7d9-427e-8756-1676e2c77e95",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

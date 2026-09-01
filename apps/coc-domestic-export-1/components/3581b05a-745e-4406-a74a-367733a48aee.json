@@ -1,0 +1,74 @@
+{
+  "id": "3581b05a-745e-4406-a74a-367733a48aee",
+  "name": "ModalCancelBtn",
+  "type": "Button",
+  "pageId": "3f93f32a-c3b1-4621-8a9a-16ee7ef828a3",
+  "parent": "5546f08d-83a8-4449-b5e9-6d0a62cd681a-footer",
+  "properties": {
+    "text": {
+      "value": "Cancel"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textSize": {
+      "value": "{{14}}"
+    },
+    "textColor": {
+      "value": "#2a3140"
+    },
+    "fontWeight": {
+      "value": "normal"
+    },
+    "borderRadius": {
+      "value": "12"
+    },
+    "backgroundColor": {
+      "value": "#f5f7fb"
+    },
+    "contentAlignment": {
+      "value": "center"
+    },
+    "hoverBackgroundMode": {
+      "value": "auto"
+    },
+    "hoverBackgroundColor": {
+      "value": "var(--cc-primary-brand)"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": null,
+  "validation": {},
+  "layouts": [
+    {
+      "id": "73e84939-f065-4b60-978a-024b18d2f6a3",
+      "type": "desktop",
+      "top": 10,
+      "left": 2,
+      "width": 12,
+      "height": 36,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "3581b05a-745e-4406-a74a-367733a48aee",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "d8cb2a77-23c2-423a-9a33-6ff6ecf44d77",
+      "type": "mobile",
+      "top": 10,
+      "left": 0,
+      "width": 43,
+      "height": 36,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "3581b05a-745e-4406-a74a-367733a48aee",
+      "dimensionUnit": "count"
+    }
+  ]
+}
