@@ -1,0 +1,10 @@
+{
+  "id": "74827414-5885-4481-95c1-525b4ed62582",
+  "kind": "postgresql",
+  "options": {
+    "development": {},
+    "production": {},
+    "staging": {}
+  },
+  "type": "default"
+}
