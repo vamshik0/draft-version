@@ -9,7 +9,8 @@
       "value": "8d7f6c92-f53a-4108-aa9b-bef5d2f3ee92"
     },
     "moduleVersionId": {
-      "value": "ecaf041e-4ebc-4be4-9927-667c780a3cd3"
+      "value": "ecaf041e-4ebc-4be4-9927-667c780a3cd3",
+      "versionName": "v1"
     },
     "moduleEnvironmentId": {
       "value": "52465cc6-89d0-4f5f-a780-5c366d7df4b9"
@@ -22,6 +23,12 @@
     },
     "tj_app_id": {
       "value": ""
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
     }
   },
   "general": {
@@ -35,6 +42,9 @@
     },
     "backgroundColor": {
       "value": "#fff"
+    },
+    "cssClass": {
+      "value": ""
     }
   },
   "generalStyles": {

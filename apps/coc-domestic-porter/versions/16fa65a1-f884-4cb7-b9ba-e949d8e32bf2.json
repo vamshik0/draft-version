@@ -20,7 +20,7 @@
   },
   "showViewerNavigation": true,
   "homePageId": "5ada689f-7b07-4041-8d60-a1f7af1f6901",
-  "versionType": "version",
+  "versionType": "branch",
   "appId": "52303435-7eca-4f1d-aa03-0422245029eb",
   "promotedFrom": null,
   "status": "DRAFT",
@@ -29,5 +29,5 @@
   "releasedAt": null,
   "isStub": false,
   "sourceTag": null,
-  "isSynced": false
+  "isSynced": true
 }
