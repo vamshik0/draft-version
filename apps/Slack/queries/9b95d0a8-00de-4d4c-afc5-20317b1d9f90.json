@@ -1,0 +1,13 @@
+{
+  "id": "9b95d0a8-00de-4d4c-afc5-20317b1d9f90",
+  "name": "slack1",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "operation": "list_users"
+  },
+  "dataSourceId": "d061f1ad-8c98-4ab3-978a-fd62231ec864",
+  "appVersionId": "96ce29f5-3c05-4dab-b763-1b0eedd7263b",
+  "kind": "slack",
+  "dataSourceType": "default"
+}

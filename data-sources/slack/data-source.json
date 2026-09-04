@@ -1,0 +1,21 @@
+{
+  "id": "d061f1ad-8c98-4ab3-978a-fd62231ec864",
+  "kind": "slack",
+  "options": {
+    "development": {
+      "access_type": "chat:write",
+      "credential_source": "from_env"
+    },
+    "production": {
+      "access_type": "chat:write",
+      "client_id": "6053256594773.6309011998434",
+      "credential_source": "from_datasource_configuration"
+    },
+    "staging": {
+      "access_type": "read",
+      "client_id": "6053256594773.6309011998434",
+      "credential_source": "from_datasource_configuration"
+    }
+  },
+  "type": "default"
+}
