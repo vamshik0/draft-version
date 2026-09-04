@@ -1,0 +1,49 @@
+{
+  "id": "3c113c06-3483-4b7a-8c4b-8ba56e6782d8",
+  "name": "sectionHeadingHtml",
+  "type": "Html",
+  "pageId": "5ada689f-7b07-4041-8d60-a1f7af1f6901",
+  "parent": null,
+  "properties": {
+    "rawHtml": {
+      "value": "{{((rows)=>{const n=Array.isArray(rows)?rows.length:0;return '<div style=\"display:flex;justify-content:space-between;align-items:center;gap:16px;margin:14px 24px 14px;font-family:inherit\"><h3 style=\"margin:0;font-size:18px;letter-spacing:-0.02em;font-weight:700;color:var(--text)\">Business functions</h3><span style=\"font-size:13px;color:var(--muted)\">'+n+' app'+(n===1?'':'s')+'</span></div>';})((queries.renderTilesV2 && queries.renderTilesV2.data && queries.renderTilesV2.data.rows) || [])}}"
+    },
+    "visibility": {
+      "value": "{{variables.activeTab !== 'submissions'}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {},
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "8971412d-0919-492b-8dec-e18ae0b9a4f6",
+      "type": "desktop",
+      "top": 230,
+      "left": 0,
+      "width": 43,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "3c113c06-3483-4b7a-8c4b-8ba56e6782d8",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "6af37c2d-4685-465b-85e7-ffe96e4989dc",
+      "type": "mobile",
+      "top": 255,
+      "left": 0,
+      "width": 43,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "3c113c06-3483-4b7a-8c4b-8ba56e6782d8",
+      "dimensionUnit": "count"
+    }
+  ]
+}

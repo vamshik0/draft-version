@@ -1,0 +1,17 @@
+{
+  "id": "e8ce671f-ee5d-4b7f-b594-858160e5b165",
+  "name": "onDataQuerySuccess",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "",
+    "queryId": "d3856002-b500-4786-9d26-77b84bb1d226",
+    "actionId": "run-query",
+    "alertType": "info",
+    "queryName": "fetchApps",
+    "parameters": {}
+  },
+  "sourceId": "0ff1efc2-8d89-4009-bc30-fb1443d199bd",
+  "target": "data_query",
+  "appVersionId": "16fa65a1-f884-4cb7-b9ba-e949d8e32bf2"
+}

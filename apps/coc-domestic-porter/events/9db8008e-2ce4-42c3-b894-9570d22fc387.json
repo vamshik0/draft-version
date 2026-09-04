@@ -1,0 +1,17 @@
+{
+  "id": "9db8008e-2ce4-42c3-b894-9570d22fc387",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "",
+    "queryId": "6d131907-6df9-47a3-9f20-3856b9875608",
+    "actionId": "run-query",
+    "alertType": "info",
+    "queryName": "closeCreateModal",
+    "parameters": {}
+  },
+  "sourceId": "5cb22324-1a0a-4aca-8a6e-db6a29ec6728",
+  "target": "component",
+  "appVersionId": "16fa65a1-f884-4cb7-b9ba-e949d8e32bf2"
+}

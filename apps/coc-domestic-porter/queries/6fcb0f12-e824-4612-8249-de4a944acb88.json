@@ -1,0 +1,12 @@
+{
+  "id": "6fcb0f12-e824-4612-8249-de4a944acb88",
+  "name": "renderTiles",
+  "options": {
+    "code": "return null;",
+    "confirmationMessage": ""
+  },
+  "dataSourceId": "7ebab103-3e14-49f9-b566-7eb88f5fc990",
+  "appVersionId": "16fa65a1-f884-4cb7-b9ba-e949d8e32bf2",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}
