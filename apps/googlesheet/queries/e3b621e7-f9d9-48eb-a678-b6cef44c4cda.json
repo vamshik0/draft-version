@@ -1,0 +1,91 @@
+{
+  "id": "e3b621e7-f9d9-48eb-a678-b6cef44c4cda",
+  "name": "googlesheetsv21",
+  "options": {
+    "operation": "list_all",
+    "majorDimension": "ROWS",
+    "valueRenderOption": "FORMATTED_VALUE",
+    "dateTimeRenderOption": "SERIAL_NUMBER",
+    "ValueInputOption": "RAW",
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "spreadsheet_id_cache": {
+      "isMultiAuth": false,
+      "nonDependentCache": [
+        {
+          "label": "Plum: Health Insurance ",
+          "value": "1G47F2gIO1I1IHjk1vuVkcALkTJnnrxJwyUe3WaskJ1w"
+        },
+        {
+          "label": "NewTestSheet",
+          "value": "1WBl_69wQjlErZ62pG6ZX3QZs22LeD8z-v88EcxFlsrU"
+        },
+        {
+          "label": "Development_request_tracker",
+          "value": "1nbKwJzcRq5OQWK5Q8_3w_Uk0Ni37znsSaUx47_AIT-8"
+        },
+        {
+          "label": "Testing",
+          "value": "1KqkVxYLfAY3lsGe9S8RrmjXVqrgXsrM1jnKkHKRdhN8"
+        },
+        {
+          "label": "Bug Sheet Plugins",
+          "value": "1NOynkgsqkd6mPC3ZoCgJXshJ5-JtGER9VkzqQAcek7E"
+        },
+        {
+          "label": "testing_data",
+          "value": "1CzNiGO5gGPnzSnpLSovBJU2F3elPxD_KiU8ox-crmPg"
+        },
+        {
+          "label": "hello",
+          "value": "1pkzf1DUbyAZz4pE8EEK6TIdySjXvh7PFhG2usuNOwrw"
+        },
+        {
+          "label": "Ash",
+          "value": "1L4EnLjBLSJYuiF2DJ-ZdnC0jYimTBPJuXWCGsPBycWE"
+        },
+        {
+          "label": "the_data_hub",
+          "value": "1vmGZo4t9RA-jkjZ_cKinsDUy-KcxR-Xbh06_9xRIL78"
+        },
+        {
+          "label": "student",
+          "value": "1ii5LmPOw4M6jjt6Duge6S0FpW0BKijZQCphiuSwr664"
+        },
+        {
+          "label": "student",
+          "value": "1ePOCP0BaLzbF4AcEdQLk1FErhDxcQFd21iyMRzSOYB8"
+        },
+        {
+          "label": "My_oldgooglesheet",
+          "value": "1kbOBhho5FFDVsIMCoPEXZdhhIOHni2UFoBpGKrsl4_E"
+        },
+        {
+          "label": "Marketplace Features",
+          "value": "11iqsk3iFqdMQ_wjDyfgQs8rLOZmIdd3iFezM0PsRbrg"
+        },
+        {
+          "label": "hello2",
+          "value": "1fnFuMLUlbBBt8-_jJKq3nZ8EzmWGuChpk0J5Nk-fbbc"
+        },
+        {
+          "label": "Outdated/Deprecated AI Plugins list",
+          "value": "1-jgQNUMH08zSxNxl2EkE38QeoEQVdV7wTReniD_eeC4"
+        },
+        {
+          "label": "Sample",
+          "value": "1njBgBg7YzGTuxkBSzlI2g0EIg4cXTd6uvHF3eZT8Km0"
+        },
+        {
+          "label": "mockaroo_sample_data",
+          "value": "1hFP-_4y7qPKaJIgPJw46ks_HL2-aqlihsD5Vj5x9fb0"
+        }
+      ]
+    },
+    "spreadsheet_id": "1G47F2gIO1I1IHjk1vuVkcALkTJnnrxJwyUe3WaskJ1w"
+  },
+  "dataSourceId": "f8d9e9e3-9301-4550-a4cb-72d844735995",
+  "appVersionId": "4e8d1c71-e782-4617-9920-0ef27d5033a1",
+  "kind": "googlesheetsv2",
+  "dataSourceType": "default"
+}
