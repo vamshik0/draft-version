@@ -1,0 +1,214 @@
+{
+  "id": "bdbdcc16-de88-42be-bf22-a994e68b791f",
+  "name": "googlecalendar1",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "params": {
+      "path": {},
+      "query": {},
+      "request": {}
+    },
+    "path": "/users/me/calendarList",
+    "operation": "get",
+    "selectedOperation": {
+      "summary": "List calendars",
+      "operationId": "listCalendars",
+      "tags": [
+        "Calendar List"
+      ],
+      "parameters": [
+        {
+          "name": "maxResults",
+          "in": "query",
+          "description": "Maximum number of entries returned",
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 250,
+            "default": 100
+          }
+        },
+        {
+          "name": "pageToken",
+          "in": "query",
+          "description": "Token for pagination",
+          "schema": {
+            "type": "string"
+          }
+        },
+        {
+          "name": "showDeleted",
+          "in": "query",
+          "description": "Whether to include deleted calendar list entries",
+          "schema": {
+            "type": "boolean",
+            "default": false
+          }
+        },
+        {
+          "name": "showHidden",
+          "in": "query",
+          "description": "Whether to show hidden entries",
+          "schema": {
+            "type": "boolean",
+            "default": false
+          }
+        }
+      ],
+      "responses": {
+        "200": {
+          "description": "List of calendars",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "example": "calendar#calendarList"
+                  },
+                  "etag": {
+                    "type": "string"
+                  },
+                  "nextPageToken": {
+                    "type": "string"
+                  },
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "kind": {
+                          "type": "string",
+                          "example": "calendar#calendarListEntry"
+                        },
+                        "etag": {
+                          "type": "string"
+                        },
+                        "id": {
+                          "type": "string"
+                        },
+                        "summary": {
+                          "type": "string"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "location": {
+                          "type": "string"
+                        },
+                        "timeZone": {
+                          "type": "string"
+                        },
+                        "summaryOverride": {
+                          "type": "string"
+                        },
+                        "colorId": {
+                          "type": "string"
+                        },
+                        "backgroundColor": {
+                          "type": "string"
+                        },
+                        "foregroundColor": {
+                          "type": "string"
+                        },
+                        "hidden": {
+                          "type": "boolean"
+                        },
+                        "selected": {
+                          "type": "boolean"
+                        },
+                        "accessRole": {
+                          "type": "string",
+                          "enum": [
+                            "freeBusyReader",
+                            "reader",
+                            "writer",
+                            "owner"
+                          ]
+                        },
+                        "defaultReminders": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "method": {
+                                "type": "string",
+                                "enum": [
+                                  "email",
+                                  "popup"
+                                ]
+                              },
+                              "minutes": {
+                                "type": "integer",
+                                "description": "Minutes before the event"
+                              }
+                            }
+                          }
+                        },
+                        "primary": {
+                          "type": "boolean"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "401": {
+          "description": "Unauthorized",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "error": {
+                    "type": "object",
+                    "properties": {
+                      "code": {
+                        "type": "integer"
+                      },
+                      "message": {
+                        "type": "string"
+                      },
+                      "errors": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "domain": {
+                              "type": "string"
+                            },
+                            "reason": {
+                              "type": "string"
+                            },
+                            "message": {
+                              "type": "string"
+                            },
+                            "locationType": {
+                              "type": "string"
+                            },
+                            "location": {
+                              "type": "string"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "dataSourceId": "a2dfb812-30c0-441a-b636-1e7aee3ca75c",
+  "appVersionId": "9bc19411-9ca7-4cf0-92ec-03ab7ff0cc57",
+  "kind": "googlecalendar",
+  "dataSourceType": "default"
+}
