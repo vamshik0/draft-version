@@ -1,0 +1,31 @@
+{
+  "id": "1e622be3-5b33-435f-a088-e2c9222f621f",
+  "isPlugin": true,
+  "kind": "salesforce",
+  "options": {
+    "development": {
+      "auth_type": "oauth2",
+      "code": null,
+      "grant_type": "authorization_code",
+      "oauth_type": "custom_app",
+      "redirect_url": "",
+      "scopes": "full"
+    },
+    "production": {
+      "auth_type": "oauth2",
+      "grant_type": "authorization_code",
+      "oauth_type": "custom_app",
+      "redirect_url": "",
+      "scopes": "full"
+    },
+    "staging": {
+      "auth_type": "oauth2",
+      "grant_type": "authorization_code",
+      "oauth_type": "custom_app",
+      "redirect_url": "",
+      "scopes": "full"
+    }
+  },
+  "pluginKind": "salesforce",
+  "type": "default"
+}
