@@ -240,7 +240,7 @@
   "general": {},
   "styles": {
     "columnTitleColor": {
-      "value": "var(--cc-primary-text)"
+      "value": "var(--cc-primary-brand)"
     },
     "columnBackgroundColor": {
       "value": "var(--cc-surface1-surface)"
