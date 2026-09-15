@@ -1,0 +1,14 @@
+{
+  "id": "04aaae92-53af-4f7d-9665-1eefd9dbfcf6",
+  "name": "databricks1",
+  "options": {
+    "mode": "sql",
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "sql_query": "SHOW CATALOGS"
+  },
+  "dataSourceId": "9c188a74-daf2-4fd5-88d9-c7979695c04b",
+  "appVersionId": "1448dfbc-88f7-4ebe-878b-b5408057ed72",
+  "kind": "databricks",
+  "dataSourceType": "default"
+}
