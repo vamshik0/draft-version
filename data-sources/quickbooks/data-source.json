@@ -1,0 +1,57 @@
+{
+  "id": "4e50b13e-dd24-4c71-a726-ae18601d52da",
+  "isPlugin": true,
+  "kind": "quickbooks",
+  "options": {
+    "development": {
+      "access_token_custom_headers": [
+        [
+          "Content-Type",
+          "application/x-www-form-urlencoded"
+        ]
+      ],
+      "access_token_url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "allowed_auth_types": "oauth2",
+      "auth_type": "oauth2",
+      "auth_url": "https://appcenter.intuit.com/connect/oauth2",
+      "grant_type": "authorization_code",
+      "oauth_type": "custom_app",
+      "redirect_url": "http://localhost:8082/oauth2/authorize",
+      "scopes": "com.intuit.quickbooks.accounting"
+    },
+    "production": {
+      "access_token_custom_headers": [
+        [
+          "Content-Type",
+          "application/x-www-form-urlencoded"
+        ]
+      ],
+      "access_token_url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "allowed_auth_types": "oauth2",
+      "auth_type": "oauth2",
+      "auth_url": "https://appcenter.intuit.com/connect/oauth2",
+      "grant_type": "authorization_code",
+      "oauth_type": "custom_app",
+      "redirect_url": "http://localhost:8082/oauth2/authorize",
+      "scopes": "com.intuit.quickbooks.accounting"
+    },
+    "staging": {
+      "access_token_custom_headers": [
+        [
+          "Content-Type",
+          "application/x-www-form-urlencoded"
+        ]
+      ],
+      "access_token_url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "allowed_auth_types": "oauth2",
+      "auth_type": "oauth2",
+      "auth_url": "https://appcenter.intuit.com/connect/oauth2",
+      "grant_type": "authorization_code",
+      "oauth_type": "custom_app",
+      "redirect_url": "http://localhost:8082/oauth2/authorize",
+      "scopes": "com.intuit.quickbooks.accounting"
+    }
+  },
+  "pluginKind": "quickbooks",
+  "type": "default"
+}
