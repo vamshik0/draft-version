@@ -1,0 +1,35 @@
+{
+  "id": "81cdef3a-1e44-4a6b-8fc3-bf8589a41e11",
+  "isPlugin": true,
+  "kind": "gmail",
+  "options": {
+    "development": {
+      "access_token_url": "https://oauth2.googleapis.com/token",
+      "allowed_auth_types": "oauth2",
+      "auth_type": "oauth2",
+      "client_id": "514895170808-226ie5tchjdhh7r4jft1a0co5j0o6gt3.apps.googleusercontent.com",
+      "grant_type": "authorization_code",
+      "oauth_type": "custom_app",
+      "plugin_id": "154e0359-efe5-47a4-acee-6cc24f09d6f1",
+      "redirect_url": ""
+    },
+    "production": {
+      "access_token_url": "https://oauth2.googleapis.com/token",
+      "allowed_auth_types": "oauth2",
+      "auth_type": "oauth2",
+      "grant_type": "authorization_code",
+      "oauth_type": "custom_app",
+      "redirect_url": ""
+    },
+    "staging": {
+      "access_token_url": "https://oauth2.googleapis.com/token",
+      "allowed_auth_types": "oauth2",
+      "auth_type": "oauth2",
+      "grant_type": "authorization_code",
+      "oauth_type": "custom_app",
+      "redirect_url": ""
+    }
+  },
+  "pluginKind": "gmail",
+  "type": "default"
+}
