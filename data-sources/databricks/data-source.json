@@ -1,0 +1,32 @@
+{
+  "id": "9c188a74-daf2-4fd5-88d9-c7979695c04b",
+  "kind": "databricks",
+  "options": {
+    "development": {
+      "auth_type": "oauth2",
+      "authentication_type": "oauth_u2m",
+      "client_id": "03436555-3248-42b5-a64a-8529c535644f",
+      "client_secret": "{{secrets.data}}",
+      "grant_type": "authorization_code",
+      "host": "dbc-73cfc138-5f79.cloud.databricks.com",
+      "http_path": "/sql/1.0/warehouses/88ba98b248a06646",
+      "oauth_type": "custom_app"
+    },
+    "production": {
+      "auth_type": "oauth2",
+      "authentication_type": "personal_access_token",
+      "grant_type": "authorization_code",
+      "oauth_type": "custom_app"
+    },
+    "staging": {
+      "auth_type": "oauth2",
+      "authentication_type": "oauth_u2m",
+      "client_id": "03436555-3248-42b5-a64a-8529c535644f",
+      "grant_type": "authorization_code",
+      "host": "dbc-73cfc138-5f79.cloud.databricks.com",
+      "http_path": "/sql/1.0/warehouses/88ba98b248a06646",
+      "oauth_type": "custom_app"
+    }
+  },
+  "type": "default"
+}
