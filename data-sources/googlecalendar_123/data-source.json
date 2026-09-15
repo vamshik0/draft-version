@@ -9,7 +9,6 @@
       "auth_type": "oauth2",
       "auth_url": "https://accounts.google.com/o/oauth2/v2/auth",
       "client_id": "570030403739-eft8ptabiloot2be2saqv0j2j03o1sau.apps.googleusercontent.com",
-      "client_secret": "{{secrets.secret}}",
       "grant_type": "authorization_code",
       "multiple_auth_enabled": true,
       "oauth_type": "custom_app",
