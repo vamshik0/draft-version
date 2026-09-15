@@ -1,0 +1,434 @@
+{
+  "id": "01ec545a-10fa-4b50-9de1-e2621f828d21",
+  "name": "hubspot1",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "operation": "get",
+    "path": "/crm/v3/objects/contacts",
+    "selectedOperation": {
+      "tags": [
+        "Basic"
+      ],
+      "summary": "List",
+      "description": "Read a page of contacts. Control what is returned via the `properties` query param.",
+      "operationId": "get-/crm/v3/objects/contacts_getPage",
+      "parameters": [
+        {
+          "name": "limit",
+          "in": "query",
+          "description": "The maximum number of results to display per page.",
+          "required": false,
+          "style": "form",
+          "explode": true,
+          "schema": {
+            "type": "integer",
+            "format": "int32",
+            "default": 10
+          }
+        },
+        {
+          "name": "after",
+          "in": "query",
+          "description": "The paging cursor token of the last successfully read resource will be returned as the `paging.next.after` JSON property of a paged response containing more results.",
+          "required": false,
+          "style": "form",
+          "explode": true,
+          "schema": {
+            "type": "string"
+          }
+        },
+        {
+          "name": "properties",
+          "in": "query",
+          "description": "A comma separated list of the properties to be returned in the response. If any of the specified properties are not present on the requested object(s), they will be ignored.",
+          "required": false,
+          "style": "form",
+          "explode": true,
+          "schema": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "name": "propertiesWithHistory",
+          "in": "query",
+          "description": "A comma separated list of the properties to be returned along with their history of previous values. If any of the specified properties are not present on the requested object(s), they will be ignored. Usage of this parameter will reduce the maximum number of objects that can be read by a single request.",
+          "required": false,
+          "style": "form",
+          "explode": true,
+          "schema": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "name": "associations",
+          "in": "query",
+          "description": "A comma separated list of object types to retrieve associated IDs for. If any of the specified associations do not exist, they will be ignored.",
+          "required": false,
+          "style": "form",
+          "explode": true,
+          "schema": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "name": "archived",
+          "in": "query",
+          "description": "Whether to return only results that have been archived.",
+          "required": false,
+          "style": "form",
+          "explode": true,
+          "schema": {
+            "type": "boolean",
+            "default": false
+          }
+        }
+      ],
+      "responses": {
+        "200": {
+          "description": "successful operation",
+          "content": {
+            "application/json": {
+              "schema": {
+                "required": [
+                  "results"
+                ],
+                "type": "object",
+                "properties": {
+                  "results": {
+                    "type": "array",
+                    "items": {
+                      "required": [
+                        "createdAt",
+                        "id",
+                        "properties",
+                        "updatedAt"
+                      ],
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "properties": {
+                          "type": "object",
+                          "additionalProperties": {
+                            "type": "string"
+                          }
+                        },
+                        "propertiesWithHistory": {
+                          "type": "object",
+                          "additionalProperties": {
+                            "type": "array",
+                            "items": {
+                              "required": [
+                                "sourceType",
+                                "timestamp",
+                                "value"
+                              ],
+                              "type": "object",
+                              "properties": {
+                                "value": {
+                                  "type": "string"
+                                },
+                                "timestamp": {
+                                  "type": "string",
+                                  "format": "date-time"
+                                },
+                                "sourceType": {
+                                  "type": "string"
+                                },
+                                "sourceId": {
+                                  "type": "string"
+                                },
+                                "sourceLabel": {
+                                  "type": "string"
+                                },
+                                "updatedByUserId": {
+                                  "type": "integer",
+                                  "format": "int32"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "createdAt": {
+                          "type": "string",
+                          "format": "date-time"
+                        },
+                        "updatedAt": {
+                          "type": "string",
+                          "format": "date-time"
+                        },
+                        "archived": {
+                          "type": "boolean"
+                        },
+                        "archivedAt": {
+                          "type": "string",
+                          "format": "date-time"
+                        },
+                        "associations": {
+                          "type": "object",
+                          "additionalProperties": {
+                            "required": [
+                              "results"
+                            ],
+                            "type": "object",
+                            "properties": {
+                              "results": {
+                                "type": "array",
+                                "items": {
+                                  "required": [
+                                    "id",
+                                    "type"
+                                  ],
+                                  "type": "object",
+                                  "properties": {
+                                    "id": {
+                                      "type": "string"
+                                    },
+                                    "type": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              },
+                              "paging": {
+                                "type": "object",
+                                "properties": {
+                                  "next": {
+                                    "required": [
+                                      "after"
+                                    ],
+                                    "type": "object",
+                                    "properties": {
+                                      "after": {
+                                        "type": "string"
+                                      },
+                                      "link": {
+                                        "type": "string"
+                                      }
+                                    },
+                                    "example": {
+                                      "after": "NTI1Cg%3D%3D",
+                                      "link": "?after=NTI1Cg%3D%3D"
+                                    }
+                                  },
+                                  "prev": {
+                                    "required": [
+                                      "before"
+                                    ],
+                                    "type": "object",
+                                    "properties": {
+                                      "before": {
+                                        "type": "string"
+                                      },
+                                      "link": {
+                                        "type": "string"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "example": {
+                        "properties": {
+                          "company": "Biglytics",
+                          "createdate": "2019-10-30T03:30:17.883Z",
+                          "email": "bcooper@biglytics.net",
+                          "firstname": "Bryan",
+                          "lastmodifieddate": "2019-12-07T16:50:06.678Z",
+                          "lastname": "Cooper",
+                          "phone": "(877) 929-0687",
+                          "website": "biglytics.net"
+                        }
+                      }
+                    }
+                  },
+                  "paging": {
+                    "type": "object",
+                    "properties": {
+                      "next": {
+                        "required": [
+                          "after"
+                        ],
+                        "type": "object",
+                        "properties": {
+                          "after": {
+                            "type": "string"
+                          },
+                          "link": {
+                            "type": "string"
+                          }
+                        },
+                        "example": {
+                          "after": "NTI1Cg%3D%3D",
+                          "link": "?after=NTI1Cg%3D%3D"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "default": {
+          "description": "An error occurred.",
+          "content": {
+            "*/*": {
+              "schema": {
+                "required": [
+                  "category",
+                  "correlationId",
+                  "message"
+                ],
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string",
+                    "description": "A human readable message describing the error along with remediation steps where appropriate",
+                    "example": "An error occurred"
+                  },
+                  "correlationId": {
+                    "type": "string",
+                    "description": "A unique identifier for the request. Include this value with any error reports or support tickets",
+                    "format": "uuid",
+                    "example": "aeb5f871-7f07-4993-9211-075dc63e7cbf"
+                  },
+                  "category": {
+                    "type": "string",
+                    "description": "The error category"
+                  },
+                  "subCategory": {
+                    "type": "string",
+                    "description": "A specific category that contains more specific detail about the error"
+                  },
+                  "errors": {
+                    "type": "array",
+                    "description": "further information about the error",
+                    "items": {
+                      "required": [
+                        "message"
+                      ],
+                      "type": "object",
+                      "properties": {
+                        "message": {
+                          "type": "string",
+                          "description": "A human readable message describing the error along with remediation steps where appropriate"
+                        },
+                        "in": {
+                          "type": "string",
+                          "description": "The name of the field or parameter in which the error was found."
+                        },
+                        "code": {
+                          "type": "string",
+                          "description": "The status code associated with the error detail"
+                        },
+                        "subCategory": {
+                          "type": "string",
+                          "description": "A specific category that contains more specific detail about the error"
+                        },
+                        "context": {
+                          "type": "object",
+                          "additionalProperties": {
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            }
+                          },
+                          "description": "Context about the error condition",
+                          "example": {
+                            "missingScopes": [
+                              "scope1",
+                              "scope2"
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "context": {
+                    "type": "object",
+                    "additionalProperties": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "description": "Context about the error condition",
+                    "example": {
+                      "invalidPropertyName": [
+                        "propertyValue"
+                      ],
+                      "missingScopes": [
+                        "scope1",
+                        "scope2"
+                      ]
+                    }
+                  },
+                  "links": {
+                    "type": "object",
+                    "additionalProperties": {
+                      "type": "string"
+                    },
+                    "description": "A map of link names to associated URIs containing documentation about the error or recommended remediation steps"
+                  }
+                },
+                "example": {
+                  "message": "Invalid input (details will vary based on the error)",
+                  "correlationId": "aeb5f871-7f07-4993-9211-075dc63e7cbf",
+                  "category": "VALIDATION_ERROR",
+                  "links": {
+                    "knowledge-base": "https://www.hubspot.com/products/service/knowledge-base"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "security": [
+        {
+          "hapikey": []
+        },
+        {
+          "oauth2": [
+            "crm.objects.contacts.read"
+          ]
+        },
+        {
+          "private_apps_legacy": [
+            "contacts"
+          ]
+        },
+        {
+          "private_apps": [
+            "crm.objects.contacts.read"
+          ]
+        }
+      ]
+    },
+    "params": {
+      "path": {},
+      "query": {},
+      "request": {}
+    },
+    "specType": "contacts"
+  },
+  "dataSourceId": "5db44a9c-e6ce-4dfb-91b2-eab295cd3eb4",
+  "appVersionId": "1a2c8fd5-f995-4014-89b0-1f45f43b8fff",
+  "kind": "hubspot",
+  "dataSourceType": "default"
+}
