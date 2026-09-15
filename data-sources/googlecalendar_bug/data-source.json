@@ -1,0 +1,44 @@
+{
+  "id": "7d83f299-df43-428d-b9a7-ecdfdc93912c",
+  "isPlugin": true,
+  "kind": "googlecalendar",
+  "options": {
+    "development": {
+      "access_token_url": "https://oauth2.googleapis.com/token",
+      "allowed_auth_types": "oauth2",
+      "auth_type": "oauth2",
+      "auth_url": "https://accounts.google.com/o/oauth2/v2/auth",
+      "client_id": "570030403739-eft8ptabiloot2be2saqv0j2j03o1sau.apps.googleusercontent.com",
+      "client_secret": "{{secrets.g_secret}}",
+      "grant_type": "authorization_code",
+      "oauth_type": "custom_app",
+      "plugin_id": "754fe65b-711c-4620-b37d-36e996392cb4",
+      "redirect_url": "",
+      "scopes": "https://www.googleapis.com/auth/calendar"
+    },
+    "production": {
+      "access_token_url": "https://oauth2.googleapis.com/token",
+      "allowed_auth_types": "oauth2",
+      "auth_type": "oauth2",
+      "auth_url": "https://accounts.google.com/o/oauth2/v2/auth",
+      "grant_type": "authorization_code",
+      "oauth_type": "custom_app",
+      "redirect_url": "",
+      "scopes": "https://www.googleapis.com/auth/calendar"
+    },
+    "staging": {
+      "access_token_url": "https://oauth2.googleapis.com/token",
+      "allowed_auth_types": "oauth2",
+      "auth_type": "oauth2",
+      "auth_url": "https://accounts.google.com/o/oauth2/v2/auth",
+      "client_id": "570030403739-eft8ptabiloot2be2saqv0j2j03o1sau.apps.googleusercontent.com",
+      "grant_type": "authorization_code",
+      "oauth_type": "custom_app",
+      "plugin_id": "754fe65b-711c-4620-b37d-36e996392cb4",
+      "redirect_url": "",
+      "scopes": "https://www.googleapis.com/auth/calendar"
+    }
+  },
+  "pluginKind": "googlecalendar",
+  "type": "default"
+}
