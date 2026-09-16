@@ -1,0 +1,14 @@
+{
+  "id": "1920c913-818b-4106-bb93-d65d6fc98c29",
+  "name": "mysql1",
+  "options": {
+    "mode": "sql",
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "query": "select * from users;"
+  },
+  "dataSourceId": "8b9837f5-31a6-4589-aec4-fc20b11a6094",
+  "appVersionId": "acb61734-11be-46f7-89b2-440390370cea",
+  "kind": "mysql",
+  "dataSourceType": "default"
+}
