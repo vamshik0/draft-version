@@ -7,10 +7,11 @@
       "access_token_url": "https://oauth2.googleapis.com/token",
       "allowed_auth_types": "oauth2",
       "auth_type": "oauth2",
-      "client_id": "514895170808-226ie5tchjdhh7r4jft1a0co5j0o6gt3.apps.googleusercontent.com",
+      "client_id": "570030403739-eft8ptabiloot2be2saqv0j2j03o1sau.apps.googleusercontent.com",
+      "client_secret": "{{secrets.g_secret}}",
       "grant_type": "authorization_code",
       "oauth_type": "custom_app",
-      "plugin_id": "154e0359-efe5-47a4-acee-6cc24f09d6f1",
+      "plugin_id": "cb707cfb-b918-4930-80e2-44e9fd2552e7",
       "redirect_url": ""
     },
     "production": {
