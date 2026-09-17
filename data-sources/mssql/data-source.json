@@ -1,0 +1,49 @@
+{
+  "id": "8034d75b-ecc6-4f9a-92f7-6c15b2fc37f2",
+  "kind": "mssql",
+  "options": {
+    "development": {
+      "allow_dynamic_connection_parameters": false,
+      "auth_type": "sql",
+      "azure": false,
+      "connection_type": "manual",
+      "database": "tempdb",
+      "host": "9.234.17.31",
+      "instance_name": "test-data-source-mssql-ssl ",
+      "port": 1433,
+      "ssh_auth_type": "private_key",
+      "ssh_enabled": "disabled",
+      "ssh_port": 22,
+      "ssl_certificate": "none",
+      "ssl_enabled": false,
+      "username": "sa"
+    },
+    "production": {
+      "allow_dynamic_connection_parameters": false,
+      "auth_type": "sql",
+      "azure": false,
+      "connection_type": "manual",
+      "host": "localhost",
+      "port": 1433,
+      "ssh_auth_type": "private_key",
+      "ssh_enabled": "disabled",
+      "ssh_port": 22,
+      "ssl_certificate": "none",
+      "ssl_enabled": false
+    },
+    "staging": {
+      "allow_dynamic_connection_parameters": false,
+      "auth_type": "sql",
+      "azure": false,
+      "connection_type": "manual",
+      "host": "localhost",
+      "port": 1433,
+      "ssh_auth_type": "private_key",
+      "ssh_enabled": "disabled",
+      "ssh_port": 22,
+      "ssl_certificate": "none",
+      "ssl_enabled": false
+    }
+  },
+  "type": "default"
+}
