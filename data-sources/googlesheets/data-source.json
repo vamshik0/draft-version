@@ -1,0 +1,19 @@
+{
+  "id": "0cd297a6-84d2-45ef-8b4d-8ea6cd73dde3",
+  "kind": "googlesheets",
+  "options": {
+    "development": {
+      "access_type": "read",
+      "authentication_type": "oauth2"
+    },
+    "production": {
+      "access_type": "read",
+      "authentication_type": "oauth2"
+    },
+    "staging": {
+      "access_type": "read",
+      "authentication_type": "oauth2"
+    }
+  },
+  "type": "default"
+}

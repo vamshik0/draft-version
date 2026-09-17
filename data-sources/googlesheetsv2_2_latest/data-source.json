@@ -1,0 +1,42 @@
+{
+  "id": "d29fd012-bf8d-423c-8e85-c6af9a028ec9",
+  "kind": "googlesheetsv2",
+  "options": {
+    "development": {
+      "access_token_url": "https://oauth2.googleapis.com/token",
+      "access_type": "read",
+      "allowed_auth_types": "oauth2",
+      "auth_type": "oauth2",
+      "auth_url": "https://accounts.google.com/o/oauth2/v2/auth",
+      "authentication_type": "oauth2",
+      "client_id": "570030403739-eft8ptabiloot2be2saqv0j2j03o1sau.apps.googleusercontent.com",
+      "grant_type": "authorization_code",
+      "multiple_auth_enabled": true,
+      "oauth_type": "custom_app",
+      "redirect_url": "http://localhost:8082/oauth2/authorize"
+    },
+    "production": {
+      "access_token_url": "https://oauth2.googleapis.com/token",
+      "access_type": "read",
+      "allowed_auth_types": "oauth2",
+      "auth_type": "oauth2",
+      "auth_url": "https://accounts.google.com/o/oauth2/v2/auth",
+      "authentication_type": "oauth2",
+      "grant_type": "authorization_code",
+      "oauth_type": "custom_app",
+      "redirect_url": "http://localhost:8082/oauth2/authorize"
+    },
+    "staging": {
+      "access_token_url": "https://oauth2.googleapis.com/token",
+      "access_type": "read",
+      "allowed_auth_types": "oauth2",
+      "auth_type": "oauth2",
+      "auth_url": "https://accounts.google.com/o/oauth2/v2/auth",
+      "authentication_type": "oauth2",
+      "grant_type": "authorization_code",
+      "oauth_type": "custom_app",
+      "redirect_url": "http://localhost:8082/oauth2/authorize"
+    }
+  },
+  "type": "default"
+}
