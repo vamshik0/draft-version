@@ -1,0 +1,203 @@
+{
+  "id": "d8dc5104-8e99-42c8-b65b-5dcc78c2031f",
+  "name": "gmail1",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "params": {
+      "path": {
+        "userId": "me"
+      },
+      "query": {},
+      "request": {}
+    },
+    "path": "/gmail/v1/users/{userId}/profile",
+    "operation": "get",
+    "selectedOperation": {
+      "summary": "Get user profile",
+      "description": "Gets the current user's Gmail profile.",
+      "operationId": "getUserProfile",
+      "parameters": [
+        {
+          "name": "userId",
+          "in": "path",
+          "required": true,
+          "description": "The user's email address. The special value \"me\" can be used to indicate the authenticated user.",
+          "schema": {
+            "type": "string",
+            "default": "me"
+          }
+        }
+      ],
+      "responses": {
+        "200": {
+          "description": "User profile retrieved successfully",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "description": "Profile for a Gmail user",
+                "properties": {
+                  "emailAddress": {
+                    "type": "string",
+                    "description": "The user's email address"
+                  },
+                  "messagesTotal": {
+                    "type": "integer",
+                    "format": "int32",
+                    "description": "The total number of messages in the mailbox"
+                  },
+                  "threadsTotal": {
+                    "type": "integer",
+                    "format": "int32",
+                    "description": "The total number of threads in the mailbox"
+                  },
+                  "historyId": {
+                    "type": "string",
+                    "format": "uint64",
+                    "description": "The ID of the mailbox's current history record"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "400": {
+          "description": "Bad Request",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "description": "Error response",
+                "properties": {
+                  "error": {
+                    "type": "object",
+                    "properties": {
+                      "code": {
+                        "type": "integer",
+                        "description": "HTTP status code"
+                      },
+                      "message": {
+                        "type": "string",
+                        "description": "Error message"
+                      },
+                      "status": {
+                        "type": "string",
+                        "description": "Error status"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "401": {
+          "description": "Unauthorized",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "description": "Error response",
+                "properties": {
+                  "error": {
+                    "type": "object",
+                    "properties": {
+                      "code": {
+                        "type": "integer",
+                        "description": "HTTP status code"
+                      },
+                      "message": {
+                        "type": "string",
+                        "description": "Error message"
+                      },
+                      "status": {
+                        "type": "string",
+                        "description": "Error status"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "403": {
+          "description": "Forbidden",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "description": "Error response",
+                "properties": {
+                  "error": {
+                    "type": "object",
+                    "properties": {
+                      "code": {
+                        "type": "integer",
+                        "description": "HTTP status code"
+                      },
+                      "message": {
+                        "type": "string",
+                        "description": "Error message"
+                      },
+                      "status": {
+                        "type": "string",
+                        "description": "Error status"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "404": {
+          "description": "Not Found",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "description": "Error response",
+                "properties": {
+                  "error": {
+                    "type": "object",
+                    "properties": {
+                      "code": {
+                        "type": "integer",
+                        "description": "HTTP status code"
+                      },
+                      "message": {
+                        "type": "string",
+                        "description": "Error message"
+                      },
+                      "status": {
+                        "type": "string",
+                        "description": "Error status"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "security": [
+        {
+          "OAuth2": [
+            "https://mail.google.com/",
+            "https://www.googleapis.com/auth/gmail.compose",
+            "https://www.googleapis.com/auth/gmail.metadata",
+            "https://www.googleapis.com/auth/gmail.modify",
+            "https://www.googleapis.com/auth/gmail.readonly"
+          ]
+        }
+      ]
+    }
+  },
+  "dataSourceId": "81cdef3a-1e44-4a6b-8fc3-bf8589a41e11",
+  "appVersionId": "0a2ac190-d24a-475f-8d23-c2dae439fa92",
+  "kind": "gmail",
+  "dataSourceType": "default"
+}
