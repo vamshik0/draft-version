@@ -118,29 +118,6 @@
           "x": 264,
           "y": 268
         }
-      },
-      {
-        "id": "47f1fd85-beac-4e1b-a5cd-f2a066d85237",
-        "data": {
-          "nodeType": "response",
-          "label": "Response",
-          "code": "// Use this section to define the expected API response\n\nreturn restapi3.data",
-          "statusCode": {
-            "fxActive": false,
-            "value": "200"
-          },
-          "nodeName": "response2"
-        },
-        "position": {
-          "x": 1101,
-          "y": 166
-        },
-        "type": "output",
-        "sourcePosition": "right",
-        "targetPosition": "left",
-        "deletable": false,
-        "width": 206,
-        "height": 40
       }
     ],
     "edges": [
@@ -175,14 +152,6 @@
         "target": "5d7cea65-c72f-4dfc-a236-4450dd371445",
         "targetHandle": null,
         "id": "reactflow__edge-7b5ca787-606e-461f-86db-cc96d49dfcaffalse-5d7cea65-c72f-4dfc-a236-4450dd371445"
-      },
-      {
-        "id": "f5b74043-6ff4-4bfa-9e4c-2c84d48aa806",
-        "source": "e045d561-4a75-4241-9503-0eafe7567985",
-        "target": "47f1fd85-beac-4e1b-a5cd-f2a066d85237",
-        "sourceHandle": "success",
-        "targetHandle": null,
-        "type": "custom"
       }
     ],
     "queries": [
