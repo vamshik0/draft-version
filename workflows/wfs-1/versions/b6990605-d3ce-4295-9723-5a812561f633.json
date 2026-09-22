@@ -121,6 +121,6 @@
   "releasedAt": null,
   "isStub": false,
   "sourceTag": null,
-  "workflowEnabled": false,
-  "isSynced": false
+  "workflowEnabled": true,
+  "isSynced": true
 }
