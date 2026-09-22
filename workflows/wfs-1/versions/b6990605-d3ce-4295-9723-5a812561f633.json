@@ -9,14 +9,19 @@
           "label": "Start trigger"
         },
         "position": {
-          "x": 100,
-          "y": 250
+          "x": -77,
+          "y": 271
         },
         "type": "input",
         "sourcePosition": "right",
         "deletable": false,
         "width": 206,
-        "height": 104
+        "height": 43,
+        "selected": false,
+        "positionAbsolute": {
+          "x": -77,
+          "y": 271
+        }
       },
       {
         "id": "5d7cea65-c72f-4dfc-a236-4450dd371445",
@@ -30,12 +35,17 @@
           "options": {}
         },
         "position": {
-          "x": 542,
-          "y": 345
+          "x": 547,
+          "y": 340
         },
         "deletable": false,
         "width": 206,
-        "height": 40
+        "height": 40,
+        "selected": false,
+        "positionAbsolute": {
+          "x": 547,
+          "y": 340
+        }
       },
       {
         "id": "5949adb4-e7d4-4b47-a7cf-54e62076c0f0",
@@ -50,8 +60,80 @@
           "nodeName": "response1"
         },
         "position": {
-          "x": 1007,
-          "y": 322
+          "x": 1246,
+          "y": 346
+        },
+        "type": "output",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "width": 206,
+        "height": 40,
+        "selected": false,
+        "positionAbsolute": {
+          "x": 1246,
+          "y": 346
+        }
+      },
+      {
+        "id": "e045d561-4a75-4241-9503-0eafe7567985",
+        "type": "query",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "draggable": true,
+        "data": {
+          "idOnDefinition": "0bb88fa7-ad3e-4afd-9486-1e36ef122fdc",
+          "kind": "restapi",
+          "options": {}
+        },
+        "position": {
+          "x": 678,
+          "y": 163
+        },
+        "deletable": false,
+        "width": 206,
+        "height": 40,
+        "selected": false
+      },
+      {
+        "id": "7b5ca787-606e-461f-86db-cc96d49dfcaf",
+        "type": "if-condition",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "draggable": true,
+        "data": {
+          "code": "1 === 1",
+          "label": "If condition",
+          "nodeName": "ifCondition1"
+        },
+        "position": {
+          "x": 264,
+          "y": 268
+        },
+        "deletable": false,
+        "width": 206,
+        "height": 40,
+        "selected": false,
+        "positionAbsolute": {
+          "x": 264,
+          "y": 268
+        }
+      },
+      {
+        "id": "47f1fd85-beac-4e1b-a5cd-f2a066d85237",
+        "data": {
+          "nodeType": "response",
+          "label": "Response",
+          "code": "// Use this section to define the expected API response\n\nreturn restapi3.data",
+          "statusCode": {
+            "fxActive": false,
+            "value": "200"
+          },
+          "nodeName": "response2"
+        },
+        "position": {
+          "x": 1101,
+          "y": 166
         },
         "type": "output",
         "sourcePosition": "right",
@@ -63,17 +145,41 @@
     ],
     "edges": [
       {
-        "id": "e75ede0b-73b2-4042-93e3-701c4ff04e86",
+        "id": "27b0e1f0-b235-46fe-b6f4-6b91985a2a8e",
+        "source": "5d7cea65-c72f-4dfc-a236-4450dd371445",
+        "target": "5949adb4-e7d4-4b47-a7cf-54e62076c0f0",
+        "sourceHandle": "success",
+        "targetHandle": null,
+        "type": "custom"
+      },
+      {
+        "id": "8266f665-0159-4b18-8890-60e85c314068",
         "source": "8690a503-1310-4a67-b1fe-8cc060d4cbe8",
-        "target": "5d7cea65-c72f-4dfc-a236-4450dd371445",
+        "target": "7b5ca787-606e-461f-86db-cc96d49dfcaf",
         "sourceHandle": null,
         "targetHandle": null,
         "type": "custom"
       },
       {
-        "id": "27b0e1f0-b235-46fe-b6f4-6b91985a2a8e",
-        "source": "5d7cea65-c72f-4dfc-a236-4450dd371445",
-        "target": "5949adb4-e7d4-4b47-a7cf-54e62076c0f0",
+        "type": "custom",
+        "source": "7b5ca787-606e-461f-86db-cc96d49dfcaf",
+        "sourceHandle": "true",
+        "target": "e045d561-4a75-4241-9503-0eafe7567985",
+        "targetHandle": null,
+        "id": "reactflow__edge-7b5ca787-606e-461f-86db-cc96d49dfcaftrue-e045d561-4a75-4241-9503-0eafe7567985"
+      },
+      {
+        "type": "custom",
+        "source": "7b5ca787-606e-461f-86db-cc96d49dfcaf",
+        "sourceHandle": "false",
+        "target": "5d7cea65-c72f-4dfc-a236-4450dd371445",
+        "targetHandle": null,
+        "id": "reactflow__edge-7b5ca787-606e-461f-86db-cc96d49dfcaffalse-5d7cea65-c72f-4dfc-a236-4450dd371445"
+      },
+      {
+        "id": "f5b74043-6ff4-4bfa-9e4c-2c84d48aa806",
+        "source": "e045d561-4a75-4241-9503-0eafe7567985",
+        "target": "47f1fd85-beac-4e1b-a5cd-f2a066d85237",
         "sourceHandle": "success",
         "targetHandle": null,
         "type": "custom"
@@ -83,6 +189,10 @@
       {
         "idOnDefinition": "cc6ad51c-5db6-4eda-a652-1bbc0ac6c799",
         "id": "a30cbf61-0b17-4424-ab98-d831d40da284"
+      },
+      {
+        "idOnDefinition": "0bb88fa7-ad3e-4afd-9486-1e36ef122fdc",
+        "id": "b452cba2-b976-42c0-9b5f-42c51ca2cb78"
       }
     ],
     "webhookParams": [],
