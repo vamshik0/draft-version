@@ -1,0 +1,126 @@
+{
+  "id": "b6990605-d3ce-4295-9723-5a812561f633",
+  "definition": {
+    "nodes": [
+      {
+        "id": "8690a503-1310-4a67-b1fe-8cc060d4cbe8",
+        "data": {
+          "nodeType": "start",
+          "label": "Start trigger"
+        },
+        "position": {
+          "x": 100,
+          "y": 250
+        },
+        "type": "input",
+        "sourcePosition": "right",
+        "deletable": false,
+        "width": 206,
+        "height": 104
+      },
+      {
+        "id": "5d7cea65-c72f-4dfc-a236-4450dd371445",
+        "type": "query",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "draggable": true,
+        "data": {
+          "idOnDefinition": "cc6ad51c-5db6-4eda-a652-1bbc0ac6c799",
+          "kind": "restapi",
+          "options": {}
+        },
+        "position": {
+          "x": 542,
+          "y": 345
+        },
+        "deletable": false,
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "5949adb4-e7d4-4b47-a7cf-54e62076c0f0",
+        "data": {
+          "nodeType": "response",
+          "label": "Response",
+          "code": "// Use this section to define the expected API response\n\nreturn restapi1.data",
+          "statusCode": {
+            "fxActive": false,
+            "value": "200"
+          },
+          "nodeName": "response1"
+        },
+        "position": {
+          "x": 1007,
+          "y": 322
+        },
+        "type": "output",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "width": 206,
+        "height": 40
+      }
+    ],
+    "edges": [
+      {
+        "id": "e75ede0b-73b2-4042-93e3-701c4ff04e86",
+        "source": "8690a503-1310-4a67-b1fe-8cc060d4cbe8",
+        "target": "5d7cea65-c72f-4dfc-a236-4450dd371445",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "type": "custom"
+      },
+      {
+        "id": "27b0e1f0-b235-46fe-b6f4-6b91985a2a8e",
+        "source": "5d7cea65-c72f-4dfc-a236-4450dd371445",
+        "target": "5949adb4-e7d4-4b47-a7cf-54e62076c0f0",
+        "sourceHandle": "success",
+        "targetHandle": null,
+        "type": "custom"
+      }
+    ],
+    "queries": [
+      {
+        "idOnDefinition": "cc6ad51c-5db6-4eda-a652-1bbc0ac6c799",
+        "id": "a30cbf61-0b17-4424-ab98-d831d40da284"
+      }
+    ],
+    "webhookParams": [],
+    "defaultParams": "{}",
+    "dependencies": {
+      "javascript": {
+        "dependencies": {}
+      },
+      "python": {
+        "dependencies": ""
+      }
+    },
+    "setupScript": {
+      "javascript": "// lodash\n// const _ = require('lodash');\n",
+      "python": "# pandas\n# import pandas as pd\n# numpy\n# import numpy as np\n# requests\n# import requests\n"
+    }
+  },
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": {},
+  "showViewerNavigation": true,
+  "homePageId": "398ac9f5-d47c-4b73-84ce-ccd745c0a42c",
+  "versionType": "branch",
+  "appId": "ecbadff8-1255-48b3-8c53-0f7d17ebaf44",
+  "promotedFrom": null,
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "isStub": false,
+  "sourceTag": null,
+  "workflowEnabled": false,
+  "isSynced": false
+}
