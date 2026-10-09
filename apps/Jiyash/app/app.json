@@ -1,12 +1,12 @@
 {
-  "id": "42a37013-49ae-4469-9863-532147318361",
-  "type": "module",
-  "slug": "61aa4053-e490-41c7-8e53-fd30c78469e5",
+  "id": "b3a9b12b-a4cd-42fb-89b6-c5b0e534c833",
+  "type": "front-end",
+  "slug": "b932fc15-f3ef-4ca7-9029-fb884a3ce12f",
   "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
   "appBuilderMode": "visual",
-  "icon": "table",
+  "icon": "apps",
   "tooljetVersion": "3.21.75-beta-ee"
 }
