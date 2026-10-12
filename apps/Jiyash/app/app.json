@@ -1,0 +1,12 @@
+{
+  "id": "b3a9b12b-a4cd-42fb-89b6-c5b0e534c833",
+  "type": "front-end",
+  "slug": "b932fc15-f3ef-4ca7-9029-fb884a3ce12f",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "apps",
+  "tooljetVersion": "3.21.75-beta-ee"
+}
