@@ -1,0 +1,12 @@
+{
+  "id": "f6ef29ac-9840-4bc5-8279-1c8a3a4e814d",
+  "type": "module",
+  "slug": "e9076dd5-2893-4725-a297-fefd6f515a62",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "server",
+  "tooljetVersion": "3.21.85-beta-ee"
+}
