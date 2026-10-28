@@ -1,0 +1,95 @@
+{
+  "id": "9b8414b0-a431-496e-b85e-ec37d9e38ffb",
+  "definition": {
+    "nodes": [
+      {
+        "id": "e31a6ff9-f432-406c-a9bd-06334de1151c",
+        "data": {
+          "nodeType": "start",
+          "label": "Start trigger"
+        },
+        "position": {
+          "x": 100,
+          "y": 250
+        },
+        "type": "input",
+        "sourcePosition": "right",
+        "deletable": false,
+        "width": 206,
+        "height": 42
+      },
+      {
+        "id": "c92f12f0-2ed6-4327-b00a-c8576b9b093e",
+        "type": "query",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "draggable": true,
+        "data": {
+          "idOnDefinition": "db3342a8-481f-4a68-805b-eda7416a409b",
+          "kind": "tooljetdb",
+          "options": {}
+        },
+        "position": {
+          "x": 398,
+          "y": 317
+        },
+        "deletable": false,
+        "width": 206,
+        "height": 40
+      }
+    ],
+    "edges": [
+      {
+        "id": "072321b6-f9e4-457c-a436-9af3c28b0926",
+        "source": "e31a6ff9-f432-406c-a9bd-06334de1151c",
+        "target": "c92f12f0-2ed6-4327-b00a-c8576b9b093e",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "type": "custom"
+      }
+    ],
+    "queries": [
+      {
+        "idOnDefinition": "db3342a8-481f-4a68-805b-eda7416a409b",
+        "id": "91a17690-929f-47f2-b2d1-0c17a0163292"
+      }
+    ],
+    "webhookParams": [],
+    "defaultParams": "{}",
+    "dependencies": {
+      "javascript": {
+        "dependencies": {}
+      },
+      "python": {
+        "dependencies": ""
+      }
+    },
+    "setupScript": {
+      "javascript": "// lodash\n// const _ = require('lodash');\n",
+      "python": "# pandas\n# import pandas as pd\n# numpy\n# import numpy as np\n# requests\n# import requests\n"
+    }
+  },
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": {},
+  "showViewerNavigation": true,
+  "homePageId": "fbfcebfc-a76f-405f-b007-d0041545a62f",
+  "versionType": "branch",
+  "appId": "e8f55083-c129-477d-9040-ff2e4ccc3b45",
+  "promotedFrom": null,
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "isStub": false,
+  "sourceTag": null,
+  "workflowEnabled": false,
+  "isSynced": false
+}

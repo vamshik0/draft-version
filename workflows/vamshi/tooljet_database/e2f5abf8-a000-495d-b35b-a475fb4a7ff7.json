@@ -1,0 +1,99 @@
+{
+  "id": "e2f5abf8-a000-495d-b35b-a475fb4a7ff7",
+  "table_name": "Testing",
+  "schema": {
+    "columns": [
+      {
+        "column_name": "id",
+        "data_type": "integer",
+        "column_default": "nextval(\"workspace_0b272f0f-e7d7-467b-bb3e-88b5547c3157\".\"da96f226-3441-4ba0-b219-318519aeaa2b_id_seq\"",
+        "character_maximum_length": null,
+        "numeric_precision": 32,
+        "constraints_type": {
+          "is_not_null": true,
+          "is_primary_key": true,
+          "is_unique": false
+        },
+        "keytype": "PRIMARY KEY",
+        "column_id": "a1f550aa-806a-4312-80ba-00a483bfecfb",
+        "configurations": {}
+      },
+      {
+        "column_name": "name",
+        "data_type": "character varying",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "0d552a97-6f5f-4634-823e-8e416fdff15e",
+        "configurations": {}
+      },
+      {
+        "column_name": "email",
+        "data_type": "character varying",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "426f5f2b-7a35-4462-a770-6bfbbdddc1f5",
+        "configurations": {}
+      },
+      {
+        "column_name": "department",
+        "data_type": "character varying",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "b4131a46-eb36-4afb-8c77-b8ba31ef467b",
+        "configurations": {}
+      },
+      {
+        "column_name": "salary",
+        "data_type": "double precision",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": 53,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "8a556dbe-bb50-4afd-99e5-f1c36651c0f3",
+        "configurations": {}
+      },
+      {
+        "column_name": "phone",
+        "data_type": "character varying",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "10555dbd-ee05-4dd0-9385-cc1ea7778fe6",
+        "configurations": {}
+      }
+    ],
+    "foreign_keys": []
+  }
+}
