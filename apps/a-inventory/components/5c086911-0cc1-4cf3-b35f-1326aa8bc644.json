@@ -19,6 +19,9 @@
   "styles": {
     "backgroundColor": {
       "value": "#fff"
+    },
+    "padding": {
+      "value": "default"
     }
   },
   "generalStyles": {
@@ -43,6 +46,8 @@
       "left": 1,
       "width": 20,
       "height": 660,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "5c086911-0cc1-4cf3-b35f-1326aa8bc644",
       "dimensionUnit": "count"
     },
@@ -53,6 +58,8 @@
       "left": 1,
       "width": 38,
       "height": 400,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "5c086911-0cc1-4cf3-b35f-1326aa8bc644",
       "dimensionUnit": "count"
     }

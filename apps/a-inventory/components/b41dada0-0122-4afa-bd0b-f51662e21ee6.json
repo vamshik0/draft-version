@@ -35,6 +35,9 @@
     },
     "tooltip": {
       "value": ""
+    },
+    "tooltipFormat": {
+      "value": "plainText"
     }
   },
   "general": {},
@@ -123,6 +126,8 @@
       "left": 24,
       "width": 10,
       "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "b41dada0-0122-4afa-bd0b-f51662e21ee6",
       "dimensionUnit": "count"
     },
@@ -133,6 +138,8 @@
       "left": 24,
       "width": 10,
       "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "b41dada0-0122-4afa-bd0b-f51662e21ee6",
       "dimensionUnit": "count"
     }

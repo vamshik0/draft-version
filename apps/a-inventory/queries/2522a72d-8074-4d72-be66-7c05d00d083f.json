@@ -1,0 +1,12 @@
+{
+  "id": "2522a72d-8074-4d72-be66-7c05d00d083f",
+  "name": "runpy1",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false
+  },
+  "dataSourceId": "b42ac35c-7f12-45aa-9fb6-ac288cbfb588",
+  "appVersionId": "b081e4c8-2973-4df9-8735-7525055e26b0",
+  "kind": "runpy",
+  "dataSourceType": "static"
+}

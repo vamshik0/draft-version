@@ -28,6 +28,12 @@
     },
     "value": {
       "value": ""
+    },
+    "legacyInputSize": {
+      "value": "{{true}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
     }
   },
   "general": {},
@@ -121,6 +127,8 @@
       "left": 24,
       "width": 10,
       "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "3bb12199-6eb3-4a12-857c-1744e830768e",
       "dimensionUnit": "count"
     },
@@ -131,6 +139,8 @@
       "left": 24,
       "width": 10,
       "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
       "componentId": "3bb12199-6eb3-4a12-857c-1744e830768e",
       "dimensionUnit": "count"
     }
