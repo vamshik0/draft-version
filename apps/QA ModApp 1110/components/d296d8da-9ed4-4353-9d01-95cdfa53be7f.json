@@ -5,24 +5,24 @@
   "pageId": "81a911a2-4156-4694-ace0-ae1899938630",
   "parent": null,
   "properties": {
+    "input1": {
+      "value": "{{queries.4488edbc-3efd-4f01-843e-781dfbaf93d3.data.title}}"
+    },
     "visibility": {
       "value": true
     },
-    "dynamicHeight": {
-      "value": "{{false}}"
-    },
-    "collapseWhenHidden": {
-      "value": "{{false}}"
-    },
     "moduleAppId": {
       "value": "3ebf1d28-cb1e-4ef7-b302-4988d56843d5"
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
     },
     "moduleVersionId": {
       "value": "50044ff1-0124-4d06-8c2c-3bb5d2c82d59",
       "versionName": "v1"
     },
-    "input1": {
-      "value": "{{queries.4488edbc-3efd-4f01-843e-781dfbaf93d3.data.title}}"
+    "collapseWhenHidden": {
+      "value": "{{false}}"
     }
   },
   "general": {},
