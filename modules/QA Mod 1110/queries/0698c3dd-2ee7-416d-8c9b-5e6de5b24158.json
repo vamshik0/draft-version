@@ -1,0 +1,22 @@
+{
+  "id": "0698c3dd-2ee7-416d-8c9b-5e6de5b24158",
+  "name": "getUser",
+  "options": {
+    "method": "get",
+    "url": "/users/1",
+    "url_params": [],
+    "headers": [],
+    "cookies": [],
+    "body": [],
+    "json_body": null,
+    "body_toggle": false,
+    "retry_network_errors": true,
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "2cc4c263-f2a1-475d-bc7f-853f1d11027d",
+  "appVersionId": "4d703fab-c2cc-49ce-b638-018845910b9a",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
