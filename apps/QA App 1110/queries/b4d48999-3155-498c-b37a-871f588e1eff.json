@@ -1,0 +1,30 @@
+{
+  "id": "b4d48999-3155-498c-b37a-871f588e1eff",
+  "name": "getTodo",
+  "options": {
+    "method": "get",
+    "url": "/todos/1",
+    "headers": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "url_params": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "body": [
+      [
+        "",
+        ""
+      ]
+    ]
+  },
+  "dataSourceId": "daf01a59-7473-44c8-b5a6-eed9bf47b520",
+  "appVersionId": "052938d4-87a3-4423-9fb5-eaf6ef4c7cc8",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
