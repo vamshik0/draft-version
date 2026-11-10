@@ -1,0 +1,16 @@
+{
+  "id": "ba99b2e7-a37b-40ef-9e8c-883d80dce035",
+  "kind": "restapi",
+  "options": {
+    "development": {
+      "url": "https://jsonplaceholder.typicode.com"
+    },
+    "production": {
+      "url": "https://jsonplaceholder.typicode.com"
+    },
+    "staging": {
+      "url": "https://jsonplaceholder.typicode.com"
+    }
+  },
+  "type": "default"
+}
