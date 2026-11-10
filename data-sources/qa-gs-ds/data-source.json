@@ -3,7 +3,7 @@
   "kind": "restapi",
   "options": {
     "development": {
-      "url": "https://jsonplaceholder.typicode.com"
+      "url": "https://jsonplaceholder.typicode.com/v2-edited"
     },
     "production": {
       "url": "https://jsonplaceholder.typicode.com"
