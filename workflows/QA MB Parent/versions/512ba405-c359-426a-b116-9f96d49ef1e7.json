@@ -1,0 +1,128 @@
+{
+  "id": "512ba405-c359-426a-b116-9f96d49ef1e7",
+  "definition": {
+    "nodes": [
+      {
+        "id": "b01db8b6-6f65-489f-9dce-a70890b7f046",
+        "data": {
+          "nodeType": "start",
+          "label": "Start trigger"
+        },
+        "position": {
+          "x": 100,
+          "y": 250
+        },
+        "type": "input",
+        "sourcePosition": "right",
+        "deletable": false,
+        "width": 206,
+        "height": 42
+      },
+      {
+        "id": "578df80c-db61-498a-96f5-c1b268669af1",
+        "type": "workflow",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "draggable": true,
+        "data": {
+          "idOnDefinition": "6b5ad72b-e4f0-436e-8ad0-12c096bd54fc",
+          "kind": "workflows",
+          "options": {},
+          "nodeType": "workflow"
+        },
+        "position": {
+          "x": 487,
+          "y": 371
+        },
+        "deletable": false,
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "4f65cc56-955f-4b27-b956-a05d90efd06d",
+        "type": "workflow",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "draggable": true,
+        "data": {
+          "idOnDefinition": "79c085da-e0f1-4649-ba3b-258735c21aa5",
+          "kind": "workflows",
+          "options": {},
+          "nodeType": "workflow"
+        },
+        "position": {
+          "x": 873,
+          "y": 491
+        },
+        "deletable": false,
+        "width": 206,
+        "height": 40
+      }
+    ],
+    "edges": [
+      {
+        "id": "e0efcae8-933f-4833-b744-2c46bec7c2a6",
+        "source": "b01db8b6-6f65-489f-9dce-a70890b7f046",
+        "target": "578df80c-db61-498a-96f5-c1b268669af1",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "type": "custom"
+      },
+      {
+        "id": "1c897a8b-b980-4d58-9cbf-9ce9b65650ec",
+        "source": "578df80c-db61-498a-96f5-c1b268669af1",
+        "target": "4f65cc56-955f-4b27-b956-a05d90efd06d",
+        "sourceHandle": "success",
+        "targetHandle": null,
+        "type": "custom"
+      }
+    ],
+    "queries": [
+      {
+        "idOnDefinition": "6b5ad72b-e4f0-436e-8ad0-12c096bd54fc",
+        "id": "3b2eedb0-3de9-48be-9461-4fe873825cbb"
+      },
+      {
+        "idOnDefinition": "79c085da-e0f1-4649-ba3b-258735c21aa5",
+        "id": "11dcff67-844f-4a96-8b6f-50b9b79c16fe"
+      }
+    ],
+    "webhookParams": [],
+    "defaultParams": "{}",
+    "dependencies": {
+      "javascript": {
+        "dependencies": {}
+      },
+      "python": {
+        "dependencies": ""
+      }
+    },
+    "setupScript": {
+      "javascript": "// lodash\n// const _ = require('lodash');\n",
+      "python": "# pandas\n# import pandas as pd\n# numpy\n# import numpy as np\n# requests\n# import requests\n"
+    }
+  },
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": {},
+  "showViewerNavigation": true,
+  "homePageId": "0041154c-8a35-4e9d-bdd8-142d524f9d1a",
+  "versionType": "branch",
+  "appId": "067de59d-97b0-4e52-89e0-31a25d9eb194",
+  "promotedFrom": null,
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "isStub": false,
+  "sourceTag": null,
+  "workflowEnabled": null,
+  "isSynced": false
+}
