@@ -18,8 +18,8 @@
       "value": "3ebf1d28-cb1e-4ef7-b302-4988d56843d5"
     },
     "moduleVersionId": {
-      "value": "a1aef532-c0f7-4db7-8132-cc8723d1bd57",
-      "versionName": "f925e1ed-729b-48c8-8e22-a60ea9f24e28"
+      "value": "50044ff1-0124-4d06-8c2c-3bb5d2c82d59",
+      "versionName": "v1"
     },
     "input1": {
       "value": "{{queries.4488edbc-3efd-4f01-843e-781dfbaf93d3.data.title}}"
