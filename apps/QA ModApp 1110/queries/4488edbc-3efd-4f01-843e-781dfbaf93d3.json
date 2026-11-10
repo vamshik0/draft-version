@@ -1,0 +1,22 @@
+{
+  "id": "4488edbc-3efd-4f01-843e-781dfbaf93d3",
+  "name": "getPost",
+  "options": {
+    "method": "get",
+    "url": "/posts/1",
+    "url_params": [],
+    "headers": [],
+    "cookies": [],
+    "body": [],
+    "json_body": null,
+    "body_toggle": false,
+    "retry_network_errors": true,
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "2cc4c263-f2a1-475d-bc7f-853f1d11027d",
+  "appVersionId": "847d718e-aa2d-4484-a5c8-d5b854bb8b7e",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
