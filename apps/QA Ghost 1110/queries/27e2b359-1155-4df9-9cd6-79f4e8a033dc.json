@@ -1,0 +1,30 @@
+{
+  "id": "27e2b359-1155-4df9-9cd6-79f4e8a033dc",
+  "name": "ghostQuery",
+  "options": {
+    "method": "get",
+    "url": "/todos/1",
+    "headers": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "url_params": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "body": [
+      [
+        "",
+        ""
+      ]
+    ]
+  },
+  "dataSourceId": "60567d5e-a3a4-4840-a410-684dbc267afc",
+  "appVersionId": "426ebca3-f88f-48b4-9051-dd190d8de88f",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
