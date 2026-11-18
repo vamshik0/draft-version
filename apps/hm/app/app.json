@@ -1,0 +1,12 @@
+{
+  "id": "6ae0fc47-08de-4cf9-87fb-528577f1c50b",
+  "type": "front-end",
+  "slug": "b457e825-83ec-49b5-83cc-f6ca17a3531e",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "sentfast",
+  "tooljetVersion": "3.21.96-ee-lts"
+}
