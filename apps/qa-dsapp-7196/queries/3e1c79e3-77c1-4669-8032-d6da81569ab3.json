@@ -1,0 +1,18 @@
+{
+  "id": "3e1c79e3-77c1-4669-8032-d6da81569ab3",
+  "name": "getThings",
+  "options": {
+    "method": "get",
+    "url": "https://example.com",
+    "headers": [
+      [
+        "",
+        ""
+      ]
+    ]
+  },
+  "dataSourceId": "757a65ce-9acf-4cc3-9ad5-50930b3763f6",
+  "appVersionId": "4d5066de-d578-41de-b78d-a0b1c3c41dc0",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}
