@@ -8,7 +8,7 @@
     },
     "production": {
       "auth_type": "none",
-      "url": "https://example.com"
+      "url": "https://example.org"
     },
     "staging": {
       "auth_type": "none",
