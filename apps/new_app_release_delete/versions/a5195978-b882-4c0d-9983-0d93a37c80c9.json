@@ -1,6 +1,6 @@
 {
   "id": "a5195978-b882-4c0d-9983-0d93a37c80c9",
-  "definition": {},
+  "definition": null,
   "globalSettings": {
     "appInMaintenance": false,
     "canvasMaxWidth": 100,
@@ -13,14 +13,14 @@
   "pageSettings": {},
   "showViewerNavigation": true,
   "homePageId": "49e81771-064b-4815-bce8-55d4b5fef483",
-  "versionType": "branch",
+  "versionType": "version",
   "appId": "dee9c66f-5a7b-49e4-b5e4-98669881dfcd",
   "promotedFrom": null,
-  "status": "DRAFT",
-  "description": null,
+  "status": "PUBLISHED",
+  "description": "",
   "publishedAt": null,
   "releasedAt": null,
   "isStub": false,
   "sourceTag": null,
-  "workflowEnabled": null
+  "workflowEnabled": false
 }
